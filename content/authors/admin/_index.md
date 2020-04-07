@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: I'm a data enthusiast exploring a career path in Data Engineering
-  matter.
+bio: I'm a data enthusiast exploring a career path in Data Engineering.
 education:
   courses:
   - course: Masters in Applied Statistics
