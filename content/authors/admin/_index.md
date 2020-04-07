@@ -5,44 +5,36 @@ bio: My research interests include distributed robotics, mobile computing and pr
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Masters in Applied Statistics
+    institution: Penn State University
+    year: 2018
+  - course: Bachelors in Psychology, Theatre
+    institution: Arizona State University
+    year: 2013
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-name: Nelson Bighetti
+- Data Engineering
+- Statistical Analysis
+- Programming
+name: Erika Jacobs
 organizations:
 - name: Stanford University
   url: ""
 role: Professor of Artificial Intelligence
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/ErikaTheOutlier
 - icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  icon_pack: linkedin
+  link: https://www.linkedin.com/in/erikajacobs/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/ErikaJacobs
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Hi there! My name is Erika Jacobs, and I am a data enthusiast. Thank you for stopping by!
