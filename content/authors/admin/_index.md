@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
+bio: I'm a data enthusiast exploring a career path in Data Engineering
   matter.
 education:
   courses:
@@ -14,19 +14,16 @@ education:
 email: ""
 interests:
 - Data Engineering
-- Statistical Analysis
 - Programming
+- Statistical Analysis
 name: Erika Jacobs
 organizations:
-- name: Stanford University
+- name: 
   url: ""
-role: Professor of Artificial Intelligence
+role: Data enthusiast
 social:
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/ErikaTheOutlier
-- icon: google-scholar
-  icon_pack: linkedin
   link: https://www.linkedin.com/in/erikajacobs/
 - icon: github
   icon_pack: fab
@@ -37,4 +34,6 @@ user_groups:
 - Visitors
 ---
 
-Hi there! My name is Erika Jacobs, and I am a data enthusiast. Thank you for stopping by!
+Hi there! My name is Erika Jacobs, and I'm a data enthusiast. Throughout various professional and educational opportunities, I've always enjoyed working with data one way or another. My career interests have recently pivoted toward data engineering, with great interest in programming and providing clean and polished data products to others. 
+
+Feel free to reach out to me through LinkedIn - I'm always looking for new connections in the realm of data. Thank you for stopping by my webpage!
