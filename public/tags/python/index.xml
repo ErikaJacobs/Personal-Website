@@ -42,5 +42,21 @@
 </description>
     </item>
     
+    <item>
+      <title>Excel Python Migration</title>
+      <link>/project/excel-python-migration/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/excel-python-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harry Potter NLP Project</title>
+      <link>/project/harry-potter-nlp-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/harry-potter-nlp-project/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
