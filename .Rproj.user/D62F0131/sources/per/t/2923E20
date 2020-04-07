@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586282223401.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "11187478",
+    "id" : "2923E20",
+    "lastKnownWriteTime" : 1586281504,
+    "last_content_update" : 1586281504,
+    "path" : "~/Documents/GitHub/Personal-Website/themes/hugo-academic/netlify.toml",
+    "project_path" : "themes/hugo-academic/netlify.toml",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
