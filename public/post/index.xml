@@ -5,12 +5,52 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Adding Up STEM Qualifications: A Capstone Overview</title>
+      <link>/post/5.-adding-up-stem-qualifications/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/post/5.-adding-up-stem-qualifications/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/10/24/adding-up-stem-qualifications-a-capstone-overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Putting the &#34;Fun&#34; in Functional as a Math Instructor</title>
+      <link>/post/4.-putting-the-fun-in-functional/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/4.-putting-the-fun-in-functional/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/08/15/putting-the-fun-in-functional-as-a-math-instructor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mood: Harry Potter</title>
+      <link>/post/3.-mood-harry-potter/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/3.-mood-harry-potter/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/28/mood-harry-potter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Harry Potter and the Learning of WordCloud</title>
+      <link>/post/2.-harry-potter-and-the-learning-of-wordcloud/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/2.-harry-potter-and-the-learning-of-wordcloud/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/14/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Writing technical content in Academic</title>
@@ -243,6 +283,16 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 
   &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
 &lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</title>
+      <link>/post/1.-speaking-parseltongue-to-python/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/1.-speaking-parseltongue-to-python/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/07/speaking-parseltongue-to-python-adventures-in-harry-potter-text-analysis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
 </description>
     </item>
     

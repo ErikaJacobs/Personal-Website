@@ -5,12 +5,22 @@
     <link>/tags/academic/</link>
       <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>/tags/academic/</link>
     </image>
+    
+    <item>
+      <title>Putting the &#34;Fun&#34; in Functional as a Math Instructor</title>
+      <link>/post/4.-putting-the-fun-in-functional/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/4.-putting-the-fun-in-functional/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/08/15/putting-the-fun-in-functional-as-a-math-instructor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Academic: the website builder for Hugo</title>

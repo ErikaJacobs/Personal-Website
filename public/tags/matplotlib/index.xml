@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matplotlib | Erika Jacobs</title>
+    <link>/tags/matplotlib/</link>
+      <atom:link href="/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <description>Matplotlib</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Matplotlib</title>
+      <link>/tags/matplotlib/</link>
+    </image>
+    
+    <item>
+      <title>Mood: Harry Potter</title>
+      <link>/post/3.-mood-harry-potter/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/3.-mood-harry-potter/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/28/mood-harry-potter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</title>
+      <link>/post/1.-speaking-parseltongue-to-python/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/1.-speaking-parseltongue-to-python/</guid>
+      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
+&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/07/speaking-parseltongue-to-python-adventures-in-harry-potter-text-analysis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
