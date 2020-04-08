@@ -18,7 +18,7 @@ summary: With starting to teach a college level math course, what's the best way
 tags:
 - Academic
 - College
-- Educational
+- Education
 - Professional
 title: 'Putting the "Fun" in Functional as a Math Instructor'
 ---
