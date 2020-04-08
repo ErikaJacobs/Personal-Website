@@ -269,3 +269,8 @@ plugins_js  = []
 [marketing]
   google_analytics = ""
   google_tag_manager = ""
+  
+[params]
+  description = "Text about my cool site"
+  images = ["avatar.jpg"]
+  title = "My cool site"
