@@ -180,8 +180,8 @@
   <meta property="og:title" content="{{ if not .IsHome }}{{ .Params.name | default .Title }} | {{ end }}{{ site.Title }}">
   <meta property="og:description" content="{{ $desc }}">
   {{- with $og_image -}}
-  <meta property="og:image" content="https://github.com/ErikaJacobs/Personal-Website/blob/master/avatar.jpg" />
-  <meta property="twitter:image" content="https://github.com/ErikaJacobs/Personal-Website/blob/master/avatar.jpg" />
+  <meta property="og:image" content="https://github.com/ErikaJacobs/Personal-Website/blob/master/avatar.svg" />
+  <meta property="twitter:image" content="https://github.com/ErikaJacobs/Personal-Website/blob/master/avatar.svg" />
   {{- end -}}
   <meta property="og:locale" content="{{ site.LanguageCode | default "en-us" }}">
   {{ if .IsPage }}
