@@ -19,7 +19,7 @@ name: Erika Jacobs
 organizations:
 - name: 
   url: ""
-role: Data enthusiast
+role: Data Enthusiast
 social:
 - icon: linkedin
   icon_pack: fab

@@ -73,3 +73,6 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   
 [frontmatter]
 lastmod = ["date", ":default"]
+
+[params]
+  images = ["/content/authors/admin/avatar.png"]
