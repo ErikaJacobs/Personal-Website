@@ -270,7 +270,6 @@ plugins_js  = []
   google_analytics = ""
   google_tag_manager = ""
   
-[params]
-  description = "Text about my cool site"
-  images = ["avatar.jpg"]
-  title = "My cool site"
+sharing_image = "avatar.jpg"
+
+description = "Hi there! My name is Erika Jacobs, and I love working with data. This website features some of my work, as well as ways to connect."
