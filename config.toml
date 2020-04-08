@@ -76,6 +76,6 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   series = "series"
 
 [params]
-  images = ["/content/authors/admin/avatar.png"]
+  images = ["avatar.png"]
   
 #https://gohugo.io/templates/internal/#configure-open-graph
