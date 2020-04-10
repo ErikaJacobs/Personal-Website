@@ -3,7 +3,7 @@ authors:
 - admin
 categories: []
 date: "2019-02-05T00:00:00Z"
-draft: false
+draft: true
 featured: false
 image:
   caption: ""
@@ -17,7 +17,8 @@ title: Display Jupyter Notebooks with Academic
 ---
 
 ```python
-
+from IPython.core.display import Image
+Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
 ```
 
 
