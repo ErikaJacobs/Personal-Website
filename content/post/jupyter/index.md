@@ -17,8 +17,7 @@ title: Display Jupyter Notebooks with Academic
 ---
 
 ```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
+
 ```
 
 
