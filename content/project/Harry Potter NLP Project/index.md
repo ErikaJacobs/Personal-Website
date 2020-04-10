@@ -1,5 +1,5 @@
 ---
-date: "2016-04-27T00:00:00Z"
+date: "2019-07-24T00:00:00Z"
 external_link: https://github.com/ErikaJacobs/Harry-Potter-Text-Mining
 image:
   caption: 
