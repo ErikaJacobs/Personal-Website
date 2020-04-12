@@ -32,7 +32,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Hi there! My name is Erika Jacobs, and I'm a data enthusiast pivoting toward a career in data engineering. My professional and educational experience have solidified my ultimate interest in the technical aspects of creating data products for others to use and ensuring my work is accessible and easy to understand.
+Hi there! My name is Erika Jacobs, and I'm a data enthusiast pivoting into a data engineering career. My professional and educational experiences have solidified my interest in the technical aspects of creating data products for others to use with ease.
 
 I have technical experience using Python, SQL, R Studio, Tableau, and Spark with an aptitude to learn independently. I also have strong skills in communication and education from my personal involvement in the performing arts and academia.
 
