@@ -32,6 +32,8 @@ I'm so excited to tell you about the progress made on this project so far, as we
 
 ## What Is the Project?
 
+This project is going into multiple Excel files that have a similar format, extracting the data out of the file, and then bringing it into a Pandas table. Then, once all files are imported into Python, they will be sent to SQL Server for professional use.
+
 ## Obstacles Using Jupyter
 
 ## About Spyder
