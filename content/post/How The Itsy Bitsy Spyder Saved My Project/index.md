@@ -58,6 +58,8 @@ Removing these macros through a loop required using VBA in Python using the win3
 
 After this was finished, I was able to get these files into Python without issue. YAY!
 
+![](comingin.gif "Success!")
+
 ## Obstacle Two: Changing Data Types and Columns
 
 Once all of the Excel data was brought into Python, I realized there were two issues that required cleaning the data before exporting it to SQL. The final product should have 156 columns, yet there were a few more than that. It turns out that while these data files were similar over time, not all of them were the exact same. Some had columns that were slightly renamed, and others were missing columns as a whole. Therefore, it required some data cleansing to make sure the dataframe being exported had exactly 156 columns.
@@ -68,7 +70,9 @@ Another issue I ran into was the numerical fields being read as text fields. Thi
 
 Due to the classified nature of this project, this project was required to be completed on a computer that wasn't my own. By doing this, there were unfortunately limitations in the type of software I could use, as well as the packages within Python due to the network being used and the hardware in the computer. This ultimately prevented me from being able to use programs such as PySpark that would have helped in creating this ETL process using large amounts of data. 
 
-So...progress on this project took TIME. It also took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced...
+![](time.gif "Time is money...")
+
+So...progress on this project took TIME. On top of that, it took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced...
 
 ## Obstacle Four: Jupyter Notebook
 
