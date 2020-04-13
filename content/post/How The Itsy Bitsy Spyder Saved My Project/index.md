@@ -10,7 +10,7 @@ image:
   caption: ""
   focal_point: ""
   placement: 2
-  preview_only: false
+  preview_only: true
 lastmod: "2020-01-03T00:00:00Z"
 projects: []
 subtitle: ''
