@@ -5,12 +5,12 @@ categories:
 - Python
 date: "2020-01-03T00:00:00Z"
 draft: false
-featured: true
+featured: false
 image:
   caption: ""
   focal_point: ""
   placement: 2
-  preview_only: true
+  preview_only: false
 lastmod: "2020-01-03T00:00:00Z"
 projects: []
 subtitle: ''
