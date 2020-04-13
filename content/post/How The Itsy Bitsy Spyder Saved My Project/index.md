@@ -39,6 +39,8 @@ Furthermore, the numbers came from a calculated dashboard in the file (rather th
 
 That's where I came in!
 
+{{< figure src="comingin.jpg" lightbox="true" >}}
+
 The plan was for a Python script to go into multiple Excel files that had a similarly formatted data table, extracting this data out of each file, and importing this data into a Pandas dataframe. Then, once all Excel files were imported to Python, the resulting dataframe would be sent to a SQL Server table for use.
 
 The plan seemed simple - yet real life isn't so simple! After copies of the files were made and put in a directory to be extracted, I ran into four primary issues before I was able to successfully import all Excel files with ease...
