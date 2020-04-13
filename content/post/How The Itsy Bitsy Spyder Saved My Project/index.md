@@ -56,7 +56,7 @@ So...I tried deleting all of the macros in Excel, and the import WORKED! Lesson 
 
 Removing these macros through a loop required using VBA in Python using the win32com package, and saving a new copy of these files to leave the original file unaffected. Doing this loop also gave me the opportunity to save all files with macros removed with the same extension in Excel - prior to this step, many files had the .xls extension due to their age.
 
-After this was finished, I was able to get these files into Python without issue. YAY!
+After this was finished, I was able to get these files into Python without issue. Finally...success!
 
 ![](success.gif "Success!")
 
@@ -70,7 +70,7 @@ Another issue I ran into was the numerical fields being read as text fields. Thi
 
 Due to the classified nature of this project, this project was required to be completed on a computer that wasn't my own. By doing this, there were unfortunately limitations in the type of software I could use, as well as the packages within Python due to the network being used and the hardware in the computer. This ultimately prevented me from being able to use programs such as PySpark that would have helped in creating this ETL process using large amounts of data. 
 
-![](time.gif "Time is money...")
+![](time.gif "Time IS money...")
 
 So...progress on this project took TIME. On top of that, it took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced...
 
@@ -93,6 +93,8 @@ One REALLY cool thing about Spyder is that it can catch simple errors ahead of t
 One weak point of using Spyder is the data visualization features. After running code for data visualization using a Jupyter notebook, the result usually shows a sizeable copy of the visualization. Spyder shows visualizations as well, yet it's limited to the console - meaning it's TINY. Data visualization wasn't relevant for this project, so that didn't matter to me as much...yet this could matter for other projects.
 
 While I was disappointed that Jupyter didn't work for this project, I'm VERY glad that I tried using Spyder. There are some functionalities using Spyder that I actually like BETTER than using Jupyter depending on the project. I'm officially a huge fan of Spyder!
+
+![](spyder.gif '"Spyder" coming in to save the day!')
 
 ## Project Progress So Far
 
