@@ -5,7 +5,7 @@ categories:
 - Python
 date: "2020-01-03T00:00:00Z"
 draft: false
-featured: false
+featured: true
 image:
   caption: ""
   focal_point: ""
