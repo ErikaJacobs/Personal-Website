@@ -4,7 +4,7 @@ authors:
 categories:
 - Python
 date: "2020-01-03T00:00:00Z"
-draft: true
+draft: false
 featured: false
 image:
   caption: ""
@@ -57,8 +57,9 @@ After this was finished, I was able to get these files into Python without issue
 
 ## Obstacle Two: Changing Data Types and Columns
 
-The Excel files 
+Once all of the Excel data was brought into Python, I realized there were two issues that required cleaning the data before exporting it to SQL. The final product should have 156 columns, yet there were a few more than that. It turns out that while these data files were similar over time, not all of them were the exact same. Some had columns that were slightly renamed, and others were missing columns as a whole. Therefore, it required some data cleansing to make sure the dataframe being exported had exactly 156 columns.
 
+Another issue I ran into was the numerical fields being read as text fields. This would result in numbers being imported and rounded off, which resulted in numbers being slightly off. I had to change the structure of the import to allow for all numerical fields to be read as numbers. Luckily, this was a quick fix.
 
 ## Obstacle Three: Time and Memory
 
@@ -68,10 +69,11 @@ So...progress on this project took TIME. It also took every ounce of memory the 
 
 ## Obstacle Four: Jupyter Notebook
 
-Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! Jupyter 
+Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! S
 
-While memory could have been an issue, ultimately
+While memory could have been an issue, ultimately Jupyter notebook could not be used for this project due to the network connectivity issues I had. Unfortunately, a browser-based environment can be faulty if your internet connection is too.
 
+So...I had to find another way to process the code I was running. What would be best to use? Ultimately I chose the most convenient option, Spyder, which ended up being a **great** fit for this project.
 
 ## About Spyder
 
@@ -87,10 +89,14 @@ While I was disappointed that Jupyter didn't work for this project, I'm VERY gla
 
 ## Project Progress So Far
 
-Cleaned data and changed variable data types to match SQL Server table.
-Built loop to insert Pandas dataframe into SQL Server. 
+As of January 3rd 2020, I have been able to successfully get all Excel data imported to Python through a loop. I've done some basic data cleaning, removed unnecessary columns, and adjusted variable types in preparation for sending the data to SQL Server.
 
 ## What's Next?
 
-SQL Server stuff. Made loop to bring in all files, yet would also like to adapt code to replace only one file, or just a select few files.
+At this point in time, all research has been done to get this data to SQL server - the code just hasn't been written yet. Hopefully this will be done very soon! 
 
+After all data is placed in SQL Server, I would also like to make a second set of code for importing and replacing only one Excel file's data in SQL Server. This would allow for a repeatable process that can be used in the future to add to this table, versus having to upload all files every time there's an additional Excel file.
+
+Once the data is in SQL Server, there will also need to be meetings on how to cleanse the data - since many of these files are older, some business decisions need to be made on how to handle certain aspects of the older data.
+
+In the meantime, I will continue to add progress of my work onto GitHub! You can [Click Here](https://github.com/ErikaJacobs/Excel-Python-SQL-Migration) to access all files related to this project for your viewing pleasure. Thank you for reading!
