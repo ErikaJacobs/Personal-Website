@@ -58,7 +58,7 @@ Removing these macros through a loop required using VBA in Python using the win3
 
 After this was finished, I was able to get these files into Python without issue. YAY!
 
-![](comingin.gif "Success!")
+![](success.gif "Success!")
 
 ## Obstacle Two: Changing Data Types and Columns
 
@@ -76,9 +76,9 @@ So...progress on this project took TIME. On top of that, it took every ounce of 
 
 ## Obstacle Four: Jupyter Notebook
 
-Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! S
+Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! With that being said, network issues lead to Jupyter timing out and needing to constantly reconnect, with executed code not completing as a result.
 
-While memory could have been an issue, ultimately Jupyter notebook could not be used for this project due to the network connectivity issues I had. Unfortunately, a browser-based environment can be faulty if your internet connection is too.
+While memory could have been an issue too, ultimately Jupyter notebook could not be used for this project due to the network connectivity issues I had. Unfortunately, a browser-based environment can be faulty if your internet connection is too.
 
 So...I had to find another way to process the code I was running. What would be best to use? Ultimately I chose the most convenient option, Spyder, which ended up being a **great** fit for this project.
 
