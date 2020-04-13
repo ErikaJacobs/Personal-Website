@@ -33,13 +33,15 @@ Below I've outlined some information about the project, as well as the progress 
 
 ## About This Project
 
+![](Code.jpg "A snippet of this project's code in Spyder")
+
 The formation of this project came from a legitimate need in efficiency. This project was created due to an entity reporting numbers from hundreds of Excel files, which required going into each individual Excel file needed to obtain the information needed. Because these Excel files were large, opening each file would take more time than it should, slowing down the process of reporting these numbers.
 
 Furthermore, the numbers came from a calculated dashboard in the file (rather than a table of data), which meant numbers from these files were being COPIED AND PASTED into reports. Not only was this process inefficient for reporting, but there was also large room for error due to copying and pasting these numbers.
 
 That's where I came in!
 
-![](comingin.gif "Me coming in with a project idea.")
+![](comingin.gif "Me coming in with a project idea :smile:")
 
 The plan was for a Python script to go into multiple Excel files that had a similarly formatted data table, extracting this data out of each file, and importing this data into a Pandas dataframe. Then, once all Excel files were imported to Python, the resulting dataframe would be sent to a SQL Server table for use.
 
