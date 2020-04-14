@@ -37,6 +37,7 @@ At the time I had submitted this capstone project, I had also submitted a presen
 {{< youtube N-IHzDWAviI >}}
 
 
+
 For my personal portfolio, one thing that I've wanted to do is re-create the project using everything I've learned since then about R and Python. At the time I completed this project, obtaining the data required manually changing PDFs from the College Board's website into data available through Excel. Now that I know how to use Python better, I feel like I could utilize web scraping to make this process more efficient.
 
 There's definitely more to come! In the meantime, I hope you enjoy what I've shared with you so far. Once winter break comes along.more projects will be coming!
