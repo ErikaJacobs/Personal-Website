@@ -30,7 +30,7 @@ title: 'Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysi
 The Harry Potter series is my favorite book series of all time, and is one of my favorite things to nerd out about! If you needed some proof:
 
 1. I'm a true Hufflepuff at heart, and have been sorted that way.
-2. My wand is a 13 $\frac{3/4}$" Silver Lime wand with unicorn hair core, slightly yielding.
+2. My wand is a 13 $\frac{3}{4}$" Silver Lime wand with unicorn hair core, slightly yielding.
 3. My patronus is a white mare.
 
 ![](nerd.gif)
