@@ -49,11 +49,11 @@ This sentence was scored with a positive sentiment score of .492, a neutral sent
 
 ![](formula.png)
 
-In this formula, x = sum of mean valence scores for all words in text. ALPHA equals a normalization parameter, valued at 15. In our example, the word "good" has a valence score of 1.9, and all other words in the sentence have a valence score of 0. The sum of 1.9 and 0 is 1.9. Therefore, x equals 1.9. From what I understand, $\alpha$ (or alpha) in the formula above always equals 15 in VADER. 
+In this formula, x = sum of mean valence scores for all words in text. ALPHA equals a normalization parameter, valued at 15. In our example, the word "good" has a valence score of 1.9, and all other words in the sentence have a valence score of 0. The sum of 1.9 and 0 is 1.9. Therefore, x equals 1.9. From what I understand, ALPHA (or alpha) in the formula above always equals 15 in VADER. 
 
-$\alpha
+$\nabla F(\mathbf{x}_{n})$
 
-Then. *math* is done, and that's how .4404 is calculated as the compound score for this sentence.
+Now that the variables going into this formula are known, *math* is done - that's how .4404 is calculated as the compound score for this sentence.
 
 This is the basic premise behind calculating the compound score. However, there are adjustments to positive/negative/neutral valence scores of each word based on qualities such as capitalization and punctuation that complicate the calculation further than this equation. However - we don't need to go into those details for you to understand that math is being done based on the words present to figure out whether a sentence is of positive, negative, or neutral sentiment.
 
