@@ -51,7 +51,9 @@ This sentence was scored with a positive sentiment score of .492, a neutral sent
 
 In this formula, x = sum of mean valence scores for all words in text. ALPHA equals a normalization parameter, valued at 15. In our example, the word "good" has a valence score of 1.9, and all other words in the sentence have a valence score of 0. The sum of 1.9 and 0 is 1.9. Therefore, x equals 1.9. From what I understand, ALPHA (or alpha) in the formula above always equals 15 in VADER. 
 
-$\nabla F(\mathbf{x}_{n})$
+Do I need text for $\nabla F(\mathbf{x}_{n})$ to show inline?
+
+Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
 
 Now that the variables going into this formula are known, *math* is done - that's how .4404 is calculated as the compound score for this sentence.
 
