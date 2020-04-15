@@ -85,7 +85,7 @@ Wingardium Leviosa is a spell for lifting items in the air, and is one of the mo
 
 ![](leviosar.gif)
 
-###Next Steps in Keyword Analysis
+### Next Steps in Keyword Analysis
 Next steps in conducting keyword analysis would be to follow trends of keywords throughout chapters, as well as within books. This could also be useful in sentiment analysis. This text analysis project will continue next week!
 
 In the meantime, let's talk about the word cloud you saw earlier.
@@ -106,7 +106,7 @@ Once it was installed, there were a lot of questions that arose as I made my ima
 - How do you change the color of the font?
 - Since changing font color needs a color map, how can one be created?
 - How do I get my word cloud to take a particular shape?
-- Okay.Why isn't my word cloud taking the shape it's supposed to?
+- Why isn't my word cloud taking the shape it's supposed to?
 - This word cloud looks lack luster. What if I want a background other than a solid color?
 
 So.how were all of these questions answered?
@@ -138,7 +138,7 @@ With a mask. What's a mask, you ask?
 
 A mask is a strictly black and white image that is used to make a word cloud into a particular shape. For my word cloud, I had wanted to make it into the shape of a lightning bolt, since that's the shape of Harry Potter's scar. I found resources online explaining how to do it, but those processes weren't working for me.
 
-#### *Okay.Why isn't my word cloud taking the shape it's supposed to?*
+#### *Why isn't my word cloud taking the shape it's supposed to?*
 I ran into difficulty getting my word cloud into the shape of the lightning bolt because the picture I was initially using wasn't perfectly black and white. Shading and grey scale will NOT do, ladies and gents. The parts of the picture you want words needs to be the blackest black, and the parts you don't want words needs to be the whitest white in order for this mask to work with the WordCloud package.
 
 [This Stack thread](https://stackoverflow.com/questions/18777873/convert-rgb-to-black-or-white) helped me change a picture to strictly black and white, and then I saved it to a .jpg file. Using this black-and-white image didn't work as a mask unless the picture was brought into Python from a saved file. This might be due to formatting and how the picture is stored as a file versus in Python after alteration. If you're trying to make a word cloud and are having trouble with the mask, this might help in debugging.
