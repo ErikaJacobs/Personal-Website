@@ -22,3 +22,13 @@ tags:
 - Professional
 title: 'Learning From Teaching: A Reflection'
 ---
+
+Talk about...
+Excellence in Mathematics
+Student Concerns - Best of intentions
+Patience
+Don't reinvent the wheel
+Rate My Professor
+Hold Students Accountable
+Have Balance
+Have Fun!
