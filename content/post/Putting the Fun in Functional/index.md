@@ -46,7 +46,7 @@ I love how learning has science behind it!
 
 ![](science.gif)
 
-# What About Fun?
+## What About Fun?
 
 The concept of flow is functional - it's the task I'm working toward in my classroom to keep students engaged. However, just because an activity is functionally engaging doesn't mean that it's necessarily fun for students to do.
 
