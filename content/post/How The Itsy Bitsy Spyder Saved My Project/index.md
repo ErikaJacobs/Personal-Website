@@ -84,11 +84,11 @@ So...I had to find another way to process the code I was running. What would be 
 
 ## About Spyder
 
-Spyder is an open source integrated development environment (IDE) for Python. Since Jupyter wasn't working for my project, the reason why I ultimately tried Spyder was because it was automatically installed on my computer. I'm SO glad it was, because Spyder ended up having some important assets for this project...the biggest one being that a stead network connection was NOT needed in order to run the majority of my code.
+Spyder is an open source integrated development environment (IDE) for Python. Since Jupyter wasn't working for my project, the reason why I ultimately tried Spyder was because it was automatically installed on my computer. I'm SO glad it was, because Spyder ended up having some important assets for this project...the biggest one being that a steady network connection was NOT needed in order to run the majority of my code.
 
 The Spyder console reminds me of using R Studio in some ways. There's a variable explorer where you can look at the data items you've created with your code (dataframes, variables, lists, etc.), as well as a console to look at executed code and its results. 
 
-One REALLY cool thing about Spyder is that it can catch simple errors ahead of time. For example, if you try to call a variable called "X" and you accidentally type "Xx", Python will let you know that variable "Xx" doesn't exist before running the code. This functionality has been especially helpful with this project, since there are so many components in the code I wrote.Like Jupyter, code can be "chunked" together in sections so all code does not need to be run at the same time. HOWEVER, Spyder has the capacity to also run all code at once. 
+One REALLY cool thing about Spyder is that it can catch simple errors ahead of time. For example, if you try to call a variable called "X" and you accidentally type "Xx", Python will let you know that variable "Xx" doesn't exist before running the code. This functionality has been especially helpful with this project, since there are so many components in the code I wrote. Like Jupyter, code can be "chunked" together in sections so all code does not need to be run at the same time. HOWEVER, Spyder has the capacity to also run all code at once. 
 
 One weak point of using Spyder is the data visualization features. After running code for data visualization using a Jupyter notebook, the result usually shows a sizeable copy of the visualization. Spyder shows visualizations as well, yet it's limited to the console - meaning it's TINY. Data visualization wasn't relevant for this project, so that didn't matter to me as much...yet this could matter for other projects.
 
