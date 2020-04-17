@@ -234,19 +234,19 @@ Then, set the colormap argument in the WordCloud() function equal to the color m
 The answer to this question opened an entire can of worms, and made my final creation cooler than I ever imagined. It required creating an image composed of different images. For the WordCloud function, the argument "mode='RGBA'" was placed so this could be achieved - The next section will talk about why this matters.
 
 
-### Creating the Final Image
+## Creating the Final Image
 
 In order to make the final image you saw at the beginning of this blog, I made a composite image of RGBA picture files by using the Pillow package in Python. An RGBA picture file is a picture that has transparent parts to it. By making this word cloud an RGBA picture, I was able to paste it onto an image of parchment paper, and then add RGBA pictures of footsteps and Maurader's Map logos to make the final image.
 
 I'll be honest.using Python to create this image wasn't the most efficient, mainly because using a photo editor to drag and drop some of these RGBA pictures would have been much quicker. In Python, you have to specify the coordinates that you'd like to paste pictures, which can take some trial and error to get perfectly. However, if you're like me and want to learn how to do it in Python, it's definitely a fun and creative way to do it :smile:
 
-### Conclusions
+## Conclusions
 
 The word cloud package in Python is pretty versatile! Making a word cloud into an RGBA image is a complete game changer for experimenting with cool backgrounds for the word cloud. Also, using a mask to shape the word cloud makes the entire experience more visually interesting.
 
 Looking forward to continuing this project next week! Coming up next will be further keyword and sentiment analysis. Thanks for reading!
 
-### Sources
+## Sources
 
 I wouldn't have been successful with my word cloud this week if it weren't for the following sources:
 

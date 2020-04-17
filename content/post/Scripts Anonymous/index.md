@@ -21,7 +21,7 @@ I have (and continue to) handle this particular project with integrity based on 
 
 Thus...Project: Anonymize began :yum:
 
-# What the Script Does
+## What the Script Does
 
 The script is VERY basic - it's less than 20 lines of code, no packages required, and only has 3 steps to it:
 
@@ -31,7 +31,7 @@ The script is VERY basic - it's less than 20 lines of code, no packages required
 
 What's really neat about this code is that it does the work of going through your files without having to open them. It's also a very quick process - just a couple of seconds if you're replacing a few words!
 
-# Why This Script Is Powerful
+## Why This Script Is Powerful
 
 So...this script is definitely not the most impressive project out there. As I already mentioned, it'sless than 20 lines of code. What made this script so interesting to me was knowing that it could COMPLETELY MESS UP EVERYTHING if you're not careful. I've never written code that was *that* dangerous! One wrong move and...
 
