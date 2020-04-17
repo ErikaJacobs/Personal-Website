@@ -32,7 +32,7 @@ Below I've outlined some information about the project, as well as the progress 
 
 ![](Code.jpg "A snippet of this project's code in Spyder")
 
-## About This Project
+# About This Project
 
 The formation of this project came from a legitimate need in efficiency. This project was created due to an entity reporting numbers from hundreds of Excel files, which required going into each individual Excel file needed to obtain the information needed. Because these Excel files were large, opening each file would take more time than it should, slowing down the process of reporting these numbers.
 
@@ -46,7 +46,7 @@ The plan was for a Python script to go into multiple Excel files that had a simi
 
 The plan seemed simple - yet real life isn't so simple! After copies of the files were made and put in a directory to be extracted, I ran into four primary issues before I was able to successfully import all Excel files with ease...
 
-## Obstacle One: Corrupted Macros
+# Obstacle One: Corrupted Macros
 
 Once upon a time, a mystery person created the file template I was working with. In this file template, they wrote a large amount of macros to operate certain calculations within the file template automatically. At some point, one or more of these macros became corrupted. 
 
@@ -60,13 +60,13 @@ After this was finished, I was able to get these files into Python without issue
 
 ![](success.gif "Success!")
 
-## Obstacle Two: Changing Data Types and Columns
+# Obstacle Two: Changing Data Types and Columns
 
 Once all of the Excel data was brought into Python, I realized there were two issues that required cleaning the data before exporting it to SQL. The final product should have 156 columns, yet there were a few more than that. It turns out that while these data files were similar over time, not all of them were the exact same. Some had columns that were slightly renamed, and others were missing columns as a whole. Therefore, it required some data cleansing to make sure the dataframe being exported had exactly 156 columns.
 
 Another issue I ran into was the numerical fields being read as text fields. This would result in numbers being imported and rounded off, which resulted in numbers being slightly off. I had to change the structure of the import to allow for all numerical fields to be read as numbers. Luckily, this was a quick fix.
 
-## Obstacle Three: Time and Memory
+# Obstacle Three: Time and Memory
 
 Due to the classified nature of this project, this project was required to be completed on a computer that wasn't my own. By doing this, there were unfortunately limitations in the type of software I could use, as well as the packages within Python due to the network being used and the hardware in the computer. This ultimately prevented me from being able to use programs such as PySpark that would have helped in creating this ETL process using large amounts of data. 
 
@@ -74,7 +74,7 @@ Due to the classified nature of this project, this project was required to be co
 
 So...progress on this project took TIME. On top of that, it took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced...
 
-## Obstacle Four: Jupyter Notebook
+# Obstacle Four: Jupyter Notebook
 
 Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! With that being said, network issues lead to Jupyter timing out and needing to constantly reconnect, with executed code not completing as a result.
 
@@ -82,7 +82,7 @@ While memory could have been an issue too, ultimately Jupyter notebook could not
 
 So...I had to find another way to process the code I was running. What would be best to use? Ultimately I chose the most convenient option, Spyder, which ended up being a **great** fit for this project.
 
-## About Spyder
+# About Spyder
 
 Spyder is an open source integrated development environment (IDE) for Python. Since Jupyter wasn't working for my project, the reason why I ultimately tried Spyder was because it was automatically installed on my computer. I'm SO glad it was, because Spyder ended up having some important assets for this project...the biggest one being that a steady network connection was NOT needed in order to run the majority of my code.
 
@@ -96,11 +96,11 @@ While I was disappointed that Jupyter didn't work for this project, I'm VERY gla
 
 ![](spyder.gif '"Spyder" coming in to save the day!')
 
-## Project Progress So Far
+# Project Progress So Far
 
 As of January 3rd 2020, I have been able to successfully get all Excel data imported to Python through a loop. I've done some basic data cleaning, removed unnecessary columns, and adjusted variable types in preparation for sending the data to SQL Server.
 
-## What's Next?
+# What's Next?
 
 At this point in time, all research has been done to get this data to SQL server - the code just hasn't been written yet. Hopefully this will be done very soon! 
 

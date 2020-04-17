@@ -36,7 +36,7 @@ This blog post is focused on Sentiment Analysis of the Harry Potter book series.
 
 "Happee Birthdae"! My gift is this blog and its supporting files on [GitHub](https://github.com/ErikaJacobs/Harry-Potter-Text-Mining) - you can decide for yourself whether the sentiment of this gift is positive, neutral, or negative :wink:
 
-## Classifying Text Sentiment
+# Classifying Text Sentiment
 
 From parts one and two of this project, I already had the text of each chapter from the books in my Jupyter notebook. However, the task became figuring out how assign sentiment to text in a quantitative way. After doing some research, I discovered a package in Python called VADER, which is part of the NLTK package for text processing.
 
@@ -62,25 +62,25 @@ For the Harry Potter text, I separated out each sentence from the book series an
 
 The visual above depicts average sentiment score per chapter. X axis (horizontal) represents the numerical chapter of each book, and y axis (vertical) represents compound sentiment score at that point of the book, with values above 0 having positive sentiment, and values below 0 having negative sentiment.
 
-### Chapter with the most negative sentiment...
+## Chapter with the most negative sentiment...
 This graph quantifies that Dumbledore's death and the events following in "Half Blood Prince" is the chapter with the most negative sentiment in the entire book series, with an approximate compound sentiment score of -0.2. The events leading up to his death were extremely dark and detailed, which likely explains the decline in sentiment up to the point of his death, nevertheless the negativity of the events immediately afterward.
 
-### The most neutral book...
+## The most neutral book...
 Generally speaking, "Order of the Phoenix" was the most neutral of all the books, with the least amount of fluctuation between positive and negative. The book as a whole had an average sentiment compound score of 0.007, which is extremely close to zero. In other words, "Order of the Phoenix" is the longest and most neutral book, meaning its purpose is most likely to provide readers the most information.
 
-### The most negative book...and the most variability in sentiment
+## The most negative book...and the most variability in sentiment
 "Deathly Hallows" has the most negative sentiment on average between all of the books, with an average compound sentiment score of -0.3 overall. This makes sense considering the amount of death and hardship experienced in the book. Furthermore, as you can likely see visually, "Deathly Hallows" had the most variability in sentiment in comparison to all other books in the series. This could likely be due to hardships and plot resolutions happening in contrast to each other, contributing to the "up and down" nature of the book overall.
 
-### Chapter with the most positive sentiment...
+## Chapter with the most positive sentiment...
 The epilogue of "Deathly Hallows" featured the most positive sentiment out of all the chapters in this book series, with an approximate compound sentiment score of 0.2. With the epilogue of "Deathly Hallows" being a short chapter filled to the brim with positive words after all conflict in the books had been resolved, it makes perfect sense as to why this chapter was the most positive.
 
-### Most negatively rated sentence...
+## Most negatively rated sentence...
 The most negatively rated sentence in the book series is in "Deathly Hallows", when Harry goes to Godric's Hollow and fight's Voldemort's snake, Nagini. This sentence has a compound sentiment score of -.9906. The sentence in question was a lengthy sentence sentence explaining the negative circumstances Harry was in, so the length of this sentence most likely affected its compound sentiment score.
 
-### Most positively rated sentence...
+## Most positively rated sentence...
 The most positively rated sentence in the book series is when the Sorting Hat is singing about the different Hogwarts houses in "Goblet of Fire." This sentence has a compound sentiment score of .9783. Like the most negatively rated sentence, this sentence was also a lengthy sentence of positive attributes related to each house, so the length of the sentence most likely affected its compound sentiment score.
 
-### Obesrvation about ALL book conclusions...
+## Obesrvation about ALL book conclusions...
 All books have a negative "dip" toward the end followed by a positive increase in compound sentiment score, with the negative "dip" ranging from slight to drastic depending on the book. This could be related to rising action prior to the climax of each book.
 
 Furthermore, after using VADER to detect sentiment in each sentence of the Harry Potter books, here are some additional sentiment statistics by sentence:
@@ -92,7 +92,7 @@ With all sentences in the Harry Potters series equipped with a compound sentimen
 
 ![](wicked.gif)
 
-## Sentiment Classifier
+# Sentiment Classifier
 
 With all of our information ready to go, one big question remains.what are the fundamental differences in words between sentences with a positive and negative sentiment? Luckily, there's a mathematical way to do this with all of the sentiment scores collected.
 
@@ -110,7 +110,7 @@ And with that.this Harry Potter text analysis project is complete!
 
 ![](celebratehp.gif)
 
-## Closing Thoughts
+# Closing Thoughts
 
 Overall, this project was SO much fun to do, and was a great introduction to working with text analysis!
 
@@ -118,7 +118,7 @@ Now that this project is complete, I wanted to be transparent about the data I u
 
 Thank you for reading about this project, and I hope you continue to follow my future projects!
 
-## Sources
+# Sources
 
 This blog wouldn't have been possible without the following sources!
 
