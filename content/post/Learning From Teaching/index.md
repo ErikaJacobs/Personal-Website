@@ -57,7 +57,10 @@ This moment made me see how far I've come, and how much I've grown since that fi
 Teaching online requires MORE work, and it becomes harder to teach life skills. 
 
 ## Being an Adjunct
-The internet is full of adjuncts who want better pay and full time employement. 
+
+There's a lot of negativity out there from adjuncts, yet I didn't feel the same negativity due to having a full time job, rather than relying on adjunct income as my sole income. I feel like my peers saw me as an equal, and I saw being an adjunct as a pretty positive experience for me. 
+
+The only negative part about being an adjunct, from my perspective, was missing out on more campus time for my students. Since I work full time, my office hours with students had to be appointment only. This resulted in a lack of accessibility for my students who may have stopped by if I were on campus more. When I did need to meet with students, another limitation of accessibility was a lack of options for WHERE to meet with my students.
 
 ## Not Reinventing the Wheel
 
