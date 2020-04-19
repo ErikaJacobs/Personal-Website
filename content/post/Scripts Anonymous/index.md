@@ -12,7 +12,8 @@ lastMod: "2020-04-08T00:00:00Z"
 projects: []
 subtitle: 
 summary: A confidential project led to a simple yet powerful script! You know what they say - With power comes great responsibility...
-tags: []
+tags:
+- Python
 title: Scripts Anonymous
 ---
 If you read my blog about transitioning [Excel files to SQL Server using Python](https://erikajacobs.netlify.app/post/how-the-itsy-bitsy-spyder-saved-my-project/), you might recall that the project was done condidentially. I can't share any information about who this project was for, nor what kind of data was being extracted.
