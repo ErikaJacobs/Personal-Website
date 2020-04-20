@@ -8,6 +8,7 @@ featured: false
 image:
   caption: ""
   focal_point: ""
+  preview_only: true
 lastMod: "2020-04-08T00:00:00Z"
 projects: []
 subtitle: 
@@ -16,7 +17,7 @@ tags:
 - Python
 title: Scripts Anonymous
 ---
-If you read my blog about transitioning [Excel files to SQL Server using Python](https://erikajacobs.netlify.app/post/how-the-itsy-bitsy-spyder-saved-my-project/), you might recall that the project was done condidentially. I can't share any information about who this project was for, nor what kind of data was being extracted.
+If you read my blog about transitioning [Excel files to SQL Server using Python](https://erikajacobs.netlify.app/post/how-the-itsy-bitsy-spyder-saved-my-project/), you might recall that the project was done confidentially. I can't share any information about who this project was for, nor what kind of data was being extracted.
 
 I have (and continue to) handle this particular project with integrity based on what has been shared publicly through my recent blog post. However, I wanted to be able to show others this project on GitHub - It's a cool project, and a lot of effort went into it! I needed a way to honor the confidentiality of the project while also showcase my skills on GitHub.
 
