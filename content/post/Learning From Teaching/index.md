@@ -54,7 +54,11 @@ This moment made me see how far I've come, and how much I've grown since that fi
 
 ## Teaching Online and Teaching In Person
 
-Teaching online requires MORE work, and it becomes harder to teach life skills. 
+I taught in person over the fall, and online over spring. Both ways of teaching are VERY different from each other, and have different positives and negatives. I might be biased based on the class I taught online, but teaching online seems to be MORE work than teaching in person, even considering that it doesn't require commuting or lecturing. 
+
+Teaching online comes with more difficulty setting boundaries between a personal and professional life. You have a responsibility of making sure you are there for your students when they need you, and that you're able to explain concepts well over the internet. Furthermore, you don't truly know how your students feel about concepts, and you have to try your best to be proactive about answering questions
+
+With that being said, I would absolutely teach online again if I had the opportunity - I just prefer the in-person environment more :smile:
 
 ## Being an Adjunct
 
