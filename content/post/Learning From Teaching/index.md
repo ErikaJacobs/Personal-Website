@@ -68,7 +68,9 @@ The only negative part about being an adjunct, from my perspective, was missing 
 
 ## Not Reinventing the Wheel
 
-It can be really exhausting to churn out new content twice a week. If there's a starting point that other professors can provide, go for it.
+When I started my first semester, I was so excited to get creative in the classroom with how to do my lessons. While the creative ideas were cool, there's  only so long that momentum can be held up - It can be really exhausting to churn out new content twice a week! 
+
+I learned that if there's a starting point other peers have created, it's best to start there for a new course, and make things your own with the time you have available. This thinking literally saved me my second semester, as I ended up being able to adopt how my course was organized from another experienced professor. She did SUCH an amazing job with organizing the course - As a new teacher, adopting her course's structure also taught me SO much more than if I were struggling to put my course together on my own. Now I know better for next time! :smile:
 
 ## Taking Baby Steps
 
