@@ -20,7 +20,7 @@ tags:
 - College
 - Education
 - Professional
-title: 'Learning From Teaching: A Reflection'
+title: 'Learning From Teaching: Year One'
 ---
 If you're looking at the posts on my website or activity on GitHub, you might notice some very long gaps of activity between August 2019 and now (April 2020). Most of that is due to a personal passion of mine - I started my first year teaching at the college level, and recently finished it!
 
@@ -122,21 +122,26 @@ Attendance activities - wish I never did them. Forced disengaged students to com
 
 ## Classroom Management: Community College Edition
 
-Disrespectful behavior has to be handled immediately, or other students will follow suit.
+You'd think that by the time students get to college, they would know exactly how to act in the classroom. Well...that's sometimes the case, but not always. Just like teaching K-12, classroom management is needed sometimes in a college setting...only it's a little harder to enact.
 
-Don't want to embarrass or bring attention to disrespect. Don't want to make them feel babied.
+Classroom management in college can be tougher to give because you want your students to feel respected as the adults they are, yet you also need to do what you need to do in order to make sure the class stays respectful. It's a *fine line* between maintaining your classroom and making students feel treated like babies, especially the closer they are to 18.
 
-Being confrontational is not something that comes naturally to me, yet is something I've been actively working on. 
+Classroom management at the college level can also be tough because you don't want to embarrass or bring attention to a student misbehaving, yet disrespectful behavior has to be handled immediately at the same time...otherwise other students start to fall suit.
+Being confrontational is not something that comes naturally to me, yet is something I've been actively working on. If there's one thing I learned, is that I should have been more confrontational sooner - once students see other students get away with disrespectful behavior, it becomes so much harder to turn things around.
 
 ## Rate My Professor
 
-Bad ratings are humbling, but don't mean you're a terrible teacher. 
+As of right now, I'm a solid 1/5 on Rate My Professor. 1 is the worst you can get.
 
-An experiential learning style can be tough. Students feel like they have no idea what they're doing, and that's a very uncomfortable feeling. However, what they don't realize is they're learning more that way than if I were to do repeated examples on the board for them.
+A takeaway that I had this year is that these bad ratings can be humbling, and don't mean you're a terrible teacher overall (even if there are weak spots). In some cases, negative ratings mean you were being a *good* teacher, and a negative rating is a way for students to express negative emotion behind their choices with consequences.
 
-Now, that's not to say that every lesson I made was perfect. I can think of many that completely failed.
+Take for example blahblah
 
-LOVE feedback - 
+
+Ultimately, I really appreciate the feedback from these ratings - Ultimately, it's just motivation to improve. I've already outlined ways that my class could have been better - it would be laughable to say that every lesson I made was perfect considering some failures I've experienced! Yet to say my class was horrible? That's a stretch. I had many students say that I was a great teacher after my courses ended, and they didn't owe it to me to say that. I trust their words more than Rate My Professor :smile:
+
+BLAH BLAH An experiential learning style can be tough. Students feel like they have no idea what they're doing, and that's a very uncomfortable feeling. However, what they don't realize is they're learning more that way than if I were to do repeated examples on the board for them.
+
 
 ## Life Balance = Important
 My most thought-out planned lessons went the worst, and had students feeling the most confused. The lessons I spent the least time on? Went AMAZINGLY.
