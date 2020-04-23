@@ -127,6 +127,7 @@ You'd think that by the time students get to college, they would know exactly ho
 Classroom management in college can be tougher to give because you want your students to feel respected as the adults they are, yet you also need to do what you need to do in order to make sure the class stays respectful. It's a *fine line* between maintaining your classroom and making students feel treated like babies, especially the closer they are to 18.
 
 Classroom management at the college level can also be tough because you don't want to embarrass or bring attention to a student misbehaving, yet disrespectful behavior has to be handled immediately at the same time...otherwise other students start to fall suit.
+
 Being confrontational is not something that comes naturally to me, yet is something I've been actively working on. If there's one thing I learned, is that I should have been more confrontational sooner - once students see other students get away with disrespectful behavior, it becomes so much harder to turn things around.
 
 ## Rate My Professor
