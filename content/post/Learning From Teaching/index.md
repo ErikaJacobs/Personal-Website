@@ -145,12 +145,14 @@ BLAH BLAH An experiential learning style can be tough. Students feel like they h
 
 
 ## Life Balance = Important
-My most thought-out planned lessons went the worst, and had students feeling the most confused. The lessons I spent the least time on? Went AMAZINGLY.
+As I mentioned earlier, it was a goal of mine to be as creative as I could with my lessons. Well...sometimes that creativity comes at a price of burning you out in the long run if you're not careful. It became very clear that my courses could have easily eaten every morsel of my free time if I let it. So...that's where life balance came in :smile:
 
-You're a better teacher when you're taking care of yourself on the way.
+Fun fact: My most thought-out planned lessons tended to perform poorly, and had students feeling the most confused. The lessons I intuitively put together with less time? Went AMAZINGLY.
+
+So...the takeaway? Sometimes simpler is better. Creativity is great to have as long as it's not impeding any sort of life balance. An plus, by having a balance, I felt like there was overall more emotional energy to give to students, which ultimately made me a better teacher.
 
 ## Have Fun!
-Even if your subject matter is dry, having a little bit of fun with it goes a long way with students. 
+Yes, balance is important...but if there's time to be creative and have fun, it's SO worth it too! Even if your subject matter is dry, having a little bit of fun with it goes a long way with students. 
 
 Brianna's budget - students had SO much fun talking about how stupid Brianna's financial decisions were and correcting them using real life examples.
 
