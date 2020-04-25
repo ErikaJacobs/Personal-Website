@@ -26,7 +26,7 @@ tags:
 - ETL
 title: 'How the Itsy Bitsy "Spyder" Saved My Project'
 ---
-A couple months ago, I stumbled across a confidential "real life opportunity to exercise my skills in working with data. While I can't explain specifics about the data I was working with or who this project was for, I was very excited to help with this project because the resulting data product would be extremely helpful to many people I care about :blush: 
+A couple months ago, I stumbled across a confidential "real life opportunity"" to exercise my skills in working with data. While I can't explain specifics about the data I was working with or who this project was for, I was very excited to help with this project because the resulting data product would be extremely helpful to many people I care about :blush: 
 
 Below I've outlined some information about the project, as well as the progress I've made so far.
 
