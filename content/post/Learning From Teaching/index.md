@@ -30,7 +30,7 @@ I taught two courses at Chandler-Gilbert Community College this year. Fall 2019 
 
 Currently, I am not slated to teach at Chandler-Gilbert during the summer or fall semesters of 2020. While I enjoy teaching, teaching on top of a full time job can be *very* difficult - especially when it's a class that you've never taught before. I feel like my teaching days are just beginning, yet I do need a break to focus on other aspects of my life. I will definitely revisit the idea of teaching in Spring 2021 and go from there :smile:
 
-One of the things I'm looking to focus on during this break is my website and data-related projects. Expect to see more content coming soon! One thing I'd love to do eventually is start a "Data for Dummies" Youtube series and show people how to do a variety of data-related tasks. I feel like there's a huge market for teachers in the realm of data analytics, especially with more complex processes. Through learning on my own, I've found that most data science-related tutorials and guides assume a ton of technical knowledge that newcomers might not have. I'd love to help bridge that gap eventually!
+One of the things I'm looking to focus on during this break is my website and data-related projects. Expect to see more content coming soon! One thing I'd love to do eventually is start a "Data for Dummies" Youtube series and show people how to do a variety of data-related tasks. I feel like there's a huge market for teachers with good communication skills in the field, especially with more complex processes. Through learning on my own, I've found that most data science-related tutorials and guides assume a ton of technical knowledge that newcomers might not have. I'd love to help bridge that gap eventually!
 
 I also wanted to spend more time with friends and family, but it doesn't seem like that will be happening given the current COVID-19 state of things. Luckily, social distancing gives plenty of time for new content :wink:
 
@@ -44,7 +44,7 @@ I volunteered to help with CGCC's Excellence in Mathematics competition at the b
 
 ![](eim.png)
 
-As an 8th grader, I went to this competition because my friends were all going, and I wanted to go with them. I liked math enough - If my friends are going, why not join them? 
+As an 8th grader, I went to this competition because my friends were all going, and I wanted to go with them. I liked math enough - If my friends were going, why not join them? 
 
 WELL. Here we are years later, and I'm working that SAME math competition. The teacher that brought us years ago? She's there with her students too! It was a really cool moment to be able to reunite for both of us, and will be an experience I'll never forget.
 
@@ -64,7 +64,7 @@ With that being said, I would absolutely teach online again if I had the opportu
 
 There's a lot of negativity out there from adjuncts, yet I didn't feel the same negativity due to having a full time job, rather than relying on adjunct income as my sole income. I feel like my peers saw me as an equal, and I saw being an adjunct as a pretty positive experience for me. 
 
-The only negative part about being an adjunct, from my perspective, was missing out on more campus time for my students. Since I work full time, my office hours with students had to be appointment only. This resulted in a lack of accessibility for my students who may have stopped by if I were on campus more. When I did need to meet with students, another limitation of accessibility was a lack of options for WHERE to meet with my students.
+The only negative part about being an adjunct, from my perspective, was missing out on more campus time for my students. Since I work full time, my office hours with students had to be appointment only. This resulted in a lack of accessibility for my students who may have stopped by if I were on campus more. When I did need to meet with students, another limitation of accessibility was a lack of options for WHERE to meet with my students. All things considered, this is a manageable issue to have compared to other work places.
 
 ## Not Reinventing the Wheel
 
@@ -74,41 +74,41 @@ I learned that if there's a starting point other peers have created, it's best t
 
 ## Taking Baby Steps
 
-Venn Diagram lesson was a BUST.
+Teaching is an art in the sense that you need to get comfortable with knowing HOW to teach concepts that come easily. Sometimes, things that seem straightforward to you as a professor might be extremely difficult to your students. Baby steps with what you're teaching them...are SO important.
+
+I remember making this one lesson for Venn Diagrams where they had cards from the game "Set" and had to make a Venn Diagram with the shapes and colors. I was REALLY excited for this lesson, yet I assumed that putting these cards into a Venn Diagram would be much easier for them than it was. I jumped to a difficult concept without doing some smaller examples to build up to it, and it ended up being a not-so-great lesson. It was quite a bummer, especially since I was so excited for how fun it would be.
+
+After talking with a Professor at CGC, I got some feedback that it would have helped if I did a simpler example of putting together a Venn Diagram before starting the activity. Such a small action could have made *ALL* the difference in this Venn Diagram lesson. With baby steps like this example, my lessons became more and more successful over time :smile:
 
 ## Being Patient
 
-You would be surprised how many things need to be explicitly explained in the classroom. Not just related to content, but to life skills as well.
+To build on the idea of baby steps, you would be surprised how many things need to be explicitly explained in the classroom. Not just related to content, but to life skills as well.
 
-Suppose you don't know what a word means. What do you do? You might Google it, you might ask a friend, or you might have a physical dictionary to look it up.
+Suppose you don't know what a word means. What do you do? You might Google it, you might ask a friend, or you might have a physical dictionary to look it up. If a student didn't know what a word meant, sometimes it required getting this specific on helping them solve their problems.
 
-Something as simple as knowing how to add a subject onto a message needs to be explained sometimes.
+The best example I can think of this is instructing someone how to make a peanut butter and jelly sandwich. Seems easy, right? Maybe some parts are, but you have to be explicit about the materials you need, and how to prepare it. After all...you don't want a sandwich with peanut butter on all sides of the bread :wink:
 
-Teaching students to ask questions
+So, with teaching, sometimes it requires being this patient with a variety of things. It could even be something as simple as teaching a student how to add an appropriate subject to their e-mails. Students are still learning these things that might seem basic, and it requires patience.
+
+It would be easy for many people to get frustrated in situations like this, where so many little things need to be explained and taught. I'd consider myself to be a pretty patient person, and I like helping others...so it wasn't as much of a problem for me. With that being said, there were *definitely* times I needed to remind myself to take a breath and continue to be patient, as that's what students deserve from the people teaching them.
 
 ## Students and Structure
 
-Students LOVE structure. They love calendars, they love due dates, and they love knowing how long it will take for their tests to be graded.
+Students LOVE structure. They love calendars, they love due dates, they love familiarity, and they love knowing how long it will take for their tests to be graded. The more structure you can give, the better your students with thrive in your class - Period. 
+
+Looking back, I tried my best to do this, yet can also see ways to provide more structure in my classroom. For example, developing better routines for group work might have helped my students more, or maybe more routine homework styles. Regardless, this was a big takeaway for me, and keeping things consistent helped keep my students on track.
 
 ## Accountability Goes Both Ways
 
-Student concerns
+So...there comes a time in a teaching career where someone doesn't turn in an asssignment, and would like to get credit after the fact or make an excuse for why they couldn't do it. In my teaching career, it happened very quickly - it happened on **day one**.
 
-Lying about deaths
+What's interesting about these situations is the genuine issues that require empathy sound EXACTLY like the bogus situations. After day one, I received two messages from two students saying the exact same thing: *"I got a zero on this assignment and I have no idea why I because I DID this assignment"*. Their messages were eerily similar. After doing some research, I found out one of these students actually DID do the assignment, and the online portal experienced a glitch with posting their grade. As for the other student...there was absolutely no evidence they opened the assignment, nevertheless completed it.
 
-"You don't believe in me"
+What did this situation teach me? It taught me that accountability goes both ways in situations like this. I need to hold students accountable for their deadlines set in their syllabus and documemntation, and I need to be accountable for trying to see the best in my students - even if the situation they describe sounds silly at best, it might be far from the case. All I can say...is thank GOODNESS I ask for supporting documentation if a student wants an extended deadline :wink:
 
-Due dates teach life skills
+Even with exercising empathy in these kinds of situations, holding students accountable can be a tough experience sometimes. It can drive some students to push back, whether it be through disrespect in your classroom or saying things like "you don't believe in me." It's a difficult spot to be in! While being flexible is something any professor should strive for, boundaries are really important and teach students valuable life skills. I'm very grateful for the students who were respectful of those boundaries and didn't push back - Many of my students were wonderful in this regard.
 
-Being flexible, but not *too* flexible to where you can be taken advantage of.
-
-Careful with FERPA
-
-Remedial math is very different
-
-If you say you're going to do something, do it.
-
-Being flexible, but not *too* flexible to where you can be taken advantage of.
+Ultimately, I do feel like students making deadlines teach them valuable life skills on following through and keeping to commitments. Holding students accountable only helps them to be better people :smile:
 
 ## Letting Go
 
@@ -132,19 +132,20 @@ Being confrontational is not something that comes naturally to me, yet is someth
 
 ## Rate My Professor
 
-As of right now, I'm a solid 1/5 on Rate My Professor. 1 is the worst you can get.
+As of right now, I'm a solid 1/5 on Rate My Professor. 1 is the worst you can get!
 
 A takeaway that I had this year is that these bad ratings can be humbling, and don't mean you're a terrible teacher overall (even if there are weak spots). In some cases, negative ratings mean you were being a *good* teacher, and a negative rating is a way for students to express negative emotion behind their choices with consequences.
 
-Take for example blahblah
+Take for example this review here:
 
+![](review.png)
 
-Ultimately, I really appreciate the feedback from these ratings - Ultimately, it's just motivation to improve. I've already outlined ways that my class could have been better - it would be laughable to say that every lesson I made was perfect considering some failures I've experienced! Yet to say my class was horrible? That's a stretch. I had many students say that I was a great teacher after my courses ended, and they didn't owe it to me to say that. I trust their words more than Rate My Professor :smile:
+I have a strong idea of who this student was. In my online course, I gave students two business days to go into Canvas and complete some brief assignments. These assignments were equivalent to showing up on the first day of class, and students who don't show up on the first day without communicating are typically withdrawn in CGC math courses. So...this student didn't do the assignments, I told them they were withdrawn, they asked me to not withdraw them a while later, I told them they already were, and BOOM. Bad review.
 
-BLAH BLAH An experiential learning style can be tough. Students feel like they have no idea what they're doing, and that's a very uncomfortable feeling. However, what they don't realize is they're learning more that way than if I were to do repeated examples on the board for them.
-
+I try not to take reviews to heart in situations like this. With that being said, I really do care about student reviews that are constructive - Ultimately, I WANT to improve. It would be laughable to say that I was a perfect teacher. With this in mind, "horrible professor" is a stretch - While not perfect, my classses were *not* horrible. I had many students say I was a great teacher after my courses ended, and they didn't owe it to me to say that. I trust their words more than Rate My Professor :smile:
 
 ## Life Balance = Important
+
 As I mentioned earlier, it was a goal of mine to be as creative as I could with my lessons. Well...sometimes that creativity comes at a price of burning you out in the long run if you're not careful. It became very clear that my courses could have easily eaten every morsel of my free time if I let it. So...that's where life balance came in :smile:
 
 Fun fact: My most thought-out planned lessons tended to perform poorly, and had students feeling the most confused. The lessons I intuitively put together with less time? Went AMAZINGLY.
@@ -152,8 +153,15 @@ Fun fact: My most thought-out planned lessons tended to perform poorly, and had 
 So...the takeaway? Sometimes simpler is better. Creativity is great to have as long as it's not impeding any sort of life balance. An plus, by having a balance, I felt like there was overall more emotional energy to give to students, which ultimately made me a better teacher.
 
 ## Have Fun!
+
+HERE DOWN NEEDS TO BE UPDATED
+
 Yes, balance is important...but if there's time to be creative and have fun, it's SO worth it too! Even if your subject matter is dry, having a little bit of fun with it goes a long way with students. 
 
 Brianna's budget - students had SO much fun talking about how stupid Brianna's financial decisions were and correcting them using real life examples.
 
 Exponential growth assignment Pandemic - very creative
+
+#Finally...The students
+
+Ultimately, the students were the best part of teaching. Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can.
