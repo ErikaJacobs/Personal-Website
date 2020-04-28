@@ -144,7 +144,7 @@ I have a strong idea of who this student was. In my online course, I gave studen
 
 I try not to take reviews to heart in situations like this. With that being said, I really do care about student reviews that are constructive - Ultimately, I WANT to improve. It would be laughable to say that I was a perfect teacher. With this in mind, "horrible professor" is a stretch - While not perfect, my classses were *not* horrible. I had many students say I was a great teacher after my courses ended, and they didn't owe it to me to say that. I trust their words more than Rate My Professor :smile:
 
-## Life Balance = Important
+## Life Balance = Important!
 
 As I mentioned earlier, it was a goal of mine to be as creative as I could with my lessons. Well...sometimes that creativity comes at a price of burning you out in the long run if you're not careful. It became very clear that my courses could have easily eaten every morsel of my free time if I let it. So...that's where life balance came in :smile:
 
@@ -164,4 +164,4 @@ Exponential growth assignment Pandemic - very creative
 
 #Finally...The students
 
-Ultimately, the students were the best part of teaching. Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can.
+Ultimately, the students were the best part of teaching. Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can. 
