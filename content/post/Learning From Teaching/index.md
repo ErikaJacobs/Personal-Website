@@ -24,7 +24,7 @@ title: 'Learning From Teaching: Year One'
 ---
 If you're looking at the posts on my website or activity on GitHub, you might notice some very long gaps of activity between August 2019 and now (April 2020). Most of that is due to a personal passion of mine - I started my first year teaching at the college level, and recently finished it!
 
-I taught two courses at Chandler-Gilbert Community College this year. Fall 2019 I taught MAT 142 (College Mathematics), and taught MAT 051 in Spring 2020 (Number Sense). Teaching both courses offered very different experiences, and Ilearned very different things from both courses as a result. Through those experiences, I feel better equipped to move forward into teaching future courses! 
+I taught two courses at Chandler-Gilbert Community College this year. Fall 2019 I taught MAT 142 (College Mathematics), and taught MAT 051 in Spring 2020 (Number Sense). Teaching both courses offered very different experiences, and I learned very different things from both courses as a result. Through those experiences, I feel better equipped to move forward into teaching future courses! 
 
 ## Teaching Going Forward
 
