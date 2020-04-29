@@ -152,16 +152,16 @@ As I mentioned earlier, it was a goal of mine to be as creative as I could with 
 
 Fun fact: My most thought-out planned lessons tended to perform poorly, and had students feeling the most confused. The lessons I intuitively put together with less time? Went AMAZINGLY.
 
-So...the takeaway? Sometimes simpler is better. Creativity is great to have as long as it's not impeding any sort of life balance. An plus, by having a balance, I felt like there was overall more emotional energy to give to students, which ultimately made me a better teacher.
+So...the takeaway? Sometimes simpler is better. Creativity is great to have as long as it's not impeding any sort of life balance. And plus, by having a balance, I felt like there was more emotional energy to give to students, which ultimately made me a better teacher.
 
 ## Have Fun, and Make it Worthwhile!
 
 Yes, balance is important...but if there's time to be creative and have fun, it's SO worth it too! Even if your subject matter is dry, having a little bit of fun with it goes a long way with students. 
 
-One of my best lessons this year was in my MAT 142 course, in a lesson about budgets. I gave my student a bogus budget from this fictional girl named Brianna, and made her budget have a negative cash flow due to RIDICULOUS expenses. My students then had to correct her budget so that she had a positive net cash flow, and explain what they changed and why. My students had SO much fun making fun of Brianna and her horrible budget, so it made the learning experience much better than making them only calculate.
+One of my best lessons this year was in my MAT 142 course, in a lesson about budgets. I gave my student a bogus budget from this fictional girl named Brianna, and made her budget have a negative cash flow due to RIDICULOUS spending. My students then had to correct her budget so that she had a positive net cash flow, and explain what they changed and why. My students had SO much fun making fun of Brianna and her horrible budget, so it made the learning experience much better than making them only calculate.
 
-The fact that the budget lesson had real life applications is another reason I feel like my students enjoyed that lesson. We had another lesson that semester where they created a report on a fictional pandemic, and exponentially graphed their disease as a way to convince others to take the disease seriously. At the time I think they thought it was fun because they got to get extremely creative with it. Bet they see how useful that lesson was now :sweat_smile:
+The fact that the budget lesson had real life applications is another reason I feel like my students enjoyed that lesson. We had another lesson that semester where they created a report on a fictional pandemic, and exponentially graphed their disease as a way to convince others to take the disease seriously. At the time I think they thought it was fun because they got to get extremely creative with it. Bet they now see the real life applications of it :sweat_smile:
 
-#Finally...The students
+## Finally...The students
 
 Ultimately, the students were the best part of teaching! Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can. Not every student wants to stay in touch after taking your course, but I'm really happy that I'm still connected with a few of them! Here's to more years of being there for students in the future :smile:
