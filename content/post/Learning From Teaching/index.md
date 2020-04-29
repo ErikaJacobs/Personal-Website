@@ -138,7 +138,7 @@ A takeaway that I had this year is that these bad ratings can be humbling, and d
 
 Take for example this review here:
 
-![](review.png)
+![](review.jpg)
 
 I have a strong idea of who this student was. In my online course, I gave students two business days to go into Canvas and complete some brief assignments. These assignments were equivalent to showing up on the first day of class, and students who don't show up on the first day without communicating are typically withdrawn in CGC math courses. So...this student didn't do the assignments, I told them they were withdrawn, they asked me to not withdraw them a while later, I told them they already were, and BOOM. Bad review.
 
