@@ -84,11 +84,11 @@ After talking with a Professor at CGC, I got some feedback that it would have he
 
 To build on the idea of baby steps, you would be surprised how many things need to be explicitly explained in the classroom. Not just related to content, but to life skills as well.
 
-Suppose you don't know what a word means. What do you do? You might Google it, you might ask a friend, or you might have a physical dictionary to look it up. If a student didn't know what a word meant, sometimes it required getting this specific on helping them solve their problems.
+Suppose you don't know what a word means. What do you do? You might Google it, you might ask a friend, or you might have a physical dictionary to look it up. If a student didn't know what a word meant, sometimes it required getting *this* specific on helping them solve their problems.
 
 The best example I can think of this is instructing someone how to make a peanut butter and jelly sandwich. Seems easy, right? Maybe some parts are, but you have to be explicit about the materials you need, and how to prepare it. After all...you don't want a sandwich with peanut butter on all sides of the bread :wink:
 
-So, with teaching, sometimes it requires being this patient with a variety of things. It could even be something as simple as teaching a student how to add an appropriate subject to their e-mails. Students are still learning these things that might seem basic, and it requires patience.
+So, with teaching, sometimes it requires being *this* patient with a variety of things. It could even be something as simple as teaching a student how to add an appropriate subject to their e-mails. Students are still learning these things that might seem basic, and it requires patience.
 
 It would be easy for many people to get frustrated in situations like this, where so many little things need to be explained and taught. I'd consider myself to be a pretty patient person, and I like helping others...so it wasn't as much of a problem for me. With that being said, there were *definitely* times I needed to remind myself to take a breath and continue to be patient, as that's what students deserve from the people teaching them.
 
@@ -108,7 +108,7 @@ What did this situation teach me? It taught me that accountability goes both way
 
 Even with exercising empathy in these kinds of situations, holding students accountable can be a tough experience sometimes. It can drive some students to push back, whether it be through disrespect in your classroom or saying things like "you don't believe in me." It's a difficult spot to be in! While being flexible is something any professor should strive for, boundaries are really important and teach students valuable life skills. I'm very grateful for the students who were respectful of those boundaries and didn't push back - Many of my students were wonderful in this regard.
 
-Ultimately, I do feel like students making deadlines teach them valuable life skills on following through and keeping to commitments. Holding students accountable only helps them to be better people :smile:
+Ultimately, I do feel like students meeting deadlines teaches them valuable life skills on following through and keeping to commitments. Holding students accountable only helps them to be better people :smile:
 
 ## Letting Go
 
@@ -116,9 +116,11 @@ As important as it is to give structure to students in a classroom setting, it's
 
 Sometimes students need to make bad choices to learn how to make good choices. Sometimes, a good choice to me isn't the best choice for a student. I've learned that sometimes it's best to let go of certain structures and let a student take charge of their educational destiny.
 
-Computer labs - it was less beneficial to keep all students there, and more beneficial to dismiss class and focus on the students who were hungry for 1-on-1 attention. Developed better relationships with students that way.
+During the fall semester, my classroom had computers available once a week, and I required all students to stay after lecture and work on their homework when those computers were available. Students who didn't want to do their homework would get very chatty and distracted, and I spent too much time trying to get them back on track by consistently checking in on them. I see now that it was less beneficial to keep all students there after lecture, and would have beenn more beneficial to dismiss class and focus on the students who were hungry for 1-on-1 attention. I started doing this by the end of the semester, and developed better relationships with students looking for that engagement as a result.
 
-Attendance activities - wish I never did them. Forced disengaged students to come to class, which distracted the people that DID want to learn.
+Another way that I should have let go more is with attendance. Each day, I had students complete a simple attendance activity that would be part of their attendance grade. They would grab a post-it from the front of the class, and answer a brief question about what we had gone over in the last class. I liked this idea at first, because it was both a way to take attendance, as well as a way to see if students were understanding what they learned. However, I wish I never did them. It forced disengaged students to be there, which resulted in distractions to students who DID want to learn.
+
+I think attendance is very important for student success. With that being said, I don't think requiring attendance to every class worked in my favor as a professor. If I could do it over again, I would add some sort of positive benefit to attending courses, rather than a negative if class was missed.
 
 ## Classroom Management: Community College Edition
 
