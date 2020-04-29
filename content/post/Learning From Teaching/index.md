@@ -4,7 +4,7 @@ authors:
 categories:
 - Python
 date: "2020-04-01T00:00:00Z"
-draft: true
+draft: false
 featured: false
 image:
   caption: ""
@@ -42,7 +42,7 @@ Before getting into my reflections, there was one cool experience I had this yea
 
 I volunteered to help with CGCC's Excellence in Mathematics competition at the beginning of February, in which different middle schools came together to compete in mathematics both individually and as a group. Fun fact: I actually ATTENDED this competition when I was in 8th grade!
 
-![](eim.png)
+![](eim.jpg)
 
 As an 8th grader, I went to this competition because my friends were all going, and I wanted to go with them. I liked math enough - If my friends were going, why not join them? 
 
@@ -152,16 +152,14 @@ Fun fact: My most thought-out planned lessons tended to perform poorly, and had 
 
 So...the takeaway? Sometimes simpler is better. Creativity is great to have as long as it's not impeding any sort of life balance. An plus, by having a balance, I felt like there was overall more emotional energy to give to students, which ultimately made me a better teacher.
 
-## Have Fun!
-
-HERE DOWN NEEDS TO BE UPDATED
+## Have Fun, and Make it Worthwhile!
 
 Yes, balance is important...but if there's time to be creative and have fun, it's SO worth it too! Even if your subject matter is dry, having a little bit of fun with it goes a long way with students. 
 
-Brianna's budget - students had SO much fun talking about how stupid Brianna's financial decisions were and correcting them using real life examples.
+One of my best lessons this year was in my MAT 142 course, in a lesson about budgets. I gave my student a bogus budget from this fictional girl named Brianna, and made her budget have a negative cash flow due to RIDICULOUS expenses. My students then had to correct her budget so that she had a positive net cash flow, and explain what they changed and why. My students had SO much fun making fun of Brianna and her horrible budget, so it made the learning experience much better than making them only calculate.
 
-Exponential growth assignment Pandemic - very creative
+The fact that the budget lesson had real life applications is another reason I feel like my students enjoyed that lesson. We had another lesson that semester where they created a report on a fictional pandemic, and exponentially graphed their disease as a way to convince others to take the disease seriously. At the time I think they thought it was fun because they got to get extremely creative with it. Bet they see how useful that lesson was now :sweat_smile:
 
 #Finally...The students
 
-Ultimately, the students were the best part of teaching. Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can. 
+Ultimately, the students were the best part of teaching! Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can. Not every student wants to stay in touch after taking your course, but I'm really happy that I'm still connected with a few of them! Here's to more years of being there for students in the future :smile:
