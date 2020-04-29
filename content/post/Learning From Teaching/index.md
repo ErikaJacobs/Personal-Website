@@ -136,7 +136,7 @@ Being confrontational is not something that comes naturally to me, yet is someth
 
 As of right now, I'm a solid 1/5 on Rate My Professor. 1 is the worst you can get!
 
-A takeaway that I had this year is that these bad ratings can be humbling, and don't mean you're a terrible teacher overall (even if there are weak spots). In some cases, negative ratings mean you were being a *good* teacher, and a negative rating is a way for students to express negative emotion behind their choices with consequences.
+A takeaway that I had this year is that these bad ratings can be humbling, and don't mean you're a terrible teacher overall (even if there are weak spots). In some cases, negative ratings mean you were being a *good* teacher, and a negative rating is a way for students to express negative emotion behind the consequences to their actions.
 
 Take for example this review here:
 
