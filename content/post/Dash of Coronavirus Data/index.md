@@ -23,5 +23,6 @@ tags:
 - HTML
 - CSS
 - Plotly
+- Flask
 title: A Dash of Coronavirus Data
 ---
