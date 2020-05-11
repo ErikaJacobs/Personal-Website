@@ -24,5 +24,6 @@ tags:
 - CSS
 - Plotly
 - Flask
+- PyCharm
 title: A Dash of Coronavirus Data
 ---
