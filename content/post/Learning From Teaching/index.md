@@ -144,7 +144,7 @@ Take for example this review here:
 
 I have a strong idea of who this student was. In my online course, I gave students two business days to go into Canvas and complete some brief assignments. These assignments were equivalent to showing up on the first day of class, and students who don't show up on the first day without communicating are typically withdrawn in CGC math courses. So...this student didn't do the assignments, I told them they were withdrawn, they asked me to not withdraw them a while later, I told them they already were, and BOOM. Bad review.
 
-I try not to take reviews to heart in situations like this. With that being said, I really do care about student reviews that are constructive - Ultimately, I WANT to improve. It would be laughable to say that I was a perfect teacher. With this in mind, "horrible professor" is a stretch - While not perfect, my classses were *not* horrible. I had many students say I was a great teacher after my courses ended, and they didn't owe it to me to say that. I trust their words more than Rate My Professor :smile:
+I try not to take reviews to heart in situations like this. With that being said, I really do care about student reviews that are constructive - Ultimately, I WANT to improve. It would be laughable to say that I was a perfect teacher. With this in mind, "horrible professor" is a stretch - While not perfect, my classes were *not* horrible. I had many students say I was a great teacher after my courses ended, and they didn't owe it to me to say that. I trust their words more than Rate My Professor :smile:
 
 ## Life Balance = Important!
 

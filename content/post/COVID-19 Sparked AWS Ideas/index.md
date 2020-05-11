@@ -51,17 +51,11 @@ The goal of this project was to use Python through DataBricks to import the John
 
 Amazon Web Services, or AWS, is a cloud computing platform as a service (PaaS), which offers a variety of products to be able to work with cloud technology. There are many benefits to using the cloud, which can include no upfront costs, free tier trials, pay-as-you-go structure, speed, reliability, and so much more!
 
+Most of my AWS experience through this project was using S3, which is a storage system for files and objects in "buckets" through the cloud. However, I got to get familiar with EC2, IAM, and the AWS CLI through this project as well.
 
-S3
-Understanding the structure of buckets and keys
+EC2 is essentially access to a virtual computer. IAM is responsible for making accounts, passwords, and access keys for permission to use different functionalities through AWS. The AWS CLI, or command line interface, would be a way to exercise those functionalities - for example, the CLI could be used to copy S3 objects from one bucket to another.
 
-EC2
-Learning command line
-
-IAM
-
-CLI
-
+EC2 might be more heavily utilized for future projects, as having external computing power could be helpful depending on the project and task. Plus, EC2 would be great to pair with a project using Python - Jupyter Notebook can be accessed using an EC2 instance.
 
 **Lesson Learned**: If you're considering experimenting and learning AWS, they have free tiers of services for newcomers to try (most being for 12 months). With that being said, **PLEASE do yourself a favor and explore the limits on AWS' free tiers.** Once you feel like you have? DO IT AGAIN!
 
@@ -73,11 +67,23 @@ If you don't mind spending some money experimenting with AWS, AWS offers a servi
 
 ## About Boto3 and S3FS
 
-**Lesson Learned**: Be VERY careful with your AWS access keys!
+With using AWS for this project, it was useful to use packages in Python specifically designed to bridge a connection to AWS S3. There were two packages in Python that I ended up getting familiar with through this project: Boto3 and S3FS
 
-Data Keys - be CAREFUL
+Boto3 is a software development kit (or SDK) which allows incorporation of command line processes within Python code. S3fs, on the other hand, stands for "s3 File System", and allows for code in Python to refer to S3 buckets and objects as if they were on your local computer.
 
-**Helpful Hint**: It was very difficult to find a concise answer about using Boto3 to upload/download files from S3. Here's how I did it!
+Ultimately, I found Boto3 to be VERY useful, and would certainly use it again for future projects.
+
+**Lesson Learned**: Be VERY careful with your AWS access keys! At the very start of working on this project, I had hard coded my AWS access keys that had full administrative access to my account into code I had uploaded to GitHub. This was BAD. Do NOT be me. As a result, I had to delete the entire project from GitHub, and had to delete the access keys.
+
+Why is this bad? Well...Once someone has your access keys, they are essentially free to do as they please within the permissions those access keys grant. Usually, the things someone would use an AWS access key for aren't good things. Someone could use your buckets for storing large amounts of files on your dime - perhaps something illegal. Or someone could start multiple EC2 instances on YOUR account to mine bitcoin. 
+
+Proactively, it's worth ensuring that the access keys for your AWS account have limited permissions in IAM, and to remove the access keys should they be leaked somehow. As I said earlier though...Be VERY careful with your AWS access keys!
+
+**Helpful Hint**: It was very difficult to find a concise answer about using Boto3 to upload/download csv files from S3. So, here's the code that I used!
+
+
+
+In the context of a bucket, a "key" doesn't refer to an access key - instead, it refers to your object's location in S3 (almost like a file path.)
 
 ## About Databricks
 
