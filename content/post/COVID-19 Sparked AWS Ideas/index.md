@@ -18,12 +18,12 @@ subtitle: ''
 summary: Learning AWS through an interactive project took some work, yet the idea seems worth it for a variety of reasons!
 tags:
 - Python
+- PySpark
 - AWS
 - S3
 - EC2
 - IAM
-- Databricks
-- PySpark
+- DataBricks
 - Boto3
 - S3FS
 - GitHub
@@ -91,15 +91,15 @@ If you plan to do a similar project, it's worth avoiding any potential hacking s
 
 ## About DataBricks
 
-Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a service (PaaS) created by the brilliant minds behind Apache Spark. Databricks is used for big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It's no wonder that big companies use it, which includes MY OWN (so I learned):
+Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a service (PaaS) created by the brilliant minds behind Apache Spark. DataBricks is used for big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It's no wonder that big companies use it, which includes MY OWN (so I learned):
 
 ![](Nationwide.png)
 
-The one downside to using DataBricks, from my perspective, was using the free community edition. IN DataBricks, your code is attached a cluster - a group of computers that work to complete what you've programmed. In the free version, if your cluster goes unused for a period of time (two hours I think), the cluster terminates. This requires having to create a new cluster each time your code is run. This also means having to re-install every Python package that was being used for each new cluster.
+The one downside to using DataBricks, from my perspective, was using the free community edition. In DataBricks, your code is attached a cluster - a group of computers that work together to complete what you've programmed. In the free version, if your cluster goes unused for a period of time (two hours I think), the cluster terminates. This requires having to create a new cluster each time your code is run. This also means having to re-install every Python package that was being used for each new cluster.
 
 I am SO thankful that there was a free community edition to use at all, but the biggest restriction in using it is having to re-attach a cluster everytime. However, paying for the service would be an entirely different experience - DataBricks would be a fantastic resource to have for big data projects.
 
-**Lesson Learned**: Databricks was a very nice interface to use similar to Jupyter notebook, and it was easy to get started with using clusters to process data. With that being said, **be prepared for your cluster to terminate frequently if you're using the free community version of Databricks.** Using a paid version would allow clusters to be restarted and refreshed, but the free version requires creating a new cluster practically each time Databricks is used. This means having to re-install Python packages every time...
+**Lesson Learned**: DataBricks was a very nice interface to use similar to Jupyter notebook, and it was easy to get started with using clusters to process data. With that being said, **be prepared for your cluster to terminate frequently if you're using the free community version of DataBricks.** Using a paid version would allow clusters to be restarted and refreshed, but the free version requires creating a new cluster practically each time DataBricks is used. This means having to re-install Python packages every time...
 
 ![](screams.gif)
 
