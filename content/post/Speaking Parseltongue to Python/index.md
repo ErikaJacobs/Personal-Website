@@ -14,6 +14,7 @@ image:
 lastmod: "2019-07-07T00:00:00Z"
 projects: []
 subtitle: ''
+math: true
 summary: I learned how to use Python by conducting exploratory data analysis on the Harry Potter book series using Natural Language Processing
 tags:
 - Python
