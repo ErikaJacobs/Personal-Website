@@ -1,7 +1,8 @@
 ---
 authors:
 - admin
-categories: []
+categories:
+- Python
 date: "2020-04-08T00:00:00Z"
 draft: false
 featured: false
