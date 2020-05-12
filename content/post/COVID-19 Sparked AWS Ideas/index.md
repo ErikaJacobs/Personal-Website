@@ -101,7 +101,7 @@ I am SO thankful that there was a free community edition to use at all, but the 
 
 ![](screams.gif)
 
-On the flip side, if you don't have PySpark installed, the time investment to re-create a cluster isn't very much compared to the time you're likely saving by using clusters through Databricks for big data :smile:
+On the flip side, if you don't have PySpark installed, the time investment to re-create a cluster isn't very much compared to the money you're likely saving by using clusters through DataBricks community edition :smile:
 
 ## About PySpark
 
