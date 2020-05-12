@@ -1,8 +1,8 @@
 ---
 authors:
 - admin
-categories:
-- Education
+categories: 
+- Python
 date: "2020-04-15T00:00:00Z"
 draft: false
 featured: false
@@ -16,6 +16,7 @@ projects: []
 subtitle: ''
 summary: Learning AWS through an interactive project took some work, yet the idea seems worth it for a variety of reasons!
 tags:
+- Python
 - AWS
 - S3
 - EC2

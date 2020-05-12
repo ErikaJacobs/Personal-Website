@@ -2,7 +2,7 @@
 authors:
 - admin
 categories:
-- Education
+- Python
 date: "2020-04-28T00:00:00Z"
 draft: true
 featured: false
@@ -16,6 +16,7 @@ projects: []
 subtitle: ''
 summary: After working with COVID-19 data from Johns Hopkins university through AWS, I thought it would be a good idea to make a dashboard to share information with others. This blog features the Dash library, which helps to build dashboards in Python!
 tags:
+- Python
 - PySpark
 - Boto3
 - Pandas
