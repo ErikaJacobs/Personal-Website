@@ -16,10 +16,7 @@ projects: []
 subtitle: ''
 summary: With starting to teach a college level math course, what's the best way to teach concepts? How can I make it fun without losing the point? How can I help students see the importance of the skills they're learning?
 tags:
-- Academic
-- College
 - Education
-- Professional
 title: 'Putting the "Fun" in Functional as a Math Instructor'
 ---
 Starting on Tuesday, I have the pleasure of teaching my first college level math class! I felt compelled to write this post to let any potential readers know that my next Python project is coming along and will be shared with you ASAP, yet I'll probably only get to finishing that post later on.

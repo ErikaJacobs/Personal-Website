@@ -16,10 +16,7 @@ projects: []
 subtitle: ''
 summary: With my first year of teaching at the college level coming to a close, what did I learn? What lessons can I carry with me for the rest of my professional career?
 tags:
-- Academic
-- College
 - Education
-- Professional
 title: 'Learning From Teaching: Year One'
 ---
 If you're looking at the posts on my website or activity on GitHub, you might notice some very long gaps of activity between August 2019 and now (April 2020). Most of that is due to a personal passion of mine - I started my first year teaching at the college level, and recently finished it!

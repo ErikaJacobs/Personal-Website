@@ -26,7 +26,7 @@ tags:
 - Boto3
 - S3FS
 - GitHub
-title: COVID-19 "Sparked" some AWS Ideas
+title: COVID-19 "Sparked" Some AWS Ideas
 ---
 Ahhh...the Coronavirus. The pesky virus that stopped daily life as we know it. The pesky virus that everyone's looking to understand a little better. The pesky virus that has many people looking at data visualizations like *never* before. 
 
