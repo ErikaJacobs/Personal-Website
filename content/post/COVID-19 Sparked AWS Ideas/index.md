@@ -6,6 +6,7 @@ categories:
 date: "2020-04-15T00:00:00Z"
 draft: false
 featured: false
+math: false
 image:
   caption: ""
   focal_point: ""
@@ -40,7 +41,7 @@ As time has gone on, questions have been popping up about "when things can retur
 
 The dashboard that Johns Hopkins provided has plenty of helpful information, and has some visualizations of its own worldwide. Despite this, it seemed like a good opportunity to provide everyone the ability to visually explore the data in ways that the Johns Hopkins dashboard (or any dashboard) might not permit. In other words, visualizing the data could be more accessible.
 
-To prepare the data for this project, I wanted to purposely choose to exercise skills that I haven't used for a personal project before that would be useful as a future Data Engineer. For example, while I've used Amazon Web Services (AWS) for specific professional tasks, I've never used AWS for my own persona projects. I had also never done a project using PySpark as well, even though I already had some experience using it. As for DataBricks? DataBricks was *entirely* new territory.
+To prepare the data for this project, I wanted to purposely choose to exercise skills that I haven't used for a personal project before that would be useful as a future Data Engineer. For example, while I've used Amazon Web Services (AWS) for specific professional tasks, I've never used AWS for my own personal projects. I had also never done a project using PySpark as well, even though I already had some experience using it. As for DataBricks? DataBricks was *entirely* new territory.
 
 The sections below will go over the technologies purposely used to complete this project, possible obstacles faced along the way, lessons learned, and other helpful hints that could be useful for anyone out there wanting to attempt something similar.
 
@@ -68,7 +69,7 @@ The reason I say this is because I went over one of the free limits for using S3
 
 If you don't mind spending some money experimenting with AWS, AWS offers a service called cloud watch if you have a certain budget in mind you'd like alerts for. For example, I set an alert for spending over \$0.00, and got an alert when my spending went to \$0.01 (the horror). 
 
-**Helpful Hint**: Through starting this project, I decided to pursue an AWS Solutions Architect certification, which will only help in learning different functionalities of AwS. **If you're looking to get very familiar with AWS, I'd highly suggest considering pursuing an AWS certification.** If you're learning the material anyway, you might as well have a marketable credential to recognize it :wink:
+**Helpful Hint**: Through starting this project, I decided to start pursuing an AWS Solutions Architect certification, which will only help in learning different functionalities of AWS. **If you're looking to get very familiar with AWS, I'd highly suggest considering pursuing an AWS certification.** If you're learning the skills anyway, you might as well have a marketable credential to recognize it :wink:
 
 ![](skills.gif)
 
@@ -76,7 +77,7 @@ If you don't mind spending some money experimenting with AWS, AWS offers a servi
 
 With using AWS for this project, it was useful to use packages in Python specifically designed to bridge a connection to AWS S3. There were two packages in Python that I ended up getting familiar with through this project: Boto3 and S3FS
 
-Boto3 is a software development kit (or SDK) which allows incorporation of command line processes within Python code. S3fs, on the other hand, stands for "s3 File System", and allows for code in Python to refer to S3 buckets and objects as if they were on your local computer.
+Boto3 is a software development kit (or SDK) which allows incorporation of command line processes within Python code. S3fS, on the other hand, stands for "S3 File System", and allows for code in Python to refer to S3 buckets and objects as if they were files on your local computer.
 
 Ultimately, I found Boto3 to be VERY useful, and would certainly use it again for future projects.
 
@@ -90,7 +91,7 @@ If you plan to do a similar project, it's worth avoiding any potential hacking s
 
 ## About DataBricks
 
-Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a servicB (PaaS) created by the brilliant minds behind Apache Spark. Databricks is used to big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It's no wonder that big companies use it, which includes MY OWN (so I learned):
+Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a service (PaaS) created by the brilliant minds behind Apache Spark. Databricks is used for big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It's no wonder that big companies use it, which includes MY OWN (so I learned):
 
 ![](Nationwide.png)
 
