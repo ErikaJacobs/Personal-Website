@@ -67,7 +67,7 @@ EC2 might be more heavily utilized for future projects, as having external compu
 
 The reason I say this is because I went over one of the free limits for using S3. I took time to explore the free tier limits, yet I must have missed this particular limit...which could have been avoided with a second review of those limits. Please don't make the unecessary mistake I did. Even if going above those free limits might be pennies of cost, be prepared and know your financial limits in AWS.
 
-If you don't mind spending some money experimenting with AWS, AWS offers a service called cloud watch if you have a certain budget in mind you'd like alerts for. For example, I set an alert for spending over \$ 0.00, and got an alert when my spending went to \$ 0.01 (the horror). 
+If you don't mind spending some money experimenting with AWS, AWS offers a service called cloud watch if you have a certain budget in mind you'd like alerts for. For example, I set an alert for spending over $0.00, and got an alert when my spending went to $0.01 (the horror). 
 
 **Helpful Hint**: Through starting this project, I decided to start pursuing an AWS Solutions Architect certification, which will only help in learning different functionalities of AWS. **If you're looking to get very familiar with AWS, I'd highly suggest considering pursuing an AWS certification.** If you're learning the skills anyway, you might as well have a marketable credential to recognize it :wink:
 
