@@ -123,7 +123,7 @@ All in all, I'm happy that I chose to do my project the way I did, as I learned 
 
 For one, it may not have been necessary to use PySpark for this project, as the data I was pulling in was not substantially large. While this project could have been done without PySpark, I'm glad that I had a real world project to apply my knowledge to, and this experience has better prepared me to work with larger quantities of data.
 
-Given that PySpark may not have been necessary, it might have been better to complete the project locally on my computer versus using DataBricks. DataBricks. DataBricks can be an extremely useful tool, yet is as useful as your need for clusters of computers to process your code.
+Given that PySpark may have been unnecessary, it might have been better to complete the project locally on my computer versus using DataBricks. DataBricks. DataBricks can be an extremely useful tool, yet is as useful as your need for clusters of computers to process your code.
 
 With this part of my project complete, the next part of the project will be to create a dashboard for the data. With this many "sparked" ideas for learning, there are only more to come with the next part of this project :wink:
 
