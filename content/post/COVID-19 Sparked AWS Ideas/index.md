@@ -4,7 +4,7 @@ authors:
 categories:
 - Education
 date: "2020-04-15T00:00:00Z"
-draft: true
+draft: false
 featured: false
 image:
   caption: ""
@@ -45,7 +45,11 @@ The sections below will go over the technologies purposely used to complete this
 
 ## Project Goal
 
-The goal of this project was to use Python through DataBricks to import the Johns Hopkins University COVID-19 dataseets from Github, clean/manipulate the data for more useful insight, and store the resulting output in the cloud via AWS. Simple enough, right?
+The goal of this project was to use Python through DataBricks to import the Johns Hopkins University COVID-19 dataseets from Github, clean/manipulate the data for more useful insight, and store the resulting output in the cloud via AWS. Simple enough, right? 
+
+Here is some modeling I completed to illustrate the process:
+
+![](featured.png)
 
 ## About AWS
 
@@ -65,6 +69,8 @@ If you don't mind spending some money experimenting with AWS, AWS offers a servi
 
 **Helpful Hint**: Through starting this project, I decided to pursue an AWS Solutions Architect certification, which will only help in learning different functionalities of AwS. **If you're looking to get very familiar with AWS, I'd highly suggest considering pursuing an AWS certification.** If you're learning the material anyway, you might as well have a marketable credential to recognize it :wink:
 
+![](skills.gif)
+
 ## About Boto3 and S3FS
 
 With using AWS for this project, it was useful to use packages in Python specifically designed to bridge a connection to AWS S3. There were two packages in Python that I ended up getting familiar with through this project: Boto3 and S3FS
@@ -75,39 +81,50 @@ Ultimately, I found Boto3 to be VERY useful, and would certainly use it again fo
 
 **Lesson Learned**: Be VERY careful with your AWS access keys! At the very start of working on this project, I had hard coded my AWS access keys that had full administrative access to my account into code I had uploaded to GitHub. This was BAD. Do NOT be me. As a result, I had to delete the entire project from GitHub, and had to delete the access keys.
 
-Why is this bad? Well...Once someone has your access keys, they are essentially free to do as they please within the permissions those access keys grant. Usually, the things someone would use an AWS access key for aren't good things. Someone could use your buckets for storing large amounts of files on your dime - perhaps something illegal. Or someone could start multiple EC2 instances on YOUR account to mine bitcoin. 
+Why is this bad? Well...Once someone has your access keys, they are essentially free to do as they please within the permissions those access keys grant. Usually, the things someone would use an AWS access key for aren't good things. Someone could use your buckets for storing large amounts of files on your dime - perhaps something illegal. Or someone could start multiple EC2 instances on YOUR account to mine bitcoin. You're essentially inviting hackers to take advantage of you!
 
-Proactively, it's worth ensuring that the access keys for your AWS account have limited permissions in IAM, and to remove the access keys should they be leaked somehow. As I said earlier though...Be VERY careful with your AWS access keys!
+![](hackerman.gif)
 
-**Helpful Hint**: It was very difficult to find a concise answer about using Boto3 to upload/download csv files from S3. So, here's the code that I used!
+If you plan to do a similar project, it's worth avoiding any potential hacking situations. Proactively, it's worth ensuring that the access keys for your AWS account have limited permissions in IAM, and to remove the access keys should they be leaked somehow. As I said earlier though...**Be VERY careful with your AWS access keys!**
 
+## About DataBricks
 
+Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a servicB (PaaS) created by the brilliant minds behind Apache Spark. Databricks is used to big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It's no wonder that big companies use it, which includes MY OWN (so I learned):
 
-In the context of a bucket, a "key" doesn't refer to an access key - instead, it refers to your object's location in S3 (almost like a file path.)
+![](Nationwide.png)
 
-## About Databricks
+The one downside to using DataBricks, from my perspective, was using the free community edition. IN DataBricks, your code is attached a cluster - a group of computers that work to complete what you've programmed. In the free version, if your cluster goes unused for a period of time (two hours I think), the cluster terminates. This requires having to create a new cluster each time your code is run. This also means having to re-install every Python package that was being used for each new cluster.
 
-Community Edition - Clusters die
+I am SO thankful that there was a free community edition to use at all, but the biggest restriction in using it is having to re-attach a cluster everytime. However, paying for the service would be an entirely different experience - DataBricks would be a fantastic resource to have for big data projects.
 
 **Lesson Learned**: Databricks was a very nice interface to use similar to Jupyter notebook, and it was easy to get started with using clusters to process data. With that being said, **be prepared for your cluster to terminate frequently if you're using the free community version of Databricks.** Using a paid version would allow clusters to be restarted and refreshed, but the free version requires creating a new cluster practically each time Databricks is used. This means having to re-install Python packages every time...
+
+![](screams.gif)
 
 On the flip side, if you don't have PySpark installed, the time investment to re-create a cluster isn't very much compared to the time you're likely saving by using clusters through Databricks for big data :smile:
 
 ## About PySpark
 
+Apache Spark is well reknown software for processing large quantities of data. Instead of using Apache Spark directly, I used a package in Python called PySpark, which is automatically installed when using DataBricks.
 
-**Lesson Learned**: Can't take csv directly from GitHub
+I wanted to use PySpark because I hadn't used PySpark for a project before, and it can be very powerful for massively large quantities of data. What's great about PySpark is that it actually has SQL functions to allow processing of your data in a "lazy" way - due to size, Spark only completes changes to your table when asked!
 
-**Helpful Hint**:Pyspark best for HUGE datasets - can actually be slower with small datasets
+![](lazy.gif)
 
+**Lesson Learned**: PySpark can read a variety of file types. However, **Apache Spark CANNOT read files from a url easily.** It's one thing if the file is online in a storage location like S3 - that's okay, because that file is being held in memory somewhere. However, for this project, I learned that I could not read a file from GitHub directly using PySpark.
+
+In order to import the file, it would need to be moved to some sort of local storage first.
+
+**Helpful Hint**: It may be tempting to use PySpark for all projects considering how powerful it can be processing large amounts of data. One thing to keep in mind, however, is that **Pyspark is best for HUGE datasets** - it can actually be *slower* to use PySpark with small datasets.
 
 ## Takeaways From Project
 
-This project could have been done without PySpark, but I'm glad that I had a real world project to apply my knowledge to.
+All in all, I'm happy that I chose to do my project the way I did, as I learned so much through the process. With that being said, I can already see ways that this project could have been done better.
 
-Might have been better to do a local project
+For one, it may not have been necessary to use PySpark for this project, as the data I was pulling in was not substantially large. While this project could have been done without PySpark, I'm glad that I had a real world project to apply my knowledge to, and this experience has better prepared me to work with larger quantities of data.
 
-AWS is free to a certain extent, but be careful...
+Given that PySpark may not have been necessary, it might have been better to complete the project locally on my computer versus using DataBricks. DataBricks. DataBricks can be an extremely useful tool, yet is as useful as your need for clusters of computers to process your code.
 
-Working on a dashboard - will go over in a separate post
+With this part of my project complete, the next part of the project will be to create a dashboard for the data. With this many "sparked" ideas for learning, there are only more to come with the next part of this project :wink:
 
+![](sparks.gif)
