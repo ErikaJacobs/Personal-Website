@@ -65,7 +65,7 @@ One thing I really liked about PyCharm was that it had the ability to host a Das
 
 ## Dash Documentation
 
-[Dash documentation and tutorials](https://dash.plotly.com/layout) were a godsend for figuring out how to set up a dashboard using Dash. The trickiest parts were establishing the initial layout, as well as the concept of callbacks. Callbacks in code are when a selection is made by a viewer, and the code changes as a result. For example, My dashboard had a dropdown menu for selecting a country. Once a country was selected, graph data would change.
+[Dash documentation and tutorials](https://dash.plotly.com/layout) were a godsend for figuring out how to set up a dashboard using Dash. The trickiest parts were establishing the initial layout, as well as the concept of callbacks. Callbacks in code are when a selection is made by a viewer, and the code changes as a result. For example, my dashboard had a dropdown menu for selecting a country. Once a country was selected, graph data would change.
 
 This project would have been near impossible without the documentation that Dash provided with example code. With this in mind, the documentation became less useful as the dashboard became more complex. A word of advice for anyone learning dash: Don't be afraid to try things and fail.
 
@@ -75,17 +75,17 @@ When starting to create a dashboard using Dash, your initial product is going to
 
 ![](ew.gif)
 
-It's not worth getting discouraged about! Luckily, there are plenty of resources to be able to make the dashboard look nice, with all of these resources being written in CSS. Almost ever resource I looked at for Dash layouts included an external CSS stylesheet from codepen.io, which can be viewed [here](https://codepen.io/chriddyp/pen/bWLwgP). This style sheet was very useful, as it created a basic structure of twelve columns on your dashboard, which made formatting exponentially easier.
+It's not worth getting discouraged about! Luckily, there are plenty of resources to be able to make the dashboard look nice, with all of these resources being written in CSS. Almost every resource I looked at for Dash layouts included an external CSS stylesheet from codepen.io, which can be viewed [here](https://codepen.io/chriddyp/pen/bWLwgP). This style sheet was very useful, as it created a basic structure of twelve columns on your dashboard, which made formatting exponentially easier.
 
-As I was creating my dashboard, I realized I was looking to personally customize some aspects of my dashboard. For example, I wanted to try my best to make the webpage in dark mode. To do this, it actually because useful to start experimenting with writing out my own CSS styling on top of the external stylesheet. 
+As I was creating my dashboard, I realized I was looking to personally customize some aspects of my dashboard. For example, I wanted to try my best to make the webpage in dark mode. To do this, it actually became useful to start experimenting with writing out my own CSS styling on top of the external stylesheet. 
 
 ## Dash Syntax = MySpace
 
-One thing that's cool about Dash is it's essentially a Python wrapper for HTML code. In other words, you write in Python syntax, but the output is html. This has been especially fun, as I've been able to bring back my HTML experience from the days of MySpace into this project!
+One thing that's cool about Dash is it's essentially a Python wrapper for HTML code. In other words, you write in Python syntax, but the output is HTML. This has been especially fun, as I've been able to bring back my HTML experience from the days of MySpace into this project!
 
 ![](myspace.gif)
 
-This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000's was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that BR with carrots on both ends (<>) would add a line of space in html, figured out that "html.Br" in Dash was able to achieve the same thing.
+This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000's was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that BR with carrots on both ends (<>) would add a line of space in HTML, and figured out that "html.Br" in Dash was able to achieve the same thing.
 
 ## Visualizations and Plotly
 
