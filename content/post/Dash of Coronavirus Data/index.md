@@ -85,7 +85,7 @@ One thing that's cool about Dash is it's essentially a Python wrapper for HTML c
 
 ![](myspace.gif)
 
-This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000's was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that <BR> would add a space, and was able to figure out that "html.Br" in Dash was able to achieve the same thing.
+This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000's was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that BR with carrots on both ends (<>) would add a line of space in html, figured out that "html.Br" in Dash was able to achieve the same thing.
 
 ## Visualizations and Plotly
 
