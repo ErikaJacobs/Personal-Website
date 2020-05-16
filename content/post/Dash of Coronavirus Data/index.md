@@ -4,7 +4,7 @@ authors:
 categories:
 - Python
 date: "2020-05-05T00:00:00Z"
-draft: true
+draft: false
 featured: false
 image:
   caption: ""
