@@ -49,7 +49,7 @@ The sections below will go over the technologies purposely used to complete this
 
 The goal of this project was to use Python through DataBricks to import the Johns Hopkins University COVID-19 dataseets from Github, clean/manipulate the data for more useful insight, and store the resulting output in the cloud via AWS. Simple enough, right? 
 
-Here is some modeling I completed to illustrate the process:
+Here is a visual of the ETL pipeline design to illustrate the process:
 
 ![](featured.png)
 
