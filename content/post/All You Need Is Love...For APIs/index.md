@@ -22,6 +22,6 @@ tags:
 - API
 - Psycopg2
 - SQL
-title: All You Need Is Love...For APIs and PostGreSQL
+title: All You Need Is Love...For APIs and PostgreSQL
 ---
 
