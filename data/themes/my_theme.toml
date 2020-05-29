@@ -2,7 +2,7 @@
 name = "1950s"
 
 # Is theme light or dark?
-light = false
+light = true
 
 # Primary
 primary = "#981ebd"
