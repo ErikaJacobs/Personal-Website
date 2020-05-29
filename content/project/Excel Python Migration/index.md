@@ -4,7 +4,7 @@ external_link: https://github.com/ErikaJacobs/Excel-Python-SQL-Migration
 image:
   caption: 
   focal_point: Smart
-summary: This project features the migration of hundreds of Excel files with the same format to SQL using Python.
+summary: Migrates hundreds of Excel files with the same format to SQL using Python.
 tags:
 - Python
 - SQL
