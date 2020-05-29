@@ -7,5 +7,6 @@ image:
 summary: Migrates NASA DONKI data to AWS Redshift via S3 buckets and RDS using boto3 (In Progress)
 tags:
 - Python
+- AWS
 title: NASA Data Warehouse
 ---

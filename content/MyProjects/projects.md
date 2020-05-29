@@ -28,6 +28,18 @@ subtitle = ""
   [[content.filter_button]]
     name = "Python"
     tag = "Python"
+    
+  [[content.filter_button]]
+    name = "SQL"
+    tag = "SQL"
+  
+  [[content.filter_button]]
+    name = "AWS"
+    tag = "AWS"
+  
+  [[content.filter_button]]
+    name = "Spark"
+    tag = "Spark"
   
   [[content.filter_button]]
     name = "R Studio"

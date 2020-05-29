@@ -7,5 +7,6 @@ image:
 summary: Builds an ETL pipeline of album information by The Beatles using the Spotify API, and loads to PostgreSQL
 tags:
 - Python
+- SQL
 title: Beatles Bops
 ---

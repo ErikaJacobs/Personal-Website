@@ -7,5 +7,7 @@ image:
 summary: Places Johns Hopkins University COVID-19 data into S3 bucket, and is processed using PySpark in Databricks to eventually create a dashboard.
 tags:
 - Python
+- Spark
+- AWS
 title: COVID-19 Data Project
 ---

@@ -7,5 +7,6 @@ image:
 summary: This project features the migration of hundreds of Excel files with the same format to SQL using Python.
 tags:
 - Python
+- SQL
 title: Excel Python Migration
 ---
