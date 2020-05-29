@@ -1,9 +1,7 @@
 .btn-toolbar {
   justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  float: center;
 }
-
-.center-block {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	 }
