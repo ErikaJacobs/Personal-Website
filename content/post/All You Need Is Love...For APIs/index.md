@@ -14,14 +14,19 @@ image:
 lastmod: "2020-05-22T00:00:00Z"
 projects: []
 subtitle: ''
-summary: SUMMARY GOES HERE
-tags:
-- Python
+summary: I was able to connect to Spotify and pull all artist, album, and track information about The Beatles by using an API. This post features informaation on why APIs are so useful!
 - PostGreSQL
 - Spotipy
 - API
 - Psycopg2
 - SQL
-title: All You Need Is Love...For APIs and PostgreSQL
+title: All You Need Is Love...For APIs
 ---
+Spotify is one of the most popular music streaming apps in the entire world. In fact, according to [this Forbes article](https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07), Spotify was the top music streaming app of 2019. Pretty impressive!
+
+From films to weddings, music is an important aspect of everyone's life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me - Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60's.
+
+One driver of this project was to have a resource to see the most popular songs that The Beatles have on Spotify. The other driver...was using Spotify's API.
+
+## What's An API?
 
