@@ -30,3 +30,5 @@ One driver of this project was to have a resource to see the most popular songs 
 
 ## What's An API?
 
+API stands for "Application Programming Interface", which sounds more complicated than it is. Essentially, an API is a technological way that retrieves data from somewhere and gives it back to you.
+
