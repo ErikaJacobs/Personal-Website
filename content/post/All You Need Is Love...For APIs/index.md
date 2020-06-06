@@ -30,5 +30,9 @@ One driver of this project was to have a resource to see the most popular songs 
 
 ## What's An API?
 
-API stands for "Application Programming Interface", which sounds more complicated than it is. Essentially, an API is a technological way that retrieves data from somewhere and gives it back to you.
+API stands for "Application Programming Interface", which sounds more complicated than it is. Essentially, an API is a technological way that retrieves data from somewhere and gives it back to you. Your computer connects to a data source through the information, pulls data, then brings it back to you!
+
+[](nice.gif)
+
+Typically...the process of connecting to an API can get a little ugly, depending on where the connection is made and the data they're giving you. However, Python has a specific library for connecting to the Spotify API called Spotipy. Spotipy already has the code set up to be able to connect to Spotify, and therefore can be much easier to use. In terms of APIs, Spotify is what's know as an API wrapper - it wraps up the code to connect to Spotify's API like a present to you!
 
