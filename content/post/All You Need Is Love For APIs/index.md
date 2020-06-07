@@ -14,7 +14,7 @@ image:
 lastmod: "2020-05-22T00:00:00Z"
 projects: []
 subtitle: ''
-summary: After working with COVID-19 data from Johns Hopkins university through AWS, I thought it would be a good idea to make a dashboard to share information with others. This blog features the Dash library, which helps to build dashboards in Python!
+summary: I was able to connect to Spotify and pull all artist, album, and track information about The Beatles by using an API. This post features information on this project, and how the Spotify API was useful.
 tags:
 - Python
 - PostGreSQL
