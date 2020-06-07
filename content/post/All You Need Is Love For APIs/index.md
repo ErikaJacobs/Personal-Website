@@ -3,7 +3,7 @@ authors:
 - admin
 categories:
 - Python
-date: "2020-05-05T00:00:00Z"
+date: "2020-05-22T00:00:00Z"
 draft: false
 featured: false
 image:
@@ -11,21 +11,21 @@ image:
   focal_point: ""
   placement: 2
   preview_only: true
-lastmod: "2020-04-01T00:00:00Z"
+lastmod: "2020-05-22T00:00:00Z"
 projects: []
 subtitle: ''
 summary: After working with COVID-19 data from Johns Hopkins university through AWS, I thought it would be a good idea to make a dashboard to share information with others. This blog features the Dash library, which helps to build dashboards in Python!
 tags:
 - Python
-- PySpark
-- S3
-- Dash
-- HTML
-- CSS
-- Plotly
-- Flask
-- PyCharm
-title: A Dash of Coronavirus Data
+- PostGreSQL
+- Spotipy
+- API
+- Spotipy
+- API
+- Psycopg2
+- SQL
+- Schema
+title: All You Need Is Love...For APIs
 ---
 Spotify is one of the most popular music streaming apps in the entire world. In fact, according to [this Forbes article](https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07), Spotify was the top music streaming app of 2019. Pretty impressive!
 
