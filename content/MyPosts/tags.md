@@ -19,4 +19,7 @@ subtitle = ""
   # Minimum and maximum font sizes (1.0 = 100%).
   font_size_min = 0.7
   font_size_max = 2.0
+  
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++
