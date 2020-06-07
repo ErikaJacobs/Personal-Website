@@ -18,7 +18,6 @@ summary: I was able to connect to Spotify and pull all artist, album, and track 
 tags:
 - Python
 - PostGreSQL
-- Spotipy
 - API
 - Spotipy
 - API
