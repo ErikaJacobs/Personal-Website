@@ -65,7 +65,7 @@ After creating this schema, this data was exported to PostGreSQL using a Python 
 
 Ultimately, exporting this data was a pretty easy process using the Psycopg2 library. So easy...that I may use PostGreSQL as my go-to database from now on!
 
-[elephant.gif]
+![](elephant.gif)
 
 ## Overall Thoughts
 
