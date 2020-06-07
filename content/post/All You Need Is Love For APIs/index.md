@@ -49,7 +49,7 @@ Once all of the data was pulled from the Spotify API, I then designed the layout
 
 A star schema is a way to organize tables in a database, in which there's a main table (called a "fact table") that has all measurements, and then there are supporting tables (called "dimensions") that have information about those facts. Facts and dimensions are connected together using some sort of key or id. If you'd like an idea of what this looks like visually, take a look at the picture below:
 
-![](featured.jpg)
+![](featured.png)
 
 In the case of The Beatles, the fact table featured a numerical popularity score, and the length (in minutes) for each track. The three dimension tables held artist, album, and track information specifically. These tables were then connected using an ID used in Spotify called a URI. Spotify has album URIs, artist URIs, and track URIs is ultimately made connecting these tables very efficient!
 
