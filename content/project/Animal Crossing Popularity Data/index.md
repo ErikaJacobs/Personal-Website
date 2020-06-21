@@ -7,6 +7,5 @@ image:
 summary: Scrapes up-to-date data on villager popularity from the video game "Animal Crossing: New Horizons" automatically using Airflow.
 tags:
 - Python
-- Airflow
 title: Animal Crossing Villager Popularity
 ---
