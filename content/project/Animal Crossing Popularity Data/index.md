@@ -1,11 +1,13 @@
 ---
-date: "2019-06-21T00:00:00Z"
-external_link: https://github.com/ErikaJacobs/Animal-Crossing-Popularity-Data
+date: "2020-06-21T00:00:00Z"
+external_link: https://github.com/ErikaJacobs/NASA-Redshift
 image:
   caption: 
   focal_point: Smart
-summary: Scrapes up-to-date data on villager popularity from the video game "Animal Crossing: New Horizons" automatically using Airflow.
+summary: Pulls data from NASA DONKI API, and stages data in S3 to load to Redshift using boto3
 tags:
 - Python
-title: Animal Crossing Villager Popularity
+- AWS
+- SQL
+title: NASA Data Warehouse
 ---
