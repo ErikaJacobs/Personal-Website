@@ -7,7 +7,5 @@ image:
 summary: Pulls data from NASA DONKI API, and stages data in S3 to load to Redshift using boto3
 tags:
 - Python
-- AWS
-- SQL
 title: Animal Crossing Popularity Data
 ---
