@@ -1,10 +1,10 @@
 ---
-date: "2020-05-13T00:00:00Z"
+date: "2020-06-21T00:00:00Z"
 external_link: https://github.com/ErikaJacobs/NASA-Redshift
 image:
   caption: 
   focal_point: Smart
-summary: Migrates NASA DONKI data to AWS Redshift via S3 buckets and RDS using boto3
+summary: Pulls data from NASA DONKI API, and stages data in S3 to load to Redshift using boto3
 tags:
 - Python
 - AWS
