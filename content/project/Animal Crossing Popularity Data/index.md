@@ -4,7 +4,7 @@ external_link: https://github.com/ErikaJacobs/Animal-Crossing-Popularity-Data
 image:
   caption: 
   focal_point: Smart
-summary: Scrapes up-to-date data on villager popularity from the video game **Animal Crossing: New Horizons** automatically using Airflow.
+summary: Scrapes automatically updated data on villager popularity from the video game **Animal Crossing: New Horizons** using Airflow.
 tags:
 - Python
 title: Animal Crossing Popularity Data
