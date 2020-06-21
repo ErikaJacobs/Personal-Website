@@ -9,5 +9,6 @@ tags:
 - Python
 - Spark
 - AWS
+- SQL
 title: COVID-19 Data Project
 ---
