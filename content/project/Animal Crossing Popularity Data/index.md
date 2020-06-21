@@ -4,7 +4,7 @@ external_link: https://github.com/ErikaJacobs/Animal-Crossing-Popularity-Data
 image:
   caption: 
   focal_point: Smart
-summary: Pulls data from NASA DONKI API, and stages data in S3 to load to Redshift using boto3
+summary: Scrapes up-to-date data on villager popularity from the video game **Animal Crossing: New Horizons** automatically using Airflow.
 tags:
 - Python
 title: Animal Crossing Popularity Data
