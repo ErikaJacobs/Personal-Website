@@ -37,7 +37,7 @@ This dashboard was created using a library called "Dash" in Python. What is dash
 
 ## About Dash
 
-Dash is a  Python library that is composed of framework to put together a web application or dashboard. Dash can be open source, but can also be used within an enterprise as well.
+Dash is a  Python library that is composed of framework to put together a web application or dashboard. Dash is open source, but can also be used within an enterprise as well.
 
 ## Why Dash?
 

@@ -50,9 +50,9 @@ A star schema is a way to organize tables in a database, in which there's a main
 
 ![](featured.png)
 
-In the case of The Beatles, the fact table featured a numerical popularity score, and the length (in minutes) for each track. The three dimension tables held artist, album, and track information specifically. These tables were then connected using an ID used in Spotify called a URI. Spotify has album URIs, artist URIs, and track URIs is ultimately made connecting these tables very efficient!
+In the case of The Beatles, the fact table featured a numerical popularity score, and the length (in minutes) for each track. The three dimension tables held artist, album, and track information specifically. These tables were then connected using an ID used in Spotify called a URI. Spotify has album URIs, artist URIs, and track URIs, which ultimately made connecting these tables very efficient!
 
-You can also see that next to the tables being connected are a little one or asterisk. This is signifying HOW the tables are connected. For example, "album_uri" is connected between the album_df and beatles_fact tables, but album_uri has a little 1 next to it on the album_df table, while album_uri has a little * next to it on the beatles_fact table. This is called a "one to many" connection - ONE album has MANY tracks, while a track has only one album. 
+In the visual above, you can also see little ones or asterisks next to the tables being connected. This is signifying HOW the tables are connected. For example, "album_uri" is connected between the album_df and beatles_fact tables, but album_uri has a little 1 next to it on the album_df table, while album_uri has a little * next to it on the beatles_fact table. This is called a "one to many" connection - ONE album has MANY tracks, while a track has only one album. 
 
 Clear as mud? 
 
