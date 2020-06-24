@@ -41,7 +41,7 @@ Dash is a  Python library that is composed of framework to put together a web ap
 
 ## Why Dash?
 
-I was initially planning to create a quick Tableau dashboard to visualize this COVID-19 data, since I had read online that Tableau could be used alongside S3 (Where the data is stored). However, it costs money to use Tableau...and while there was a free trial I could have used as an educator, I wanted to learn a method of creating dashboards I could do repeatedly and affordably at the price of "free".
+I was initially planning to create a quick Tableau dashboard to visualize this COVID-19 data, since I had read online that Tableau could be used alongside S3 (where the data is stored). However, it costs money to use Tableau...and while there was a free trial I could have used as an educator, I wanted to learn a method of creating dashboards I could do repeatedly and affordably at the price of "free".
 
 ![](free.gif)
 
@@ -51,7 +51,7 @@ After doing a quick Google search on how to create dashboards using Python, I le
 
 To get started on using Dash, there were a series of YouTube videos by Codebliss that provided a general tutorial for getting started. The video series is in six parts, and the first part can be accessed [here](https://www.youtube.com/watch?v=Ldp3RmUxtOQ&list=PLCDERj-IUIFCaELQ2i7AwgD2M6Xvc4Slf).
 
-This video series was very helpful for a begginer getting familiar with Dash, as well as providing a starting point for a final product.
+This video series was very helpful for a beginner getting familiar with Dash, as well as providing a starting point for a final product.
 
 ## An IDE For Dash
 

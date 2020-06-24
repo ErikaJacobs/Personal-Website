@@ -28,13 +28,13 @@ title: All You Need Is Love...For APIs
 ---
 Spotify is one of the most popular music streaming apps in the entire world. In fact, according to [this Forbes article](https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07), Spotify was the top music streaming app of 2019. Pretty impressive!
 
-From films to weddings, music is an important aspect of everyone's life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me - Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60's.
+From films to weddings, music is an important aspect of everyone's life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me. Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60's.
 
 One driver of this project was to have a resource to see the most popular songs that The Beatles have on Spotify. The other driver...was using Spotify's API.
 
 ## What's An API?
 
-API stands for "Application Programming Interface", which sounds more complicated than it is. Essentially, an API is a technological way that retrieves data from somewhere and gives it back to you. Your computer connects to a data source through the information, pulls data, then brings it back to you!
+API stands for "Application Programming Interface", which sounds more complicated than it is. Essentially, an API is a technological way to retrieve data from somewhere and gives it back to you. Your computer connects to a data source through the information, pulls data, then brings it back to you!
 
 ![](nice.gif)
 
