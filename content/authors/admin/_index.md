@@ -32,4 +32,4 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Hi there! My name is Erika Jacobs, and I'm a data engineer and educator. My passions include working with data, and teaching others about how to do it. Thank you for stopping by!
+Hi there! My name is Erika Jacobs, and I'm a data engineer and educator. My professional intersts are working with data, and teaching others about how to do it. Thank you for stopping by!
