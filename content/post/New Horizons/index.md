@@ -23,5 +23,5 @@ tags:
 - BeautifulSoup
 - Selenium
 - MySQL
-title: New Horizons: Using Airflow and Linux
+title: New Horizons Using Airflow and Linux
 ---
