@@ -23,5 +23,5 @@ tags:
 - SQL
 - AWS
 - Data Warehouse
-title: Shify Weather: Using Redshift on Nasa Data
+title: NASA's Shify Weather Data
 ---
