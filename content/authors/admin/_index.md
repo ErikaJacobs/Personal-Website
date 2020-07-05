@@ -32,4 +32,10 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Hi there! My name is Erika Jacobs, and I'm a data engineer and educator. Thank you for stopping by my webpage!
+Hi there! My name is Erika Jacobs, and I'm a data engineer and educator. 
+
+Skills Include:
+* Python
+* SQL
+* AWS
+* Spark
