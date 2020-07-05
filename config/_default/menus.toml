@@ -6,11 +6,16 @@
 [[main]]
   name = "Posts"
   url = "MyPosts/"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Project Portfolio"
   url = "MyProjects/"
+  weight = 30
+
+[[main]]
+  name = "Resume"
+  url = "Resume/"
   weight = 30
 
 # Link to a PDF of your resume/CV from the menu.
