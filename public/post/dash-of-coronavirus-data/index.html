@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Erika Jacobs">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="After working with COVID-19 data from Johns Hopkins university through AWS, I thought it would be a good idea to make a dashboard to share information with others. This blog features the Dash library, which helps to build dashboards in Python!">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/dash-of-coronavirus-data/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#981ebd">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/dash-of-coronavirus-data/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Erika Jacobs">
+  <meta property="og:url" content="/post/dash-of-coronavirus-data/">
+  <meta property="og:title" content="A Dash of Coronavirus Data | Erika Jacobs">
+  <meta property="og:description" content="After working with COVID-19 data from Johns Hopkins university through AWS, I thought it would be a good idea to make a dashboard to share information with others. This blog features the Dash library, which helps to build dashboards in Python!"><meta property="og:image" content="/post/dash-of-coronavirus-data/featured.png">
+  <meta property="twitter:image" content="/post/dash-of-coronavirus-data/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-05-05T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-05-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/dash-of-coronavirus-data/"
+  },
+  "headline": "A Dash of Coronavirus Data",
+  
+  "image": [
+    "/post/dash-of-coronavirus-data/featured.png"
+  ],
+  
+  "datePublished": "2020-05-05T00:00:00Z",
+  "dateModified": "2020-05-05T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Erika Jacobs"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Erika Jacobs",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "After working with COVID-19 data from Johns Hopkins university through AWS, I thought it would be a good idea to make a dashboard to share information with others. This blog features the Dash library, which helps to build dashboards in Python!"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>A Dash of Coronavirus Data | Erika Jacobs</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Erika Jacobs</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Erika Jacobs</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#myprojects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactme"><span>Contact Me</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resume.pdf"><span>Resume</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>A Dash of Coronavirus Data</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/admin/">Erika Jacobs</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 5, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/python/">Python</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>As I&rsquo;m writing this post, COVID-19 is still rapidly spreading with cases exponentially increasing each day in the United States. It almost feels surreal at this point that - who knew that we would experience a worldwide pandemic like this in our lifetime?</p>
+<p>With COVID-19 still being a relevant threat to public health, there&rsquo;s still a need and desire for visualizing the data available. In a 
+<a href="https://erikajacobs.netlify.app/post/covid-19-sparked-aws-ideas/" target="_blank" rel="noopener">previous blog post</a>, I mentioned that the Johns Hopkins Coronavirus data I had processed using PySpark would be placed into my own dashboard. Well&hellip;the dashboard is now finished - take a look at this beauty!</p>
+<p><img src="featured.png" alt=""></p>
+<p>This dashboard was created using a library called &ldquo;Dash&rdquo; in Python. What is dash, you ask? Well - keep reading, and I&rsquo;ll tell you all about it! 😄</p>
+<h2 id="about-dash">About Dash</h2>
+<p>Dash is a  Python library that is composed of framework to put together a web application or dashboard. Dash is open source, but can also be used within an enterprise as well.</p>
+<h2 id="why-dash">Why Dash?</h2>
+<p>I was initially planning to create a quick Tableau dashboard to visualize this COVID-19 data, since I had read online that Tableau could be used alongside S3 (where the data is stored). However, it costs money to use Tableau&hellip;and while there was a free trial I could have used as an educator, I wanted to learn a method of creating dashboards I could do repeatedly and affordably at the price of &ldquo;free&rdquo;.</p>
+<p><img src="free.gif" alt=""></p>
+<p>After doing a quick Google search on how to create dashboards using Python, I learned about Dash&hellip;and I was automatically on board!</p>
+<h2 id="starting-with-dash">Starting With Dash</h2>
+<p>To get started on using Dash, there were a series of YouTube videos by Codebliss that provided a general tutorial for getting started. The video series is in six parts, and the first part can be accessed 
+<a href="https://www.youtube.com/watch?v=Ldp3RmUxtOQ&amp;list=PLCDERj-IUIFCaELQ2i7AwgD2M6Xvc4Slf" target="_blank" rel="noopener">here</a>.</p>
+<p>This video series was very helpful for a beginner getting familiar with Dash, as well as providing a starting point for a final product.</p>
+<h2 id="an-ide-for-dash">An IDE For Dash</h2>
+<p>Previous Python projects of mine have mostly been completed using Jupyter and Spyder until this project came along. Due to the nature of Dash creating a web application, running your code serves a website locally so changes made can be continuously seen. This means that some programming environments might be better suited to do this than others.</p>
+<p>Through watching the YouTube video series by Codebliss, I noticed he was using PyCharm and decided to give that environment a try. It turns out that PyCharm is actually a VERY popular coding environment for Python! In fact, 
+<a href="https://www.datacamp.com/community/tutorials/top-python-ides-for-2019" target="_blank" rel="noopener">DataCamp cited PyCharm as one of the top IDEs for 2019</a>.</p>
+<p><img src="popular.gif" alt=""></p>
+<p>One thing I really liked about PyCharm was that it had the ability to host a Dash web application locally and keep it running, as well as some of the debugging features it offered. One downside to using PyCharm was that I was using a community version, which meant that many features would have cost money. One featured I missed was being able to divide code into cells - in PyCharm, all code needs to be run at once, while in an editor like Jupyter or Spyder, code can be chunked into cells. Having these chunks allows for smaller scale testing of code, which I sorely missed. With that being said, I&rsquo;m glad that I had the opportunity to learn about PyCharm through this project!</p>
+<h2 id="dash-documentation">Dash Documentation</h2>
+<p>
+<a href="https://dash.plotly.com/layout" target="_blank" rel="noopener">Dash documentation and tutorials</a> were a godsend for figuring out how to set up a dashboard using Dash. The trickiest parts were establishing the initial layout, as well as the concept of callbacks. Callbacks in code are when a selection is made by a viewer, and the code changes as a result. For example, my dashboard had a dropdown menu for selecting a country. Once a country was selected, graph data would change.</p>
+<p>This project would have been near impossible without the documentation that Dash provided with example code. With this in mind, the documentation became less useful as the dashboard became more complex. A word of advice for anyone learning dash: Don&rsquo;t be afraid to try things and fail.</p>
+<h2 id="dash-and-dashboard-style">Dash and Dashboard Style</h2>
+<p>When starting to create a dashboard using Dash, your initial product is going to look ugly. Like&hellip;REALLY ugly.</p>
+<p><img src="ew.gif" alt=""></p>
+<p>It&rsquo;s not worth getting discouraged about! Luckily, there are plenty of resources to be able to make the dashboard look nice, with all of these resources being written in CSS. Almost every resource I looked at for Dash layouts included an external CSS stylesheet from codepen.io, which can be viewed 
+<a href="https://codepen.io/chriddyp/pen/bWLwgP" target="_blank" rel="noopener">here</a>. This style sheet was very useful, as it created a basic structure of twelve columns on your dashboard, which made formatting exponentially easier.</p>
+<p>As I was creating my dashboard, I realized I was looking to personally customize some aspects of my dashboard. For example, I wanted to try my best to make the webpage in dark mode. To do this, it actually became useful to start experimenting with writing out my own CSS styling on top of the external stylesheet.</p>
+<h2 id="dash-syntax--myspace">Dash Syntax = MySpace</h2>
+<p>One thing that&rsquo;s cool about Dash is it&rsquo;s essentially a Python wrapper for HTML code. In other words, you write in Python syntax, but the output is HTML. This has been especially fun, as I&rsquo;ve been able to bring back my HTML experience from the days of MySpace into this project!</p>
+<p><img src="myspace.gif" alt=""></p>
+<p>This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000&rsquo;s was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that BR with carrots on both ends (&lt;&gt;) would add a line of space in HTML, and figured out that &ldquo;html.Br&rdquo; in Dash was able to achieve the same thing.</p>
+<h2 id="visualizations-and-plotly">Visualizations and Plotly</h2>
+<p>A nice aspect about using Dash is the relationship it has with the Plotly library. Plotly is a graphing library in Python that has origins from R Studio. Plotly can flexibly create many different kinds of plots, and feature the ability for viewers to interact with the plots.</p>
+<p>One of the hardest parts about using Plotly was figuring out how to precisely customize each aspect of the chart. How do I change the background color, the plot color, or the font color? How do I remove the legend of a graph? How do I make a stacked bar chart? How do I set a title? Once a single graph is done, however, each subsequent graph gets easier 😄</p>
+<h2 id="hosting-the-site">Hosting the Site</h2>
+<p>I had read about a few ways to host and deploy the dashboard I made, with the big ones being through Heroku or AWS Elastic Beanstalk. However, I ultimately went with Python Anywhere because I found 
+<a href="https://www.youtube.com/watch?v=yRw95qVYKK8" target="_blank" rel="noopener">this</a> tutorial that was pretty concise about how to precisely deploy the Dash app on the Flask framework. I&rsquo;d like to learn how to deploy something on Heroku at some point, but for this project I was looking for something quick to learn so I could have my dashboard deployed quicker!</p>
+<p><img src="mission.gif" alt=""></p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>If you&rsquo;d like to take a look at my deployed dashboard, you can 
+<a href="http://erikajacobs.pythonanywhere.com/" target="_blank" rel="noopener">Click Here</a> to take a look! Exploring this data is very interesting, but please keep in mind that these numbers may not be perfectly representative of the disease&hellip;just what we have data of.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/python/">Python</a>
+  
+  <a class="badge badge-light" href="/tags/pyspark/">PySpark</a>
+  
+  <a class="badge badge-light" href="/tags/s3/">S3</a>
+  
+  <a class="badge badge-light" href="/tags/dash/">Dash</a>
+  
+  <a class="badge badge-light" href="/tags/html/">HTML</a>
+  
+  <a class="badge badge-light" href="/tags/css/">CSS</a>
+  
+  <a class="badge badge-light" href="/tags/plotly/">Plotly</a>
+  
+  <a class="badge badge-light" href="/tags/flask/">Flask</a>
+  
+  <a class="badge badge-light" href="/tags/pycharm/">PyCharm</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/dash-of-coronavirus-data/&amp;title=A%20Dash%20of%20Coronavirus%20Data" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=A%20Dash%20of%20Coronavirus%20Data&amp;body=/post/dash-of-coronavirus-data/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/dash-of-coronavirus-data/&amp;text=A%20Dash%20of%20Coronavirus%20Data" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu801fe2d418ef9c294945d94d706b00e9_1816960_270x270_fill_lanczos_center_2.png" alt="Erika Jacobs">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Erika Jacobs</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/erikajacobs/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ErikaJacobs" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/covid-19-sparked-aws-ideas/">COVID-19 &#34;Sparked&#34; Some AWS Ideas</a></li>
+      
+      <li><a href="/project/covid-19-project/">COVID-19 Data Project</a></li>
+      
+      <li><a href="/project/excel-python-migration/">Excel Python Migration</a></li>
+      
+      <li><a href="/post/scripts-anonymous/">Scripts Anonymous</a></li>
+      
+      <li><a href="/post/how-the-itsy-bitsy-spyder-saved-my-project/">How the Itsy Bitsy &#34;Spyder&#34; Saved My Project</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

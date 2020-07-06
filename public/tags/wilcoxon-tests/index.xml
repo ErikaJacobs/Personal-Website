@@ -7,7 +7,7 @@
     <description>Wilcoxon Tests</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Wilcoxon Tests</title>
       <link>/tags/wilcoxon-tests/</link>
     </image>
@@ -17,8 +17,21 @@
       <link>/post/adding-up-stem-qualifications/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/post/adding-up-stem-qualifications/</guid>
-      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/10/24/adding-up-stem-qualifications-a-capstone-overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+      <description>&lt;p&gt;Time flies when you&amp;rsquo;re having fun! Teaching at the college level for the first time has been an absolute blast, yet it has been plenty of work each week on top of full time. There has been little time to start new data projects using Python or R. In the meantime, I thought it might be nice to share a personal project that I completed as part of my Masters degree.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve always been passionate about the topic of education in my studies. Within my Psychology major at Arizona State University, I had the opportunity to work in a research lab that refined a program called 
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s11612-013-0231-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4-R Success&lt;/a&gt;, which had the goal of helping students collaborate better with each other in the classroom. I also focused most of my Psychology major&amp;rsquo;s courses on learning, motivation, and cognition. When it came to the capstone for my Masters degree, I already knew that I wanted to explore a topic within the realm of education. Thus, my capstone project was born.&lt;/p&gt;
+&lt;p&gt;My capstone project was completed in July 2018 through Penn State University, and was entitled &amp;ldquo;Adding Up STEM Qualifications: An Intervention Analysis of Common Core&amp;rsquo;s Effectiveness on High School Readiness for STEM.&amp;rdquo; Here&amp;rsquo;s the abstract for the paper I wrote on this project:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;The United States has an increasing need for workforce talent with an educational background in STEM, and the Common Core State Standards initiative was one of the many initiatives implemented to rectify the issue. An intervention analysis was conducted over time by measuring inbound high school senior&amp;rsquo;s average mathematical SAT score on a yearly basis across major groups, and measuring whether Common Core significantly increased or decreased a student&amp;rsquo;s higher education mathematical potential. The data is for the state of New York, which is provided by the College Board.  Three separate time series analyses were conducted between 1998 and 2016: All New York, STEM-related degrees, and non STEM-related degrees. Each data set was fit with a time series structure, and forecasted values post Common Core standard implementation were compared to the actual values using Wilcoxon tests. Statistically significant results were not found. No significantly positive or negative effects on average mathematical SAT performance were found as a result of implementing Common Core State Standards.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At the time I had submitted this capstone project, I had also submitted a presentation of the results I had found. If you&amp;rsquo;re interested in seeing what I found, take a look at the video below:&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/N-IHzDWAviI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;For my personal portfolio, one thing that I&amp;rsquo;ve wanted to do is re-create the project using everything I&amp;rsquo;ve learned since then about R and Python. At the time I completed this project, obtaining the data required manually changing PDFs from the College Board&amp;rsquo;s website into data available through Excel. Now that I know how to use Python better, I feel like I could utilize web scraping to make this process more efficient.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s definitely more to come! In the meantime, I hope you enjoy what I&amp;rsquo;ve shared with you so far. Once winter break comes along.more projects will be coming!&lt;/p&gt;
 </description>
     </item>
     

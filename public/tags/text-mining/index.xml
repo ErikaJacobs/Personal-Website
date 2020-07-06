@@ -7,7 +7,7 @@
     <description>Text Mining</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Text Mining</title>
       <link>/tags/text-mining/</link>
     </image>
@@ -17,8 +17,86 @@
       <link>/post/mood-harry-potter/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/post/mood-harry-potter/</guid>
-      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/28/mood-harry-potter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+      <description>&lt;p&gt;This blog post is focused on Sentiment Analysis of the Harry Potter book series. Sentiment analysis extracts subjective information on a set of text - either positive sentiment, negative sentiment, or neutral sentiment. This is the last (and final) part of the Harry Potter text analysis project I&amp;rsquo;ve been working on, with 
+&lt;a href=&#34;https://erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part one&lt;/a&gt; and 
+&lt;a href=&#34;https://erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part two&lt;/a&gt; available on my blog. Right in time for J.K. Rowling and Harry Potter&amp;rsquo;s birthday!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;birthday-cake.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Happee Birthdae&amp;rdquo;! My gift is this blog and its supporting files on 
+&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; - you can decide for yourself whether the sentiment of this gift is positive, neutral, or negative 😉&lt;/p&gt;
+&lt;h2 id=&#34;classifying-text-sentiment&#34;&gt;Classifying Text Sentiment&lt;/h2&gt;
+&lt;p&gt;From parts one and two of this project, I already had the text of each chapter from the books in my Jupyter notebook. However, the task became figuring out how assign sentiment to text in a quantitative way. After doing some research, I discovered a package in Python called VADER, which is part of the NLTK package for text processing.&lt;/p&gt;
+&lt;p&gt;How VADER works is pretty interesting! Each word with sentiment has a set of 10 independent human-rated scores between -4 (extremely negative) and 4 (extremely positive) - this score is called a valence score. All valence scores of these sentimental words are within a lexicon, which can then be used to calculate cumulative sentiment scores for sentences.&lt;/p&gt;
+&lt;p&gt;VADER uses the scores for each word to determine a positive, negative, neutral, and compound score. The positive, neutral, and negative scores fall between 0 and 1 (in which 1 signifies most sentiment), and represent a proportion of the text that falls into that category. The compound score ranges between -1 (cumulatively negative) and 1 (cumulatively positive). For example, let&amp;rsquo;s look at a simple sentence:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;The book was good.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This sentence was scored with a positive sentiment score of .492, a neutral sentiment score of .508, and a negative sentiment score of 0.0. Cumulatively speaking, this sentence had a compound score of .4404 - a positive sentence. To get the compound score for a sentence, the formula below is used:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;formula.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In this formula, x = sum of mean valence scores for all words in text. $\alpha$ equals a normalization parameter, valued at 15. In our example, the word &amp;ldquo;good&amp;rdquo; has a valence score of 1.9, and all other words in the sentence have a valence score of 0. The sum of 1.9 and 0 is 1.9. Therefore, x equals 1.9. From what I understand, $\alpha$ (or alpha) in the formula above always equals 15 in VADER.&lt;/p&gt;
+&lt;p&gt;Now that the variables going into this formula are known, &lt;em&gt;math&lt;/em&gt; is done - that&amp;rsquo;s how .4404 is calculated as the compound score for this sentence.&lt;/p&gt;
+&lt;p&gt;This is the basic premise behind calculating the compound score. However, there are adjustments to positive/negative/neutral valence scores of each word based on qualities such as capitalization and punctuation that complicate the calculation further than this equation. However - we don&amp;rsquo;t need to go into those details for you to understand that math is being done based on the words present to figure out whether a sentence is of positive, negative, or neutral sentiment.&lt;/p&gt;
+&lt;p&gt;For the Harry Potter text, I separated out each sentence from the book series and used VADER&amp;rsquo;s functionality to obtain compound sentiment scores on each sentence. Here&amp;rsquo;s a graph that shows the average sentiment score per chapter for each book:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hptimeplot-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The visual above depicts average sentiment score per chapter. X axis (horizontal) represents the numerical chapter of each book, and y axis (vertical) represents compound sentiment score at that point of the book, with values above 0 having positive sentiment, and values below 0 having negative sentiment.&lt;/p&gt;
+&lt;h3 id=&#34;chapter-with-the-most-negative-sentiment&#34;&gt;Chapter with the most negative sentiment&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;This graph quantifies that Dumbledore&amp;rsquo;s death and the events following in &amp;ldquo;Half Blood Prince&amp;rdquo; is the chapter with the most negative sentiment in the entire book series, with an approximate compound sentiment score of -0.2. The events leading up to his death were extremely dark and detailed, which likely explains the decline in sentiment up to the point of his death, nevertheless the negativity of the events immediately afterward.&lt;/p&gt;
+&lt;h3 id=&#34;the-most-neutral-book&#34;&gt;The most neutral book&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Generally speaking, &amp;ldquo;Order of the Phoenix&amp;rdquo; was the most neutral of all the books, with the least amount of fluctuation between positive and negative. The book as a whole had an average sentiment compound score of 0.007, which is extremely close to zero. In other words, &amp;ldquo;Order of the Phoenix&amp;rdquo; is the longest and most neutral book, meaning its purpose is most likely to provide readers the most information.&lt;/p&gt;
+&lt;h3 id=&#34;the-most-negative-bookand-the-most-variability-in-sentiment&#34;&gt;The most negative book&amp;hellip;and the most variability in sentiment&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;Deathly Hallows&amp;rdquo; has the most negative sentiment on average between all of the books, with an average compound sentiment score of -0.3 overall. This makes sense considering the amount of death and hardship experienced in the book. Furthermore, as you can likely see visually, &amp;ldquo;Deathly Hallows&amp;rdquo; had the most variability in sentiment in comparison to all other books in the series. This could likely be due to hardships and plot resolutions happening in contrast to each other, contributing to the &amp;ldquo;up and down&amp;rdquo; nature of the book overall.&lt;/p&gt;
+&lt;h3 id=&#34;chapter-with-the-most-positive-sentiment&#34;&gt;Chapter with the most positive sentiment&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;The epilogue of &amp;ldquo;Deathly Hallows&amp;rdquo; featured the most positive sentiment out of all the chapters in this book series, with an approximate compound sentiment score of 0.2. With the epilogue of &amp;ldquo;Deathly Hallows&amp;rdquo; being a short chapter filled to the brim with positive words after all conflict in the books had been resolved, it makes perfect sense as to why this chapter was the most positive.&lt;/p&gt;
+&lt;h3 id=&#34;most-negatively-rated-sentence&#34;&gt;Most negatively rated sentence&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;The most negatively rated sentence in the book series is in &amp;ldquo;Deathly Hallows&amp;rdquo;, when Harry goes to Godric&amp;rsquo;s Hollow and fight&amp;rsquo;s Voldemort&amp;rsquo;s snake, Nagini. This sentence has a compound sentiment score of -.9906. The sentence in question was a lengthy sentence sentence explaining the negative circumstances Harry was in, so the length of this sentence most likely affected its compound sentiment score.&lt;/p&gt;
+&lt;h3 id=&#34;most-positively-rated-sentence&#34;&gt;Most positively rated sentence&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;The most positively rated sentence in the book series is when the Sorting Hat is singing about the different Hogwarts houses in &amp;ldquo;Goblet of Fire.&amp;rdquo; This sentence has a compound sentiment score of .9783. Like the most negatively rated sentence, this sentence was also a lengthy sentence of positive attributes related to each house, so the length of the sentence most likely affected its compound sentiment score.&lt;/p&gt;
+&lt;h3 id=&#34;obesrvation-about-all-book-conclusions&#34;&gt;Obesrvation about ALL book conclusions&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;All books have a negative &amp;ldquo;dip&amp;rdquo; toward the end followed by a positive increase in compound sentiment score, with the negative &amp;ldquo;dip&amp;rdquo; ranging from slight to drastic depending on the book. This could be related to rising action prior to the climax of each book.&lt;/p&gt;
+&lt;p&gt;Furthermore, after using VADER to detect sentiment in each sentence of the Harry Potter books, here are some additional sentiment statistics by sentence:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There are 19,058 sentences with positive sentiment (or 25.4%)&lt;/li&gt;
+&lt;li&gt;There are 18,384 sentences with negative sentiment (or 24.5%)&lt;/li&gt;
+&lt;li&gt;There are 33,574 sentences with neutral sentiment (or 44.8%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With all sentences in the Harry Potters series equipped with a compound sentiment score, this data can now be used to create a sentiment classifier!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;wicked.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sentiment-classifier&#34;&gt;Sentiment Classifier&lt;/h2&gt;
+&lt;p&gt;With all of our information ready to go, one big question remains.what are the fundamental differences in words between sentences with a positive and negative sentiment? Luckily, there&amp;rsquo;s a mathematical way to do this with all of the sentiment scores collected.&lt;/p&gt;
+&lt;p&gt;In Python, a mathematical concept called the Naive Bayes Classifier is used to compare two groups of words, and determines which qualities are more distinct of just one group using math and probability. Once a classifier is trained and tested with an appropriate level of accuracy (70% and above, from what I&amp;rsquo;ve heard), an analysis can be done to see what those informative features are.&lt;/p&gt;
+&lt;p&gt;In the case of the Harry Potter text, I trained a classifier with half of the positive sentences, and half of the negative sentences. After training, the classifier had 90% accuracy. Then, I tested the other half of the positive and negative sentences, which had 80% accuracy. Success!&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a look at the &amp;ldquo;Most Informative Features&amp;rdquo; from comparing the positive and negative Harry Potter text:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;most-informative-features.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The numbers to the right of the &amp;ldquo;Most Informative Features&amp;rdquo; represent a ratio between positive and negative text, in which the second column explains the direction of the ratio. For example: The first row explains that the word &amp;ldquo;Excellent&amp;rdquo; is 38.3 times more likely to show up in positive text from the Harry Potter series, rather than negative text. The second row explains that the word &amp;ldquo;anger&amp;rdquo; is 28.7 times more likely to show up in negative text from the Harry Potter series, rather than positive text.&lt;/p&gt;
+&lt;p&gt;And with that.this Harry Potter text analysis project is complete!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;celebratehp.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing Thoughts&lt;/h2&gt;
+&lt;p&gt;Overall, this project was SO much fun to do, and was a great introduction to working with text analysis!&lt;/p&gt;
+&lt;p&gt;Now that this project is complete, I wanted to be transparent about the data I utilized for this project. In the middle of this project, I discovered that some of the text from &amp;ldquo;Chamber of Secrets&amp;rdquo; could be incorrectly ordered (or potentially missing text completely) based on the source I was using. Once I learn how to use text scraping through Python, I&amp;rsquo;m going to recreate this project and see if anything changed. I&amp;rsquo;m almost positive that the findings won&amp;rsquo;t be terribly different.but I believe in honesty and transparency, which is why I&amp;rsquo;m communicating this with you. Regardless, it was still a learning experience to use the text from the source I used, and the source itself is still valuable!&lt;/p&gt;
+&lt;p&gt;Thank you for reading about this project, and I hope you continue to follow my future projects!&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;p&gt;This blog wouldn&amp;rsquo;t have been possible without the following sources!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.mikulskibartosz.name/how-to-split-a-list-inside-a-dataframe-cell-into-rows-in-pandas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Bartosz Mikulski on restacking rows&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/@sharonwoo/sentiment-analysis-with-nltk-422e0f794b8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis using Vader via NLTK&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis using Vader via NLTK&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-beyond-words-6ca17a6c1b54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://fjavieralba.com/basic-sentiment-analysis-with-python.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This article&lt;/a&gt; from Data Camp, which I wish I found sooner&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://datameetsmedia.com/vader-sentiment-analysis-explained/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This website&lt;/a&gt; for the VADER compound score formula&lt;/li&gt;
+&lt;li&gt;The Vader sentiment analysis tool via the 
+&lt;a href=&#34;https://www.nltk.org/api/nltk.sentiment.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLTK package&lt;/a&gt;, with citation:
+&lt;ul&gt;
+&lt;li&gt;Hutto, C.J. &amp;amp; Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.&lt;/li&gt;
+&lt;li&gt;Associated lexicon found 
+&lt;a href=&#34;https://www.kaggle.com/nltkdata/vader-lexicon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -27,8 +105,215 @@
       <link>/post/harry-potter-and-the-learning-of-wordcloud/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/post/harry-potter-and-the-learning-of-wordcloud/</guid>
-      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/14/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+      <description>&lt;p&gt;This is the second part of my Harry Potter text analysis project! If you haven&amp;rsquo;t read part one, 
+&lt;a href=&#34;/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hp_wordcloud_final-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the only output I have this week.and yet SO much learning was put into making it. This blog will explore basic keyword analysis from the books, as well as how I was able to use the WordCloud package (among other things) in Python. Also, if you&amp;rsquo;d like to look at my work on this project, 
+&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to see the project files in my GitHub repository.&lt;/p&gt;
+&lt;h2 id=&#34;basic-keyword-analysis&#34;&gt;Basic Keyword Analysis&lt;/h2&gt;
+&lt;p&gt;Before diving into the process of creating the word cloud, let&amp;rsquo;s dive into some findings related to keyword analysis.&lt;/p&gt;
+&lt;h3 id=&#34;which-10-non-stopwords-appeared-the-most-in-this-text&#34;&gt;Which 10 non-stopwords appeared the most in this text?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Harry&lt;/li&gt;
+&lt;li&gt;Said&lt;/li&gt;
+&lt;li&gt;Ron&lt;/li&gt;
+&lt;li&gt;Hermione&lt;/li&gt;
+&lt;li&gt;Back&lt;/li&gt;
+&lt;li&gt;Dumbledore&lt;/li&gt;
+&lt;li&gt;Could&lt;/li&gt;
+&lt;li&gt;One&lt;/li&gt;
+&lt;li&gt;Like&lt;/li&gt;
+&lt;li&gt;Looked&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s a given that &amp;ldquo;Harry&amp;rdquo; would be the most frequently used word in this text. Out of the top 10 words, I&amp;rsquo;m surprised that four of them are characters. Given that there are many functional words outside of stopwords used in text (such as &amp;ldquo;said&amp;rdquo;), it&amp;rsquo;s surprising that Ron, Hermione, and Dumbledore are mentioned more heavily than many functional words in the English language. At they same time, all three of those characters are important.so if characters other than Harry were to make it to the top 10 words, it would make sense that it would be them.&lt;/p&gt;
+&lt;h3 id=&#34;which-characters-were-discussed-the-most-in-this-text&#34;&gt;Which characters were discussed the most in this text?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Harry&lt;/li&gt;
+&lt;li&gt;Ron&lt;/li&gt;
+&lt;li&gt;Hermione&lt;/li&gt;
+&lt;li&gt;Dumbledore&lt;/li&gt;
+&lt;li&gt;Hagrid&lt;/li&gt;
+&lt;li&gt;Snape&lt;/li&gt;
+&lt;li&gt;Malfoy&lt;/li&gt;
+&lt;li&gt;Sirius&lt;/li&gt;
+&lt;li&gt;Voldemort&lt;/li&gt;
+&lt;li&gt;Fred (Sorry George!)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In this list, it&amp;rsquo;s important to note that &amp;ldquo;Malfoy&amp;rdquo; could be a reference to the entire Malfoy family (Lucius, Narcissa, Draco), versus Harry Potter&amp;rsquo;s nemesis Draco Malfoy specifically. However, it&amp;rsquo;s safe to say that Draco Malfoy would be in the top 10 character mentions based on how frequently he interacts with Harry throughout the series.&lt;/p&gt;
+&lt;h3 id=&#34;which-spell-related-words-were-mentioned-most-in-this-text&#34;&gt;Which spell-related words were mentioned most in this text?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Expecto&lt;/li&gt;
+&lt;li&gt;Patronum&lt;/li&gt;
+&lt;li&gt;Accio&lt;/li&gt;
+&lt;li&gt;Stupefy&lt;/li&gt;
+&lt;li&gt;Avada&lt;/li&gt;
+&lt;li&gt;Expelliarmus&lt;/li&gt;
+&lt;li&gt;Riddikulus&lt;/li&gt;
+&lt;li&gt;Kedavra&lt;/li&gt;
+&lt;li&gt;Lumos&lt;/li&gt;
+&lt;li&gt;Muffliato&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;ldquo;Expecto Patronum&amp;rdquo; appears to be the most frequently used spell in the series, which is a spell used to fight off dementors. I&amp;rsquo;ll be honest though.This list surprised me in that Wingardium Leviosa wasn&amp;rsquo;t on it!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;leviosa.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Wingardium Leviosa is a spell for lifting items in the air, and is one of the most popular spell references from the films. However, it appears that it&amp;rsquo;s not mentioned as much in the books - It wasn&amp;rsquo;t anywhere near the top 10 spell-related words.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;leviosar.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;next-steps-in-keyword-analysis&#34;&gt;Next Steps in Keyword Analysis&lt;/h3&gt;
+&lt;p&gt;Next steps in conducting keyword analysis would be to follow trends of keywords throughout chapters, as well as within books. This could also be useful in sentiment analysis. This text analysis project will continue next week!&lt;/p&gt;
+&lt;p&gt;In the meantime, let&amp;rsquo;s talk about the word cloud you saw earlier.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-word-cloud&#34;&gt;Creating the Word Cloud&lt;/h2&gt;
+&lt;p&gt;Creating the word cloud itself was a simple process. Like last week, the learning curve of working with this package AND in Python posed some obstacles. First step was installing the package itself, which (it seems) many people on the internet have also had trouble with. I use Python with Anaconda to manage the installation of Python packages. This is the code that I put into the Anaconda Prompt to install the WordCloud package:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;conda install -c conda-forge wordcloud
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once it was installed, there were a lot of questions that arose as I made my image:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do I get the text words out of a pandas dataframe?&lt;/li&gt;
+&lt;li&gt;How do I get the word cloud to actually generate?&lt;/li&gt;
+&lt;li&gt;How do you change the color of the background?&lt;/li&gt;
+&lt;li&gt;How do you change the font of the words in the word cloud?&lt;/li&gt;
+&lt;li&gt;How do you change the color of the font?&lt;/li&gt;
+&lt;li&gt;Since changing font color needs a color map, how can one be created?&lt;/li&gt;
+&lt;li&gt;How do I get my word cloud to take a particular shape?&lt;/li&gt;
+&lt;li&gt;Why isn&amp;rsquo;t my word cloud taking the shape it&amp;rsquo;s supposed to?&lt;/li&gt;
+&lt;li&gt;This word cloud looks lack luster. What if I want a background other than a solid color?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So.how were all of these questions answered?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hermione-hmmm.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I thought it might be helpful to break apart each segment of my Python code to explain the answers to these questions.&lt;/p&gt;
+&lt;h3 id=&#34;code-segment-one&#34;&gt;Code Segment One:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Import packages/libraries
+from wordcloud import WordCloud, ImageColorGenerator
+from PIL import Image
+ 
+# Delete &amp;quot;photo&amp;quot; object (to debug mask)
+del(photo)
+ 
+# Bring in mask data
+photo = Image.open(&amp;quot;Thunderbolt - Copy.jpg&amp;quot;)
+mask = np.array(photo)
+ 
+plt.imshow(photo)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above code installs the packages that were used for this word cloud project, and then prepares a mask for the word cloud. Answering a question on that list above.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-i-get-my-word-cloud-to-take-a-particular-shape&#34;&gt;&lt;em&gt;How do I get my word cloud to take a particular shape?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;With a mask. What&amp;rsquo;s a mask, you ask?&lt;/p&gt;
+&lt;p&gt;A mask is a strictly black and white image that is used to make a word cloud into a particular shape. For my word cloud, I had wanted to make it into the shape of a lightning bolt, since that&amp;rsquo;s the shape of Harry Potter&amp;rsquo;s scar. I found resources online explaining how to do it, but those processes weren&amp;rsquo;t working for me.&lt;/p&gt;
+&lt;h4 id=&#34;why-isnt-my-word-cloud-taking-the-shape-its-supposed-to&#34;&gt;&lt;em&gt;Why isn&amp;rsquo;t my word cloud taking the shape it&amp;rsquo;s supposed to?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;I ran into difficulty getting my word cloud into the shape of the lightning bolt because the picture I was initially using wasn&amp;rsquo;t perfectly black and white. Shading and grey scale will NOT do, ladies and gents. The parts of the picture you want words needs to be the blackest black, and the parts you don&amp;rsquo;t want words needs to be the whitest white in order for this mask to work with the WordCloud package.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/18777873/convert-rgb-to-black-or-white&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This Stack thread&lt;/a&gt; helped me change a picture to strictly black and white, and then I saved it to a .jpg file. Using this black-and-white image didn&amp;rsquo;t work as a mask unless the picture was brought into Python from a saved file. This might be due to formatting and how the picture is stored as a file versus in Python after alteration. If you&amp;rsquo;re trying to make a word cloud and are having trouble with the mask, this might help in debugging.&lt;/p&gt;
+&lt;h3 id=&#34;code-segment-two&#34;&gt;Code Segment Two:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create Dictionary and list
+wordcount={}
+list = []
+ 
+# Get Words Ready
+for x in df.WordCloudText:
+    list.extend(x)
+     
+# Clean text
+textcount=str(list).split()
+textcount=[&#39;&#39;.join(c for c in s if c not in string.punctuation) for s in textcount] #Remove punctuation
+ 
+# Wordcount Loop
+# If the word is not in the stop words: 
+#    it&#39;s added to the dictionary with a count.
+# If the word already exists in the dictionary: 
+#    the count is made one higher.
+ 
+for word in textcount:
+        if word not in wordcount:
+            wordcount[word] = 1
+        else:
+            wordcount[word] += 1
+ 
+# Clean messy words out of dictionary - FOR HP ONLY
+del wordcount[&#39;�c&#39;]
+del wordcount[&#39;-&#39;]
+del wordcount[&#39;ter&#39;]
+     
+# Printing 250 Most Common words in &amp;quot;Harry Potter&amp;quot;
+Counts = collections.Counter(wordcount)
+ 
+for word, count in Counts.most_common(250):
+    print(word, &amp;quot;: &amp;quot;, count)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This segment of code answers one question.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-i-get-the-text-words-out-of-a-pandas-dataframe&#34;&gt;&lt;em&gt;How do I get the text words out of a pandas dataframe?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;In my pandas dataframe, the column &amp;ldquo;WordCloudText&amp;rdquo; featured a list object of words in every row. I created a loop to place each row&amp;rsquo;s list into one joint list called &amp;ldquo;list&amp;rdquo; (original name, I know). Then, the words were split up and punctuation was removed.&lt;/p&gt;
+&lt;p&gt;Once the text data was clean, a dictionary object was created in Python, in which each word went through a loop that would count the number of times the word appeared in total. Finally, before using this dictionary to create a word cloud, messy words were removed from the dictionary - i.e. ones that didn&amp;rsquo;t make sense to include in the word cloud.&lt;/p&gt;
+&lt;h3 id=&#34;code-segment-three&#34;&gt;Code Segment Three:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create Color Maps
+# Converted HTML/HEX colors to RGB using: https://htmlcolorcodes.com/
+colorsList = [&#39;#503F3F&#39;, &#39;#801919&#39;] #Mauraders Map Colors
+ColorMap = matplotlib.colors.ListedColormap(colorsList)
+ 
+# Create and generate a word cloud image:
+wordcloud = WordCloud(mask=mask, margin=10, font_path=&#39;LUMOS.ttf&#39;, min_font_size=12, max_words=500, 
+                      random_state=1, colormap=ColorMap, background_color=None, mode=&#39;RGBA&#39;).generate_from_frequencies(wordcount)
+ 
+# Display the generated image:
+plt.figure(figsize=[20,20])
+plt.imshow(wordcloud, interpolation=&#39;bilinear&#39;)
+plt.axis(&amp;quot;off&amp;quot;)
+plt.show()
+ 
+# Save image to file
+wordcloud.to_file(&amp;quot;HP_WordCloud.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the code for the meat of the word cloud itself, and there&amp;rsquo;s a lot of questions to answer here!&lt;/p&gt;
+&lt;h4 id=&#34;how-do-i-get-the-word-cloud-to-actually-generate&#34;&gt;&lt;em&gt;How do I get the word cloud to actually generate?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;At the end of the WordCloud function, &amp;ldquo;generate_from_frequencies(wordcount)&amp;rdquo; created the word cloud based on the word frequencies in the dictionary created.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-you-change-the-color-of-the-background&#34;&gt;&lt;em&gt;How do you change the color of the background?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;This one&amp;rsquo;s easy! The WordCloud() function has an argument called &amp;ldquo;background_color&amp;rdquo;. Before making my final creation, I used 
+&lt;a href=&#34;https://htmlcolorcodes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this website&lt;/a&gt; to get the hex color I wanted. For example, a black background would have the argument &amp;ldquo;background_color=&amp;rsquo;#000000&amp;rsquo;&amp;rdquo;&lt;/p&gt;
+&lt;h4 id=&#34;how-do-you-change-the-font-of-the-words-in-the-word-cloud&#34;&gt;&lt;em&gt;How do you change the font of the words in the word cloud?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The WordCloud() function has an argument called &amp;ldquo;font_path&amp;rdquo;. This argument has to be set equal to the path to a .tff file for the font you&amp;rsquo;d like to use. I used the 
+&lt;a href=&#34;https://www.dafont.com/lumos.font&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lumos&lt;/a&gt; font for this project, and found it easiest to put the .tff file in my project&amp;rsquo;s directory.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-you-change-the-color-of-the-font&#34;&gt;&lt;em&gt;How do you change the color of the font?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The answer to this was surprisingly complex! It turns out that there&amp;rsquo;s not an easy way to change the color of a font using the WordCloud() function. In order to do it, an argument called &amp;ldquo;colormap&amp;rdquo; had to be used.with a color map of your creation.&lt;/p&gt;
+&lt;h4 id=&#34;since-changing-font-color-needs-a-color-map-how-can-one-be-created&#34;&gt;&lt;em&gt;Since changing font color needs a color map, how can one be created?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Matplotlib has some color maps pre-made, which can be accessed 
+&lt;a href=&#34;https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Let&amp;rsquo;s be honest though.if you&amp;rsquo;re feeling creative and have an idea, don&amp;rsquo;t you want to have more control over the colors you&amp;rsquo;re using?&lt;/p&gt;
+&lt;p&gt;Like the background color, collecting hex colors for the font and putting them into a list was needed to create a color map. Then, the function matplotlib.colors.ListedColormap() would need to use your list to create the color map, and would need to be named something. For example, I called it &amp;ldquo;ColorMap&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Then, set the colormap argument in the WordCloud() function equal to the color map you created. In my code, I have &amp;ldquo;colormap=ColorMap&amp;rdquo;&lt;/p&gt;
+&lt;h4 id=&#34;this-word-cloud-looks-lack-luster-what-if-i-want-a-background-other-than-a-solid-color&#34;&gt;&lt;em&gt;This word cloud looks lack luster. What if I want a background other than a solid color?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The answer to this question opened an entire can of worms, and made my final creation cooler than I ever imagined. It required creating an image composed of different images. For the WordCloud function, the argument &amp;ldquo;mode=&#39;RGBA&amp;rsquo;&amp;rdquo; was placed so this could be achieved - The next section will talk about why this matters.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-final-image&#34;&gt;Creating the Final Image&lt;/h2&gt;
+&lt;p&gt;In order to make the final image you saw at the beginning of this blog, I made a composite image of RGBA picture files by using the Pillow package in Python. An RGBA picture file is a picture that has transparent parts to it. By making this word cloud an RGBA picture, I was able to paste it onto an image of parchment paper, and then add RGBA pictures of footsteps and Maurader&amp;rsquo;s Map logos to make the final image.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be honest.using Python to create this image wasn&amp;rsquo;t the most efficient, mainly because using a photo editor to drag and drop some of these RGBA pictures would have been much quicker. In Python, you have to specify the coordinates that you&amp;rsquo;d like to paste pictures, which can take some trial and error to get perfectly. However, if you&amp;rsquo;re like me and want to learn how to do it in Python, it&amp;rsquo;s definitely a fun and creative way to do it 😄&lt;/p&gt;
+&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;The word cloud package in Python is pretty versatile! Making a word cloud into an RGBA image is a complete game changer for experimenting with cool backgrounds for the word cloud. Also, using a mask to shape the word cloud makes the entire experience more visually interesting.&lt;/p&gt;
+&lt;p&gt;Looking forward to continuing this project next week! Coming up next will be further keyword and sentiment analysis. Thanks for reading!&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t have been successful with my word cloud this week if it weren&amp;rsquo;t for the following sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This overview&lt;/a&gt; of the Word Cloud package&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mubaris.com/posts/dataviz-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Mubaris NK&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.datacamp.com/community/tutorials/wordcloud-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This tutorial&lt;/a&gt; from the Data Camp community&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://matplotlib.org/api/colors_api.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guideline&lt;/a&gt; on colors in Matplotlib&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://python-graph-gallery.com/262-worcloud-with-specific-shape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This gallery&lt;/a&gt; of Python word clouds&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/42028462/wordcloud-with-a-specific-shape&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This thread&lt;/a&gt; on Stack&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/5324647/how-to-merge-a-transparent-png-image-with-another-image-using-pil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This thread&lt;/a&gt; on Stack&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://minimaxir.com/2016/05/wordclouds/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Max Woolf&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://pythontic.com/image-processing/pillow/rotate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on image processing&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nerdparadise.com/programming/pythonpil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on image processing colors&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://pythontic.com/image-processing/pillow/crop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on cropping pictures in Python&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nsm09.casimages.com/img/2019/04/05//19040503454211071516188495.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This picture&lt;/a&gt; of the Maurader&amp;rsquo;s Map logo&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cdn130.picsart.com/238867759123212.png?r1024x1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This picture&lt;/a&gt; of the Maurader&amp;rsquo;s Map logo&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -37,8 +322,54 @@
       <link>/post/speaking-parseltongue-to-python/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/post/speaking-parseltongue-to-python/</guid>
-      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/07/speaking-parseltongue-to-python-adventures-in-harry-potter-text-analysis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+      <description>&lt;p&gt;The Harry Potter series is my favorite book series of all time, and is one of my favorite things to nerd out about! If you needed some proof:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I&amp;rsquo;m a true Hufflepuff at heart, and have been sorted that way.&lt;/li&gt;
+&lt;li&gt;My wand is a 13 $\frac{3}{4}$&amp;rdquo; Silver Lime wand with unicorn hair core, slightly yielding.&lt;/li&gt;
+&lt;li&gt;My patronus is a white mare.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;nerd.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yes, it&amp;rsquo;s true. So very true. I&amp;rsquo;m a nerd - and very proud of it 😄&lt;/p&gt;
+&lt;p&gt;As one of my first projects, I thought it would fun to perform text analysis on the Harry Potter series. Text mining is a popular form of analysis being done, and is also something I&amp;rsquo;ve never tried before. This project is my first using Python, so I&amp;rsquo;d also like to tell you about my experience using the language so far.&lt;/p&gt;
+&lt;p&gt;Also, if you&amp;rsquo;re interested in seeing my work, 
+&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;click here&lt;/a&gt; to view the GitHub repository for this project.&lt;/p&gt;
+&lt;h2 id=&#34;taming-the-python&#34;&gt;Taming the &amp;ldquo;Python&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;All of the data-related work in my career so far has used software outside of Python. With Python being one of the more popular and versatile programming languages to learn for data science, I&amp;rsquo;ve decided that my entire portfolio will mostly be focused on implementing analysis through Python. This seemed like a wise way to go so I can learn how to use it, as well as show all of you that I can use it. Everything you see going forward was done in Python via Jupyter without any prior experience!&lt;/p&gt;
+&lt;p&gt;For learning Python, I&amp;rsquo;d recommend the 
+&lt;a href=&#34;https://www.edx.org/course/python-for-data-science-2?source=aw&amp;amp;awc=6798_1586986927_f0f9233d7901679c25317a04d3fe3309&amp;amp;utm_source=aw&amp;amp;utm_medium=affiliate_partner&amp;amp;utm_content=text-link&amp;amp;utm_term=78888_Skimlinks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python for Data Science&lt;/a&gt; course through edX, which is provided by UC San Diego. What&amp;rsquo;s really nice about this course is they provide Jupyter notebooks of projects with sample code to learn from, which has been most helpful from an experiential standpoint. It&amp;rsquo;s also free! 
+&lt;a href=&#34;https://automatetheboringstuff.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automate The Boring Stuff With Python&lt;/a&gt; by Al Sweigart was a good general starting point to Python as a whole, and the 
+&lt;a href=&#34;https://jakevdp.github.io/PythonDataScienceHandbook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python for Data Science Handbook&lt;/a&gt; by Jake VanderPlas seems like a good read once I&amp;rsquo;m more familiar with Python as a whole.&lt;/p&gt;
+&lt;p&gt;Python has been a pretty intuitive language to learn. However, doing what you want to do in Python sometimes takes multiple tries. I&amp;rsquo;m not as efficient as Harry Potter speaking parseltongue to a snake in &amp;ldquo;Chamber of Secrets&amp;rdquo;, if you know what I mean.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;parseltongue.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Regardless, I&amp;rsquo;ve made some progress! Even though I was expecting to show you more this week, I&amp;rsquo;ve spoken parseltongue to Python the best way I know how.which is with a ton of help from Google to translate 😉&lt;/p&gt;
+&lt;h2 id=&#34;first-impressions-working-with-text&#34;&gt;First Impressions Working With Text&lt;/h2&gt;
+&lt;p&gt;One of the biggest ways I underestimated this project was the learning curve behind working with text, as well as with Python in general. Getting to a place where you can actually DO text mining and analysis can be rough stuff! Finding a source to use can be daunting, issues with text encoding can pop up left and right, and importing said text in a usable way can supply a ton of bumps in the road. Luckily, using Google to look up errors has been a godsend - there&amp;rsquo;s almost always someone on a Stack forum who&amp;rsquo;s experienced a similar issue.&lt;/p&gt;
+&lt;p&gt;I was hoping to have a complete analysis for you today, but I have spent most of my time this week learning how to work with text in Python. As a result, I&amp;rsquo;m splitting this project into a couple of blog entries. For today, I&amp;rsquo;ll be focusing on word counts and averages.&lt;/p&gt;
+&lt;h2 id=&#34;getting-the-data&#34;&gt;Getting The Data&lt;/h2&gt;
+&lt;p&gt;As I was looking through the internet for a reliable and legal source of Harry Potter text from the books, I was lucky enough to stumble upon an 
+&lt;a href=&#34;https://github.com/bradleyboehmke/harrypotter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Package&lt;/a&gt; that had the text for all seven books ready to use. Huge thanks to 
+&lt;a href=&#34;http://bradleyboehmke.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bradley Boehmke&lt;/a&gt; for creating this 😄&lt;/p&gt;
+&lt;p&gt;His website had directions for how to install his package, yet I personally ran into installation issues. If you&amp;rsquo;re inspired by my blog and want to try this package, here&amp;rsquo;s the code I ran in R Studio to install it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;install.packages(c(&amp;quot;curl&amp;quot;, &amp;quot;httr&amp;quot;, &amp;quot;devtools&amp;quot;))
+devtools::install_github(&amp;quot;bradleyboehmke/harrypotter&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once the package was installed and loaded, I was able to export the text files and import them to Python.&lt;/p&gt;
+&lt;h2 id=&#34;exploratory-data-analysis---word-count&#34;&gt;Exploratory Data Analysis - Word Count&lt;/h2&gt;
+&lt;p&gt;To start with exploring Harry Potter&amp;rsquo;s text data, I created some bar charts on word count data points to get familiar with the text. Here&amp;rsquo;s some of what I created!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hptotalwords-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;total-number-of-words-in-each-harry-potter-book&#34;&gt;Total Number of Words in Each Harry Potter Book:&lt;/h3&gt;
+&lt;p&gt;The bar chart above shows that the trend of total word count between each Harry Potter book got higher with each release until &amp;ldquo;Half Blood Prince&amp;rdquo;, in which the word count dropped. Despite this drop, all books released after &amp;ldquo;Prizoner of Azkaban&amp;rdquo; exceeded the average word count of a book in the Harry Potter series, which is approximately 153,853 words.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hpavgwords-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;average-number-of-words-per-chapter-of-each-harry-potter-book&#34;&gt;Average Number of Words Per Chapter of Each Harry Potter Book:&lt;/h3&gt;
+&lt;p&gt;An average chapter of text from the Harry Potter series in total is approximately 5,385 words, in which 5 of the 7 books have an average chapter length below this average, and 6 of the 7 books within 300 words of this average. &amp;ldquo;Order of the Phoenix&amp;rdquo; has a larger word count per chapter compared to the other books in the series, and also has the most chapters of all seven books (with 38 chapters). It appears that the average chapter of text could be skewed due to &amp;ldquo;Order of the Phoenix&amp;rdquo; and its long/numerous chapters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hpshortchaps-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shortest-chapter-of-each-harry-potter-book&#34;&gt;Shortest Chapter of Each Harry Potter Book:&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;Deathly Hallows&amp;rdquo; features the shortest chapter of the entire book series, which was Chapter 37 (or the Epilogue) with 1,552 words. It makes sense that this would be the shortest chapter, considering the conflict of the book series had already been resolved in Chapter 36. The shortest chapter in &amp;ldquo;Order of the Phoenix&amp;rdquo; is still pretty long.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hplongchaps-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;longest-chapter-of-each-harry-potter-book&#34;&gt;Longest Chapter of Each Harry Potter Book:&lt;/h3&gt;
+&lt;p&gt;Surprise, surprise! &amp;ldquo;Order of the Phoenix&amp;rdquo; takes the prize for having the longest chapter in the entire book series with 8,928 words. Chapter 13, titled &amp;ldquo;Detention With Dolores,&amp;rdquo; gives readers a taste of Dolores Umbridge and her unorthodox ways of punishing students during detention - and apparently, every detail counts.&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;There is still MUCH more to come in this analysis. Coming up next will be counts of distinct words per book, word clouds, keyword analysis (characters and spells), and sentiment analysis. Stay tuned!&lt;/p&gt;
 </description>
     </item>
     

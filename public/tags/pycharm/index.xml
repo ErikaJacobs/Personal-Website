@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyCharm | Erika Jacobs</title>
+    <link>/tags/pycharm/</link>
+      <atom:link href="/tags/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <description>PyCharm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <title>PyCharm</title>
+      <link>/tags/pycharm/</link>
+    </image>
+    
+    <item>
+      <title>A Dash of Coronavirus Data</title>
+      <link>/post/dash-of-coronavirus-data/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/dash-of-coronavirus-data/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;m writing this post, COVID-19 is still rapidly spreading with cases exponentially increasing each day in the United States. It almost feels surreal at this point that - who knew that we would experience a worldwide pandemic like this in our lifetime?&lt;/p&gt;
+&lt;p&gt;With COVID-19 still being a relevant threat to public health, there&amp;rsquo;s still a need and desire for visualizing the data available. In a 
+&lt;a href=&#34;https://erikajacobs.netlify.app/post/covid-19-sparked-aws-ideas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous blog post&lt;/a&gt;, I mentioned that the Johns Hopkins Coronavirus data I had processed using PySpark would be placed into my own dashboard. Well&amp;hellip;the dashboard is now finished - take a look at this beauty!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This dashboard was created using a library called &amp;ldquo;Dash&amp;rdquo; in Python. What is dash, you ask? Well - keep reading, and I&amp;rsquo;ll tell you all about it! 😄&lt;/p&gt;
+&lt;h2 id=&#34;about-dash&#34;&gt;About Dash&lt;/h2&gt;
+&lt;p&gt;Dash is a  Python library that is composed of framework to put together a web application or dashboard. Dash is open source, but can also be used within an enterprise as well.&lt;/p&gt;
+&lt;h2 id=&#34;why-dash&#34;&gt;Why Dash?&lt;/h2&gt;
+&lt;p&gt;I was initially planning to create a quick Tableau dashboard to visualize this COVID-19 data, since I had read online that Tableau could be used alongside S3 (where the data is stored). However, it costs money to use Tableau&amp;hellip;and while there was a free trial I could have used as an educator, I wanted to learn a method of creating dashboards I could do repeatedly and affordably at the price of &amp;ldquo;free&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;free.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After doing a quick Google search on how to create dashboards using Python, I learned about Dash&amp;hellip;and I was automatically on board!&lt;/p&gt;
+&lt;h2 id=&#34;starting-with-dash&#34;&gt;Starting With Dash&lt;/h2&gt;
+&lt;p&gt;To get started on using Dash, there were a series of YouTube videos by Codebliss that provided a general tutorial for getting started. The video series is in six parts, and the first part can be accessed 
+&lt;a href=&#34;https://www.youtube.com/watch?v=Ldp3RmUxtOQ&amp;amp;list=PLCDERj-IUIFCaELQ2i7AwgD2M6Xvc4Slf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This video series was very helpful for a beginner getting familiar with Dash, as well as providing a starting point for a final product.&lt;/p&gt;
+&lt;h2 id=&#34;an-ide-for-dash&#34;&gt;An IDE For Dash&lt;/h2&gt;
+&lt;p&gt;Previous Python projects of mine have mostly been completed using Jupyter and Spyder until this project came along. Due to the nature of Dash creating a web application, running your code serves a website locally so changes made can be continuously seen. This means that some programming environments might be better suited to do this than others.&lt;/p&gt;
+&lt;p&gt;Through watching the YouTube video series by Codebliss, I noticed he was using PyCharm and decided to give that environment a try. It turns out that PyCharm is actually a VERY popular coding environment for Python! In fact, 
+&lt;a href=&#34;https://www.datacamp.com/community/tutorials/top-python-ides-for-2019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCamp cited PyCharm as one of the top IDEs for 2019&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;popular.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One thing I really liked about PyCharm was that it had the ability to host a Dash web application locally and keep it running, as well as some of the debugging features it offered. One downside to using PyCharm was that I was using a community version, which meant that many features would have cost money. One featured I missed was being able to divide code into cells - in PyCharm, all code needs to be run at once, while in an editor like Jupyter or Spyder, code can be chunked into cells. Having these chunks allows for smaller scale testing of code, which I sorely missed. With that being said, I&amp;rsquo;m glad that I had the opportunity to learn about PyCharm through this project!&lt;/p&gt;
+&lt;h2 id=&#34;dash-documentation&#34;&gt;Dash Documentation&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://dash.plotly.com/layout&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dash documentation and tutorials&lt;/a&gt; were a godsend for figuring out how to set up a dashboard using Dash. The trickiest parts were establishing the initial layout, as well as the concept of callbacks. Callbacks in code are when a selection is made by a viewer, and the code changes as a result. For example, my dashboard had a dropdown menu for selecting a country. Once a country was selected, graph data would change.&lt;/p&gt;
+&lt;p&gt;This project would have been near impossible without the documentation that Dash provided with example code. With this in mind, the documentation became less useful as the dashboard became more complex. A word of advice for anyone learning dash: Don&amp;rsquo;t be afraid to try things and fail.&lt;/p&gt;
+&lt;h2 id=&#34;dash-and-dashboard-style&#34;&gt;Dash and Dashboard Style&lt;/h2&gt;
+&lt;p&gt;When starting to create a dashboard using Dash, your initial product is going to look ugly. Like&amp;hellip;REALLY ugly.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ew.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not worth getting discouraged about! Luckily, there are plenty of resources to be able to make the dashboard look nice, with all of these resources being written in CSS. Almost every resource I looked at for Dash layouts included an external CSS stylesheet from codepen.io, which can be viewed 
+&lt;a href=&#34;https://codepen.io/chriddyp/pen/bWLwgP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This style sheet was very useful, as it created a basic structure of twelve columns on your dashboard, which made formatting exponentially easier.&lt;/p&gt;
+&lt;p&gt;As I was creating my dashboard, I realized I was looking to personally customize some aspects of my dashboard. For example, I wanted to try my best to make the webpage in dark mode. To do this, it actually became useful to start experimenting with writing out my own CSS styling on top of the external stylesheet.&lt;/p&gt;
+&lt;h2 id=&#34;dash-syntax--myspace&#34;&gt;Dash Syntax = MySpace&lt;/h2&gt;
+&lt;p&gt;One thing that&amp;rsquo;s cool about Dash is it&amp;rsquo;s essentially a Python wrapper for HTML code. In other words, you write in Python syntax, but the output is HTML. This has been especially fun, as I&amp;rsquo;ve been able to bring back my HTML experience from the days of MySpace into this project!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;myspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000&amp;rsquo;s was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that BR with carrots on both ends (&amp;lt;&amp;gt;) would add a line of space in HTML, and figured out that &amp;ldquo;html.Br&amp;rdquo; in Dash was able to achieve the same thing.&lt;/p&gt;
+&lt;h2 id=&#34;visualizations-and-plotly&#34;&gt;Visualizations and Plotly&lt;/h2&gt;
+&lt;p&gt;A nice aspect about using Dash is the relationship it has with the Plotly library. Plotly is a graphing library in Python that has origins from R Studio. Plotly can flexibly create many different kinds of plots, and feature the ability for viewers to interact with the plots.&lt;/p&gt;
+&lt;p&gt;One of the hardest parts about using Plotly was figuring out how to precisely customize each aspect of the chart. How do I change the background color, the plot color, or the font color? How do I remove the legend of a graph? How do I make a stacked bar chart? How do I set a title? Once a single graph is done, however, each subsequent graph gets easier 😄&lt;/p&gt;
+&lt;h2 id=&#34;hosting-the-site&#34;&gt;Hosting the Site&lt;/h2&gt;
+&lt;p&gt;I had read about a few ways to host and deploy the dashboard I made, with the big ones being through Heroku or AWS Elastic Beanstalk. However, I ultimately went with Python Anywhere because I found 
+&lt;a href=&#34;https://www.youtube.com/watch?v=yRw95qVYKK8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; tutorial that was pretty concise about how to precisely deploy the Dash app on the Flask framework. I&amp;rsquo;d like to learn how to deploy something on Heroku at some point, but for this project I was looking for something quick to learn so I could have my dashboard deployed quicker!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mission.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing Thoughts&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;d like to take a look at my deployed dashboard, you can 
+&lt;a href=&#34;http://erikajacobs.pythonanywhere.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to take a look! Exploring this data is very interesting, but please keep in mind that these numbers may not be perfectly representative of the disease&amp;hellip;just what we have data of.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

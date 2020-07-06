@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel | Erika Jacobs</title>
+    <link>/tags/excel/</link>
+      <atom:link href="/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Excel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <title>Excel</title>
+      <link>/tags/excel/</link>
+    </image>
+    
+    <item>
+      <title>How the Itsy Bitsy &#34;Spyder&#34; Saved My Project</title>
+      <link>/post/how-the-itsy-bitsy-spyder-saved-my-project/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/post/how-the-itsy-bitsy-spyder-saved-my-project/</guid>
+      <description>&lt;p&gt;A couple months ago, I stumbled across a confidential &amp;ldquo;real life opportunity&amp;rdquo; to exercise my skills in working with data. While I can&amp;rsquo;t explain specifics about the data I was working with or who this project was for, I was very excited to help with this project because the resulting data product would be extremely helpful to many people I care about 😊&lt;/p&gt;
+&lt;p&gt;Below I&amp;rsquo;ve outlined some information about the project, as well as the progress I&amp;rsquo;ve made so far.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Code.jpg&#34; alt=&#34;&#34; title=&#34;A snippet of this project&#39;s code in Spyder&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-this-project&#34;&gt;About This Project&lt;/h2&gt;
+&lt;p&gt;The formation of this project came from a legitimate need in efficiency. This project was created due to an entity reporting numbers from hundreds of Excel files, which required going into each individual Excel file needed to obtain the information needed. Because these Excel files were large, opening each file would take more time than it should, slowing down the process of reporting these numbers.&lt;/p&gt;
+&lt;p&gt;Furthermore, the numbers came from a calculated dashboard in the file (rather than a table of data), which meant numbers from these files were being COPIED AND PASTED into reports. Not only was this process inefficient for reporting, but there was also large room for error due to copying and pasting these numbers.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s where I came in!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;comingin.gif&#34; alt=&#34;&#34; title=&#34;Me coming in with a project idea 😄&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The plan was for a Python script to go into multiple Excel files that had a similarly formatted data table, extracting this data out of each file, and importing this data into a Pandas dataframe. Then, once all Excel files were imported to Python, the resulting dataframe would be sent to a SQL Server table for use.&lt;/p&gt;
+&lt;p&gt;The plan seemed simple - yet real life isn&amp;rsquo;t so simple! After copies of the files were made and put in a directory to be extracted, I ran into four primary issues before I was able to successfully import all Excel files with ease&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;obstacle-one-corrupted-macros&#34;&gt;Obstacle One: Corrupted Macros&lt;/h2&gt;
+&lt;p&gt;Once upon a time, a mystery person created the file template I was working with. In this file template, they wrote a large amount of macros to operate certain calculations within the file template automatically. At some point, one or more of these macros became corrupted.&lt;/p&gt;
+&lt;p&gt;One of the first things I did in this project was to try and import just one of these files to Python&amp;hellip;and it didn&amp;rsquo;t work! I had imported Excel files to Python before using the same process - so why wasn&amp;rsquo;t this working? I tried copying the data into a blank file, and import worked. I tried deleting tabs in the original file template, and that did NOT work. At some point after researching and trying different solutions, I finally figured out that the macros in this file were the issue - primarily the corrupted one that mystery person wrote years ago.&lt;/p&gt;
+&lt;p&gt;So&amp;hellip;I tried deleting all of the macros in Excel, and the import WORKED! Lesson Learned: &lt;strong&gt;Pandas will NOT import an Excel file to Python if a macro is corrupted and causing trouble&lt;/strong&gt;. Equipped with this knowledge, I then realized this also meant deleting macros from ALL files for this project would need to happen (gross 😖). As a result, I ended up building a loop to remove all macros from these files.&lt;/p&gt;
+&lt;p&gt;Removing these macros through a loop required using VBA in Python using the win32com package, and saving a new copy of these files to leave the original file unaffected. Doing this loop also gave me the opportunity to save all files with macros removed with the same extension in Excel - prior to this step, many files had the .xls extension due to their age.&lt;/p&gt;
+&lt;p&gt;After this was finished, I was able to get these files into Python without issue. Finally&amp;hellip;success!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;success.gif&#34; alt=&#34;&#34; title=&#34;Success!&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;obstacle-two-changing-data-types-and-columns&#34;&gt;Obstacle Two: Changing Data Types and Columns&lt;/h2&gt;
+&lt;p&gt;Once all of the Excel data was brought into Python, I realized there were two issues that required cleaning the data before exporting it to SQL. The final product should have 156 columns, yet there were a few more than that. It turns out that while these data files were similar over time, not all of them were the exact same. Some had columns that were slightly renamed, and others were missing columns as a whole. Therefore, it required some data cleansing to make sure the dataframe being exported had exactly 156 columns.&lt;/p&gt;
+&lt;p&gt;Another issue I ran into was the numerical fields being read as text fields. This would result in numbers being imported and rounded off, which resulted in numbers being slightly off. I had to change the structure of the import to allow for all numerical fields to be read as numbers. Luckily, this was a quick fix.&lt;/p&gt;
+&lt;h2 id=&#34;obstacle-three-time-and-memory&#34;&gt;Obstacle Three: Time and Memory&lt;/h2&gt;
+&lt;p&gt;Due to the classified nature of this project, this project was required to be completed on a computer that wasn&amp;rsquo;t my own. By doing this, there were unfortunately limitations in the type of software I could use, as well as the packages within Python due to the network being used and the hardware in the computer. This ultimately prevented me from being able to use programs such as PySpark that would have helped in creating this ETL process using large amounts of data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;time.gif&#34; alt=&#34;&#34; title=&#34;Time IS money...&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So&amp;hellip;progress on this project took TIME. On top of that, it took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;obstacle-four-jupyter-notebook&#34;&gt;Obstacle Four: Jupyter Notebook&lt;/h2&gt;
+&lt;p&gt;Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! With that being said, network issues lead to Jupyter timing out and needing to constantly reconnect, with executed code not completing as a result.&lt;/p&gt;
+&lt;p&gt;While memory could have been an issue too, ultimately Jupyter notebook could not be used for this project due to the network connectivity issues I had. Unfortunately, a browser-based environment can be faulty if your internet connection is too.&lt;/p&gt;
+&lt;p&gt;So&amp;hellip;I had to find another way to process the code I was running. What would be best to use? Ultimately I chose the most convenient option, Spyder, which ended up being a &lt;strong&gt;great&lt;/strong&gt; fit for this project.&lt;/p&gt;
+&lt;h2 id=&#34;about-spyder&#34;&gt;About Spyder&lt;/h2&gt;
+&lt;p&gt;Spyder is an open source integrated development environment (IDE) for Python. Since Jupyter wasn&amp;rsquo;t working for my project, the reason why I ultimately tried Spyder was because it was automatically installed on my computer. I&amp;rsquo;m SO glad it was, because Spyder ended up having some important assets for this project&amp;hellip;the biggest one being that a steady network connection was NOT needed in order to run the majority of my code.&lt;/p&gt;
+&lt;p&gt;The Spyder console reminds me of using R Studio in some ways. There&amp;rsquo;s a variable explorer where you can look at the data items you&amp;rsquo;ve created with your code (dataframes, variables, lists, etc.), as well as a console to look at executed code and its results.&lt;/p&gt;
+&lt;p&gt;One REALLY cool thing about Spyder is that it can catch simple errors ahead of time. For example, if you try to call a variable called &amp;ldquo;X&amp;rdquo; and you accidentally type &amp;ldquo;Xx&amp;rdquo;, Python will let you know that variable &amp;ldquo;Xx&amp;rdquo; doesn&amp;rsquo;t exist before running the code. This functionality has been especially helpful with this project, since there are so many components in the code I wrote. Like Jupyter, code can be &amp;ldquo;chunked&amp;rdquo; together in sections so all code does not need to be run at the same time. HOWEVER, Spyder has the capacity to also run all code at once.&lt;/p&gt;
+&lt;p&gt;One weak point of using Spyder is the data visualization features. After running code for data visualization using a Jupyter notebook, the result usually shows a sizeable copy of the visualization. Spyder shows visualizations as well, yet it&amp;rsquo;s limited to the console - meaning it&amp;rsquo;s TINY. Data visualization wasn&amp;rsquo;t relevant for this project, so that didn&amp;rsquo;t matter to me as much&amp;hellip;yet this could matter for other projects.&lt;/p&gt;
+&lt;p&gt;While I was disappointed that Jupyter didn&amp;rsquo;t work for this project, I&amp;rsquo;m VERY glad that I tried using Spyder. There are some functionalities using Spyder that I actually like BETTER than using Jupyter depending on the project. I&amp;rsquo;m officially a huge fan of Spyder!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;spyder.gif&#34; alt=&#34;&#34; title=&#34;&amp;quot;Spyder&amp;quot; coming in to save the day!&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;project-progress-so-far&#34;&gt;Project Progress So Far&lt;/h2&gt;
+&lt;p&gt;As of January 3rd 2020, I have been able to successfully get all Excel data imported to Python through a loop. I&amp;rsquo;ve done some basic data cleaning, removed unnecessary columns, and adjusted variable types in preparation for sending the data to SQL Server.&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
+&lt;p&gt;At this point in time, all research has been done to get this data to SQL server - the code just hasn&amp;rsquo;t been written yet. Hopefully this will be done very soon!&lt;/p&gt;
+&lt;p&gt;After all data is placed in SQL Server, I would also like to make a second set of code for importing and replacing only one Excel file&amp;rsquo;s data in SQL Server. This would allow for a repeatable process that can be used in the future to add to this table, versus having to upload all files every time there&amp;rsquo;s an additional Excel file.&lt;/p&gt;
+&lt;p&gt;Once the data is in SQL Server, there will also need to be meetings on how to cleanse the data - since many of these files are older, some business decisions need to be made on how to handle certain aspects of the older data.&lt;/p&gt;
+&lt;p&gt;In the meantime, I will continue to add progress of my work onto GitHub! You can 
+&lt;a href=&#34;https://github.com/ErikaJacobs/Excel-Python-SQL-Migration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to access all files related to this project for your viewing pleasure. Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -44,6 +44,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -174,9 +177,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -212,8 +215,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/post/speaking-parseltongue-to-python/">
 
@@ -283,7 +286,7 @@
     "name": "Erika Jacobs",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "I learned how to use Python by conducting exploratory data analysis on the Harry Potter book series using Natural Language Processing"
@@ -394,9 +397,45 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/MyPosts/"><span>Posts</span></a>
+          <a class="nav-link " href="/#myprojects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactme"><span>Contact Me</span></a>
         </li>
 
         
@@ -418,7 +457,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/MyProjects/"><span>Project Portfolio</span></a>
+          <a class="nav-link " href="/resume.pdf"><span>Resume</span></a>
         </li>
 
         
@@ -440,7 +479,7 @@
       
       <li class="nav-item dropdown theme-dropdown">
         <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
+          <i class="fas fa-moon" aria-hidden="true"></i>
         </a>
         <div class="dropdown-menu">
           <a href="#" class="dropdown-item js-set-theme-light">
@@ -523,7 +562,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    6 min read
   </span>
   
 
@@ -563,8 +602,54 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-<a href="https://erikatheoutlier.wordpress.com/2019/07/07/speaking-parseltongue-to-python-adventures-in-harry-potter-text-analysis/" target="_blank" rel="noopener">Click Here</a> to read the blog post I had originally posted.</p>
+      <p>The Harry Potter series is my favorite book series of all time, and is one of my favorite things to nerd out about! If you needed some proof:</p>
+<ol>
+<li>I&rsquo;m a true Hufflepuff at heart, and have been sorted that way.</li>
+<li>My wand is a 13 $\frac{3}{4}$&rdquo; Silver Lime wand with unicorn hair core, slightly yielding.</li>
+<li>My patronus is a white mare.</li>
+</ol>
+<p><img src="nerd.gif" alt=""></p>
+<p>Yes, it&rsquo;s true. So very true. I&rsquo;m a nerd - and very proud of it 😄</p>
+<p>As one of my first projects, I thought it would fun to perform text analysis on the Harry Potter series. Text mining is a popular form of analysis being done, and is also something I&rsquo;ve never tried before. This project is my first using Python, so I&rsquo;d also like to tell you about my experience using the language so far.</p>
+<p>Also, if you&rsquo;re interested in seeing my work, 
+<a href="https://github.com/ErikaJacobs/Harry-Potter-Text-Mining" target="_blank" rel="noopener">click here</a> to view the GitHub repository for this project.</p>
+<h2 id="taming-the-python">Taming the &ldquo;Python&rdquo;</h2>
+<p>All of the data-related work in my career so far has used software outside of Python. With Python being one of the more popular and versatile programming languages to learn for data science, I&rsquo;ve decided that my entire portfolio will mostly be focused on implementing analysis through Python. This seemed like a wise way to go so I can learn how to use it, as well as show all of you that I can use it. Everything you see going forward was done in Python via Jupyter without any prior experience!</p>
+<p>For learning Python, I&rsquo;d recommend the 
+<a href="https://www.edx.org/course/python-for-data-science-2?source=aw&amp;awc=6798_1586986927_f0f9233d7901679c25317a04d3fe3309&amp;utm_source=aw&amp;utm_medium=affiliate_partner&amp;utm_content=text-link&amp;utm_term=78888_Skimlinks" target="_blank" rel="noopener">Python for Data Science</a> course through edX, which is provided by UC San Diego. What&rsquo;s really nice about this course is they provide Jupyter notebooks of projects with sample code to learn from, which has been most helpful from an experiential standpoint. It&rsquo;s also free! 
+<a href="https://automatetheboringstuff.com/" target="_blank" rel="noopener">Automate The Boring Stuff With Python</a> by Al Sweigart was a good general starting point to Python as a whole, and the 
+<a href="https://jakevdp.github.io/PythonDataScienceHandbook/" target="_blank" rel="noopener">Python for Data Science Handbook</a> by Jake VanderPlas seems like a good read once I&rsquo;m more familiar with Python as a whole.</p>
+<p>Python has been a pretty intuitive language to learn. However, doing what you want to do in Python sometimes takes multiple tries. I&rsquo;m not as efficient as Harry Potter speaking parseltongue to a snake in &ldquo;Chamber of Secrets&rdquo;, if you know what I mean.</p>
+<p><img src="parseltongue.gif" alt=""></p>
+<p>Regardless, I&rsquo;ve made some progress! Even though I was expecting to show you more this week, I&rsquo;ve spoken parseltongue to Python the best way I know how.which is with a ton of help from Google to translate 😉</p>
+<h2 id="first-impressions-working-with-text">First Impressions Working With Text</h2>
+<p>One of the biggest ways I underestimated this project was the learning curve behind working with text, as well as with Python in general. Getting to a place where you can actually DO text mining and analysis can be rough stuff! Finding a source to use can be daunting, issues with text encoding can pop up left and right, and importing said text in a usable way can supply a ton of bumps in the road. Luckily, using Google to look up errors has been a godsend - there&rsquo;s almost always someone on a Stack forum who&rsquo;s experienced a similar issue.</p>
+<p>I was hoping to have a complete analysis for you today, but I have spent most of my time this week learning how to work with text in Python. As a result, I&rsquo;m splitting this project into a couple of blog entries. For today, I&rsquo;ll be focusing on word counts and averages.</p>
+<h2 id="getting-the-data">Getting The Data</h2>
+<p>As I was looking through the internet for a reliable and legal source of Harry Potter text from the books, I was lucky enough to stumble upon an 
+<a href="https://github.com/bradleyboehmke/harrypotter" target="_blank" rel="noopener">R Package</a> that had the text for all seven books ready to use. Huge thanks to 
+<a href="http://bradleyboehmke.github.io/" target="_blank" rel="noopener">Bradley Boehmke</a> for creating this 😄</p>
+<p>His website had directions for how to install his package, yet I personally ran into installation issues. If you&rsquo;re inspired by my blog and want to try this package, here&rsquo;s the code I ran in R Studio to install it:</p>
+<pre><code class="language-{r}">install.packages(c(&quot;curl&quot;, &quot;httr&quot;, &quot;devtools&quot;))
+devtools::install_github(&quot;bradleyboehmke/harrypotter&quot;)
+</code></pre>
+<p>Once the package was installed and loaded, I was able to export the text files and import them to Python.</p>
+<h2 id="exploratory-data-analysis---word-count">Exploratory Data Analysis - Word Count</h2>
+<p>To start with exploring Harry Potter&rsquo;s text data, I created some bar charts on word count data points to get familiar with the text. Here&rsquo;s some of what I created!</p>
+<p><img src="hptotalwords-2.png" alt=""></p>
+<h3 id="total-number-of-words-in-each-harry-potter-book">Total Number of Words in Each Harry Potter Book:</h3>
+<p>The bar chart above shows that the trend of total word count between each Harry Potter book got higher with each release until &ldquo;Half Blood Prince&rdquo;, in which the word count dropped. Despite this drop, all books released after &ldquo;Prizoner of Azkaban&rdquo; exceeded the average word count of a book in the Harry Potter series, which is approximately 153,853 words.</p>
+<p><img src="hpavgwords-5.png" alt=""></p>
+<h3 id="average-number-of-words-per-chapter-of-each-harry-potter-book">Average Number of Words Per Chapter of Each Harry Potter Book:</h3>
+<p>An average chapter of text from the Harry Potter series in total is approximately 5,385 words, in which 5 of the 7 books have an average chapter length below this average, and 6 of the 7 books within 300 words of this average. &ldquo;Order of the Phoenix&rdquo; has a larger word count per chapter compared to the other books in the series, and also has the most chapters of all seven books (with 38 chapters). It appears that the average chapter of text could be skewed due to &ldquo;Order of the Phoenix&rdquo; and its long/numerous chapters.</p>
+<p><img src="hpshortchaps-1.png" alt=""></p>
+<h3 id="shortest-chapter-of-each-harry-potter-book">Shortest Chapter of Each Harry Potter Book:</h3>
+<p>&ldquo;Deathly Hallows&rdquo; features the shortest chapter of the entire book series, which was Chapter 37 (or the Epilogue) with 1,552 words. It makes sense that this would be the shortest chapter, considering the conflict of the book series had already been resolved in Chapter 36. The shortest chapter in &ldquo;Order of the Phoenix&rdquo; is still pretty long.</p>
+<p><img src="hplongchaps-1.png" alt=""></p>
+<h3 id="longest-chapter-of-each-harry-potter-book">Longest Chapter of Each Harry Potter Book:</h3>
+<p>Surprise, surprise! &ldquo;Order of the Phoenix&rdquo; takes the prize for having the longest chapter in the entire book series with 8,928 words. Chapter 13, titled &ldquo;Detention With Dolores,&rdquo; gives readers a taste of Dolores Umbridge and her unorthodox ways of punishing students during detention - and apparently, every detail counts.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>There is still MUCH more to come in this analysis. Coming up next will be counts of distinct words per book, word clouds, keyword analysis (characters and spells), and sentiment analysis. Stay tuned!</p>
 
     </div>
 
@@ -609,21 +694,8 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/speaking-parseltongue-to-python/&amp;text=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/speaking-parseltongue-to-python/&amp;t=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/speaking-parseltongue-to-python/&amp;title=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
     
@@ -648,34 +720,8 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/speaking-parseltongue-to-python/&amp;title=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis%20/post/speaking-parseltongue-to-python/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/speaking-parseltongue-to-python/&amp;title=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
+        <a href="https://twitter.com/intent/tweet?url=/post/speaking-parseltongue-to-python/&amp;text=Speaking%20Parseltongue%20to%20Python:%20Adventures%20in%20Harry%20Potter%20Text%20Analysis" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
         </a>
       </li>
     
@@ -716,8 +762,8 @@
 
     <div class="media-body">
       <h5 class="card-title"><a href="/">Erika Jacobs</a></h5>
-      <h6 class="card-subtitle">Data enthusiast</h6>
-      <p class="card-text">I&rsquo;m a data enthusiast exploring a career path in Data Engineering matter.</p>
+      
+      
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -777,9 +823,11 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/excel-python-migration/">Excel Python Migration</a></li>
+      <li><a href="/project/animal-crossing-popularity-data/">Animal Crossing Popularity Data</a></li>
       
-      <li><a href="/project/harry-potter-nlp-project/">Harry Potter NLP Project</a></li>
+      <li><a href="/project/common-core-intervention-analysis/">Common Core Intervention Analysis</a></li>
+      
+      <li><a href="/project/anonymize/">Anonymize</a></li>
       
       <li><a href="/project/personal-website/">Personal Website Project</a></li>
       

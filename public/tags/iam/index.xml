@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IAM | Erika Jacobs</title>
+    <link>/tags/iam/</link>
+      <atom:link href="/tags/iam/index.xml" rel="self" type="application/rss+xml" />
+    <description>IAM</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <title>IAM</title>
+      <link>/tags/iam/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19 &#34;Sparked&#34; Some AWS Ideas</title>
+      <link>/post/covid-19-sparked-aws-ideas/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-19-sparked-aws-ideas/</guid>
+      <description>&lt;p&gt;Ahhh&amp;hellip;the Coronavirus. The pesky virus that stopped daily life as we know it. The pesky virus that everyone&amp;rsquo;s looking to understand a little better. The pesky virus that has many people looking at data visualizations like &lt;em&gt;never&lt;/em&gt; before.&lt;/p&gt;
+&lt;p&gt;Like many other data enthusiasts out there, I thought the Coronavirus seemed like a perfect topic to explore different skills I&amp;rsquo;ve been learning related to Data Engineering. So&amp;hellip;here we are!&lt;/p&gt;
+&lt;h2 id=&#34;background-behind-project&#34;&gt;Background Behind Project&lt;/h2&gt;
+&lt;p&gt;As a data person during this COVID-19 crisis, I&amp;rsquo;ve been consistently checking any dashboard I can get my hands on for information about this illness and its spread. Johns Hopkins University has a 
+&lt;a href=&#34;https://coronavirus.jhu.edu/map.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dashboard&lt;/a&gt; that features information daily about different locations and the number of cases they have.&lt;/p&gt;
+&lt;p&gt;As time has gone on, questions have been popping up about &amp;ldquo;when things can return to normal.&amp;rdquo; A decision like this shouldn&amp;rsquo;t be taken lightly, and should have data to back it up. Visualization can be a powerful tool to visually examine case growth, recovieries, deaths, and if new cases are declining.&lt;/p&gt;
+&lt;p&gt;The dashboard that Johns Hopkins provided has plenty of helpful information, and has some visualizations of its own worldwide. Despite this, it seemed like a good opportunity to provide everyone the ability to visually explore the data in ways that the Johns Hopkins dashboard (or any dashboard) might not permit. In other words, visualizing the data could be more accessible.&lt;/p&gt;
+&lt;p&gt;To prepare the data for this project, I wanted to purposely choose to exercise skills that I haven&amp;rsquo;t used for a personal project before that would be useful as a future Data Engineer. For example, while I&amp;rsquo;ve used Amazon Web Services (AWS) for specific professional tasks, I&amp;rsquo;ve never used AWS for my own personal projects. I had also never done a project using PySpark as well, even though I already had some experience using it. As for DataBricks? DataBricks was &lt;em&gt;entirely&lt;/em&gt; new territory.&lt;/p&gt;
+&lt;p&gt;The sections below will go over the technologies purposely used to complete this project, possible obstacles faced along the way, lessons learned, and other helpful hints that could be useful for anyone out there wanting to attempt something similar.&lt;/p&gt;
+&lt;h2 id=&#34;project-goal&#34;&gt;Project Goal&lt;/h2&gt;
+&lt;p&gt;The goal of this project was to use Python through DataBricks to import the Johns Hopkins University COVID-19 dataseets from Github, clean/manipulate the data for more useful insight, and store the resulting output in the cloud via AWS. Simple enough, right?&lt;/p&gt;
+&lt;p&gt;Here is a visual of the ETL pipeline design to illustrate the process:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-aws&#34;&gt;About AWS&lt;/h2&gt;
+&lt;p&gt;Amazon Web Services, or AWS, is a cloud computing platform as a service (PaaS), which offers a variety of products to be able to work with cloud technology. There are many benefits to using the cloud, which can include no upfront costs, free tier trials, pay-as-you-go structure, speed, reliability, and so much more!&lt;/p&gt;
+&lt;p&gt;Most of my AWS experience through this project was using S3, which is a storage system for files and objects in &amp;ldquo;buckets&amp;rdquo; through the cloud. However, I got to get familiar with EC2, IAM, and the AWS CLI through this project as well.&lt;/p&gt;
+&lt;p&gt;EC2 is essentially access to a virtual computer. IAM is responsible for making accounts, passwords, and access keys for permission to use different functionalities through AWS. The AWS CLI, or command line interface, would be a way to exercise those functionalities - for example, the CLI could be used to copy S3 objects from one bucket to another.&lt;/p&gt;
+&lt;p&gt;EC2 might be more heavily utilized for future projects, as having external computing power could be helpful depending on the project and task. Plus, EC2 would be great to pair with a project using Python - Jupyter Notebook can be accessed using an EC2 instance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: If you&amp;rsquo;re considering experimenting and learning AWS, they have free tiers of services for newcomers to try (most being for 12 months). With that being said, &lt;strong&gt;PLEASE do yourself a favor and explore the limits on AWS&amp;rsquo; free tiers.&lt;/strong&gt; Once you feel like you have? DO IT AGAIN!&lt;/p&gt;
+&lt;p&gt;The reason I say this is because I went over one of the free limits for using S3. I took time to explore the free tier limits, yet I must have missed this particular limit&amp;hellip;which could have been avoided with a second review of those limits. Please don&amp;rsquo;t make the unecessary mistake I did. Even if going above those free limits might be pennies of cost, be prepared and know your financial limits in AWS.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t mind spending some money experimenting with AWS, AWS offers a service called cloud watch if you have a certain budget in mind you&amp;rsquo;d like alerts for. For example, I set an alert for spending over $0.00, and got an alert when my spending went to $0.01 (the horror).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Helpful Hint&lt;/strong&gt;: Through starting this project, I decided to start pursuing an AWS Solutions Architect certification, which will only help in learning different functionalities of AWS. &lt;strong&gt;If you&amp;rsquo;re looking to get very familiar with AWS, I&amp;rsquo;d highly suggest considering pursuing an AWS certification.&lt;/strong&gt; If you&amp;rsquo;re learning the skills anyway, you might as well have a marketable credential to recognize it 😉&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;skills.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-boto3-and-s3fs&#34;&gt;About Boto3 and S3FS&lt;/h2&gt;
+&lt;p&gt;With using AWS for this project, it was useful to use packages in Python specifically designed to bridge a connection to AWS S3. There were two packages in Python that I ended up getting familiar with through this project: Boto3 and S3FS&lt;/p&gt;
+&lt;p&gt;Boto3 is a software development kit (or SDK) which allows incorporation of command line processes within Python code. S3fS, on the other hand, stands for &amp;ldquo;S3 File System&amp;rdquo;, and allows for code in Python to refer to S3 buckets and objects as if they were files on your local computer.&lt;/p&gt;
+&lt;p&gt;Ultimately, I found Boto3 to be VERY useful, and would certainly use it again for future projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: Be VERY careful with your AWS access keys! At the very start of working on this project, I had hard coded my AWS access keys that had full administrative access to my account into code I had uploaded to GitHub. This was BAD. Do NOT be me. As a result, I had to delete the entire project from GitHub, and had to delete the access keys.&lt;/p&gt;
+&lt;p&gt;Why is this bad? Well&amp;hellip;Once someone has your access keys, they are essentially free to do as they please within the permissions those access keys grant. Usually, the things someone would use an AWS access key for aren&amp;rsquo;t good things. Someone could use your buckets for storing large amounts of files on your dime - perhaps something illegal. Or someone could start multiple EC2 instances on YOUR account to mine bitcoin. You&amp;rsquo;re essentially inviting hackers to take advantage of you!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hackerman.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you plan to do a similar project, it&amp;rsquo;s worth avoiding any potential hacking situations. Proactively, it&amp;rsquo;s worth ensuring that the access keys for your AWS account have limited permissions in IAM, and to remove the access keys should they be leaked somehow. As I said earlier though&amp;hellip;&lt;strong&gt;Be VERY careful with your AWS access keys!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-databricks&#34;&gt;About DataBricks&lt;/h2&gt;
+&lt;p&gt;Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a service (PaaS) created by the brilliant minds behind Apache Spark. DataBricks is used for big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It&amp;rsquo;s no wonder that big companies use it, which includes MY OWN (so I learned):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Nationwide.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The one downside to using DataBricks, from my perspective, was using the free community edition. In DataBricks, your code is attached a cluster - a group of computers that work together to complete what you&amp;rsquo;ve programmed. In the free version, if your cluster goes unused for a period of time (two hours I think), the cluster terminates. This requires having to create a new cluster each time your code is run. This also means having to re-install every Python package that was being used for each new cluster.&lt;/p&gt;
+&lt;p&gt;I am SO thankful that there was a free community edition to use at all, but the biggest restriction in using it is having to re-attach a cluster everytime. However, paying for the service would be an entirely different experience - DataBricks would be a fantastic resource to have for big data projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: DataBricks was a very nice interface to use similar to Jupyter notebook, and it was easy to get started with using clusters to process data. With that being said, &lt;strong&gt;be prepared for your cluster to terminate frequently if you&amp;rsquo;re using the free community version of DataBricks.&lt;/strong&gt; Using a paid version would allow clusters to be restarted and refreshed, but the free version requires creating a new cluster practically each time DataBricks is used. This means having to re-install Python packages every time&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;screams.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On the flip side, if you don&amp;rsquo;t have PySpark installed, the time investment to re-create a cluster isn&amp;rsquo;t very much compared to the money you&amp;rsquo;re likely saving by using clusters through DataBricks community edition 😄&lt;/p&gt;
+&lt;h2 id=&#34;about-pyspark&#34;&gt;About PySpark&lt;/h2&gt;
+&lt;p&gt;Apache Spark is well reknown software for processing large quantities of data. Instead of using Apache Spark directly, I used a package in Python called PySpark, which is automatically installed when using DataBricks.&lt;/p&gt;
+&lt;p&gt;I wanted to use PySpark because I hadn&amp;rsquo;t used PySpark for a project before, and it can be very powerful for massively large quantities of data. What&amp;rsquo;s great about PySpark is that it actually has SQL functions to allow processing of your data in a &amp;ldquo;lazy&amp;rdquo; way - due to size, Spark only completes changes to your table when asked!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lazy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: PySpark can read a variety of file types. However, &lt;strong&gt;Apache Spark CANNOT read files from a url easily.&lt;/strong&gt; It&amp;rsquo;s one thing if the file is online in a storage location like S3 - that&amp;rsquo;s okay, because that file is being held in memory somewhere. However, for this project, I learned that I could not read a file from GitHub directly using PySpark.&lt;/p&gt;
+&lt;p&gt;In order to import the file, it would need to be moved to some sort of local storage first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Helpful Hint&lt;/strong&gt;: It may be tempting to use PySpark for all projects considering how powerful it can be processing large amounts of data. One thing to keep in mind, however, is that &lt;strong&gt;Pyspark is best for HUGE datasets&lt;/strong&gt; - it can actually be &lt;em&gt;slower&lt;/em&gt; to use PySpark with small datasets.&lt;/p&gt;
+&lt;h2 id=&#34;takeaways-from-project&#34;&gt;Takeaways From Project&lt;/h2&gt;
+&lt;p&gt;All in all, I&amp;rsquo;m happy that I chose to do my project the way I did, as I learned so much through the process. With that being said, I can already see ways that this project could have been done better.&lt;/p&gt;
+&lt;p&gt;For one, it may not have been necessary to use PySpark for this project, as the data I was pulling in was not substantially large. While this project could have been done without PySpark, I&amp;rsquo;m glad that I had a real world project to apply my knowledge to, and this experience has better prepared me to work with larger quantities of data.&lt;/p&gt;
+&lt;p&gt;Given that PySpark may have been unnecessary, it might have been better to complete the project locally on my computer versus using DataBricks. DataBricks. DataBricks can be an extremely useful tool, yet is as useful as your need for clusters of computers to process your code.&lt;/p&gt;
+&lt;p&gt;With this part of my project complete, the next part of the project will be to create a dashboard for the data. With this many &amp;ldquo;sparked&amp;rdquo; ideas for learning, there are only more to come with the next part of this project 😉&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sparks.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

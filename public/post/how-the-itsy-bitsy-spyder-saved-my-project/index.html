@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Erika Jacobs">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This post discusses the preliminary stages of a Python project that extracts data out of hundreds of Excel files, followed by sending them to SQL Server. Jupyter posed some unexpected network issues, and Spyder was a wonderful solution!">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/how-the-itsy-bitsy-spyder-saved-my-project/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#981ebd">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/how-the-itsy-bitsy-spyder-saved-my-project/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Erika Jacobs">
+  <meta property="og:url" content="/post/how-the-itsy-bitsy-spyder-saved-my-project/">
+  <meta property="og:title" content="How the Itsy Bitsy &#34;Spyder&#34; Saved My Project | Erika Jacobs">
+  <meta property="og:description" content="This post discusses the preliminary stages of a Python project that extracts data out of hundreds of Excel files, followed by sending them to SQL Server. Jupyter posed some unexpected network issues, and Spyder was a wonderful solution!"><meta property="og:image" content="/post/how-the-itsy-bitsy-spyder-saved-my-project/featured.png">
+  <meta property="twitter:image" content="/post/how-the-itsy-bitsy-spyder-saved-my-project/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-01-03T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-01-03T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/how-the-itsy-bitsy-spyder-saved-my-project/"
+  },
+  "headline": "How the Itsy Bitsy \"Spyder\" Saved My Project",
+  
+  "image": [
+    "/post/how-the-itsy-bitsy-spyder-saved-my-project/featured.png"
+  ],
+  
+  "datePublished": "2020-01-03T00:00:00Z",
+  "dateModified": "2020-01-03T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Erika Jacobs"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Erika Jacobs",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "This post discusses the preliminary stages of a Python project that extracts data out of hundreds of Excel files, followed by sending them to SQL Server. Jupyter posed some unexpected network issues, and Spyder was a wonderful solution!"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>How the Itsy Bitsy &#34;Spyder&#34; Saved My Project | Erika Jacobs</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Erika Jacobs</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Erika Jacobs</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#myprojects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactme"><span>Contact Me</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resume.pdf"><span>Resume</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How the Itsy Bitsy &#34;Spyder&#34; Saved My Project</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/admin/">Erika Jacobs</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 3, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/python/">Python</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>A couple months ago, I stumbled across a confidential &ldquo;real life opportunity&rdquo; to exercise my skills in working with data. While I can&rsquo;t explain specifics about the data I was working with or who this project was for, I was very excited to help with this project because the resulting data product would be extremely helpful to many people I care about 😊</p>
+<p>Below I&rsquo;ve outlined some information about the project, as well as the progress I&rsquo;ve made so far.</p>
+<p><img src="Code.jpg" alt="" title="A snippet of this project's code in Spyder"></p>
+<h2 id="about-this-project">About This Project</h2>
+<p>The formation of this project came from a legitimate need in efficiency. This project was created due to an entity reporting numbers from hundreds of Excel files, which required going into each individual Excel file needed to obtain the information needed. Because these Excel files were large, opening each file would take more time than it should, slowing down the process of reporting these numbers.</p>
+<p>Furthermore, the numbers came from a calculated dashboard in the file (rather than a table of data), which meant numbers from these files were being COPIED AND PASTED into reports. Not only was this process inefficient for reporting, but there was also large room for error due to copying and pasting these numbers.</p>
+<p>That&rsquo;s where I came in!</p>
+<p><img src="comingin.gif" alt="" title="Me coming in with a project idea 😄"></p>
+<p>The plan was for a Python script to go into multiple Excel files that had a similarly formatted data table, extracting this data out of each file, and importing this data into a Pandas dataframe. Then, once all Excel files were imported to Python, the resulting dataframe would be sent to a SQL Server table for use.</p>
+<p>The plan seemed simple - yet real life isn&rsquo;t so simple! After copies of the files were made and put in a directory to be extracted, I ran into four primary issues before I was able to successfully import all Excel files with ease&hellip;</p>
+<h2 id="obstacle-one-corrupted-macros">Obstacle One: Corrupted Macros</h2>
+<p>Once upon a time, a mystery person created the file template I was working with. In this file template, they wrote a large amount of macros to operate certain calculations within the file template automatically. At some point, one or more of these macros became corrupted.</p>
+<p>One of the first things I did in this project was to try and import just one of these files to Python&hellip;and it didn&rsquo;t work! I had imported Excel files to Python before using the same process - so why wasn&rsquo;t this working? I tried copying the data into a blank file, and import worked. I tried deleting tabs in the original file template, and that did NOT work. At some point after researching and trying different solutions, I finally figured out that the macros in this file were the issue - primarily the corrupted one that mystery person wrote years ago.</p>
+<p>So&hellip;I tried deleting all of the macros in Excel, and the import WORKED! Lesson Learned: <strong>Pandas will NOT import an Excel file to Python if a macro is corrupted and causing trouble</strong>. Equipped with this knowledge, I then realized this also meant deleting macros from ALL files for this project would need to happen (gross 😖). As a result, I ended up building a loop to remove all macros from these files.</p>
+<p>Removing these macros through a loop required using VBA in Python using the win32com package, and saving a new copy of these files to leave the original file unaffected. Doing this loop also gave me the opportunity to save all files with macros removed with the same extension in Excel - prior to this step, many files had the .xls extension due to their age.</p>
+<p>After this was finished, I was able to get these files into Python without issue. Finally&hellip;success!</p>
+<p><img src="success.gif" alt="" title="Success!"></p>
+<h2 id="obstacle-two-changing-data-types-and-columns">Obstacle Two: Changing Data Types and Columns</h2>
+<p>Once all of the Excel data was brought into Python, I realized there were two issues that required cleaning the data before exporting it to SQL. The final product should have 156 columns, yet there were a few more than that. It turns out that while these data files were similar over time, not all of them were the exact same. Some had columns that were slightly renamed, and others were missing columns as a whole. Therefore, it required some data cleansing to make sure the dataframe being exported had exactly 156 columns.</p>
+<p>Another issue I ran into was the numerical fields being read as text fields. This would result in numbers being imported and rounded off, which resulted in numbers being slightly off. I had to change the structure of the import to allow for all numerical fields to be read as numbers. Luckily, this was a quick fix.</p>
+<h2 id="obstacle-three-time-and-memory">Obstacle Three: Time and Memory</h2>
+<p>Due to the classified nature of this project, this project was required to be completed on a computer that wasn&rsquo;t my own. By doing this, there were unfortunately limitations in the type of software I could use, as well as the packages within Python due to the network being used and the hardware in the computer. This ultimately prevented me from being able to use programs such as PySpark that would have helped in creating this ETL process using large amounts of data.</p>
+<p><img src="time.gif" alt="" title="Time IS money..."></p>
+<p>So&hellip;progress on this project took TIME. On top of that, it took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced&hellip;</p>
+<h2 id="obstacle-four-jupyter-notebook">Obstacle Four: Jupyter Notebook</h2>
+<p>Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! With that being said, network issues lead to Jupyter timing out and needing to constantly reconnect, with executed code not completing as a result.</p>
+<p>While memory could have been an issue too, ultimately Jupyter notebook could not be used for this project due to the network connectivity issues I had. Unfortunately, a browser-based environment can be faulty if your internet connection is too.</p>
+<p>So&hellip;I had to find another way to process the code I was running. What would be best to use? Ultimately I chose the most convenient option, Spyder, which ended up being a <strong>great</strong> fit for this project.</p>
+<h2 id="about-spyder">About Spyder</h2>
+<p>Spyder is an open source integrated development environment (IDE) for Python. Since Jupyter wasn&rsquo;t working for my project, the reason why I ultimately tried Spyder was because it was automatically installed on my computer. I&rsquo;m SO glad it was, because Spyder ended up having some important assets for this project&hellip;the biggest one being that a steady network connection was NOT needed in order to run the majority of my code.</p>
+<p>The Spyder console reminds me of using R Studio in some ways. There&rsquo;s a variable explorer where you can look at the data items you&rsquo;ve created with your code (dataframes, variables, lists, etc.), as well as a console to look at executed code and its results.</p>
+<p>One REALLY cool thing about Spyder is that it can catch simple errors ahead of time. For example, if you try to call a variable called &ldquo;X&rdquo; and you accidentally type &ldquo;Xx&rdquo;, Python will let you know that variable &ldquo;Xx&rdquo; doesn&rsquo;t exist before running the code. This functionality has been especially helpful with this project, since there are so many components in the code I wrote. Like Jupyter, code can be &ldquo;chunked&rdquo; together in sections so all code does not need to be run at the same time. HOWEVER, Spyder has the capacity to also run all code at once.</p>
+<p>One weak point of using Spyder is the data visualization features. After running code for data visualization using a Jupyter notebook, the result usually shows a sizeable copy of the visualization. Spyder shows visualizations as well, yet it&rsquo;s limited to the console - meaning it&rsquo;s TINY. Data visualization wasn&rsquo;t relevant for this project, so that didn&rsquo;t matter to me as much&hellip;yet this could matter for other projects.</p>
+<p>While I was disappointed that Jupyter didn&rsquo;t work for this project, I&rsquo;m VERY glad that I tried using Spyder. There are some functionalities using Spyder that I actually like BETTER than using Jupyter depending on the project. I&rsquo;m officially a huge fan of Spyder!</p>
+<p><img src="spyder.gif" alt="" title="&quot;Spyder&quot; coming in to save the day!"></p>
+<h2 id="project-progress-so-far">Project Progress So Far</h2>
+<p>As of January 3rd 2020, I have been able to successfully get all Excel data imported to Python through a loop. I&rsquo;ve done some basic data cleaning, removed unnecessary columns, and adjusted variable types in preparation for sending the data to SQL Server.</p>
+<h2 id="whats-next">What&rsquo;s Next?</h2>
+<p>At this point in time, all research has been done to get this data to SQL server - the code just hasn&rsquo;t been written yet. Hopefully this will be done very soon!</p>
+<p>After all data is placed in SQL Server, I would also like to make a second set of code for importing and replacing only one Excel file&rsquo;s data in SQL Server. This would allow for a repeatable process that can be used in the future to add to this table, versus having to upload all files every time there&rsquo;s an additional Excel file.</p>
+<p>Once the data is in SQL Server, there will also need to be meetings on how to cleanse the data - since many of these files are older, some business decisions need to be made on how to handle certain aspects of the older data.</p>
+<p>In the meantime, I will continue to add progress of my work onto GitHub! You can 
+<a href="https://github.com/ErikaJacobs/Excel-Python-SQL-Migration" target="_blank" rel="noopener">Click Here</a> to access all files related to this project for your viewing pleasure. Thank you for reading!</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/python/">Python</a>
+  
+  <a class="badge badge-light" href="/tags/excel/">Excel</a>
+  
+  <a class="badge badge-light" href="/tags/vba/">VBA</a>
+  
+  <a class="badge badge-light" href="/tags/macros/">Macros</a>
+  
+  <a class="badge badge-light" href="/tags/pandas/">Pandas</a>
+  
+  <a class="badge badge-light" href="/tags/glob/">Glob</a>
+  
+  <a class="badge badge-light" href="/tags/win32com/">win32com</a>
+  
+  <a class="badge badge-light" href="/tags/etl/">ETL</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/how-the-itsy-bitsy-spyder-saved-my-project/&amp;title=How%20the%20Itsy%20Bitsy%20&amp;#34;Spyder&amp;#34;%20Saved%20My%20Project" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20the%20Itsy%20Bitsy%20&amp;#34;Spyder&amp;#34;%20Saved%20My%20Project&amp;body=/post/how-the-itsy-bitsy-spyder-saved-my-project/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/how-the-itsy-bitsy-spyder-saved-my-project/&amp;text=How%20the%20Itsy%20Bitsy%20&amp;#34;Spyder&amp;#34;%20Saved%20My%20Project" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu801fe2d418ef9c294945d94d706b00e9_1816960_270x270_fill_lanczos_center_2.png" alt="Erika Jacobs">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Erika Jacobs</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/erikajacobs/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ErikaJacobs" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/mood-harry-potter/">Mood: Harry Potter</a></li>
+      
+      <li><a href="/post/harry-potter-and-the-learning-of-wordcloud/">Harry Potter and the Learning of WordCloud</a></li>
+      
+      <li><a href="/post/speaking-parseltongue-to-python/">Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</a></li>
+      
+      <li><a href="/project/harry-potter-nlp-project/">Harry Potter NLP Project</a></li>
+      
+      <li><a href="/project/animal-crossing-popularity-data/">Animal Crossing Popularity Data</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

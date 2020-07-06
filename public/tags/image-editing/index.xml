@@ -7,7 +7,7 @@
     <description>Image Editing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Image Editing</title>
       <link>/tags/image-editing/</link>
     </image>
@@ -17,8 +17,215 @@
       <link>/post/harry-potter-and-the-learning-of-wordcloud/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/post/harry-potter-and-the-learning-of-wordcloud/</guid>
-      <description>&lt;p&gt;I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-&lt;a href=&#34;https://erikatheoutlier.wordpress.com/2019/07/14/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to read the blog post I had originally posted.&lt;/p&gt;
+      <description>&lt;p&gt;This is the second part of my Harry Potter text analysis project! If you haven&amp;rsquo;t read part one, 
+&lt;a href=&#34;/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hp_wordcloud_final-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the only output I have this week.and yet SO much learning was put into making it. This blog will explore basic keyword analysis from the books, as well as how I was able to use the WordCloud package (among other things) in Python. Also, if you&amp;rsquo;d like to look at my work on this project, 
+&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to see the project files in my GitHub repository.&lt;/p&gt;
+&lt;h2 id=&#34;basic-keyword-analysis&#34;&gt;Basic Keyword Analysis&lt;/h2&gt;
+&lt;p&gt;Before diving into the process of creating the word cloud, let&amp;rsquo;s dive into some findings related to keyword analysis.&lt;/p&gt;
+&lt;h3 id=&#34;which-10-non-stopwords-appeared-the-most-in-this-text&#34;&gt;Which 10 non-stopwords appeared the most in this text?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Harry&lt;/li&gt;
+&lt;li&gt;Said&lt;/li&gt;
+&lt;li&gt;Ron&lt;/li&gt;
+&lt;li&gt;Hermione&lt;/li&gt;
+&lt;li&gt;Back&lt;/li&gt;
+&lt;li&gt;Dumbledore&lt;/li&gt;
+&lt;li&gt;Could&lt;/li&gt;
+&lt;li&gt;One&lt;/li&gt;
+&lt;li&gt;Like&lt;/li&gt;
+&lt;li&gt;Looked&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s a given that &amp;ldquo;Harry&amp;rdquo; would be the most frequently used word in this text. Out of the top 10 words, I&amp;rsquo;m surprised that four of them are characters. Given that there are many functional words outside of stopwords used in text (such as &amp;ldquo;said&amp;rdquo;), it&amp;rsquo;s surprising that Ron, Hermione, and Dumbledore are mentioned more heavily than many functional words in the English language. At they same time, all three of those characters are important.so if characters other than Harry were to make it to the top 10 words, it would make sense that it would be them.&lt;/p&gt;
+&lt;h3 id=&#34;which-characters-were-discussed-the-most-in-this-text&#34;&gt;Which characters were discussed the most in this text?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Harry&lt;/li&gt;
+&lt;li&gt;Ron&lt;/li&gt;
+&lt;li&gt;Hermione&lt;/li&gt;
+&lt;li&gt;Dumbledore&lt;/li&gt;
+&lt;li&gt;Hagrid&lt;/li&gt;
+&lt;li&gt;Snape&lt;/li&gt;
+&lt;li&gt;Malfoy&lt;/li&gt;
+&lt;li&gt;Sirius&lt;/li&gt;
+&lt;li&gt;Voldemort&lt;/li&gt;
+&lt;li&gt;Fred (Sorry George!)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In this list, it&amp;rsquo;s important to note that &amp;ldquo;Malfoy&amp;rdquo; could be a reference to the entire Malfoy family (Lucius, Narcissa, Draco), versus Harry Potter&amp;rsquo;s nemesis Draco Malfoy specifically. However, it&amp;rsquo;s safe to say that Draco Malfoy would be in the top 10 character mentions based on how frequently he interacts with Harry throughout the series.&lt;/p&gt;
+&lt;h3 id=&#34;which-spell-related-words-were-mentioned-most-in-this-text&#34;&gt;Which spell-related words were mentioned most in this text?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Expecto&lt;/li&gt;
+&lt;li&gt;Patronum&lt;/li&gt;
+&lt;li&gt;Accio&lt;/li&gt;
+&lt;li&gt;Stupefy&lt;/li&gt;
+&lt;li&gt;Avada&lt;/li&gt;
+&lt;li&gt;Expelliarmus&lt;/li&gt;
+&lt;li&gt;Riddikulus&lt;/li&gt;
+&lt;li&gt;Kedavra&lt;/li&gt;
+&lt;li&gt;Lumos&lt;/li&gt;
+&lt;li&gt;Muffliato&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;ldquo;Expecto Patronum&amp;rdquo; appears to be the most frequently used spell in the series, which is a spell used to fight off dementors. I&amp;rsquo;ll be honest though.This list surprised me in that Wingardium Leviosa wasn&amp;rsquo;t on it!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;leviosa.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Wingardium Leviosa is a spell for lifting items in the air, and is one of the most popular spell references from the films. However, it appears that it&amp;rsquo;s not mentioned as much in the books - It wasn&amp;rsquo;t anywhere near the top 10 spell-related words.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;leviosar.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;next-steps-in-keyword-analysis&#34;&gt;Next Steps in Keyword Analysis&lt;/h3&gt;
+&lt;p&gt;Next steps in conducting keyword analysis would be to follow trends of keywords throughout chapters, as well as within books. This could also be useful in sentiment analysis. This text analysis project will continue next week!&lt;/p&gt;
+&lt;p&gt;In the meantime, let&amp;rsquo;s talk about the word cloud you saw earlier.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-word-cloud&#34;&gt;Creating the Word Cloud&lt;/h2&gt;
+&lt;p&gt;Creating the word cloud itself was a simple process. Like last week, the learning curve of working with this package AND in Python posed some obstacles. First step was installing the package itself, which (it seems) many people on the internet have also had trouble with. I use Python with Anaconda to manage the installation of Python packages. This is the code that I put into the Anaconda Prompt to install the WordCloud package:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;conda install -c conda-forge wordcloud
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once it was installed, there were a lot of questions that arose as I made my image:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do I get the text words out of a pandas dataframe?&lt;/li&gt;
+&lt;li&gt;How do I get the word cloud to actually generate?&lt;/li&gt;
+&lt;li&gt;How do you change the color of the background?&lt;/li&gt;
+&lt;li&gt;How do you change the font of the words in the word cloud?&lt;/li&gt;
+&lt;li&gt;How do you change the color of the font?&lt;/li&gt;
+&lt;li&gt;Since changing font color needs a color map, how can one be created?&lt;/li&gt;
+&lt;li&gt;How do I get my word cloud to take a particular shape?&lt;/li&gt;
+&lt;li&gt;Why isn&amp;rsquo;t my word cloud taking the shape it&amp;rsquo;s supposed to?&lt;/li&gt;
+&lt;li&gt;This word cloud looks lack luster. What if I want a background other than a solid color?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So.how were all of these questions answered?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hermione-hmmm.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I thought it might be helpful to break apart each segment of my Python code to explain the answers to these questions.&lt;/p&gt;
+&lt;h3 id=&#34;code-segment-one&#34;&gt;Code Segment One:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Import packages/libraries
+from wordcloud import WordCloud, ImageColorGenerator
+from PIL import Image
+ 
+# Delete &amp;quot;photo&amp;quot; object (to debug mask)
+del(photo)
+ 
+# Bring in mask data
+photo = Image.open(&amp;quot;Thunderbolt - Copy.jpg&amp;quot;)
+mask = np.array(photo)
+ 
+plt.imshow(photo)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above code installs the packages that were used for this word cloud project, and then prepares a mask for the word cloud. Answering a question on that list above.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-i-get-my-word-cloud-to-take-a-particular-shape&#34;&gt;&lt;em&gt;How do I get my word cloud to take a particular shape?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;With a mask. What&amp;rsquo;s a mask, you ask?&lt;/p&gt;
+&lt;p&gt;A mask is a strictly black and white image that is used to make a word cloud into a particular shape. For my word cloud, I had wanted to make it into the shape of a lightning bolt, since that&amp;rsquo;s the shape of Harry Potter&amp;rsquo;s scar. I found resources online explaining how to do it, but those processes weren&amp;rsquo;t working for me.&lt;/p&gt;
+&lt;h4 id=&#34;why-isnt-my-word-cloud-taking-the-shape-its-supposed-to&#34;&gt;&lt;em&gt;Why isn&amp;rsquo;t my word cloud taking the shape it&amp;rsquo;s supposed to?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;I ran into difficulty getting my word cloud into the shape of the lightning bolt because the picture I was initially using wasn&amp;rsquo;t perfectly black and white. Shading and grey scale will NOT do, ladies and gents. The parts of the picture you want words needs to be the blackest black, and the parts you don&amp;rsquo;t want words needs to be the whitest white in order for this mask to work with the WordCloud package.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/18777873/convert-rgb-to-black-or-white&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This Stack thread&lt;/a&gt; helped me change a picture to strictly black and white, and then I saved it to a .jpg file. Using this black-and-white image didn&amp;rsquo;t work as a mask unless the picture was brought into Python from a saved file. This might be due to formatting and how the picture is stored as a file versus in Python after alteration. If you&amp;rsquo;re trying to make a word cloud and are having trouble with the mask, this might help in debugging.&lt;/p&gt;
+&lt;h3 id=&#34;code-segment-two&#34;&gt;Code Segment Two:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create Dictionary and list
+wordcount={}
+list = []
+ 
+# Get Words Ready
+for x in df.WordCloudText:
+    list.extend(x)
+     
+# Clean text
+textcount=str(list).split()
+textcount=[&#39;&#39;.join(c for c in s if c not in string.punctuation) for s in textcount] #Remove punctuation
+ 
+# Wordcount Loop
+# If the word is not in the stop words: 
+#    it&#39;s added to the dictionary with a count.
+# If the word already exists in the dictionary: 
+#    the count is made one higher.
+ 
+for word in textcount:
+        if word not in wordcount:
+            wordcount[word] = 1
+        else:
+            wordcount[word] += 1
+ 
+# Clean messy words out of dictionary - FOR HP ONLY
+del wordcount[&#39;¨c&#39;]
+del wordcount[&#39;-&#39;]
+del wordcount[&#39;ter&#39;]
+     
+# Printing 250 Most Common words in &amp;quot;Harry Potter&amp;quot;
+Counts = collections.Counter(wordcount)
+ 
+for word, count in Counts.most_common(250):
+    print(word, &amp;quot;: &amp;quot;, count)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This segment of code answers one question.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-i-get-the-text-words-out-of-a-pandas-dataframe&#34;&gt;&lt;em&gt;How do I get the text words out of a pandas dataframe?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;In my pandas dataframe, the column &amp;ldquo;WordCloudText&amp;rdquo; featured a list object of words in every row. I created a loop to place each row&amp;rsquo;s list into one joint list called &amp;ldquo;list&amp;rdquo; (original name, I know). Then, the words were split up and punctuation was removed.&lt;/p&gt;
+&lt;p&gt;Once the text data was clean, a dictionary object was created in Python, in which each word went through a loop that would count the number of times the word appeared in total. Finally, before using this dictionary to create a word cloud, messy words were removed from the dictionary - i.e. ones that didn&amp;rsquo;t make sense to include in the word cloud.&lt;/p&gt;
+&lt;h3 id=&#34;code-segment-three&#34;&gt;Code Segment Three:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create Color Maps
+# Converted HTML/HEX colors to RGB using: https://htmlcolorcodes.com/
+colorsList = [&#39;#503F3F&#39;, &#39;#801919&#39;] #Mauraders Map Colors
+ColorMap = matplotlib.colors.ListedColormap(colorsList)
+ 
+# Create and generate a word cloud image:
+wordcloud = WordCloud(mask=mask, margin=10, font_path=&#39;LUMOS.ttf&#39;, min_font_size=12, max_words=500, 
+                      random_state=1, colormap=ColorMap, background_color=None, mode=&#39;RGBA&#39;).generate_from_frequencies(wordcount)
+ 
+# Display the generated image:
+plt.figure(figsize=[20,20])
+plt.imshow(wordcloud, interpolation=&#39;bilinear&#39;)
+plt.axis(&amp;quot;off&amp;quot;)
+plt.show()
+ 
+# Save image to file
+wordcloud.to_file(&amp;quot;HP_WordCloud.png&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the code for the meat of the word cloud itself, and there&amp;rsquo;s a lot of questions to answer here!&lt;/p&gt;
+&lt;h4 id=&#34;how-do-i-get-the-word-cloud-to-actually-generate&#34;&gt;&lt;em&gt;How do I get the word cloud to actually generate?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;At the end of the WordCloud function, &amp;ldquo;generate_from_frequencies(wordcount)&amp;rdquo; created the word cloud based on the word frequencies in the dictionary created.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-you-change-the-color-of-the-background&#34;&gt;&lt;em&gt;How do you change the color of the background?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;This one&amp;rsquo;s easy! The WordCloud() function has an argument called &amp;ldquo;background_color&amp;rdquo;. Before making my final creation, I used 
+&lt;a href=&#34;https://htmlcolorcodes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this website&lt;/a&gt; to get the hex color I wanted. For example, a black background would have the argument &amp;ldquo;background_color=&amp;rsquo;#000000&amp;rsquo;&amp;rdquo;&lt;/p&gt;
+&lt;h4 id=&#34;how-do-you-change-the-font-of-the-words-in-the-word-cloud&#34;&gt;&lt;em&gt;How do you change the font of the words in the word cloud?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The WordCloud() function has an argument called &amp;ldquo;font_path&amp;rdquo;. This argument has to be set equal to the path to a .tff file for the font you&amp;rsquo;d like to use. I used the 
+&lt;a href=&#34;https://www.dafont.com/lumos.font&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lumos&lt;/a&gt; font for this project, and found it easiest to put the .tff file in my project&amp;rsquo;s directory.&lt;/p&gt;
+&lt;h4 id=&#34;how-do-you-change-the-color-of-the-font&#34;&gt;&lt;em&gt;How do you change the color of the font?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The answer to this was surprisingly complex! It turns out that there&amp;rsquo;s not an easy way to change the color of a font using the WordCloud() function. In order to do it, an argument called &amp;ldquo;colormap&amp;rdquo; had to be used.with a color map of your creation.&lt;/p&gt;
+&lt;h4 id=&#34;since-changing-font-color-needs-a-color-map-how-can-one-be-created&#34;&gt;&lt;em&gt;Since changing font color needs a color map, how can one be created?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Matplotlib has some color maps pre-made, which can be accessed 
+&lt;a href=&#34;https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Let&amp;rsquo;s be honest though.if you&amp;rsquo;re feeling creative and have an idea, don&amp;rsquo;t you want to have more control over the colors you&amp;rsquo;re using?&lt;/p&gt;
+&lt;p&gt;Like the background color, collecting hex colors for the font and putting them into a list was needed to create a color map. Then, the function matplotlib.colors.ListedColormap() would need to use your list to create the color map, and would need to be named something. For example, I called it &amp;ldquo;ColorMap&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Then, set the colormap argument in the WordCloud() function equal to the color map you created. In my code, I have &amp;ldquo;colormap=ColorMap&amp;rdquo;&lt;/p&gt;
+&lt;h4 id=&#34;this-word-cloud-looks-lack-luster-what-if-i-want-a-background-other-than-a-solid-color&#34;&gt;&lt;em&gt;This word cloud looks lack luster. What if I want a background other than a solid color?&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The answer to this question opened an entire can of worms, and made my final creation cooler than I ever imagined. It required creating an image composed of different images. For the WordCloud function, the argument &amp;ldquo;mode=&#39;RGBA&amp;rsquo;&amp;rdquo; was placed so this could be achieved - The next section will talk about why this matters.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-final-image&#34;&gt;Creating the Final Image&lt;/h2&gt;
+&lt;p&gt;In order to make the final image you saw at the beginning of this blog, I made a composite image of RGBA picture files by using the Pillow package in Python. An RGBA picture file is a picture that has transparent parts to it. By making this word cloud an RGBA picture, I was able to paste it onto an image of parchment paper, and then add RGBA pictures of footsteps and Maurader&amp;rsquo;s Map logos to make the final image.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be honest.using Python to create this image wasn&amp;rsquo;t the most efficient, mainly because using a photo editor to drag and drop some of these RGBA pictures would have been much quicker. In Python, you have to specify the coordinates that you&amp;rsquo;d like to paste pictures, which can take some trial and error to get perfectly. However, if you&amp;rsquo;re like me and want to learn how to do it in Python, it&amp;rsquo;s definitely a fun and creative way to do it ðŸ˜„&lt;/p&gt;
+&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;The word cloud package in Python is pretty versatile! Making a word cloud into an RGBA image is a complete game changer for experimenting with cool backgrounds for the word cloud. Also, using a mask to shape the word cloud makes the entire experience more visually interesting.&lt;/p&gt;
+&lt;p&gt;Looking forward to continuing this project next week! Coming up next will be further keyword and sentiment analysis. Thanks for reading!&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t have been successful with my word cloud this week if it weren&amp;rsquo;t for the following sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This overview&lt;/a&gt; of the Word Cloud package&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mubaris.com/posts/dataviz-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Mubaris NK&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.datacamp.com/community/tutorials/wordcloud-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This tutorial&lt;/a&gt; from the Data Camp community&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://matplotlib.org/api/colors_api.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guideline&lt;/a&gt; on colors in Matplotlib&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://python-graph-gallery.com/262-worcloud-with-specific-shape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This gallery&lt;/a&gt; of Python word clouds&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/42028462/wordcloud-with-a-specific-shape&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This thread&lt;/a&gt; on Stack&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/5324647/how-to-merge-a-transparent-png-image-with-another-image-using-pil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This thread&lt;/a&gt; on Stack&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://minimaxir.com/2016/05/wordclouds/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Max Woolf&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://pythontic.com/image-processing/pillow/rotate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on image processing&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nerdparadise.com/programming/pythonpil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on image processing colors&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://pythontic.com/image-processing/pillow/crop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on cropping pictures in Python&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nsm09.casimages.com/img/2019/04/05//19040503454211071516188495.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This picture&lt;/a&gt; of the Maurader&amp;rsquo;s Map logo&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cdn130.picsart.com/238867759123212.png?r1024x1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This picture&lt;/a&gt; of the Maurader&amp;rsquo;s Map logo&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

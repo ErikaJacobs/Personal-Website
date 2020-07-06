@@ -44,6 +44,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -174,9 +177,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -212,8 +215,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/post/mood-harry-potter/">
 
@@ -283,7 +286,7 @@
     "name": "Erika Jacobs",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "/images/icon_hu45628174575edffb7224a74c82940f04_5513_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Using Python, I conducted a sentiment analysis of the Harry Potter book series by chapter and book using natural language processing (NLP). I also utilized a naive bayes classifier to detect trends in sentiment throughout the books."
@@ -394,9 +397,45 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/MyPosts/"><span>Posts</span></a>
+          <a class="nav-link " href="/#myprojects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactme"><span>Contact Me</span></a>
         </li>
 
         
@@ -418,7 +457,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/MyProjects/"><span>Project Portfolio</span></a>
+          <a class="nav-link " href="/resume.pdf"><span>Resume</span></a>
         </li>
 
         
@@ -440,7 +479,7 @@
       
       <li class="nav-item dropdown theme-dropdown">
         <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
+          <i class="fas fa-moon" aria-hidden="true"></i>
         </a>
         <div class="dropdown-menu">
           <a href="#" class="dropdown-item js-set-theme-light">
@@ -523,7 +562,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    9 min read
   </span>
   
 
@@ -563,8 +602,86 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>I initially started blogging on WordPress, and am currently migrating all material to my personal website. In the meantime, 
-<a href="https://erikatheoutlier.wordpress.com/2019/07/28/mood-harry-potter/" target="_blank" rel="noopener">Click Here</a> to read the blog post I had originally posted.</p>
+      <p>This blog post is focused on Sentiment Analysis of the Harry Potter book series. Sentiment analysis extracts subjective information on a set of text - either positive sentiment, negative sentiment, or neutral sentiment. This is the last (and final) part of the Harry Potter text analysis project I&rsquo;ve been working on, with 
+<a href="https://erikajacobs.netlify.com/post/speaking-parseltongue-to-python/" target="_blank" rel="noopener">part one</a> and 
+<a href="https://erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/" target="_blank" rel="noopener">part two</a> available on my blog. Right in time for J.K. Rowling and Harry Potter&rsquo;s birthday!</p>
+<p><img src="birthday-cake.jpeg" alt=""></p>
+<p>&ldquo;Happee Birthdae&rdquo;! My gift is this blog and its supporting files on 
+<a href="https://github.com/ErikaJacobs/Harry-Potter-Text-Mining" target="_blank" rel="noopener">GitHub</a> - you can decide for yourself whether the sentiment of this gift is positive, neutral, or negative 😉</p>
+<h2 id="classifying-text-sentiment">Classifying Text Sentiment</h2>
+<p>From parts one and two of this project, I already had the text of each chapter from the books in my Jupyter notebook. However, the task became figuring out how assign sentiment to text in a quantitative way. After doing some research, I discovered a package in Python called VADER, which is part of the NLTK package for text processing.</p>
+<p>How VADER works is pretty interesting! Each word with sentiment has a set of 10 independent human-rated scores between -4 (extremely negative) and 4 (extremely positive) - this score is called a valence score. All valence scores of these sentimental words are within a lexicon, which can then be used to calculate cumulative sentiment scores for sentences.</p>
+<p>VADER uses the scores for each word to determine a positive, negative, neutral, and compound score. The positive, neutral, and negative scores fall between 0 and 1 (in which 1 signifies most sentiment), and represent a proportion of the text that falls into that category. The compound score ranges between -1 (cumulatively negative) and 1 (cumulatively positive). For example, let&rsquo;s look at a simple sentence:</p>
+<p><em>&ldquo;The book was good.&quot;</em></p>
+<p>This sentence was scored with a positive sentiment score of .492, a neutral sentiment score of .508, and a negative sentiment score of 0.0. Cumulatively speaking, this sentence had a compound score of .4404 - a positive sentence. To get the compound score for a sentence, the formula below is used:</p>
+<p><img src="formula.png" alt=""></p>
+<p>In this formula, x = sum of mean valence scores for all words in text. $\alpha$ equals a normalization parameter, valued at 15. In our example, the word &ldquo;good&rdquo; has a valence score of 1.9, and all other words in the sentence have a valence score of 0. The sum of 1.9 and 0 is 1.9. Therefore, x equals 1.9. From what I understand, $\alpha$ (or alpha) in the formula above always equals 15 in VADER.</p>
+<p>Now that the variables going into this formula are known, <em>math</em> is done - that&rsquo;s how .4404 is calculated as the compound score for this sentence.</p>
+<p>This is the basic premise behind calculating the compound score. However, there are adjustments to positive/negative/neutral valence scores of each word based on qualities such as capitalization and punctuation that complicate the calculation further than this equation. However - we don&rsquo;t need to go into those details for you to understand that math is being done based on the words present to figure out whether a sentence is of positive, negative, or neutral sentiment.</p>
+<p>For the Harry Potter text, I separated out each sentence from the book series and used VADER&rsquo;s functionality to obtain compound sentiment scores on each sentence. Here&rsquo;s a graph that shows the average sentiment score per chapter for each book:</p>
+<p><img src="hptimeplot-5.png" alt=""></p>
+<p>The visual above depicts average sentiment score per chapter. X axis (horizontal) represents the numerical chapter of each book, and y axis (vertical) represents compound sentiment score at that point of the book, with values above 0 having positive sentiment, and values below 0 having negative sentiment.</p>
+<h3 id="chapter-with-the-most-negative-sentiment">Chapter with the most negative sentiment&hellip;</h3>
+<p>This graph quantifies that Dumbledore&rsquo;s death and the events following in &ldquo;Half Blood Prince&rdquo; is the chapter with the most negative sentiment in the entire book series, with an approximate compound sentiment score of -0.2. The events leading up to his death were extremely dark and detailed, which likely explains the decline in sentiment up to the point of his death, nevertheless the negativity of the events immediately afterward.</p>
+<h3 id="the-most-neutral-book">The most neutral book&hellip;</h3>
+<p>Generally speaking, &ldquo;Order of the Phoenix&rdquo; was the most neutral of all the books, with the least amount of fluctuation between positive and negative. The book as a whole had an average sentiment compound score of 0.007, which is extremely close to zero. In other words, &ldquo;Order of the Phoenix&rdquo; is the longest and most neutral book, meaning its purpose is most likely to provide readers the most information.</p>
+<h3 id="the-most-negative-bookand-the-most-variability-in-sentiment">The most negative book&hellip;and the most variability in sentiment</h3>
+<p>&ldquo;Deathly Hallows&rdquo; has the most negative sentiment on average between all of the books, with an average compound sentiment score of -0.3 overall. This makes sense considering the amount of death and hardship experienced in the book. Furthermore, as you can likely see visually, &ldquo;Deathly Hallows&rdquo; had the most variability in sentiment in comparison to all other books in the series. This could likely be due to hardships and plot resolutions happening in contrast to each other, contributing to the &ldquo;up and down&rdquo; nature of the book overall.</p>
+<h3 id="chapter-with-the-most-positive-sentiment">Chapter with the most positive sentiment&hellip;</h3>
+<p>The epilogue of &ldquo;Deathly Hallows&rdquo; featured the most positive sentiment out of all the chapters in this book series, with an approximate compound sentiment score of 0.2. With the epilogue of &ldquo;Deathly Hallows&rdquo; being a short chapter filled to the brim with positive words after all conflict in the books had been resolved, it makes perfect sense as to why this chapter was the most positive.</p>
+<h3 id="most-negatively-rated-sentence">Most negatively rated sentence&hellip;</h3>
+<p>The most negatively rated sentence in the book series is in &ldquo;Deathly Hallows&rdquo;, when Harry goes to Godric&rsquo;s Hollow and fight&rsquo;s Voldemort&rsquo;s snake, Nagini. This sentence has a compound sentiment score of -.9906. The sentence in question was a lengthy sentence sentence explaining the negative circumstances Harry was in, so the length of this sentence most likely affected its compound sentiment score.</p>
+<h3 id="most-positively-rated-sentence">Most positively rated sentence&hellip;</h3>
+<p>The most positively rated sentence in the book series is when the Sorting Hat is singing about the different Hogwarts houses in &ldquo;Goblet of Fire.&rdquo; This sentence has a compound sentiment score of .9783. Like the most negatively rated sentence, this sentence was also a lengthy sentence of positive attributes related to each house, so the length of the sentence most likely affected its compound sentiment score.</p>
+<h3 id="obesrvation-about-all-book-conclusions">Obesrvation about ALL book conclusions&hellip;</h3>
+<p>All books have a negative &ldquo;dip&rdquo; toward the end followed by a positive increase in compound sentiment score, with the negative &ldquo;dip&rdquo; ranging from slight to drastic depending on the book. This could be related to rising action prior to the climax of each book.</p>
+<p>Furthermore, after using VADER to detect sentiment in each sentence of the Harry Potter books, here are some additional sentiment statistics by sentence:</p>
+<ul>
+<li>There are 19,058 sentences with positive sentiment (or 25.4%)</li>
+<li>There are 18,384 sentences with negative sentiment (or 24.5%)</li>
+<li>There are 33,574 sentences with neutral sentiment (or 44.8%)</li>
+</ul>
+<p>With all sentences in the Harry Potters series equipped with a compound sentiment score, this data can now be used to create a sentiment classifier!</p>
+<p><img src="wicked.gif" alt=""></p>
+<h2 id="sentiment-classifier">Sentiment Classifier</h2>
+<p>With all of our information ready to go, one big question remains.what are the fundamental differences in words between sentences with a positive and negative sentiment? Luckily, there&rsquo;s a mathematical way to do this with all of the sentiment scores collected.</p>
+<p>In Python, a mathematical concept called the Naive Bayes Classifier is used to compare two groups of words, and determines which qualities are more distinct of just one group using math and probability. Once a classifier is trained and tested with an appropriate level of accuracy (70% and above, from what I&rsquo;ve heard), an analysis can be done to see what those informative features are.</p>
+<p>In the case of the Harry Potter text, I trained a classifier with half of the positive sentences, and half of the negative sentences. After training, the classifier had 90% accuracy. Then, I tested the other half of the positive and negative sentences, which had 80% accuracy. Success!</p>
+<p>Let&rsquo;s take a look at the &ldquo;Most Informative Features&rdquo; from comparing the positive and negative Harry Potter text:</p>
+<p><img src="most-informative-features.png" alt=""></p>
+<p>The numbers to the right of the &ldquo;Most Informative Features&rdquo; represent a ratio between positive and negative text, in which the second column explains the direction of the ratio. For example: The first row explains that the word &ldquo;Excellent&rdquo; is 38.3 times more likely to show up in positive text from the Harry Potter series, rather than negative text. The second row explains that the word &ldquo;anger&rdquo; is 28.7 times more likely to show up in negative text from the Harry Potter series, rather than positive text.</p>
+<p>And with that.this Harry Potter text analysis project is complete!</p>
+<p><img src="celebratehp.gif" alt=""></p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>Overall, this project was SO much fun to do, and was a great introduction to working with text analysis!</p>
+<p>Now that this project is complete, I wanted to be transparent about the data I utilized for this project. In the middle of this project, I discovered that some of the text from &ldquo;Chamber of Secrets&rdquo; could be incorrectly ordered (or potentially missing text completely) based on the source I was using. Once I learn how to use text scraping through Python, I&rsquo;m going to recreate this project and see if anything changed. I&rsquo;m almost positive that the findings won&rsquo;t be terribly different.but I believe in honesty and transparency, which is why I&rsquo;m communicating this with you. Regardless, it was still a learning experience to use the text from the source I used, and the source itself is still valuable!</p>
+<p>Thank you for reading about this project, and I hope you continue to follow my future projects!</p>
+<h2 id="sources">Sources</h2>
+<p>This blog wouldn&rsquo;t have been possible without the following sources!</p>
+<ul>
+<li>
+<a href="https://www.mikulskibartosz.name/how-to-split-a-list-inside-a-dataframe-cell-into-rows-in-pandas/" target="_blank" rel="noopener">This blog</a> by Bartosz Mikulski on restacking rows</li>
+<li>
+<a href="https://medium.com/@sharonwoo/sentiment-analysis-with-nltk-422e0f794b8" target="_blank" rel="noopener">This blog</a> on sentiment analysis using Vader via NLTK</li>
+<li>
+<a href="https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f" target="_blank" rel="noopener">This blog</a> on sentiment analysis using Vader via NLTK</li>
+<li>
+<a href="https://towardsdatascience.com/sentiment-analysis-beyond-words-6ca17a6c1b54" target="_blank" rel="noopener">This blog</a> on sentiment analysis</li>
+<li>
+<a href="http://fjavieralba.com/basic-sentiment-analysis-with-python.html" target="_blank" rel="noopener">This blog</a> on sentiment analysis</li>
+<li>
+<a href="https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk" target="_blank" rel="noopener">This article</a> from Data Camp, which I wish I found sooner</li>
+<li>
+<a href="http://datameetsmedia.com/vader-sentiment-analysis-explained/" target="_blank" rel="noopener">This website</a> for the VADER compound score formula</li>
+<li>The Vader sentiment analysis tool via the 
+<a href="https://www.nltk.org/api/nltk.sentiment.html" target="_blank" rel="noopener">NLTK package</a>, with citation:
+<ul>
+<li>Hutto, C.J. &amp; Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.</li>
+<li>Associated lexicon found 
+<a href="https://www.kaggle.com/nltkdata/vader-lexicon" target="_blank" rel="noopener">here</a></li>
+</ul>
+</li>
+</ul>
 
     </div>
 
@@ -613,21 +730,8 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/mood-harry-potter/&amp;text=Mood:%20Harry%20Potter" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/mood-harry-potter/&amp;t=Mood:%20Harry%20Potter" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/mood-harry-potter/&amp;title=Mood:%20Harry%20Potter" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
     
@@ -652,34 +756,8 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/mood-harry-potter/&amp;title=Mood:%20Harry%20Potter" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Mood:%20Harry%20Potter%20/post/mood-harry-potter/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/mood-harry-potter/&amp;title=Mood:%20Harry%20Potter" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
+        <a href="https://twitter.com/intent/tweet?url=/post/mood-harry-potter/&amp;text=Mood:%20Harry%20Potter" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
         </a>
       </li>
     
@@ -720,8 +798,8 @@
 
     <div class="media-body">
       <h5 class="card-title"><a href="/">Erika Jacobs</a></h5>
-      <h6 class="card-subtitle">Data enthusiast</h6>
-      <p class="card-text">I&rsquo;m a data enthusiast exploring a career path in Data Engineering matter.</p>
+      
+      
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -785,9 +863,11 @@
       
       <li><a href="/post/harry-potter-and-the-learning-of-wordcloud/">Harry Potter and the Learning of WordCloud</a></li>
       
-      <li><a href="/project/excel-python-migration/">Excel Python Migration</a></li>
-      
       <li><a href="/project/harry-potter-nlp-project/">Harry Potter NLP Project</a></li>
+      
+      <li><a href="/project/animal-crossing-popularity-data/">Animal Crossing Popularity Data</a></li>
+      
+      <li><a href="/project/anonymize/">Anonymize</a></li>
       
     </ul>
   </div>
