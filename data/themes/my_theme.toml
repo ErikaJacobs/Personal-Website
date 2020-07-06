@@ -2,7 +2,7 @@
 name = "1950s"
 
 # Is theme light or dark?
-light = true
+light = false
 
 # Primary
 primary = "#981ebd"
@@ -14,8 +14,8 @@ menu_text_active = "#00828B"
 menu_title = "#fff"
 
 # Backgrounds
-background = "#EAE7D6"
-home_section_odd = "#EAE7D6"
-home_section_even = "#EAE7D6"
+background = "#272935"
+home_section_odd = "#272935"
+home_section_even = "#272935"
 
 font = "rose"
