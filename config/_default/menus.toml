@@ -6,17 +6,17 @@
 [[main]]
   name = "Project Portfolio"
   url = "myprojects/"
-  weight = 30
+  weight = 1
 
 [[main]]
   name = "Resume"
   url = "resume.pdf"
-  weight = 30
+  weight = 2
 
 [[main]]
   name = "Contact"
   url = "contact/"
-  weight = 30
+  weight = 3
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
