@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>S3 | Erika Jacobs</title>
-    <link>/tags/s3/</link>
-      <atom:link href="/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.erikajacobs.netlify.com/tags/s3/</link>
+      <atom:link href="https://www.erikajacobs.netlify.com/tags/s3/index.xml" rel="self" type="application/rss+xml" />
     <description>S3</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>S3</title>
-      <link>/tags/s3/</link>
+      <link>https://www.erikajacobs.netlify.com/tags/s3/</link>
     </image>
     
     <item>
       <title>A Dash of Coronavirus Data</title>
-      <link>/post/dash-of-coronavirus-data/</link>
+      <link>https://www.erikajacobs.netlify.com/post/dash-of-coronavirus-data/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/dash-of-coronavirus-data/</guid>
+      <guid>https://www.erikajacobs.netlify.com/post/dash-of-coronavirus-data/</guid>
       <description>&lt;p&gt;As I&amp;rsquo;m writing this post, COVID-19 is still rapidly spreading with cases exponentially increasing each day in the United States. It almost feels surreal at this point that - who knew that we would experience a worldwide pandemic like this in our lifetime?&lt;/p&gt;
 &lt;p&gt;With COVID-19 still being a relevant threat to public health, there&amp;rsquo;s still a need and desire for visualizing the data available. In a 
 &lt;a href=&#34;https://erikajacobs.netlify.app/post/covid-19-sparked-aws-ideas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous blog post&lt;/a&gt;, I mentioned that the Johns Hopkins Coronavirus data I had processed using PySpark would be placed into my own dashboard. Well&amp;hellip;the dashboard is now finished - take a look at this beauty!&lt;/p&gt;
@@ -67,9 +67,9 @@
     
     <item>
       <title>COVID-19 &#34;Sparked&#34; Some AWS Ideas</title>
-      <link>/post/covid-19-sparked-aws-ideas/</link>
+      <link>https://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19-sparked-aws-ideas/</guid>
+      <guid>https://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</guid>
       <description>&lt;p&gt;Ahhh&amp;hellip;the Coronavirus. The pesky virus that stopped daily life as we know it. The pesky virus that everyone&amp;rsquo;s looking to understand a little better. The pesky virus that has many people looking at data visualizations like &lt;em&gt;never&lt;/em&gt; before.&lt;/p&gt;
 &lt;p&gt;Like many other data enthusiasts out there, I thought the Coronavirus seemed like a perfect topic to explore different skills I&amp;rsquo;ve been learning related to Data Engineering. So&amp;hellip;here we are!&lt;/p&gt;
 &lt;h2 id=&#34;background-behind-project&#34;&gt;Background Behind Project&lt;/h2&gt;

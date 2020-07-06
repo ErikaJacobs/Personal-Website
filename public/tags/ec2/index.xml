@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EC2 | Erika Jacobs</title>
-    <link>/tags/ec2/</link>
-      <atom:link href="/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.erikajacobs.netlify.com/tags/ec2/</link>
+      <atom:link href="https://www.erikajacobs.netlify.com/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
     <description>EC2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>EC2</title>
-      <link>/tags/ec2/</link>
+      <link>https://www.erikajacobs.netlify.com/tags/ec2/</link>
     </image>
     
     <item>
       <title>COVID-19 &#34;Sparked&#34; Some AWS Ideas</title>
-      <link>/post/covid-19-sparked-aws-ideas/</link>
+      <link>https://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19-sparked-aws-ideas/</guid>
+      <guid>https://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</guid>
       <description>&lt;p&gt;Ahhh&amp;hellip;the Coronavirus. The pesky virus that stopped daily life as we know it. The pesky virus that everyone&amp;rsquo;s looking to understand a little better. The pesky virus that has many people looking at data visualizations like &lt;em&gt;never&lt;/em&gt; before.&lt;/p&gt;
 &lt;p&gt;Like many other data enthusiasts out there, I thought the Coronavirus seemed like a perfect topic to explore different skills I&amp;rsquo;ve been learning related to Data Engineering. So&amp;hellip;here we are!&lt;/p&gt;
 &lt;h2 id=&#34;background-behind-project&#34;&gt;Background Behind Project&lt;/h2&gt;
