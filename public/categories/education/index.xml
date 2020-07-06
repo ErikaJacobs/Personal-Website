@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education | Erika Jacobs</title>
-    <link>http://www.erikajacobs.netlify.com/categories/education/</link>
-      <atom:link href="http://www.erikajacobs.netlify.com/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/education/</link>
+      <atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
     <description>Education</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Education</title>
-      <link>http://www.erikajacobs.netlify.com/categories/education/</link>
+      <link>/categories/education/</link>
     </image>
     
     <item>
       <title>Learning From Teaching: Year One</title>
-      <link>http://www.erikajacobs.netlify.com/post/learning-from-teaching/</link>
+      <link>/post/learning-from-teaching/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.erikajacobs.netlify.com/post/learning-from-teaching/</guid>
+      <guid>/post/learning-from-teaching/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re looking at the posts on my website or activity on GitHub, you might notice some very long gaps of activity between August 2019 and now (April 2020). Most of that is due to a personal passion of mine - I started my first year teaching at the college level, and recently finished it!&lt;/p&gt;
 &lt;p&gt;I taught two courses at Chandler-Gilbert Community College this year. Fall 2019 I taught MAT 142 (College Mathematics), and taught MAT 051 in Spring 2020 (Number Sense). Teaching both courses offered very different experiences, and I learned very different things from both courses as a result. Through those experiences, I feel better equipped to move forward into teaching future courses!&lt;/p&gt;
 &lt;h2 id=&#34;teaching-going-forward&#34;&gt;Teaching Going Forward&lt;/h2&gt;
@@ -94,9 +94,9 @@
     
     <item>
       <title>Putting the &#34;Fun&#34; in Functional as a Math Instructor</title>
-      <link>http://www.erikajacobs.netlify.com/post/putting-the-fun-in-functional/</link>
+      <link>/post/putting-the-fun-in-functional/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.erikajacobs.netlify.com/post/putting-the-fun-in-functional/</guid>
+      <guid>/post/putting-the-fun-in-functional/</guid>
       <description>&lt;p&gt;Starting on Tuesday, I have the pleasure of teaching my first college level math class! I felt compelled to write this post to let any potential readers know that my next Python project is coming along and will be shared with you ASAP, yet I&amp;rsquo;ll probably only get to finishing that post later on.&lt;/p&gt;
 &lt;p&gt;My free time the last couple of weeks has been dedicated to preparing for my class, ironing out technical issues, attending training sessions, working through busy season in my current day job, and trying to maintain a balance between my professional and personal life. All things considered.I&amp;rsquo;m doing pretty well! A former version of myself might have been running on 99.9% anxiety with this much going on.but now? I&amp;rsquo;m just excited to get started!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;yay.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;

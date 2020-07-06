@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spark | Erika Jacobs</title>
-    <link>http://www.erikajacobs.netlify.com/tags/spark/</link>
-      <atom:link href="http://www.erikajacobs.netlify.com/tags/spark/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/spark/</link>
+      <atom:link href="/tags/spark/index.xml" rel="self" type="application/rss+xml" />
     <description>Spark</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Spark</title>
-      <link>http://www.erikajacobs.netlify.com/tags/spark/</link>
+      <link>/tags/spark/</link>
     </image>
     
     <item>
       <title>COVID-19 Data Project</title>
-      <link>http://www.erikajacobs.netlify.com/project/covid-19-project/</link>
+      <link>/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
+      <guid>/project/covid-19-project/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classification | Erika Jacobs</title>
-    <link>http://www.erikajacobs.netlify.com/tags/classification/</link>
-      <atom:link href="http://www.erikajacobs.netlify.com/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/classification/</link>
+      <atom:link href="/tags/classification/index.xml" rel="self" type="application/rss+xml" />
     <description>Classification</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Classification</title>
-      <link>http://www.erikajacobs.netlify.com/tags/classification/</link>
+      <link>/tags/classification/</link>
     </image>
     
     <item>
       <title>Mood: Harry Potter</title>
-      <link>http://www.erikajacobs.netlify.com/post/mood-harry-potter/</link>
+      <link>/post/mood-harry-potter/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.erikajacobs.netlify.com/post/mood-harry-potter/</guid>
+      <guid>/post/mood-harry-potter/</guid>
       <description>&lt;p&gt;This blog post is focused on Sentiment Analysis of the Harry Potter book series. Sentiment analysis extracts subjective information on a set of text - either positive sentiment, negative sentiment, or neutral sentiment. This is the last (and final) part of the Harry Potter text analysis project I&amp;rsquo;ve been working on, with 
 &lt;a href=&#34;https://erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part one&lt;/a&gt; and 
 &lt;a href=&#34;https://erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part two&lt;/a&gt; available on my blog. Right in time for J.K. Rowling and Harry Potter&amp;rsquo;s birthday!&lt;/p&gt;

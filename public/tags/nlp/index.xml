@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NLP | Erika Jacobs</title>
-    <link>http://www.erikajacobs.netlify.com/tags/nlp/</link>
-      <atom:link href="http://www.erikajacobs.netlify.com/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/nlp/</link>
+      <atom:link href="/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>NLP</title>
-      <link>http://www.erikajacobs.netlify.com/tags/nlp/</link>
+      <link>/tags/nlp/</link>
     </image>
     
     <item>
       <title>Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</title>
-      <link>http://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/</link>
+      <link>/post/speaking-parseltongue-to-python/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/</guid>
+      <guid>/post/speaking-parseltongue-to-python/</guid>
       <description>&lt;p&gt;The Harry Potter series is my favorite book series of all time, and is one of my favorite things to nerd out about! If you needed some proof:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I&amp;rsquo;m a true Hufflepuff at heart, and have been sorted that way.&lt;/li&gt;
