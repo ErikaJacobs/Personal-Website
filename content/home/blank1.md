@@ -19,6 +19,10 @@ subtitle = ""
   image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   text_color_light = true
+  
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
 
 [advanced]
  # Custom CSS. 
