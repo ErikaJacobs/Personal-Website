@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interviention Analysis | Erika Jacobs</title>
-    <link>https://www.erikajacobs.netlify.com/tags/interviention-analysis/</link>
-      <atom:link href="https://www.erikajacobs.netlify.com/tags/interviention-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.erikajacobs.netlify.com/tags/interviention-analysis/</link>
+      <atom:link href="http://www.erikajacobs.netlify.com/tags/interviention-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Interviention Analysis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Interviention Analysis</title>
-      <link>https://www.erikajacobs.netlify.com/tags/interviention-analysis/</link>
+      <link>http://www.erikajacobs.netlify.com/tags/interviention-analysis/</link>
     </image>
     
     <item>
       <title>Adding Up STEM Qualifications: A Capstone Overview</title>
-      <link>https://www.erikajacobs.netlify.com/post/adding-up-stem-qualifications/</link>
+      <link>http://www.erikajacobs.netlify.com/post/adding-up-stem-qualifications/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/adding-up-stem-qualifications/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/adding-up-stem-qualifications/</guid>
       <description>&lt;p&gt;Time flies when you&amp;rsquo;re having fun! Teaching at the college level for the first time has been an absolute blast, yet it has been plenty of work each week on top of full time. There has been little time to start new data projects using Python or R. In the meantime, I thought it might be nice to share a personal project that I completed as part of my Masters degree.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve always been passionate about the topic of education in my studies. Within my Psychology major at Arizona State University, I had the opportunity to work in a research lab that refined a program called 
 &lt;a href=&#34;https://link.springer.com/article/10.1007/s11612-013-0231-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4-R Success&lt;/a&gt;, which had the goal of helping students collaborate better with each other in the classroom. I also focused most of my Psychology major&amp;rsquo;s courses on learning, motivation, and cognition. When it came to the capstone for my Masters degree, I already knew that I wanted to explore a topic within the realm of education. Thus, my capstone project was born.&lt;/p&gt;

@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Erika Jacobs</title>
-    <link>https://www.erikajacobs.netlify.com/project/</link>
-      <atom:link href="https://www.erikajacobs.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.erikajacobs.netlify.com/project/</link>
+      <atom:link href="http://www.erikajacobs.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
-      <link>https://www.erikajacobs.netlify.com/project/</link>
+      <link>http://www.erikajacobs.netlify.com/project/</link>
     </image>
     
     <item>
       <title>NASA Data Warehouse</title>
-      <link>https://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</link>
+      <link>http://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beatles Bops</title>
-      <link>https://www.erikajacobs.netlify.com/project/beatles-bops/</link>
+      <link>http://www.erikajacobs.netlify.com/project/beatles-bops/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/beatles-bops/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/beatles-bops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 Data Project</title>
-      <link>https://www.erikajacobs.netlify.com/project/covid-19-project/</link>
+      <link>http://www.erikajacobs.netlify.com/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel Python Migration</title>
-      <link>https://www.erikajacobs.netlify.com/project/excel-python-migration/</link>
+      <link>http://www.erikajacobs.netlify.com/project/excel-python-migration/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/excel-python-migration/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/excel-python-migration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harry Potter NLP Project</title>
-      <link>https://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</link>
+      <link>http://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Animal Crossing Popularity Data</title>
-      <link>https://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</link>
+      <link>http://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Common Core Intervention Analysis</title>
-      <link>https://www.erikajacobs.netlify.com/project/common-core-intervention-analysis/</link>
+      <link>http://www.erikajacobs.netlify.com/project/common-core-intervention-analysis/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/common-core-intervention-analysis/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/common-core-intervention-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anonymize</title>
-      <link>https://www.erikajacobs.netlify.com/project/anonymize/</link>
+      <link>http://www.erikajacobs.netlify.com/project/anonymize/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/anonymize/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/anonymize/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal Website Project</title>
-      <link>https://www.erikajacobs.netlify.com/project/personal-website/</link>
+      <link>http://www.erikajacobs.netlify.com/project/personal-website/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/personal-website/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/personal-website/</guid>
       <description></description>
     </item>
     

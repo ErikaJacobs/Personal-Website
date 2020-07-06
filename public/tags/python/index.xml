@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Erika Jacobs</title>
-    <link>https://www.erikajacobs.netlify.com/tags/python/</link>
-      <atom:link href="https://www.erikajacobs.netlify.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.erikajacobs.netlify.com/tags/python/</link>
+      <atom:link href="http://www.erikajacobs.netlify.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Python</title>
-      <link>https://www.erikajacobs.netlify.com/tags/python/</link>
+      <link>http://www.erikajacobs.netlify.com/tags/python/</link>
     </image>
     
     <item>
       <title>NASA Data Warehouse</title>
-      <link>https://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</link>
+      <link>http://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>All You Need Is Love...For APIs</title>
-      <link>https://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</link>
+      <link>http://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</guid>
       <description>&lt;p&gt;Spotify is one of the most popular music streaming apps in the entire world. In fact, according to 
 &lt;a href=&#34;https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this Forbes article&lt;/a&gt;, Spotify was the top music streaming app of 2019. Pretty impressive!&lt;/p&gt;
 &lt;p&gt;From films to weddings, music is an important aspect of everyone&amp;rsquo;s life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me. Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60&amp;rsquo;s.&lt;/p&gt;
@@ -53,17 +53,17 @@
     
     <item>
       <title>Beatles Bops</title>
-      <link>https://www.erikajacobs.netlify.com/project/beatles-bops/</link>
+      <link>http://www.erikajacobs.netlify.com/project/beatles-bops/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/beatles-bops/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/beatles-bops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Dash of Coronavirus Data</title>
-      <link>https://www.erikajacobs.netlify.com/post/dash-of-coronavirus-data/</link>
+      <link>http://www.erikajacobs.netlify.com/post/dash-of-coronavirus-data/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/dash-of-coronavirus-data/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/dash-of-coronavirus-data/</guid>
       <description>&lt;p&gt;As I&amp;rsquo;m writing this post, COVID-19 is still rapidly spreading with cases exponentially increasing each day in the United States. It almost feels surreal at this point that - who knew that we would experience a worldwide pandemic like this in our lifetime?&lt;/p&gt;
 &lt;p&gt;With COVID-19 still being a relevant threat to public health, there&amp;rsquo;s still a need and desire for visualizing the data available. In a 
 &lt;a href=&#34;https://erikajacobs.netlify.app/post/covid-19-sparked-aws-ideas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous blog post&lt;/a&gt;, I mentioned that the Johns Hopkins Coronavirus data I had processed using PySpark would be placed into my own dashboard. Well&amp;hellip;the dashboard is now finished - take a look at this beauty!&lt;/p&gt;
@@ -114,17 +114,17 @@
     
     <item>
       <title>COVID-19 Data Project</title>
-      <link>https://www.erikajacobs.netlify.com/project/covid-19-project/</link>
+      <link>http://www.erikajacobs.netlify.com/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 &#34;Sparked&#34; Some AWS Ideas</title>
-      <link>https://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</link>
+      <link>http://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/covid-19-sparked-aws-ideas/</guid>
       <description>&lt;p&gt;Ahhh&amp;hellip;the Coronavirus. The pesky virus that stopped daily life as we know it. The pesky virus that everyone&amp;rsquo;s looking to understand a little better. The pesky virus that has many people looking at data visualizations like &lt;em&gt;never&lt;/em&gt; before.&lt;/p&gt;
 &lt;p&gt;Like many other data enthusiasts out there, I thought the Coronavirus seemed like a perfect topic to explore different skills I&amp;rsquo;ve been learning related to Data Engineering. So&amp;hellip;here we are!&lt;/p&gt;
 &lt;h2 id=&#34;background-behind-project&#34;&gt;Background Behind Project&lt;/h2&gt;
@@ -182,17 +182,17 @@
     
     <item>
       <title>Excel Python Migration</title>
-      <link>https://www.erikajacobs.netlify.com/project/excel-python-migration/</link>
+      <link>http://www.erikajacobs.netlify.com/project/excel-python-migration/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/excel-python-migration/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/excel-python-migration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scripts Anonymous</title>
-      <link>https://www.erikajacobs.netlify.com/post/scripts-anonymous/</link>
+      <link>http://www.erikajacobs.netlify.com/post/scripts-anonymous/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/scripts-anonymous/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/scripts-anonymous/</guid>
       <description>&lt;p&gt;If you read my blog about transitioning 
 &lt;a href=&#34;https://erikajacobs.netlify.app/post/how-the-itsy-bitsy-spyder-saved-my-project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Excel files to SQL Server using Python&lt;/a&gt;, you might recall that the project was done confidentially. I can&amp;rsquo;t share any information about who this project was for, nor what kind of data was being extracted.&lt;/p&gt;
 &lt;p&gt;I have (and continue to) handle this particular project with integrity based on what has been shared publicly through my recent blog post. However, I wanted to be able to show others this project on GitHub - It&amp;rsquo;s a cool project, and a lot of effort went into it! I needed a way to honor the confidentiality of the project while also showcase my skills on GitHub.&lt;/p&gt;
@@ -217,9 +217,9 @@
     
     <item>
       <title>How the Itsy Bitsy &#34;Spyder&#34; Saved My Project</title>
-      <link>https://www.erikajacobs.netlify.com/post/how-the-itsy-bitsy-spyder-saved-my-project/</link>
+      <link>http://www.erikajacobs.netlify.com/post/how-the-itsy-bitsy-spyder-saved-my-project/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/how-the-itsy-bitsy-spyder-saved-my-project/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/how-the-itsy-bitsy-spyder-saved-my-project/</guid>
       <description>&lt;p&gt;A couple months ago, I stumbled across a confidential &amp;ldquo;real life opportunity&amp;rdquo; to exercise my skills in working with data. While I can&amp;rsquo;t explain specifics about the data I was working with or who this project was for, I was very excited to help with this project because the resulting data product would be extremely helpful to many people I care about 😊&lt;/p&gt;
 &lt;p&gt;Below I&amp;rsquo;ve outlined some information about the project, as well as the progress I&amp;rsquo;ve made so far.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Code.jpg&#34; alt=&#34;&#34; title=&#34;A snippet of this project&#39;s code in Spyder&#34;&gt;&lt;/p&gt;
@@ -268,9 +268,9 @@
     
     <item>
       <title>Mood: Harry Potter</title>
-      <link>https://www.erikajacobs.netlify.com/post/mood-harry-potter/</link>
+      <link>http://www.erikajacobs.netlify.com/post/mood-harry-potter/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/mood-harry-potter/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/mood-harry-potter/</guid>
       <description>&lt;p&gt;This blog post is focused on Sentiment Analysis of the Harry Potter book series. Sentiment analysis extracts subjective information on a set of text - either positive sentiment, negative sentiment, or neutral sentiment. This is the last (and final) part of the Harry Potter text analysis project I&amp;rsquo;ve been working on, with 
 &lt;a href=&#34;https://erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part one&lt;/a&gt; and 
 &lt;a href=&#34;https://erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part two&lt;/a&gt; available on my blog. Right in time for J.K. Rowling and Harry Potter&amp;rsquo;s birthday!&lt;/p&gt;
@@ -356,19 +356,19 @@
     
     <item>
       <title>Harry Potter NLP Project</title>
-      <link>https://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</link>
+      <link>http://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/harry-potter-nlp-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harry Potter and the Learning of WordCloud</title>
-      <link>https://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</link>
+      <link>http://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</guid>
       <description>&lt;p&gt;This is the second part of my Harry Potter text analysis project! If you haven&amp;rsquo;t read part one, 
-&lt;a href=&#34;https://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
+&lt;a href=&#34;http://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;hp_wordcloud_final-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is the only output I have this week.and yet SO much learning was put into making it. This blog will explore basic keyword analysis from the books, as well as how I was able to use the WordCloud package (among other things) in Python. Also, if you&amp;rsquo;d like to look at my work on this project, 
 &lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to see the project files in my GitHub repository.&lt;/p&gt;
@@ -581,9 +581,9 @@ wordcloud.to_file(&amp;quot;HP_WordCloud.png&amp;quot;)
     
     <item>
       <title>Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</title>
-      <link>https://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/</link>
+      <link>http://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/</guid>
       <description>&lt;p&gt;The Harry Potter series is my favorite book series of all time, and is one of my favorite things to nerd out about! If you needed some proof:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I&amp;rsquo;m a true Hufflepuff at heart, and have been sorted that way.&lt;/li&gt;
@@ -637,17 +637,17 @@ devtools::install_github(&amp;quot;bradleyboehmke/harrypotter&amp;quot;)
     
     <item>
       <title>Animal Crossing Popularity Data</title>
-      <link>https://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</link>
+      <link>http://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/animal-crossing-popularity-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anonymize</title>
-      <link>https://www.erikajacobs.netlify.com/project/anonymize/</link>
+      <link>http://www.erikajacobs.netlify.com/project/anonymize/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/anonymize/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/anonymize/</guid>
       <description></description>
     </item>
     

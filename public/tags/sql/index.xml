@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SQL | Erika Jacobs</title>
-    <link>https://www.erikajacobs.netlify.com/tags/sql/</link>
-      <atom:link href="https://www.erikajacobs.netlify.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.erikajacobs.netlify.com/tags/sql/</link>
+      <atom:link href="http://www.erikajacobs.netlify.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <description>SQL</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>SQL</title>
-      <link>https://www.erikajacobs.netlify.com/tags/sql/</link>
+      <link>http://www.erikajacobs.netlify.com/tags/sql/</link>
     </image>
     
     <item>
       <title>NASA Data Warehouse</title>
-      <link>https://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</link>
+      <link>http://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>All You Need Is Love...For APIs</title>
-      <link>https://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</link>
+      <link>http://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/all-you-need-is-love-for-apis/</guid>
       <description>&lt;p&gt;Spotify is one of the most popular music streaming apps in the entire world. In fact, according to 
 &lt;a href=&#34;https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this Forbes article&lt;/a&gt;, Spotify was the top music streaming app of 2019. Pretty impressive!&lt;/p&gt;
 &lt;p&gt;From films to weddings, music is an important aspect of everyone&amp;rsquo;s life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me. Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60&amp;rsquo;s.&lt;/p&gt;
@@ -53,25 +53,25 @@
     
     <item>
       <title>Beatles Bops</title>
-      <link>https://www.erikajacobs.netlify.com/project/beatles-bops/</link>
+      <link>http://www.erikajacobs.netlify.com/project/beatles-bops/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/beatles-bops/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/beatles-bops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 Data Project</title>
-      <link>https://www.erikajacobs.netlify.com/project/covid-19-project/</link>
+      <link>http://www.erikajacobs.netlify.com/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/covid-19-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel Python Migration</title>
-      <link>https://www.erikajacobs.netlify.com/project/excel-python-migration/</link>
+      <link>http://www.erikajacobs.netlify.com/project/excel-python-migration/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/project/excel-python-migration/</guid>
+      <guid>http://www.erikajacobs.netlify.com/project/excel-python-migration/</guid>
       <description></description>
     </item>
     

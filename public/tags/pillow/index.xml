@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pillow | Erika Jacobs</title>
-    <link>https://www.erikajacobs.netlify.com/tags/pillow/</link>
-      <atom:link href="https://www.erikajacobs.netlify.com/tags/pillow/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.erikajacobs.netlify.com/tags/pillow/</link>
+      <atom:link href="http://www.erikajacobs.netlify.com/tags/pillow/index.xml" rel="self" type="application/rss+xml" />
     <description>Pillow</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.erikajacobs.netlify.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Pillow</title>
-      <link>https://www.erikajacobs.netlify.com/tags/pillow/</link>
+      <link>http://www.erikajacobs.netlify.com/tags/pillow/</link>
     </image>
     
     <item>
       <title>Harry Potter and the Learning of WordCloud</title>
-      <link>https://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</link>
+      <link>http://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</guid>
+      <guid>http://www.erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/</guid>
       <description>&lt;p&gt;This is the second part of my Harry Potter text analysis project! If you haven&amp;rsquo;t read part one, 
-&lt;a href=&#34;https://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
+&lt;a href=&#34;http://www.erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;hp_wordcloud_final-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is the only output I have this week.and yet SO much learning was put into making it. This blog will explore basic keyword analysis from the books, as well as how I was able to use the WordCloud package (among other things) in Python. Also, if you&amp;rsquo;d like to look at my work on this project, 
 &lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to see the project files in my GitHub repository.&lt;/p&gt;
