@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Let's Chat!"
-subtitle = "Interested in working together? This form is the easiest way to get in touch - I would love to hear from you!"
+subtitle = "Interested in working together? This form is the easiest way to get in touch - Look forward to hearing from you!"
 
 # Automatically link email and phone?
 autolink = false
