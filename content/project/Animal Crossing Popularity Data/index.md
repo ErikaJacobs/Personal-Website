@@ -1,5 +1,5 @@
 ---
-date: "2019-06-21T00:00:00Z"
+date: "2020-06-21T00:00:00Z"
 external_link: https://github.com/ErikaJacobs/Animal-Crossing-Popularity-Data
 image:
   caption: 
