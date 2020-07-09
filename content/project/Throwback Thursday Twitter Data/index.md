@@ -9,5 +9,6 @@ tags:
 - Python
 - AWS
 - Spark
+- SQL
 title: Throwback Thursday Twitter Data
 ---
