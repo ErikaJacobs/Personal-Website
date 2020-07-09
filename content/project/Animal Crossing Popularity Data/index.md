@@ -4,8 +4,9 @@ external_link: https://github.com/ErikaJacobs/Animal-Crossing-Popularity-Data
 image:
   caption: 
   focal_point: Smart
-summary: Scrapes automatically updated data on villager popularity from the *Animal Crossing* video game series using Airflow (In Progress)
+summary: Scrapes data on Animal Crossing villager popularity, joins to Kaggle table of villager traits, and appends to MySQL table using Airflow
 tags:
 - Python
+- SQL
 title: Animal Crossing Popularity Data
 ---
