@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>Animal Crossing Popularity Data</title>
+      <link>/project/animal-crossing-popularity-data/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/animal-crossing-popularity-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NASA Data Warehouse</title>
       <link>/project/nasa-data-warehouse/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
@@ -596,6 +604,14 @@ wordcloud.to_file(&amp;quot;HP_WordCloud.png&amp;quot;)
     </item>
     
     <item>
+      <title>Throwback Thursday Twitter Data</title>
+      <link>/project/throwback-thursday-twitter-data/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/project/throwback-thursday-twitter-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</title>
       <link>/post/speaking-parseltongue-to-python/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
@@ -649,14 +665,6 @@ devtools::install_github(&amp;quot;bradleyboehmke/harrypotter&amp;quot;)
 &lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
 &lt;p&gt;There is still MUCH more to come in this analysis. Coming up next will be counts of distinct words per book, word clouds, keyword analysis (characters and spells), and sentiment analysis. Stay tuned!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
-      <description></description>
     </item>
     
     <item>

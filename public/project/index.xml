@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Animal Crossing Popularity Data</title>
+      <link>/project/animal-crossing-popularity-data/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/animal-crossing-popularity-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NASA Data Warehouse</title>
       <link>/project/nasa-data-warehouse/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
@@ -53,10 +61,10 @@
     </item>
     
     <item>
-      <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
+      <title>Throwback Thursday Twitter Data</title>
+      <link>/project/throwback-thursday-twitter-data/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/project/throwback-thursday-twitter-data/</guid>
       <description></description>
     </item>
     
