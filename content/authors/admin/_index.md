@@ -15,6 +15,7 @@ interests:
 - Data Engineering
 - ETL
 - Cloud Computing
+- STEM Education
 name: Erika Jacobs
 organizations:
 - name: 
