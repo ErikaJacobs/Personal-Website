@@ -4,7 +4,7 @@ authors:
 categories:
 - Education
 date: "2020-04-01T00:00:00Z"
-draft: false
+draft: true
 featured: false
 image:
   caption: ""

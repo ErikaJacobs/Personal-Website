@@ -4,7 +4,7 @@ authors:
 categories:
 - R Studio
 date: "2019-10-24T00:00:00Z"
-draft: false
+draft: true
 featured: false
 image:
   caption: ""
