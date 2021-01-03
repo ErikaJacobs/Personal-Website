@@ -7,6 +7,5 @@ image:
 summary: Reads federal government consumer complaints csv and aggregates summary statistics.
 tags:
 - Python
-
 title: Consumer Complaints
 ---
