@@ -5,7 +5,6 @@ image:
   caption: 
   focal_point: Smart
 summary: Reads federal government consumer complaints csv and aggregates summary statistics.
-draft: true
 tags:
 - Python
 
