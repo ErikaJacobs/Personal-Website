@@ -5,7 +5,7 @@
     <link>/tags/sql/</link>
       <atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <description>SQL</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>SQL</title>
@@ -13,18 +13,34 @@
     </image>
     
     <item>
-      <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
-      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
+      <title>NASA Data Warehouse</title>
+      <link>/project/nasa-data-warehouse/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>NASA Data Warehouse</title>
-      <link>/project/nasa-data-warehouse/</link>
-      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/nasa-data-warehouse/</guid>
+      <title>Beatles Bops</title>
+      <link>/project/beatles-bops/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/project/beatles-bops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Excel Python Migration</title>
+      <link>/project/excel-python-migration/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/project/excel-python-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TV Series NoSQL Database</title>
+      <link>/project/tv-series-nosql-database/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/tv-series-nosql-database/</guid>
       <description></description>
     </item>
     
@@ -68,14 +84,6 @@
     </item>
     
     <item>
-      <title>Beatles Bops</title>
-      <link>/project/beatles-bops/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/beatles-bops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>COVID-19 Data Project</title>
       <link>/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
@@ -84,10 +92,10 @@
     </item>
     
     <item>
-      <title>Excel Python Migration</title>
-      <link>/project/excel-python-migration/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/excel-python-migration/</guid>
+      <title>Animal Crossing Popularity Data</title>
+      <link>/project/animal-crossing-popularity-data/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/animal-crossing-popularity-data/</guid>
       <description></description>
     </item>
     

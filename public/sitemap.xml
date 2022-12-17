@@ -33,6 +33,61 @@
   </url>
   
   <url>
+    <loc>/tags/aws/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/nasa-data-warehouse/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/beatles-bops/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/excel-python-migration/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/tv-series-nosql-database/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/iss-stream/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kafka/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
@@ -78,11 +133,6 @@
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/python/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
@@ -93,38 +143,8 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/wsl/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/animal-crossing-popularity-data/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/aws/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/nasa-data-warehouse/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sql/</loc>
-    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -170,11 +190,6 @@
   <url>
     <loc>/tags/spotipy/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/beatles-bops/</loc>
-    <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -268,7 +283,7 @@
   </url>
   
   <url>
-    <loc>/project/excel-python-migration/</loc>
+    <loc>/project/consumer-complaints/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -290,6 +305,11 @@
   <url>
     <loc>/post/learning-from-teaching/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/animal-crossing-popularity-data/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>

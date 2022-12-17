@@ -4,18 +4,18 @@ name = "1950s"
 # Is theme light or dark?
 light = false
 
-# Primary
-primary = "#981ebd"
+# Primary (The Buttons)
+primary = "#F038FF"
 
 # Menu
-menu_primary = "#5e04aa"
-menu_text = "#fff"
-menu_text_active = "#0f04a7"
+menu_primary = "#F038FF"
+menu_text_active = "#E2EF70"
 menu_title = "#fff"
+menu_text = "#fff"
 
 # Backgrounds
-background = "#272935"
-home_section_odd = "#272935"
-home_section_even = "#272935"
+background = "#7034EF"
+home_section_odd = "#7034EF"
+home_section_even = "#7034EF"
 
 font = "rose"

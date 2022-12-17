@@ -5,7 +5,7 @@
     <link>/tags/python/</link>
       <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Python</title>
@@ -13,26 +13,50 @@
     </image>
     
     <item>
+      <title>NASA Data Warehouse</title>
+      <link>/project/nasa-data-warehouse/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/project/nasa-data-warehouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beatles Bops</title>
+      <link>/project/beatles-bops/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/project/beatles-bops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Excel Python Migration</title>
+      <link>/project/excel-python-migration/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/project/excel-python-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TV Series NoSQL Database</title>
+      <link>/project/tv-series-nosql-database/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/tv-series-nosql-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISS Stream</title>
+      <link>/project/iss-stream/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/iss-stream/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>New Horizons Using Airflow and Linux</title>
       <link>/post/new-horizons/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/post/new-horizons/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
-      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NASA Data Warehouse</title>
-      <link>/project/nasa-data-warehouse/</link>
-      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
@@ -76,14 +100,6 @@
     </item>
     
     <item>
-      <title>Beatles Bops</title>
-      <link>/project/beatles-bops/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/beatles-bops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A Dash of Coronavirus Data</title>
       <link>/post/dash-of-coronavirus-data/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
@@ -108,7 +124,7 @@
 &lt;p&gt;Through watching the YouTube video series by Codebliss, I noticed he was using PyCharm and decided to give that environment a try. It turns out that PyCharm is actually a VERY popular coding environment for Python! In fact, 
 &lt;a href=&#34;https://www.datacamp.com/community/tutorials/top-python-ides-for-2019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCamp cited PyCharm as one of the top IDEs for 2019&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;popular.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;One thing I really liked about PyCharm was that it had the ability to host a Dash web application locally and keep it running, as well as some of the debugging features it offered. One downside to using PyCharm was that I was using a community version, which meant that many features would have cost money. One featured I missed was being able to divide code into cells - in PyCharm, all code needs to be run at once, while in an editor like Jupyter or Spyder, code can be chunked into cells. Having these chunks allows for smaller scale testing of code, which I sorely missed. With that being said, I&amp;rsquo;m glad that I had the opportunity to learn about PyCharm through this project!&lt;/p&gt;
+&lt;p&gt;One thing I really liked about PyCharm was that it had the ability to host a Dash web application locally and keep it running, as well as some of the debugging features it offered. One downside to using PyCharm was that I was using a community version, which meant that many features would have cost money. One feature I missed was being able to divide code into cells - in PyCharm, all code needs to be run at once, while in an editor like Jupyter or Spyder, code can be chunked into cells. Having these chunks allows for smaller scale testing of code, which I sorely missed. With that being said, I&amp;rsquo;m glad that I had the opportunity to learn about PyCharm through this project!&lt;/p&gt;
 &lt;h2 id=&#34;dash-documentation&#34;&gt;Dash Documentation&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://dash.plotly.com/layout&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dash documentation and tutorials&lt;/a&gt; were a godsend for figuring out how to set up a dashboard using Dash. The trickiest parts were establishing the initial layout, as well as the concept of callbacks. Callbacks in code are when a selection is made by a viewer, and the code changes as a result. For example, my dashboard had a dropdown menu for selecting a country. Once a country was selected, graph data would change.&lt;/p&gt;
@@ -205,10 +221,10 @@
     </item>
     
     <item>
-      <title>Excel Python Migration</title>
-      <link>/project/excel-python-migration/</link>
+      <title>Consumer Complaints</title>
+      <link>/project/consumer-complaints/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/excel-python-migration/</guid>
+      <guid>/project/consumer-complaints/</guid>
       <description></description>
     </item>
     
@@ -237,6 +253,14 @@
 &lt;p&gt;My biggest advice if you&amp;rsquo;re going to use this script? ALWAYS have a back up, and use force for good 😄&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;force.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Animal Crossing Popularity Data</title>
+      <link>/project/animal-crossing-popularity-data/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/animal-crossing-popularity-data/</guid>
+      <description></description>
     </item>
     
     <item>
