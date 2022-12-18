@@ -2,100 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SQL | Erika Jacobs</title>
-    <link>/tags/sql/</link>
-      <atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.erika-jacobs.com/tags/sql/</link>
+      <atom:link href="https://www.erika-jacobs.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <description>SQL</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.erika-jacobs.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>SQL</title>
-      <link>/tags/sql/</link>
+      <link>https://www.erika-jacobs.com/tags/sql/</link>
     </image>
     
     <item>
-      <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
-      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>NASA Data Warehouse</title>
-      <link>/project/nasa-data-warehouse/</link>
-      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/nasa-data-warehouse/</guid>
+      <link>https://www.erika-jacobs.com/project/nasa-data-warehouse/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.erika-jacobs.com/project/nasa-data-warehouse/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>NASA&#39;s Shify Weather Data</title>
-      <link>/post/shifty-weather/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/shifty-weather/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>All You Need Is Love...For APIs</title>
-      <link>/post/all-you-need-is-love-for-apis/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/all-you-need-is-love-for-apis/</guid>
-      <description>&lt;p&gt;Spotify is one of the most popular music streaming apps in the entire world. In fact, according to 
-&lt;a href=&#34;https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this Forbes article&lt;/a&gt;, Spotify was the top music streaming app of 2019. Pretty impressive!&lt;/p&gt;
-&lt;p&gt;From films to weddings, music is an important aspect of everyone&amp;rsquo;s life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me. Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60&amp;rsquo;s.&lt;/p&gt;
-&lt;p&gt;One driver of this project was to have a resource to see the most popular songs that The Beatles have on Spotify. The other driver&amp;hellip;was using Spotify&amp;rsquo;s API.&lt;/p&gt;
-&lt;h2 id=&#34;whats-an-api&#34;&gt;What&amp;rsquo;s An API?&lt;/h2&gt;
-&lt;p&gt;API stands for &amp;ldquo;Application Programming Interface&amp;rdquo;, which sounds more complicated than it is. Essentially, an API is a technological way to retrieve data from somewhere via the internet. Your computer connects to a data source through the information you provide about it, pulls the data, then brings it back to you!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;nice.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Typically&amp;hellip;the process of connecting to an API can get a little ugly, depending on where the connection is made and the data they&amp;rsquo;re giving you. However, Python has a specific library for connecting to the Spotify API called Spotipy. Spotipy already has the code set up to be able to connect to Spotify, and therefore can be much easier to use. In terms of APIs, Spotify is what&amp;rsquo;s know as an API wrapper - it wraps up the code to connect to Spotify&amp;rsquo;s API like a gift to you!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;gift.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Once all of the data was pulled from the Spotify API, I then designed the layout of the tables through a star schema.&lt;/p&gt;
-&lt;h2 id=&#34;star-schema&#34;&gt;Star Schema?&lt;/h2&gt;
-&lt;p&gt;A star schema is a way to organize tables in a database, in which there&amp;rsquo;s a main table (called a &amp;ldquo;fact table&amp;rdquo;) that has all measurements, and then there are supporting tables (called &amp;ldquo;dimensions&amp;rdquo;) that have information about those facts. Facts and dimensions are connected together using some sort of key or id. If you&amp;rsquo;d like an idea of what this looks like visually, take a look at the picture below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;In the case of The Beatles, the fact table featured a numerical popularity score, and the length (in minutes) for each track. The three dimension tables held artist, album, and track information specifically. These tables were then connected using an ID used in Spotify called a URI. Spotify has album URIs, artist URIs, and track URIs, which ultimately made connecting these tables very efficient!&lt;/p&gt;
-&lt;p&gt;In the visual above, you can also see little ones or asterisks next to the tables being connected. This is signifying HOW the tables are connected. For example, &amp;ldquo;album_uri&amp;rdquo; is connected between the album_df and beatles_fact tables, but album_uri has a little 1 next to it on the album_df table, while album_uri has a little * next to it on the beatles_fact table. This is called a &amp;ldquo;one to many&amp;rdquo; connection - ONE album has MANY tracks, while a track has only one album.&lt;/p&gt;
-&lt;p&gt;Clear as mud?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;okay.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;postgresql&#34;&gt;PostGreSQL&lt;/h2&gt;
-&lt;p&gt;After creating this schema, this data was exported to PostGreSQL using a Python library called &amp;ldquo;Psycopg2&amp;rdquo;. PostGreSQL is an open source database software that operates using SQL. PostGreSQL has many features that make it great to use, the big one being that it&amp;rsquo;s very reliable. Plus, the logo is an elephant - how cute is that? 😄&lt;/p&gt;
-&lt;p&gt;Ultimately, exporting this data was a pretty easy process using the Psycopg2 library. So easy&amp;hellip;that I may use PostGreSQL as my go-to database from now on!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;elephant.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;overall-thoughts&#34;&gt;Overall Thoughts&lt;/h2&gt;
-&lt;p&gt;This was a pretty simple project, but I&amp;rsquo;m glad I did it! In the future, I&amp;rsquo;m planning to connect to API resources without using a wrapper like Spotify&amp;rsquo;s Spotipy in Python. Since the process of connecting to an API can have more complications, I thought it would be a good idea to work on those skills directly through a future project. Stay tuned - that will be coming next!&lt;/p&gt;
-</description>
     </item>
     
     <item>
       <title>Beatles Bops</title>
-      <link>/project/beatles-bops/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/beatles-bops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>COVID-19 Data Project</title>
-      <link>/project/covid-19-project/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/covid-19-project/</guid>
+      <link>https://www.erika-jacobs.com/project/beatles-bops/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.erika-jacobs.com/project/beatles-bops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel Python Migration</title>
-      <link>/project/excel-python-migration/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/excel-python-migration/</guid>
+      <link>https://www.erika-jacobs.com/project/excel-python-migration/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.erika-jacobs.com/project/excel-python-migration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Throwback Thursday Twitter Data</title>
-      <link>/project/throwback-thursday-twitter-data/</link>
-      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/project/throwback-thursday-twitter-data/</guid>
+      <title>TV Series NoSQL Database</title>
+      <link>https://www.erika-jacobs.com/project/tv-series-nosql-database/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.erika-jacobs.com/project/tv-series-nosql-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 Data Project</title>
+      <link>https://www.erika-jacobs.com/project/covid-19-project/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.erika-jacobs.com/project/covid-19-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animal Crossing Popularity Data</title>
+      <link>https://www.erika-jacobs.com/project/animal-crossing-popularity-data/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.erika-jacobs.com/project/animal-crossing-popularity-data/</guid>
       <description></description>
     </item>
     
