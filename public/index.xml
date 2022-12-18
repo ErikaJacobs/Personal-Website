@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erika Jacobs</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.erika-jacobs.com/</link>
+      <atom:link href="https://www.erika-jacobs.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Erika Jacobs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Oct 2022 12:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.erika-jacobs.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Erika Jacobs</title>
-      <link>/</link>
+      <link>https://www.erika-jacobs.com/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
+      <link>https://www.erika-jacobs.com/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
+      <guid>https://www.erika-jacobs.com/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <link>https://www.erika-jacobs.com/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
+      <guid>https://www.erika-jacobs.com/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -56,1116 +56,89 @@
     
     <item>
       <title>Space, Time, and Money - Data Warehouse Optimization Practices</title>
-      <link>/talk/example/</link>
+      <link>https://www.erika-jacobs.com/talk/example/</link>
       <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://www.erika-jacobs.com/talk/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NASA Data Warehouse</title>
-      <link>/project/nasa-data-warehouse/</link>
+      <link>https://www.erika-jacobs.com/project/nasa-data-warehouse/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/nasa-data-warehouse/</guid>
+      <guid>https://www.erika-jacobs.com/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beatles Bops</title>
-      <link>/project/beatles-bops/</link>
+      <link>https://www.erika-jacobs.com/project/beatles-bops/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/beatles-bops/</guid>
+      <guid>https://www.erika-jacobs.com/project/beatles-bops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel Python Migration</title>
-      <link>/project/excel-python-migration/</link>
+      <link>https://www.erika-jacobs.com/project/excel-python-migration/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/excel-python-migration/</guid>
+      <guid>https://www.erika-jacobs.com/project/excel-python-migration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TV Series NoSQL Database</title>
-      <link>/project/tv-series-nosql-database/</link>
+      <link>https://www.erika-jacobs.com/project/tv-series-nosql-database/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/project/tv-series-nosql-database/</guid>
+      <guid>https://www.erika-jacobs.com/project/tv-series-nosql-database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISS Stream</title>
-      <link>/project/iss-stream/</link>
+      <link>https://www.erika-jacobs.com/project/iss-stream/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/iss-stream/</guid>
+      <guid>https://www.erika-jacobs.com/project/iss-stream/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>New Horizons Using Airflow and Linux</title>
-      <link>/post/new-horizons/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/new-horizons/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NASA&#39;s Shify Weather Data</title>
-      <link>/post/shifty-weather/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/shifty-weather/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>All You Need Is Love...For APIs</title>
-      <link>/post/all-you-need-is-love-for-apis/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/all-you-need-is-love-for-apis/</guid>
-      <description>&lt;p&gt;Spotify is one of the most popular music streaming apps in the entire world. In fact, according to 
-&lt;a href=&#34;https://www.forbes.com/sites/johnkoetsier/2020/12/30/top-100-apps-of-2019-netflix-uber-spotify-google-pay-wish-and-more/#4b70df94ca07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this Forbes article&lt;/a&gt;, Spotify was the top music streaming app of 2019. Pretty impressive!&lt;/p&gt;
-&lt;p&gt;From films to weddings, music is an important aspect of everyone&amp;rsquo;s life. We all have those songs, artists, and albums that resonate with people or times in our life, and they can hold a special place in our hearts. The Beatles are that kind of band to me. Not only are they one of the most notable bands of our lifetime, but their music shows and incredible amount of growth and intelligence in the span of a few years in the 60&amp;rsquo;s.&lt;/p&gt;
-&lt;p&gt;One driver of this project was to have a resource to see the most popular songs that The Beatles have on Spotify. The other driver&amp;hellip;was using Spotify&amp;rsquo;s API.&lt;/p&gt;
-&lt;h2 id=&#34;whats-an-api&#34;&gt;What&amp;rsquo;s An API?&lt;/h2&gt;
-&lt;p&gt;API stands for &amp;ldquo;Application Programming Interface&amp;rdquo;, which sounds more complicated than it is. Essentially, an API is a technological way to retrieve data from somewhere via the internet. Your computer connects to a data source through the information you provide about it, pulls the data, then brings it back to you!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;nice.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Typically&amp;hellip;the process of connecting to an API can get a little ugly, depending on where the connection is made and the data they&amp;rsquo;re giving you. However, Python has a specific library for connecting to the Spotify API called Spotipy. Spotipy already has the code set up to be able to connect to Spotify, and therefore can be much easier to use. In terms of APIs, Spotify is what&amp;rsquo;s know as an API wrapper - it wraps up the code to connect to Spotify&amp;rsquo;s API like a gift to you!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;gift.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Once all of the data was pulled from the Spotify API, I then designed the layout of the tables through a star schema.&lt;/p&gt;
-&lt;h2 id=&#34;star-schema&#34;&gt;Star Schema?&lt;/h2&gt;
-&lt;p&gt;A star schema is a way to organize tables in a database, in which there&amp;rsquo;s a main table (called a &amp;ldquo;fact table&amp;rdquo;) that has all measurements, and then there are supporting tables (called &amp;ldquo;dimensions&amp;rdquo;) that have information about those facts. Facts and dimensions are connected together using some sort of key or id. If you&amp;rsquo;d like an idea of what this looks like visually, take a look at the picture below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;In the case of The Beatles, the fact table featured a numerical popularity score, and the length (in minutes) for each track. The three dimension tables held artist, album, and track information specifically. These tables were then connected using an ID used in Spotify called a URI. Spotify has album URIs, artist URIs, and track URIs, which ultimately made connecting these tables very efficient!&lt;/p&gt;
-&lt;p&gt;In the visual above, you can also see little ones or asterisks next to the tables being connected. This is signifying HOW the tables are connected. For example, &amp;ldquo;album_uri&amp;rdquo; is connected between the album_df and beatles_fact tables, but album_uri has a little 1 next to it on the album_df table, while album_uri has a little * next to it on the beatles_fact table. This is called a &amp;ldquo;one to many&amp;rdquo; connection - ONE album has MANY tracks, while a track has only one album.&lt;/p&gt;
-&lt;p&gt;Clear as mud?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;okay.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;postgresql&#34;&gt;PostGreSQL&lt;/h2&gt;
-&lt;p&gt;After creating this schema, this data was exported to PostGreSQL using a Python library called &amp;ldquo;Psycopg2&amp;rdquo;. PostGreSQL is an open source database software that operates using SQL. PostGreSQL has many features that make it great to use, the big one being that it&amp;rsquo;s very reliable. Plus, the logo is an elephant - how cute is that? 😄&lt;/p&gt;
-&lt;p&gt;Ultimately, exporting this data was a pretty easy process using the Psycopg2 library. So easy&amp;hellip;that I may use PostGreSQL as my go-to database from now on!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;elephant.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;overall-thoughts&#34;&gt;Overall Thoughts&lt;/h2&gt;
-&lt;p&gt;This was a pretty simple project, but I&amp;rsquo;m glad I did it! In the future, I&amp;rsquo;m planning to connect to API resources without using a wrapper like Spotify&amp;rsquo;s Spotipy in Python. Since the process of connecting to an API can have more complications, I thought it would be a good idea to work on those skills directly through a future project. Stay tuned - that will be coming next!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Dash of Coronavirus Data</title>
-      <link>/post/dash-of-coronavirus-data/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/dash-of-coronavirus-data/</guid>
-      <description>&lt;p&gt;As I&amp;rsquo;m writing this post, COVID-19 is still rapidly spreading with cases exponentially increasing each day in the United States. It almost feels surreal at this point that - who knew that we would experience a worldwide pandemic like this in our lifetime?&lt;/p&gt;
-&lt;p&gt;With COVID-19 still being a relevant threat to public health, there&amp;rsquo;s still a need and desire for visualizing the data available. In a 
-&lt;a href=&#34;https://erikajacobs.netlify.app/post/covid-19-sparked-aws-ideas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous blog post&lt;/a&gt;, I mentioned that the Johns Hopkins Coronavirus data I had processed using PySpark would be placed into my own dashboard. Well&amp;hellip;the dashboard is now finished - take a look at this beauty!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This dashboard was created using a library called &amp;ldquo;Dash&amp;rdquo; in Python. What is dash, you ask? Well - keep reading, and I&amp;rsquo;ll tell you all about it! 😄&lt;/p&gt;
-&lt;h2 id=&#34;about-dash&#34;&gt;About Dash&lt;/h2&gt;
-&lt;p&gt;Dash is a  Python library that is composed of framework to put together a web application or dashboard. Dash is open source, but can also be used within an enterprise as well.&lt;/p&gt;
-&lt;h2 id=&#34;why-dash&#34;&gt;Why Dash?&lt;/h2&gt;
-&lt;p&gt;I was initially planning to create a quick Tableau dashboard to visualize this COVID-19 data, since I had read online that Tableau could be used alongside S3 (where the data is stored). However, it costs money to use Tableau&amp;hellip;and while there was a free trial I could have used as an educator, I wanted to learn a method of creating dashboards I could do repeatedly and affordably at the price of &amp;ldquo;free&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;free.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;After doing a quick Google search on how to create dashboards using Python, I learned about Dash&amp;hellip;and I was automatically on board!&lt;/p&gt;
-&lt;h2 id=&#34;starting-with-dash&#34;&gt;Starting With Dash&lt;/h2&gt;
-&lt;p&gt;To get started on using Dash, there were a series of YouTube videos by Codebliss that provided a general tutorial for getting started. The video series is in six parts, and the first part can be accessed 
-&lt;a href=&#34;https://www.youtube.com/watch?v=Ldp3RmUxtOQ&amp;amp;list=PLCDERj-IUIFCaELQ2i7AwgD2M6Xvc4Slf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This video series was very helpful for a beginner getting familiar with Dash, as well as providing a starting point for a final product.&lt;/p&gt;
-&lt;h2 id=&#34;an-ide-for-dash&#34;&gt;An IDE For Dash&lt;/h2&gt;
-&lt;p&gt;Previous Python projects of mine have mostly been completed using Jupyter and Spyder until this project came along. Due to the nature of Dash creating a web application, running your code serves a website locally so changes made can be continuously seen. This means that some programming environments might be better suited to do this than others.&lt;/p&gt;
-&lt;p&gt;Through watching the YouTube video series by Codebliss, I noticed he was using PyCharm and decided to give that environment a try. It turns out that PyCharm is actually a VERY popular coding environment for Python! In fact, 
-&lt;a href=&#34;https://www.datacamp.com/community/tutorials/top-python-ides-for-2019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCamp cited PyCharm as one of the top IDEs for 2019&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;popular.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;One thing I really liked about PyCharm was that it had the ability to host a Dash web application locally and keep it running, as well as some of the debugging features it offered. One downside to using PyCharm was that I was using a community version, which meant that many features would have cost money. One feature I missed was being able to divide code into cells - in PyCharm, all code needs to be run at once, while in an editor like Jupyter or Spyder, code can be chunked into cells. Having these chunks allows for smaller scale testing of code, which I sorely missed. With that being said, I&amp;rsquo;m glad that I had the opportunity to learn about PyCharm through this project!&lt;/p&gt;
-&lt;h2 id=&#34;dash-documentation&#34;&gt;Dash Documentation&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://dash.plotly.com/layout&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dash documentation and tutorials&lt;/a&gt; were a godsend for figuring out how to set up a dashboard using Dash. The trickiest parts were establishing the initial layout, as well as the concept of callbacks. Callbacks in code are when a selection is made by a viewer, and the code changes as a result. For example, my dashboard had a dropdown menu for selecting a country. Once a country was selected, graph data would change.&lt;/p&gt;
-&lt;p&gt;This project would have been near impossible without the documentation that Dash provided with example code. With this in mind, the documentation became less useful as the dashboard became more complex. A word of advice for anyone learning dash: Don&amp;rsquo;t be afraid to try things and fail.&lt;/p&gt;
-&lt;h2 id=&#34;dash-and-dashboard-style&#34;&gt;Dash and Dashboard Style&lt;/h2&gt;
-&lt;p&gt;When starting to create a dashboard using Dash, your initial product is going to look ugly. Like&amp;hellip;REALLY ugly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;ew.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s not worth getting discouraged about! Luckily, there are plenty of resources to be able to make the dashboard look nice, with all of these resources being written in CSS. Almost every resource I looked at for Dash layouts included an external CSS stylesheet from codepen.io, which can be viewed 
-&lt;a href=&#34;https://codepen.io/chriddyp/pen/bWLwgP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This style sheet was very useful, as it created a basic structure of twelve columns on your dashboard, which made formatting exponentially easier.&lt;/p&gt;
-&lt;p&gt;As I was creating my dashboard, I realized I was looking to personally customize some aspects of my dashboard. For example, I wanted to try my best to make the webpage in dark mode. To do this, it actually became useful to start experimenting with writing out my own CSS styling on top of the external stylesheet.&lt;/p&gt;
-&lt;h2 id=&#34;dash-syntax--myspace&#34;&gt;Dash Syntax = MySpace&lt;/h2&gt;
-&lt;p&gt;One thing that&amp;rsquo;s cool about Dash is it&amp;rsquo;s essentially a Python wrapper for HTML code. In other words, you write in Python syntax, but the output is HTML. This has been especially fun, as I&amp;rsquo;ve been able to bring back my HTML experience from the days of MySpace into this project!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;myspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This project honestly gave me a flash back to the days of Myspace. A memorable experience as a teenager in the mid-2000&amp;rsquo;s was updating the format behind my MySpace profile using HTML. Unsurprisingly, these memories helped me problem solve through this Dash project! For example, I was able to remember that BR with carrots on both ends (&amp;lt;&amp;gt;) would add a line of space in HTML, and figured out that &amp;ldquo;html.Br&amp;rdquo; in Dash was able to achieve the same thing.&lt;/p&gt;
-&lt;h2 id=&#34;visualizations-and-plotly&#34;&gt;Visualizations and Plotly&lt;/h2&gt;
-&lt;p&gt;A nice aspect about using Dash is the relationship it has with the Plotly library. Plotly is a graphing library in Python that has origins from R Studio. Plotly can flexibly create many different kinds of plots, and feature the ability for viewers to interact with the plots.&lt;/p&gt;
-&lt;p&gt;One of the hardest parts about using Plotly was figuring out how to precisely customize each aspect of the chart. How do I change the background color, the plot color, or the font color? How do I remove the legend of a graph? How do I make a stacked bar chart? How do I set a title? Once a single graph is done, however, each subsequent graph gets easier 😄&lt;/p&gt;
-&lt;h2 id=&#34;hosting-the-site&#34;&gt;Hosting the Site&lt;/h2&gt;
-&lt;p&gt;I had read about a few ways to host and deploy the dashboard I made, with the big ones being through Heroku or AWS Elastic Beanstalk. However, I ultimately went with Python Anywhere because I found 
-&lt;a href=&#34;https://www.youtube.com/watch?v=yRw95qVYKK8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; tutorial that was pretty concise about how to precisely deploy the Dash app on the Flask framework. I&amp;rsquo;d like to learn how to deploy something on Heroku at some point, but for this project I was looking for something quick to learn so I could have my dashboard deployed quicker!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mission.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing Thoughts&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;d like to take a look at my deployed dashboard, you can 
-&lt;a href=&#34;http://erikajacobs.pythonanywhere.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to take a look! Exploring this data is very interesting, but please keep in mind that these numbers may not be perfectly representative of the disease&amp;hellip;just what we have data of.&lt;/p&gt;
-</description>
     </item>
     
     <item>
       <title>COVID-19 Data Project</title>
-      <link>/project/covid-19-project/</link>
+      <link>https://www.erika-jacobs.com/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/covid-19-project/</guid>
+      <guid>https://www.erika-jacobs.com/project/covid-19-project/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>COVID-19 &#34;Sparked&#34; Some AWS Ideas</title>
-      <link>/post/covid-19-sparked-aws-ideas/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19-sparked-aws-ideas/</guid>
-      <description>&lt;p&gt;Ahhh&amp;hellip;the Coronavirus. The pesky virus that stopped daily life as we know it. The pesky virus that everyone&amp;rsquo;s looking to understand a little better. The pesky virus that has many people looking at data visualizations like &lt;em&gt;never&lt;/em&gt; before.&lt;/p&gt;
-&lt;p&gt;Like many other data enthusiasts out there, I thought the Coronavirus seemed like a perfect topic to explore different skills I&amp;rsquo;ve been learning related to Data Engineering. So&amp;hellip;here we are!&lt;/p&gt;
-&lt;h2 id=&#34;background-behind-project&#34;&gt;Background Behind Project&lt;/h2&gt;
-&lt;p&gt;As a data person during this COVID-19 crisis, I&amp;rsquo;ve been consistently checking any dashboard I can get my hands on for information about this illness and its spread. Johns Hopkins University has a 
-&lt;a href=&#34;https://coronavirus.jhu.edu/map.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dashboard&lt;/a&gt; that features information daily about different locations and the number of cases they have.&lt;/p&gt;
-&lt;p&gt;As time has gone on, questions have been popping up about &amp;ldquo;when things can return to normal.&amp;rdquo; A decision like this shouldn&amp;rsquo;t be taken lightly, and should have data to back it up. Visualization can be a powerful tool to visually examine case growth, recovieries, deaths, and if new cases are declining.&lt;/p&gt;
-&lt;p&gt;The dashboard that Johns Hopkins provided has plenty of helpful information, and has some visualizations of its own worldwide. Despite this, it seemed like a good opportunity to provide everyone the ability to visually explore the data in ways that the Johns Hopkins dashboard (or any dashboard) might not permit. In other words, visualizing the data could be more accessible.&lt;/p&gt;
-&lt;p&gt;To prepare the data for this project, I wanted to purposely choose to exercise skills that I haven&amp;rsquo;t used for a personal project before that would be useful as a future Data Engineer. For example, while I&amp;rsquo;ve used Amazon Web Services (AWS) for specific professional tasks, I&amp;rsquo;ve never used AWS for my own personal projects. I had also never done a project using PySpark as well, even though I already had some experience using it. As for DataBricks? DataBricks was &lt;em&gt;entirely&lt;/em&gt; new territory.&lt;/p&gt;
-&lt;p&gt;The sections below will go over the technologies purposely used to complete this project, possible obstacles faced along the way, lessons learned, and other helpful hints that could be useful for anyone out there wanting to attempt something similar.&lt;/p&gt;
-&lt;h2 id=&#34;project-goal&#34;&gt;Project Goal&lt;/h2&gt;
-&lt;p&gt;The goal of this project was to use Python through DataBricks to import the Johns Hopkins University COVID-19 dataseets from Github, clean/manipulate the data for more useful insight, and store the resulting output in the cloud via AWS. Simple enough, right?&lt;/p&gt;
-&lt;p&gt;Here is a visual of the ETL pipeline design to illustrate the process:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;about-aws&#34;&gt;About AWS&lt;/h2&gt;
-&lt;p&gt;Amazon Web Services, or AWS, is a cloud computing platform as a service (PaaS), which offers a variety of products to be able to work with cloud technology. There are many benefits to using the cloud, which can include no upfront costs, free tier trials, pay-as-you-go structure, speed, reliability, and so much more!&lt;/p&gt;
-&lt;p&gt;Most of my AWS experience through this project was using S3, which is a storage system for files and objects in &amp;ldquo;buckets&amp;rdquo; through the cloud. However, I got to get familiar with EC2, IAM, and the AWS CLI through this project as well.&lt;/p&gt;
-&lt;p&gt;EC2 is essentially access to a virtual computer. IAM is responsible for making accounts, passwords, and access keys for permission to use different functionalities through AWS. The AWS CLI, or command line interface, would be a way to exercise those functionalities - for example, the CLI could be used to copy S3 objects from one bucket to another.&lt;/p&gt;
-&lt;p&gt;EC2 might be more heavily utilized for future projects, as having external computing power could be helpful depending on the project and task. Plus, EC2 would be great to pair with a project using Python - Jupyter Notebook can be accessed using an EC2 instance.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: If you&amp;rsquo;re considering experimenting and learning AWS, they have free tiers of services for newcomers to try (most being for 12 months). With that being said, &lt;strong&gt;PLEASE do yourself a favor and explore the limits on AWS&amp;rsquo; free tiers.&lt;/strong&gt; Once you feel like you have? DO IT AGAIN!&lt;/p&gt;
-&lt;p&gt;The reason I say this is because I went over one of the free limits for using S3. I took time to explore the free tier limits, yet I must have missed this particular limit&amp;hellip;which could have been avoided with a second review of those limits. Please don&amp;rsquo;t make the unecessary mistake I did. Even if going above those free limits might be pennies of cost, be prepared and know your financial limits in AWS.&lt;/p&gt;
-&lt;p&gt;If you don&amp;rsquo;t mind spending some money experimenting with AWS, AWS offers a service called cloud watch if you have a certain budget in mind you&amp;rsquo;d like alerts for. For example, I set an alert for spending over $0.00, and got an alert when my spending went to $0.01 (the horror).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Helpful Hint&lt;/strong&gt;: Through starting this project, I decided to start pursuing an AWS Solutions Architect certification, which will only help in learning different functionalities of AWS. &lt;strong&gt;If you&amp;rsquo;re looking to get very familiar with AWS, I&amp;rsquo;d highly suggest considering pursuing an AWS certification.&lt;/strong&gt; If you&amp;rsquo;re learning the skills anyway, you might as well have a marketable credential to recognize it 😉&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;skills.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;about-boto3-and-s3fs&#34;&gt;About Boto3 and S3FS&lt;/h2&gt;
-&lt;p&gt;With using AWS for this project, it was useful to use packages in Python specifically designed to bridge a connection to AWS S3. There were two packages in Python that I ended up getting familiar with through this project: Boto3 and S3FS&lt;/p&gt;
-&lt;p&gt;Boto3 is a software development kit (or SDK) which allows incorporation of command line processes within Python code. S3fS, on the other hand, stands for &amp;ldquo;S3 File System&amp;rdquo;, and allows for code in Python to refer to S3 buckets and objects as if they were files on your local computer.&lt;/p&gt;
-&lt;p&gt;Ultimately, I found Boto3 to be VERY useful, and would certainly use it again for future projects.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: Be VERY careful with your AWS access keys! At the very start of working on this project, I had hard coded my AWS access keys that had full administrative access to my account into code I had uploaded to GitHub. This was BAD. Do NOT be me. As a result, I had to delete the entire project from GitHub, and had to delete the access keys.&lt;/p&gt;
-&lt;p&gt;Why is this bad? Well&amp;hellip;Once someone has your access keys, they are essentially free to do as they please within the permissions those access keys grant. Usually, the things someone would use an AWS access key for aren&amp;rsquo;t good things. Someone could use your buckets for storing large amounts of files on your dime - perhaps something illegal. Or someone could start multiple EC2 instances on YOUR account to mine bitcoin. You&amp;rsquo;re essentially inviting hackers to take advantage of you!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hackerman.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;If you plan to do a similar project, it&amp;rsquo;s worth avoiding any potential hacking situations. Proactively, it&amp;rsquo;s worth ensuring that the access keys for your AWS account have limited permissions in IAM, and to remove the access keys should they be leaked somehow. As I said earlier though&amp;hellip;&lt;strong&gt;Be VERY careful with your AWS access keys!&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;about-databricks&#34;&gt;About DataBricks&lt;/h2&gt;
-&lt;p&gt;Through this project, I learned how useful DataBricks can be! DataBricks is a data processing platform as a service (PaaS) created by the brilliant minds behind Apache Spark. DataBricks is used for big data processing in the cloud, and was designed to be an alternative to Hadoop/MapReduce (also designed to process big data). DataBricks, in terms of efficiency, processes data very quickly and with more security. It&amp;rsquo;s no wonder that big companies use it, which includes MY OWN (so I learned):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Nationwide.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The one downside to using DataBricks, from my perspective, was using the free community edition. In DataBricks, your code is attached a cluster - a group of computers that work together to complete what you&amp;rsquo;ve programmed. In the free version, if your cluster goes unused for a period of time (two hours I think), the cluster terminates. This requires having to create a new cluster each time your code is run. This also means having to re-install every Python package that was being used for each new cluster.&lt;/p&gt;
-&lt;p&gt;I am SO thankful that there was a free community edition to use at all, but the biggest restriction in using it is having to re-attach a cluster everytime. However, paying for the service would be an entirely different experience - DataBricks would be a fantastic resource to have for big data projects.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: DataBricks was a very nice interface to use similar to Jupyter notebook, and it was easy to get started with using clusters to process data. With that being said, &lt;strong&gt;be prepared for your cluster to terminate frequently if you&amp;rsquo;re using the free community version of DataBricks.&lt;/strong&gt; Using a paid version would allow clusters to be restarted and refreshed, but the free version requires creating a new cluster practically each time DataBricks is used. This means having to re-install Python packages every time&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;screams.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;On the flip side, if you don&amp;rsquo;t have PySpark installed, the time investment to re-create a cluster isn&amp;rsquo;t very much compared to the money you&amp;rsquo;re likely saving by using clusters through DataBricks community edition 😄&lt;/p&gt;
-&lt;h2 id=&#34;about-pyspark&#34;&gt;About PySpark&lt;/h2&gt;
-&lt;p&gt;Apache Spark is well reknown software for processing large quantities of data. Instead of using Apache Spark directly, I used a package in Python called PySpark, which is automatically installed when using DataBricks.&lt;/p&gt;
-&lt;p&gt;I wanted to use PySpark because I hadn&amp;rsquo;t used PySpark for a project before, and it can be very powerful for massively large quantities of data. What&amp;rsquo;s great about PySpark is that it actually has SQL functions to allow processing of your data in a &amp;ldquo;lazy&amp;rdquo; way - due to size, Spark only completes changes to your table when asked!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;lazy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lesson Learned&lt;/strong&gt;: PySpark can read a variety of file types. However, &lt;strong&gt;Apache Spark CANNOT read files from a url easily.&lt;/strong&gt; It&amp;rsquo;s one thing if the file is online in a storage location like S3 - that&amp;rsquo;s okay, because that file is being held in memory somewhere. However, for this project, I learned that I could not read a file from GitHub directly using PySpark.&lt;/p&gt;
-&lt;p&gt;In order to import the file, it would need to be moved to some sort of local storage first.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Helpful Hint&lt;/strong&gt;: It may be tempting to use PySpark for all projects considering how powerful it can be processing large amounts of data. One thing to keep in mind, however, is that &lt;strong&gt;Pyspark is best for HUGE datasets&lt;/strong&gt; - it can actually be &lt;em&gt;slower&lt;/em&gt; to use PySpark with small datasets.&lt;/p&gt;
-&lt;h2 id=&#34;takeaways-from-project&#34;&gt;Takeaways From Project&lt;/h2&gt;
-&lt;p&gt;All in all, I&amp;rsquo;m happy that I chose to do my project the way I did, as I learned so much through the process. With that being said, I can already see ways that this project could have been done better.&lt;/p&gt;
-&lt;p&gt;For one, it may not have been necessary to use PySpark for this project, as the data I was pulling in was not substantially large. While this project could have been done without PySpark, I&amp;rsquo;m glad that I had a real world project to apply my knowledge to, and this experience has better prepared me to work with larger quantities of data.&lt;/p&gt;
-&lt;p&gt;Given that PySpark may have been unnecessary, it might have been better to complete the project locally on my computer versus using DataBricks. DataBricks. DataBricks can be an extremely useful tool, yet is as useful as your need for clusters of computers to process your code.&lt;/p&gt;
-&lt;p&gt;With this part of my project complete, the next part of the project will be to create a dashboard for the data. With this many &amp;ldquo;sparked&amp;rdquo; ideas for learning, there are only more to come with the next part of this project 😉&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;sparks.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
     </item>
     
     <item>
       <title>Consumer Complaints</title>
-      <link>/project/consumer-complaints/</link>
+      <link>https://www.erika-jacobs.com/project/consumer-complaints/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/consumer-complaints/</guid>
+      <guid>https://www.erika-jacobs.com/project/consumer-complaints/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Scripts Anonymous</title>
-      <link>/post/scripts-anonymous/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/scripts-anonymous/</guid>
-      <description>&lt;p&gt;If you read my blog about transitioning 
-&lt;a href=&#34;https://erikajacobs.netlify.app/post/how-the-itsy-bitsy-spyder-saved-my-project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Excel files to SQL Server using Python&lt;/a&gt;, you might recall that the project was done confidentially. I can&amp;rsquo;t share any information about who this project was for, nor what kind of data was being extracted.&lt;/p&gt;
-&lt;p&gt;I have (and continue to) handle this particular project with integrity based on what has been shared publicly through my recent blog post. However, I wanted to be able to show others this project on GitHub - It&amp;rsquo;s a cool project, and a lot of effort went into it! I needed a way to honor the confidentiality of the project while also showcase my skills on GitHub.&lt;/p&gt;
-&lt;p&gt;Thus&amp;hellip;Project: Anonymize began 😋&lt;/p&gt;
-&lt;h2 id=&#34;what-the-script-does&#34;&gt;What the Script Does&lt;/h2&gt;
-&lt;p&gt;The script is VERY basic - it&amp;rsquo;s less than 20 lines of code, no packages required, and only has 3 steps to it:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Tell the script locations of files that need to have text changed.&lt;/li&gt;
-&lt;li&gt;Tell the script the words that need to be replaced, and with what.&lt;/li&gt;
-&lt;li&gt;Run the  script - and voila!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;What&amp;rsquo;s really neat about this code is that it does the work of going through your files without having to open them. It&amp;rsquo;s also a very quick process - just a couple of seconds if you&amp;rsquo;re replacing a few words!&lt;/p&gt;
-&lt;h2 id=&#34;why-this-script-is-powerful&#34;&gt;Why This Script Is Powerful&lt;/h2&gt;
-&lt;p&gt;So&amp;hellip;this script is definitely not the most impressive project out there. As I already mentioned, it&amp;rsquo;s less than 20 lines of code. What made this script so interesting to me was knowing that it could COMPLETELY MESS UP EVERYTHING if you&amp;rsquo;re not careful. I&amp;rsquo;ve never written code that was &lt;em&gt;that&lt;/em&gt; dangerous! One wrong move and&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;danger.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Because this script runs without opening files, it means that the files will change without having to re-save. That means&amp;hellip;if you make a mistake, you&amp;rsquo;ve potentially hit the point of no return depending on what you&amp;rsquo;re finding and replacing. Although, there&amp;rsquo;s luckily the opportunity to find and replace BACK depending on the situation as well.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;d equate this script to &amp;ldquo;the force&amp;rdquo; from Star Wars - this script could be used for good OR evil. Someone could easily use this script for nefarious purposes. Playing a joke on someone by finding and replacing their name with something obscene in multiple files, for example, could &lt;em&gt;easily&lt;/em&gt; be done with this script. You know what they say - &amp;ldquo;With power comes great responsibility.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;My biggest advice if you&amp;rsquo;re going to use this script? ALWAYS have a back up, and use force for good 😄&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;force.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning From Teaching: Year One</title>
-      <link>/post/learning-from-teaching/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/learning-from-teaching/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re looking at the posts on my website or activity on GitHub, you might notice some very long gaps of activity between August 2019 and now (April 2020). Most of that is due to a personal passion of mine - I started my first year teaching at the college level, and recently finished it!&lt;/p&gt;
-&lt;p&gt;I taught two courses at Chandler-Gilbert Community College this year. Fall 2019 I taught MAT 142 (College Mathematics), and taught MAT 051 in Spring 2020 (Number Sense). Teaching both courses offered very different experiences, and I learned very different things from both courses as a result. Through those experiences, I feel better equipped to move forward into teaching future courses!&lt;/p&gt;
-&lt;h2 id=&#34;teaching-going-forward&#34;&gt;Teaching Going Forward&lt;/h2&gt;
-&lt;p&gt;Currently, I am not slated to teach at Chandler-Gilbert during the summer or fall semesters of 2020. While I enjoy teaching, teaching on top of a full time job can be &lt;em&gt;very&lt;/em&gt; difficult - especially when it&amp;rsquo;s a class that you&amp;rsquo;ve never taught before. I feel like my teaching days are just beginning, yet I do need a break to focus on other aspects of my life. I will definitely revisit the idea of teaching in Spring 2021 and go from there 😄&lt;/p&gt;
-&lt;p&gt;One of the things I&amp;rsquo;m looking to focus on during this break is my website and data-related projects. Expect to see more content coming soon! One thing I&amp;rsquo;d love to do eventually is start a &amp;ldquo;Data for Dummies&amp;rdquo; Youtube series and show people how to do a variety of data-related tasks. I feel like there&amp;rsquo;s a huge market for teachers with good communication skills in the field, especially with more complex processes. Through learning on my own, I&amp;rsquo;ve found that most data science-related tutorials and guides assume a ton of technical knowledge that newcomers might not have. I&amp;rsquo;d love to help bridge that gap eventually!&lt;/p&gt;
-&lt;p&gt;I also wanted to spend more time with friends and family, but it doesn&amp;rsquo;t seem like that will be happening given the current COVID-19 state of things. Luckily, social distancing gives plenty of time for new content 😉&lt;/p&gt;
-&lt;h1 id=&#34;a-reflection-on-year-one&#34;&gt;A Reflection on Year One&lt;/h1&gt;
-&lt;p&gt;Ultimately, I am SO grateful to have had the opportunity to teach at Chandler-Gilbert Community College this past year. I have learned SO much, and hope my students have learned plenty as well! I wanted to take a moment to reflect about this year, as well as the things I&amp;rsquo;ve learned through this experience.&lt;/p&gt;
-&lt;p&gt;Before getting into my reflections, there was one cool experience I had this year that doesn&amp;rsquo;t really fit anywhere else - So I&amp;rsquo;m putting it here 😄&lt;/p&gt;
-&lt;p&gt;I volunteered to help with CGCC&amp;rsquo;s Excellence in Mathematics competition at the beginning of February, in which different middle schools came together to compete in mathematics both individually and as a group. Fun fact: I actually ATTENDED this competition when I was in 8th grade!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;eim.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;As an 8th grader, I went to this competition because my friends were all going, and I wanted to go with them. I liked math enough - If my friends were going, why not join them?&lt;/p&gt;
-&lt;p&gt;WELL. Here we are years later, and I&amp;rsquo;m working that SAME math competition. The teacher that brought us years ago? She&amp;rsquo;s there with her students too! It was a really cool moment to be able to reunite for both of us, and will be an experience I&amp;rsquo;ll never forget.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This moment made me see how far I&amp;rsquo;ve come, and how much I&amp;rsquo;ve grown since that first competition, nevertheless through the last year of teaching. I&amp;rsquo;m very excited to share my reflections. Feel free to read as much (or as little) of my reflections below as you&amp;rsquo;d like!&lt;/p&gt;
-&lt;h2 id=&#34;teaching-online-and-teaching-in-person&#34;&gt;Teaching Online and Teaching In Person&lt;/h2&gt;
-&lt;p&gt;I taught in person over the fall, and online over spring. Both ways of teaching are VERY different from each other, and have different positives and negatives. I might be biased based on the class I taught online, but teaching online seems to be MORE work than teaching in person, even considering that it doesn&amp;rsquo;t require commuting or lecturing.&lt;/p&gt;
-&lt;p&gt;Teaching online comes with more difficulty setting boundaries between a personal and professional life. You have a responsibility of making sure you are there for your students when they need you, and that you&amp;rsquo;re able to explain concepts well over the internet. Furthermore, you don&amp;rsquo;t truly know how your students feel about concepts, and you have to try your best to be proactive about answering questions&lt;/p&gt;
-&lt;p&gt;With that being said, I would absolutely teach online again if I had the opportunity - I just prefer the in-person environment more 😄&lt;/p&gt;
-&lt;h2 id=&#34;being-an-adjunct&#34;&gt;Being an Adjunct&lt;/h2&gt;
-&lt;p&gt;There&amp;rsquo;s a lot of negativity out there from adjuncts, yet I didn&amp;rsquo;t feel the same negativity due to having a full time job, rather than relying on adjunct income as my sole income. I feel like my peers saw me as an equal, and I saw being an adjunct as a pretty positive experience for me.&lt;/p&gt;
-&lt;p&gt;The only negative part about being an adjunct, from my perspective, was missing out on more campus time for my students. Since I work full time, my office hours with students had to be appointment only. This resulted in a lack of accessibility for my students who may have stopped by if I were on campus more. When I did need to meet with students, another limitation of accessibility was a lack of options for WHERE to meet with my students. All things considered, this is a manageable issue to have compared to other work places.&lt;/p&gt;
-&lt;h2 id=&#34;not-reinventing-the-wheel&#34;&gt;Not Reinventing the Wheel&lt;/h2&gt;
-&lt;p&gt;When I started my first semester, I was so excited to get creative in the classroom with how to do my lessons. While the creative ideas were cool, there&amp;rsquo;s  only so long that momentum can be held up - It can be really exhausting to churn out new content twice a week!&lt;/p&gt;
-&lt;p&gt;I learned that if there&amp;rsquo;s a starting point other peers have created, it&amp;rsquo;s best to start there for a new course, and make things your own with the time you have available. This thinking literally saved me my second semester, as I ended up being able to adopt how my course was organized from another experienced professor. She did SUCH an amazing job with organizing the course - As a new teacher, adopting her course&amp;rsquo;s structure also taught me SO much more than if I were struggling to put my course together on my own. Now I know better for next time! 😄&lt;/p&gt;
-&lt;h2 id=&#34;taking-baby-steps&#34;&gt;Taking Baby Steps&lt;/h2&gt;
-&lt;p&gt;Teaching is an art in the sense that you need to get comfortable with knowing HOW to teach concepts that come easily. Sometimes, things that seem straightforward to you as a professor might be extremely difficult to your students. Baby steps with what you&amp;rsquo;re teaching them&amp;hellip;are SO important.&lt;/p&gt;
-&lt;p&gt;I remember making this one lesson for Venn Diagrams where they had cards from the game &amp;ldquo;Set&amp;rdquo; and had to make a Venn Diagram with the shapes and colors. I was REALLY excited for this lesson, yet I assumed that putting these cards into a Venn Diagram would be much easier for them than it was. I jumped to a difficult concept without doing some smaller examples to build up to it, and it ended up being a not-so-great lesson. It was quite a bummer, especially since I was so excited for how fun it would be.&lt;/p&gt;
-&lt;p&gt;After talking with a Professor at CGC, I got some feedback that it would have helped if I did a simpler example of putting together a Venn Diagram before starting the activity. Such a small action could have made &lt;em&gt;ALL&lt;/em&gt; the difference in this Venn Diagram lesson. With baby steps like this example, my lessons became more and more successful over time 😄&lt;/p&gt;
-&lt;h2 id=&#34;being-patient&#34;&gt;Being Patient&lt;/h2&gt;
-&lt;p&gt;To build on the idea of baby steps, you would be surprised how many things need to be explicitly explained in the classroom. Not just related to content, but to life skills as well.&lt;/p&gt;
-&lt;p&gt;Suppose you don&amp;rsquo;t know what a word means. What do you do? You might Google it, you might ask a friend, or you might have a physical dictionary to look it up. If a student didn&amp;rsquo;t know what a word meant, sometimes it required getting &lt;em&gt;this&lt;/em&gt; specific on helping them solve their problems.&lt;/p&gt;
-&lt;p&gt;The best example I can think of this is instructing someone how to make a peanut butter and jelly sandwich. Seems easy, right? Maybe some parts are, but you have to be explicit about the materials you need, and how to prepare it. After all&amp;hellip;you don&amp;rsquo;t want a sandwich with peanut butter on all sides of the bread 😉&lt;/p&gt;
-&lt;p&gt;So, with teaching, sometimes it requires being &lt;em&gt;this&lt;/em&gt; patient with a variety of things. It could even be something as simple as teaching a student how to add an appropriate subject to their e-mails. Students are still learning these things that might seem basic, and it requires patience.&lt;/p&gt;
-&lt;p&gt;It would be easy for many people to get frustrated in situations like this, where so many little things need to be explained and taught. I&amp;rsquo;d consider myself to be a pretty patient person, and I like helping others&amp;hellip;so it wasn&amp;rsquo;t as much of a problem for me. With that being said, there were &lt;em&gt;definitely&lt;/em&gt; times I needed to remind myself to take a breath and continue to be patient, as that&amp;rsquo;s what students deserve from the people teaching them.&lt;/p&gt;
-&lt;h2 id=&#34;students-and-structure&#34;&gt;Students and Structure&lt;/h2&gt;
-&lt;p&gt;Students LOVE structure. They love calendars, they love due dates, they love familiarity, and they love knowing how long it will take for their tests to be graded. The more structure you can give, the better your students with thrive in your class - Period.&lt;/p&gt;
-&lt;p&gt;Looking back, I tried my best to do this, yet can also see ways to provide more structure in my classroom. For example, developing better routines for group work might have helped my students more, or maybe more routine homework styles. Regardless, this was a big takeaway for me, and keeping things consistent helped keep my students on track.&lt;/p&gt;
-&lt;h2 id=&#34;accountability-goes-both-ways&#34;&gt;Accountability Goes Both Ways&lt;/h2&gt;
-&lt;p&gt;So&amp;hellip;there comes a time in a teaching career where someone doesn&amp;rsquo;t turn in an asssignment, and would like to get credit after the fact or make an excuse for why they couldn&amp;rsquo;t do it. In my teaching career, it happened very quickly - it happened on &lt;strong&gt;day one&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;What&amp;rsquo;s interesting about these situations is the genuine issues that require empathy sound EXACTLY like the bogus situations. After day one, I received two messages from two students saying the exact same thing: &lt;em&gt;&amp;ldquo;I got a zero on this assignment and I have no idea why I because I DID this assignment&amp;rdquo;&lt;/em&gt;. Their messages were eerily similar. After doing some research, I found out one of these students actually DID do the assignment, and the online portal experienced a glitch with posting their grade. As for the other student&amp;hellip;there was absolutely no evidence they opened the assignment, nevertheless completed it.&lt;/p&gt;
-&lt;p&gt;What did this situation teach me? It taught me that accountability goes both ways in situations like this. I need to hold students accountable for their deadlines set in their syllabus and documemntation, and I need to be accountable for trying to see the best in my students - even if the situation they describe sounds silly at best, it might be far from the case. All I can say&amp;hellip;is thank GOODNESS I ask for supporting documentation if a student wants an extended deadline 😉&lt;/p&gt;
-&lt;p&gt;Even with exercising empathy in these kinds of situations, holding students accountable can be a tough experience sometimes. It can drive some students to push back, whether it be through disrespect in your classroom or saying things like &amp;ldquo;you don&amp;rsquo;t believe in me.&amp;rdquo; It&amp;rsquo;s a difficult spot to be in! While being flexible is something any professor should strive for, boundaries are really important and teach students valuable life skills. I&amp;rsquo;m very grateful for the students who were respectful of those boundaries and didn&amp;rsquo;t push back - Many of my students were wonderful in this regard.&lt;/p&gt;
-&lt;p&gt;Ultimately, I do feel like students meeting deadlines teaches them valuable life skills on following through and keeping to commitments. Holding students accountable only helps them to be better people 😄&lt;/p&gt;
-&lt;h2 id=&#34;letting-go&#34;&gt;Letting Go&lt;/h2&gt;
-&lt;p&gt;As important as it is to give structure to students in a classroom setting, it&amp;rsquo;s also a good practice to give students choices whenever possible. While you can teach a student to make good choices, &amp;ldquo;good choices&amp;rdquo; shouldn&amp;rsquo;t be forced onto them - By forcing &amp;ldquo;good choices&amp;rdquo; onto students, they end up making &amp;ldquo;good choices&amp;rdquo; for their grades, but not because it&amp;rsquo;s the choice they truly want to make.&lt;/p&gt;
-&lt;p&gt;Sometimes students need to make bad choices to learn how to make good choices. Sometimes, a good choice to me isn&amp;rsquo;t the best choice for a student. I&amp;rsquo;ve learned that sometimes it&amp;rsquo;s best to let go of certain structures and let a student take charge of their educational destiny.&lt;/p&gt;
-&lt;p&gt;During the fall semester, my classroom had computers available once a week, and I required all students to stay after lecture and work on their homework when those computers were available. Students who didn&amp;rsquo;t want to do their homework would get very chatty and distracted, and I spent too much time trying to get them back on track by consistently checking in on them. I see now that it was less beneficial to keep all students there after lecture, and would have been more beneficial to dismiss class and focus on the students who were hungry for 1-on-1 attention. I started doing this by the end of the semester, and developed better relationships with students looking for that engagement as a result.&lt;/p&gt;
-&lt;p&gt;Another way that I should have let go more is with attendance. Each day, I had students complete a simple attendance activity that would be part of their attendance grade. They would grab a post-it from the front of the class, and answer a brief question about what we had gone over in the last class. I liked this idea at first, because it was both a way to take attendance, as well as a way to see if students were understanding what they learned. However, I wish I never did them. It forced disengaged students to be there, which resulted in distractions to students who DID want to learn.&lt;/p&gt;
-&lt;p&gt;I think attendance is very important for student success. With that being said, I don&amp;rsquo;t think requiring attendance to every class worked in my favor as a professor. If I could do it over again, I would add some sort of positive benefit to attending courses, rather than a negative if class was missed.&lt;/p&gt;
-&lt;h2 id=&#34;classroom-management-community-college-edition&#34;&gt;Classroom Management: Community College Edition&lt;/h2&gt;
-&lt;p&gt;You&amp;rsquo;d think that by the time students get to college, they would know exactly how to act in the classroom. Well&amp;hellip;that&amp;rsquo;s sometimes the case, but not always. Just like teaching K-12, classroom management is needed sometimes in a college setting&amp;hellip;only it&amp;rsquo;s a little harder to enact.&lt;/p&gt;
-&lt;p&gt;Classroom management in college can be tougher to give because you want your students to feel respected as the adults they are, yet you also need to do what you need to do in order to make sure the class stays respectful. It&amp;rsquo;s a &lt;em&gt;fine line&lt;/em&gt; between maintaining your classroom and making students feel treated like babies, especially the closer they are to 18.&lt;/p&gt;
-&lt;p&gt;Classroom management at the college level can also be tough because you don&amp;rsquo;t want to embarrass or bring attention to a student misbehaving, yet disrespectful behavior has to be handled immediately at the same time&amp;hellip;otherwise other students start to follow suit.&lt;/p&gt;
-&lt;p&gt;Being confrontational is not something that comes naturally to me, yet is something I&amp;rsquo;ve been actively working on. If there&amp;rsquo;s one thing I learned, is that I should have been more confrontational sooner - once students see other students get away with disrespectful behavior, it becomes so much harder to turn things around.&lt;/p&gt;
-&lt;h2 id=&#34;rate-my-professor&#34;&gt;Rate My Professor&lt;/h2&gt;
-&lt;p&gt;As of right now, I&amp;rsquo;m a solid 1/5 on Rate My Professor. 1 is the worst you can get!&lt;/p&gt;
-&lt;p&gt;A takeaway that I had this year is that these bad ratings can be humbling, and don&amp;rsquo;t mean you&amp;rsquo;re a terrible teacher overall (even if there are weak spots). In some cases, negative ratings mean you were being a &lt;em&gt;good&lt;/em&gt; teacher, and a negative rating is a way for students to express negative emotion behind the consequences to their actions.&lt;/p&gt;
-&lt;p&gt;Take for example this review here:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;review.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I have a strong idea of who this student was. In my online course, I gave students two business days to go into Canvas and complete some brief assignments. These assignments were equivalent to showing up on the first day of class, and students who don&amp;rsquo;t show up on the first day without communicating are typically withdrawn in CGC math courses. So&amp;hellip;this student didn&amp;rsquo;t do the assignments, I told them they were withdrawn, they asked me to not withdraw them a while later, I told them they already were, and BOOM. Bad review.&lt;/p&gt;
-&lt;p&gt;I try not to take reviews to heart in situations like this. With that being said, I really do care about student reviews that are constructive - Ultimately, I WANT to improve. It would be laughable to say that I was a perfect teacher. With this in mind, &amp;ldquo;horrible professor&amp;rdquo; is a stretch - While not perfect, my classes were &lt;em&gt;not&lt;/em&gt; horrible. I had many students say I was a great teacher after my courses ended, and they didn&amp;rsquo;t owe it to me to say that. I trust their words more than Rate My Professor 😄&lt;/p&gt;
-&lt;h2 id=&#34;life-balance--important&#34;&gt;Life Balance = Important!&lt;/h2&gt;
-&lt;p&gt;As I mentioned earlier, it was a goal of mine to be as creative as I could with my lessons. Well&amp;hellip;sometimes that creativity comes at a price of burning you out in the long run if you&amp;rsquo;re not careful. It became very clear that my courses could have easily eaten every morsel of my free time if I let it. So&amp;hellip;that&amp;rsquo;s where life balance came in 😄&lt;/p&gt;
-&lt;p&gt;Fun fact: My most thought-out planned lessons tended to perform poorly, and had students feeling the most confused. The lessons I intuitively put together with less time? Went AMAZINGLY.&lt;/p&gt;
-&lt;p&gt;So&amp;hellip;the takeaway? Sometimes simpler is better. Creativity is great to have as long as it&amp;rsquo;s not impeding any sort of life balance. And plus, by having a balance, I felt like there was more emotional energy to give to students, which ultimately made me a better teacher.&lt;/p&gt;
-&lt;h2 id=&#34;have-fun-and-make-it-worthwhile&#34;&gt;Have Fun, and Make it Worthwhile!&lt;/h2&gt;
-&lt;p&gt;Yes, balance is important&amp;hellip;but if there&amp;rsquo;s time to be creative and have fun, it&amp;rsquo;s SO worth it too! Even if your subject matter is dry, having a little bit of fun with it goes a long way with students.&lt;/p&gt;
-&lt;p&gt;One of my best lessons this year was in my MAT 142 course, in a lesson about budgets. I gave my student a bogus budget from this fictional girl named Brianna, and made her budget have a negative cash flow due to RIDICULOUS spending. My students then had to correct her budget so that she had a positive net cash flow, and explain what they changed and why. My students had SO much fun making fun of Brianna and her horrible budget, so it made the learning experience much better than making them only calculate.&lt;/p&gt;
-&lt;p&gt;The fact that the budget lesson had real life applications is another reason I feel like my students enjoyed that lesson. We had another lesson that semester where they created a report on a fictional pandemic, and exponentially graphed their disease as a way to convince others to take the disease seriously. At the time I think they thought it was fun because they got to get extremely creative with it. Bet they now see the real life applications of it 😅&lt;/p&gt;
-&lt;h2 id=&#34;finallythe-students&#34;&gt;Finally&amp;hellip;The students&lt;/h2&gt;
-&lt;p&gt;Ultimately, the students were the best part of teaching! Whether they know or care, I really enjoyed teaching every single one of them, and getting to know them the best that I can. Not every student wants to stay in touch after taking your course, but I&amp;rsquo;m really happy that I&amp;rsquo;m still connected with a few of them! Here&amp;rsquo;s to more years of being there for students in the future 😄&lt;/p&gt;
-</description>
     </item>
     
     <item>
       <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
+      <link>https://www.erika-jacobs.com/project/animal-crossing-popularity-data/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
+      <guid>https://www.erika-jacobs.com/project/animal-crossing-popularity-data/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>How the Itsy Bitsy &#34;Spyder&#34; Saved My Project</title>
-      <link>/post/how-the-itsy-bitsy-spyder-saved-my-project/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/post/how-the-itsy-bitsy-spyder-saved-my-project/</guid>
-      <description>&lt;p&gt;A couple months ago, I stumbled across a confidential &amp;ldquo;real life opportunity&amp;rdquo; to exercise my skills in working with data. While I can&amp;rsquo;t explain specifics about the data I was working with or who this project was for, I was very excited to help with this project because the resulting data product would be extremely helpful to many people I care about 😊&lt;/p&gt;
-&lt;p&gt;Below I&amp;rsquo;ve outlined some information about the project, as well as the progress I&amp;rsquo;ve made so far.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Code.jpg&#34; alt=&#34;&#34; title=&#34;A snippet of this project&#39;s code in Spyder&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;about-this-project&#34;&gt;About This Project&lt;/h2&gt;
-&lt;p&gt;The formation of this project came from a legitimate need in efficiency. This project was created due to an entity reporting numbers from hundreds of Excel files, which required going into each individual Excel file needed to obtain the information needed. Because these Excel files were large, opening each file would take more time than it should, slowing down the process of reporting these numbers.&lt;/p&gt;
-&lt;p&gt;Furthermore, the numbers came from a calculated dashboard in the file (rather than a table of data), which meant numbers from these files were being COPIED AND PASTED into reports. Not only was this process inefficient for reporting, but there was also large room for error due to copying and pasting these numbers.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s where I came in!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;comingin.gif&#34; alt=&#34;&#34; title=&#34;Me coming in with a project idea 😄&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The plan was for a Python script to go into multiple Excel files that had a similarly formatted data table, extracting this data out of each file, and importing this data into a Pandas dataframe. Then, once all Excel files were imported to Python, the resulting dataframe would be sent to a SQL Server table for use.&lt;/p&gt;
-&lt;p&gt;The plan seemed simple - yet real life isn&amp;rsquo;t so simple! After copies of the files were made and put in a directory to be extracted, I ran into four primary issues before I was able to successfully import all Excel files with ease&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;obstacle-one-corrupted-macros&#34;&gt;Obstacle One: Corrupted Macros&lt;/h2&gt;
-&lt;p&gt;Once upon a time, a mystery person created the file template I was working with. In this file template, they wrote a large amount of macros to operate certain calculations within the file template automatically. At some point, one or more of these macros became corrupted.&lt;/p&gt;
-&lt;p&gt;One of the first things I did in this project was to try and import just one of these files to Python&amp;hellip;and it didn&amp;rsquo;t work! I had imported Excel files to Python before using the same process - so why wasn&amp;rsquo;t this working? I tried copying the data into a blank file, and import worked. I tried deleting tabs in the original file template, and that did NOT work. At some point after researching and trying different solutions, I finally figured out that the macros in this file were the issue - primarily the corrupted one that mystery person wrote years ago.&lt;/p&gt;
-&lt;p&gt;So&amp;hellip;I tried deleting all of the macros in Excel, and the import WORKED! Lesson Learned: &lt;strong&gt;Pandas will NOT import an Excel file to Python if a macro is corrupted and causing trouble&lt;/strong&gt;. Equipped with this knowledge, I then realized this also meant deleting macros from ALL files for this project would need to happen (gross 😖). As a result, I ended up building a loop to remove all macros from these files.&lt;/p&gt;
-&lt;p&gt;Removing these macros through a loop required using VBA in Python using the win32com package, and saving a new copy of these files to leave the original file unaffected. Doing this loop also gave me the opportunity to save all files with macros removed with the same extension in Excel - prior to this step, many files had the .xls extension due to their age.&lt;/p&gt;
-&lt;p&gt;After this was finished, I was able to get these files into Python without issue. Finally&amp;hellip;success!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;success.gif&#34; alt=&#34;&#34; title=&#34;Success!&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;obstacle-two-changing-data-types-and-columns&#34;&gt;Obstacle Two: Changing Data Types and Columns&lt;/h2&gt;
-&lt;p&gt;Once all of the Excel data was brought into Python, I realized there were two issues that required cleaning the data before exporting it to SQL. The final product should have 156 columns, yet there were a few more than that. It turns out that while these data files were similar over time, not all of them were the exact same. Some had columns that were slightly renamed, and others were missing columns as a whole. Therefore, it required some data cleansing to make sure the dataframe being exported had exactly 156 columns.&lt;/p&gt;
-&lt;p&gt;Another issue I ran into was the numerical fields being read as text fields. This would result in numbers being imported and rounded off, which resulted in numbers being slightly off. I had to change the structure of the import to allow for all numerical fields to be read as numbers. Luckily, this was a quick fix.&lt;/p&gt;
-&lt;h2 id=&#34;obstacle-three-time-and-memory&#34;&gt;Obstacle Three: Time and Memory&lt;/h2&gt;
-&lt;p&gt;Due to the classified nature of this project, this project was required to be completed on a computer that wasn&amp;rsquo;t my own. By doing this, there were unfortunately limitations in the type of software I could use, as well as the packages within Python due to the network being used and the hardware in the computer. This ultimately prevented me from being able to use programs such as PySpark that would have helped in creating this ETL process using large amounts of data.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;time.gif&#34; alt=&#34;&#34; title=&#34;Time IS money...&#34;&gt;&lt;/p&gt;
-&lt;p&gt;So&amp;hellip;progress on this project took TIME. On top of that, it took every ounce of memory the computer had in order to do the task. It also took a steady network connection in order to stay connected to the source files through this computer. It was this network connection that ultimately posed the greatest issue in this project, which leads into the final obstacle I experienced&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;obstacle-four-jupyter-notebook&#34;&gt;Obstacle Four: Jupyter Notebook&lt;/h2&gt;
-&lt;p&gt;Jupyter Notebook is a browser-based environment for writing code in Python. I LOVE Jupyter! With that being said, network issues lead to Jupyter timing out and needing to constantly reconnect, with executed code not completing as a result.&lt;/p&gt;
-&lt;p&gt;While memory could have been an issue too, ultimately Jupyter notebook could not be used for this project due to the network connectivity issues I had. Unfortunately, a browser-based environment can be faulty if your internet connection is too.&lt;/p&gt;
-&lt;p&gt;So&amp;hellip;I had to find another way to process the code I was running. What would be best to use? Ultimately I chose the most convenient option, Spyder, which ended up being a &lt;strong&gt;great&lt;/strong&gt; fit for this project.&lt;/p&gt;
-&lt;h2 id=&#34;about-spyder&#34;&gt;About Spyder&lt;/h2&gt;
-&lt;p&gt;Spyder is an open source integrated development environment (IDE) for Python. Since Jupyter wasn&amp;rsquo;t working for my project, the reason why I ultimately tried Spyder was because it was automatically installed on my computer. I&amp;rsquo;m SO glad it was, because Spyder ended up having some important assets for this project&amp;hellip;the biggest one being that a steady network connection was NOT needed in order to run the majority of my code.&lt;/p&gt;
-&lt;p&gt;The Spyder console reminds me of using R Studio in some ways. There&amp;rsquo;s a variable explorer where you can look at the data items you&amp;rsquo;ve created with your code (dataframes, variables, lists, etc.), as well as a console to look at executed code and its results.&lt;/p&gt;
-&lt;p&gt;One REALLY cool thing about Spyder is that it can catch simple errors ahead of time. For example, if you try to call a variable called &amp;ldquo;X&amp;rdquo; and you accidentally type &amp;ldquo;Xx&amp;rdquo;, Python will let you know that variable &amp;ldquo;Xx&amp;rdquo; doesn&amp;rsquo;t exist before running the code. This functionality has been especially helpful with this project, since there are so many components in the code I wrote. Like Jupyter, code can be &amp;ldquo;chunked&amp;rdquo; together in sections so all code does not need to be run at the same time. HOWEVER, Spyder has the capacity to also run all code at once.&lt;/p&gt;
-&lt;p&gt;One weak point of using Spyder is the data visualization features. After running code for data visualization using a Jupyter notebook, the result usually shows a sizeable copy of the visualization. Spyder shows visualizations as well, yet it&amp;rsquo;s limited to the console - meaning it&amp;rsquo;s TINY. Data visualization wasn&amp;rsquo;t relevant for this project, so that didn&amp;rsquo;t matter to me as much&amp;hellip;yet this could matter for other projects.&lt;/p&gt;
-&lt;p&gt;While I was disappointed that Jupyter didn&amp;rsquo;t work for this project, I&amp;rsquo;m VERY glad that I tried using Spyder. There are some functionalities using Spyder that I actually like BETTER than using Jupyter depending on the project. I&amp;rsquo;m officially a huge fan of Spyder!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;spyder.gif&#34; alt=&#34;&#34; title=&#34;&amp;quot;Spyder&amp;quot; coming in to save the day!&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;project-progress-so-far&#34;&gt;Project Progress So Far&lt;/h2&gt;
-&lt;p&gt;As of January 3rd 2020, I have been able to successfully get all Excel data imported to Python through a loop. I&amp;rsquo;ve done some basic data cleaning, removed unnecessary columns, and adjusted variable types in preparation for sending the data to SQL Server.&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
-&lt;p&gt;At this point in time, all research has been done to get this data to SQL server - the code just hasn&amp;rsquo;t been written yet. Hopefully this will be done very soon!&lt;/p&gt;
-&lt;p&gt;After all data is placed in SQL Server, I would also like to make a second set of code for importing and replacing only one Excel file&amp;rsquo;s data in SQL Server. This would allow for a repeatable process that can be used in the future to add to this table, versus having to upload all files every time there&amp;rsquo;s an additional Excel file.&lt;/p&gt;
-&lt;p&gt;Once the data is in SQL Server, there will also need to be meetings on how to cleanse the data - since many of these files are older, some business decisions need to be made on how to handle certain aspects of the older data.&lt;/p&gt;
-&lt;p&gt;In the meantime, I will continue to add progress of my work onto GitHub! You can 
-&lt;a href=&#34;https://github.com/ErikaJacobs/Excel-Python-SQL-Migration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to access all files related to this project for your viewing pleasure. Thank you for reading!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Adding Up STEM Qualifications: A Capstone Overview</title>
-      <link>/post/adding-up-stem-qualifications/</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/post/adding-up-stem-qualifications/</guid>
-      <description>&lt;p&gt;Time flies when you&amp;rsquo;re having fun! Teaching at the college level for the first time has been an absolute blast, yet it has been plenty of work each week on top of full time. There has been little time to start new data projects using Python or R. In the meantime, I thought it might be nice to share a personal project that I completed as part of my Masters degree.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve always been passionate about the topic of education in my studies. Within my Psychology major at Arizona State University, I had the opportunity to work in a research lab that refined a program called 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s11612-013-0231-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4-R Success&lt;/a&gt;, which had the goal of helping students collaborate better with each other in the classroom. I also focused most of my Psychology major&amp;rsquo;s courses on learning, motivation, and cognition. When it came to the capstone for my Masters degree, I already knew that I wanted to explore a topic within the realm of education. Thus, my capstone project was born.&lt;/p&gt;
-&lt;p&gt;My capstone project was completed in July 2018 through Penn State University, and was entitled &amp;ldquo;Adding Up STEM Qualifications: An Intervention Analysis of Common Core&amp;rsquo;s Effectiveness on High School Readiness for STEM.&amp;rdquo; Here&amp;rsquo;s the abstract for the paper I wrote on this project:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;The United States has an increasing need for workforce talent with an educational background in STEM, and the Common Core State Standards initiative was one of the many initiatives implemented to rectify the issue. An intervention analysis was conducted over time by measuring inbound high school senior&amp;rsquo;s average mathematical SAT score on a yearly basis across major groups, and measuring whether Common Core significantly increased or decreased a student&amp;rsquo;s higher education mathematical potential. The data is for the state of New York, which is provided by the College Board.  Three separate time series analyses were conducted between 1998 and 2016: All New York, STEM-related degrees, and non STEM-related degrees. Each data set was fit with a time series structure, and forecasted values post Common Core standard implementation were compared to the actual values using Wilcoxon tests. Statistically significant results were not found. No significantly positive or negative effects on average mathematical SAT performance were found as a result of implementing Common Core State Standards.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;At the time I had submitted this capstone project, I had also submitted a presentation of the results I had found. If you&amp;rsquo;re interested in seeing what I found, take a look at the video below:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/N-IHzDWAviI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br&gt;For my personal portfolio, one thing that I&amp;rsquo;ve wanted to do is re-create the project using everything I&amp;rsquo;ve learned since then about R and Python. At the time I completed this project, obtaining the data required manually changing PDFs from the College Board&amp;rsquo;s website into data available through Excel. Now that I know how to use Python better, I feel like I could utilize web scraping to make this process more efficient.&lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s definitely more to come! In the meantime, I hope you enjoy what I&amp;rsquo;ve shared with you so far. Once winter break comes along.more projects will be coming!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Putting the &#34;Fun&#34; in Functional as a Math Instructor</title>
-      <link>/post/putting-the-fun-in-functional/</link>
-      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/putting-the-fun-in-functional/</guid>
-      <description>&lt;p&gt;Starting on Tuesday, I have the pleasure of teaching my first college level math class! I felt compelled to write this post to let any potential readers know that my next Python project is coming along and will be shared with you ASAP, yet I&amp;rsquo;ll probably only get to finishing that post later on.&lt;/p&gt;
-&lt;p&gt;My free time the last couple of weeks has been dedicated to preparing for my class, ironing out technical issues, attending training sessions, working through busy season in my current day job, and trying to maintain a balance between my professional and personal life. All things considered.I&amp;rsquo;m doing pretty well! A former version of myself might have been running on 99.9% anxiety with this much going on.but now? I&amp;rsquo;m just excited to get started!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;yay.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;While this isn&amp;rsquo;t my first time teaching, it&amp;rsquo;s my first time with full control over how I teach the content in my classroom - Which is AWESOME! However, with this power comes great responsibility.What&amp;rsquo;s the best way to teach these concepts? How can I make it fun without losing the point? How can I help students see the importance of the skills they&amp;rsquo;re learning?&lt;/p&gt;
-&lt;p&gt;Over the last couple of weeks, there were a couple of seminars that touched on the idea of &amp;ldquo;flow&amp;rdquo;. I was familiar with the content from some Psychology classes, yet having it placed in the context of teaching was quite fascinating. Flow is essentially a state of mind a person achieves when they are fully immersed, engaged, and focused on a challenging task that is the right balance between difficulty and skill. In the seminar, they showed a visual like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;flow1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I really appreciate the visual above because it illustrates the consequences of not achieving that state - too easy of a task and it&amp;rsquo;s boring, too difficult of a task and it&amp;rsquo;s frustrating. However, I also ran into the visual below that&amp;rsquo;s a little bit different.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;flow2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This second visual above classifies the relationships between difficulty/challenges and skill/abilities that makes flow more of a narrow target to achieve. The first visual made the assumption that low challenge with low ability would induce flow, while this second visual did not. But why? Which one is right?&lt;/p&gt;
-&lt;p&gt;My answer? The first visual is right, in my opinion. The second visual is right if a person has high ability to complete the task. I feel like understanding this distinction is extremely important going into my classes, because there are going to be varying levels of ability coming in to learn Math. Regardless of where a student&amp;rsquo;s abilities fall, the goal should be to engage them in that sweet spot of flow, rather than leaving them too bored or too frustrated. Then, once a student is able to complete tasks at an appropriate difficulty level for themselves, they&amp;rsquo;ll gain more skills through the process, and therefore be able to handle more difficult tasks.&lt;/p&gt;
-&lt;p&gt;I love how learning has science behind it!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;science.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;what-about-fun&#34;&gt;What About Fun?&lt;/h2&gt;
-&lt;p&gt;The concept of flow is functional - it&amp;rsquo;s the task I&amp;rsquo;m working toward in my classroom to keep students engaged. However, just because an activity is functionally engaging doesn&amp;rsquo;t mean that it&amp;rsquo;s necessarily fun for students to do.&lt;/p&gt;
-&lt;p&gt;According to Google, the definition of the word fun is &amp;ldquo;amusing, entertaining, or enjoyable.&amp;rdquo; Flow would certainly make a task more enjoyable versus being bored or frustrated, but flow alone isn&amp;rsquo;t going to make my students excited about doing homework. So.what makes math fun?&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m still learning the answer to this myself! However, I think application and engaging activities are key.&lt;/p&gt;
-&lt;p&gt;Have you ever been to an escape room? An escape room is when a group of people are stuck in a room for about an hour, and have to solve puzzles to get out. People who have enjoyed an escape room might not enjoy math problems, yet I&amp;rsquo;d argue that solving math problems uses the exact same skill set that someone would use in an escape room. SO many people have paid to do an escape room for fun, and I see no signs of people paying to do math problems for fun.&lt;/p&gt;
-&lt;p&gt;The difference is application. An escape room has an applicable scenario - You&amp;rsquo;re given one hour to rob a bank, break out of jail, save kidnapped people, prevent a disease outbreak, escape an asylum.you get the picture. There are entertaining ways to apply those problem solving skills. THAT is what makes using those skills fun.&lt;/p&gt;
-&lt;p&gt;I can&amp;rsquo;t promise to find a way to make everything in my class that entertaining right away - After all, I&amp;rsquo;m working full time while teaching this class and working on my professional portfolio. Completing this transformation will take time, yet I can promise it&amp;rsquo;s on my mind and I&amp;rsquo;ll be trying my best to put the &amp;ldquo;fun&amp;rdquo; in functional 😄&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mood: Harry Potter</title>
-      <link>/post/mood-harry-potter/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/mood-harry-potter/</guid>
-      <description>&lt;p&gt;This blog post is focused on Sentiment Analysis of the Harry Potter book series. Sentiment analysis extracts subjective information on a set of text - either positive sentiment, negative sentiment, or neutral sentiment. This is the last (and final) part of the Harry Potter text analysis project I&amp;rsquo;ve been working on, with 
-&lt;a href=&#34;https://erikajacobs.netlify.com/post/speaking-parseltongue-to-python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part one&lt;/a&gt; and 
-&lt;a href=&#34;https://erikajacobs.netlify.com/post/harry-potter-and-the-learning-of-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part two&lt;/a&gt; available on my blog. Right in time for J.K. Rowling and Harry Potter&amp;rsquo;s birthday!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;birthday-cake.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Happee Birthdae&amp;rdquo;! My gift is this blog and its supporting files on 
-&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; - you can decide for yourself whether the sentiment of this gift is positive, neutral, or negative 😉&lt;/p&gt;
-&lt;h2 id=&#34;classifying-text-sentiment&#34;&gt;Classifying Text Sentiment&lt;/h2&gt;
-&lt;p&gt;From parts one and two of this project, I already had the text of each chapter from the books in my Jupyter notebook. However, the task became figuring out how assign sentiment to text in a quantitative way. After doing some research, I discovered a package in Python called VADER, which is part of the NLTK package for text processing.&lt;/p&gt;
-&lt;p&gt;How VADER works is pretty interesting! Each word with sentiment has a set of 10 independent human-rated scores between -4 (extremely negative) and 4 (extremely positive) - this score is called a valence score. All valence scores of these sentimental words are within a lexicon, which can then be used to calculate cumulative sentiment scores for sentences.&lt;/p&gt;
-&lt;p&gt;VADER uses the scores for each word to determine a positive, negative, neutral, and compound score. The positive, neutral, and negative scores fall between 0 and 1 (in which 1 signifies most sentiment), and represent a proportion of the text that falls into that category. The compound score ranges between -1 (cumulatively negative) and 1 (cumulatively positive). For example, let&amp;rsquo;s look at a simple sentence:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;The book was good.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;This sentence was scored with a positive sentiment score of .492, a neutral sentiment score of .508, and a negative sentiment score of 0.0. Cumulatively speaking, this sentence had a compound score of .4404 - a positive sentence. To get the compound score for a sentence, the formula below is used:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;formula.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;In this formula, x = sum of mean valence scores for all words in text. $\alpha$ equals a normalization parameter, valued at 15. In our example, the word &amp;ldquo;good&amp;rdquo; has a valence score of 1.9, and all other words in the sentence have a valence score of 0. The sum of 1.9 and 0 is 1.9. Therefore, x equals 1.9. From what I understand, $\alpha$ (or alpha) in the formula above always equals 15 in VADER.&lt;/p&gt;
-&lt;p&gt;Now that the variables going into this formula are known, &lt;em&gt;math&lt;/em&gt; is done - that&amp;rsquo;s how .4404 is calculated as the compound score for this sentence.&lt;/p&gt;
-&lt;p&gt;This is the basic premise behind calculating the compound score. However, there are adjustments to positive/negative/neutral valence scores of each word based on qualities such as capitalization and punctuation that complicate the calculation further than this equation. However - we don&amp;rsquo;t need to go into those details for you to understand that math is being done based on the words present to figure out whether a sentence is of positive, negative, or neutral sentiment.&lt;/p&gt;
-&lt;p&gt;For the Harry Potter text, I separated out each sentence from the book series and used VADER&amp;rsquo;s functionality to obtain compound sentiment scores on each sentence. Here&amp;rsquo;s a graph that shows the average sentiment score per chapter for each book:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hptimeplot-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The visual above depicts average sentiment score per chapter. X axis (horizontal) represents the numerical chapter of each book, and y axis (vertical) represents compound sentiment score at that point of the book, with values above 0 having positive sentiment, and values below 0 having negative sentiment.&lt;/p&gt;
-&lt;h3 id=&#34;chapter-with-the-most-negative-sentiment&#34;&gt;Chapter with the most negative sentiment&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;This graph quantifies that Dumbledore&amp;rsquo;s death and the events following in &amp;ldquo;Half Blood Prince&amp;rdquo; is the chapter with the most negative sentiment in the entire book series, with an approximate compound sentiment score of -0.2. The events leading up to his death were extremely dark and detailed, which likely explains the decline in sentiment up to the point of his death, nevertheless the negativity of the events immediately afterward.&lt;/p&gt;
-&lt;h3 id=&#34;the-most-neutral-book&#34;&gt;The most neutral book&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;Generally speaking, &amp;ldquo;Order of the Phoenix&amp;rdquo; was the most neutral of all the books, with the least amount of fluctuation between positive and negative. The book as a whole had an average sentiment compound score of 0.007, which is extremely close to zero. In other words, &amp;ldquo;Order of the Phoenix&amp;rdquo; is the longest and most neutral book, meaning its purpose is most likely to provide readers the most information.&lt;/p&gt;
-&lt;h3 id=&#34;the-most-negative-bookand-the-most-variability-in-sentiment&#34;&gt;The most negative book&amp;hellip;and the most variability in sentiment&lt;/h3&gt;
-&lt;p&gt;&amp;ldquo;Deathly Hallows&amp;rdquo; has the most negative sentiment on average between all of the books, with an average compound sentiment score of -0.3 overall. This makes sense considering the amount of death and hardship experienced in the book. Furthermore, as you can likely see visually, &amp;ldquo;Deathly Hallows&amp;rdquo; had the most variability in sentiment in comparison to all other books in the series. This could likely be due to hardships and plot resolutions happening in contrast to each other, contributing to the &amp;ldquo;up and down&amp;rdquo; nature of the book overall.&lt;/p&gt;
-&lt;h3 id=&#34;chapter-with-the-most-positive-sentiment&#34;&gt;Chapter with the most positive sentiment&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;The epilogue of &amp;ldquo;Deathly Hallows&amp;rdquo; featured the most positive sentiment out of all the chapters in this book series, with an approximate compound sentiment score of 0.2. With the epilogue of &amp;ldquo;Deathly Hallows&amp;rdquo; being a short chapter filled to the brim with positive words after all conflict in the books had been resolved, it makes perfect sense as to why this chapter was the most positive.&lt;/p&gt;
-&lt;h3 id=&#34;most-negatively-rated-sentence&#34;&gt;Most negatively rated sentence&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;The most negatively rated sentence in the book series is in &amp;ldquo;Deathly Hallows&amp;rdquo;, when Harry goes to Godric&amp;rsquo;s Hollow and fight&amp;rsquo;s Voldemort&amp;rsquo;s snake, Nagini. This sentence has a compound sentiment score of -.9906. The sentence in question was a lengthy sentence sentence explaining the negative circumstances Harry was in, so the length of this sentence most likely affected its compound sentiment score.&lt;/p&gt;
-&lt;h3 id=&#34;most-positively-rated-sentence&#34;&gt;Most positively rated sentence&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;The most positively rated sentence in the book series is when the Sorting Hat is singing about the different Hogwarts houses in &amp;ldquo;Goblet of Fire.&amp;rdquo; This sentence has a compound sentiment score of .9783. Like the most negatively rated sentence, this sentence was also a lengthy sentence of positive attributes related to each house, so the length of the sentence most likely affected its compound sentiment score.&lt;/p&gt;
-&lt;h3 id=&#34;obesrvation-about-all-book-conclusions&#34;&gt;Obesrvation about ALL book conclusions&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;All books have a negative &amp;ldquo;dip&amp;rdquo; toward the end followed by a positive increase in compound sentiment score, with the negative &amp;ldquo;dip&amp;rdquo; ranging from slight to drastic depending on the book. This could be related to rising action prior to the climax of each book.&lt;/p&gt;
-&lt;p&gt;Furthermore, after using VADER to detect sentiment in each sentence of the Harry Potter books, here are some additional sentiment statistics by sentence:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;There are 19,058 sentences with positive sentiment (or 25.4%)&lt;/li&gt;
-&lt;li&gt;There are 18,384 sentences with negative sentiment (or 24.5%)&lt;/li&gt;
-&lt;li&gt;There are 33,574 sentences with neutral sentiment (or 44.8%)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With all sentences in the Harry Potters series equipped with a compound sentiment score, this data can now be used to create a sentiment classifier!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;wicked.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;sentiment-classifier&#34;&gt;Sentiment Classifier&lt;/h2&gt;
-&lt;p&gt;With all of our information ready to go, one big question remains.what are the fundamental differences in words between sentences with a positive and negative sentiment? Luckily, there&amp;rsquo;s a mathematical way to do this with all of the sentiment scores collected.&lt;/p&gt;
-&lt;p&gt;In Python, a mathematical concept called the Naive Bayes Classifier is used to compare two groups of words, and determines which qualities are more distinct of just one group using math and probability. Once a classifier is trained and tested with an appropriate level of accuracy (70% and above, from what I&amp;rsquo;ve heard), an analysis can be done to see what those informative features are.&lt;/p&gt;
-&lt;p&gt;In the case of the Harry Potter text, I trained a classifier with half of the positive sentences, and half of the negative sentences. After training, the classifier had 90% accuracy. Then, I tested the other half of the positive and negative sentences, which had 80% accuracy. Success!&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s take a look at the &amp;ldquo;Most Informative Features&amp;rdquo; from comparing the positive and negative Harry Potter text:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;most-informative-features.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The numbers to the right of the &amp;ldquo;Most Informative Features&amp;rdquo; represent a ratio between positive and negative text, in which the second column explains the direction of the ratio. For example: The first row explains that the word &amp;ldquo;Excellent&amp;rdquo; is 38.3 times more likely to show up in positive text from the Harry Potter series, rather than negative text. The second row explains that the word &amp;ldquo;anger&amp;rdquo; is 28.7 times more likely to show up in negative text from the Harry Potter series, rather than positive text.&lt;/p&gt;
-&lt;p&gt;And with that.this Harry Potter text analysis project is complete!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;celebratehp.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing Thoughts&lt;/h2&gt;
-&lt;p&gt;Overall, this project was SO much fun to do, and was a great introduction to working with text analysis!&lt;/p&gt;
-&lt;p&gt;Now that this project is complete, I wanted to be transparent about the data I utilized for this project. In the middle of this project, I discovered that some of the text from &amp;ldquo;Chamber of Secrets&amp;rdquo; could be incorrectly ordered (or potentially missing text completely) based on the source I was using. Once I learn how to use text scraping through Python, I&amp;rsquo;m going to recreate this project and see if anything changed. I&amp;rsquo;m almost positive that the findings won&amp;rsquo;t be terribly different.but I believe in honesty and transparency, which is why I&amp;rsquo;m communicating this with you. Regardless, it was still a learning experience to use the text from the source I used, and the source itself is still valuable!&lt;/p&gt;
-&lt;p&gt;Thank you for reading about this project, and I hope you continue to follow my future projects!&lt;/p&gt;
-&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
-&lt;p&gt;This blog wouldn&amp;rsquo;t have been possible without the following sources!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.mikulskibartosz.name/how-to-split-a-list-inside-a-dataframe-cell-into-rows-in-pandas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Bartosz Mikulski on restacking rows&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://medium.com/@sharonwoo/sentiment-analysis-with-nltk-422e0f794b8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis using Vader via NLTK&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis using Vader via NLTK&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-beyond-words-6ca17a6c1b54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://fjavieralba.com/basic-sentiment-analysis-with-python.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; on sentiment analysis&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This article&lt;/a&gt; from Data Camp, which I wish I found sooner&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://datameetsmedia.com/vader-sentiment-analysis-explained/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This website&lt;/a&gt; for the VADER compound score formula&lt;/li&gt;
-&lt;li&gt;The Vader sentiment analysis tool via the 
-&lt;a href=&#34;https://www.nltk.org/api/nltk.sentiment.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLTK package&lt;/a&gt;, with citation:
-&lt;ul&gt;
-&lt;li&gt;Hutto, C.J. &amp;amp; Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.&lt;/li&gt;
-&lt;li&gt;Associated lexicon found 
-&lt;a href=&#34;https://www.kaggle.com/nltkdata/vader-lexicon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
     <item>
       <title>Harry Potter NLP Project</title>
-      <link>/project/harry-potter-nlp-project/</link>
+      <link>https://www.erika-jacobs.com/project/harry-potter-nlp-project/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/project/harry-potter-nlp-project/</guid>
+      <guid>https://www.erika-jacobs.com/project/harry-potter-nlp-project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Harry Potter and the Learning of WordCloud</title>
-      <link>/post/harry-potter-and-the-learning-of-wordcloud/</link>
-      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/harry-potter-and-the-learning-of-wordcloud/</guid>
-      <description>&lt;p&gt;This is the second part of my Harry Potter text analysis project! If you haven&amp;rsquo;t read part one, 
-&lt;a href=&#34;/post/speaking-parseltongue-to-python/&#34;&gt;Click Here&lt;/a&gt; to catch up. I used Python via Jupyter to make a word cloud of the most popular words in the Harry Potter series. Here is the word cloud I created:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hp_wordcloud_final-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This is the only output I have this week.and yet SO much learning was put into making it. This blog will explore basic keyword analysis from the books, as well as how I was able to use the WordCloud package (among other things) in Python. Also, if you&amp;rsquo;d like to look at my work on this project, 
-&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click Here&lt;/a&gt; to see the project files in my GitHub repository.&lt;/p&gt;
-&lt;h2 id=&#34;basic-keyword-analysis&#34;&gt;Basic Keyword Analysis&lt;/h2&gt;
-&lt;p&gt;Before diving into the process of creating the word cloud, let&amp;rsquo;s dive into some findings related to keyword analysis.&lt;/p&gt;
-&lt;h3 id=&#34;which-10-non-stopwords-appeared-the-most-in-this-text&#34;&gt;Which 10 non-stopwords appeared the most in this text?&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Harry&lt;/li&gt;
-&lt;li&gt;Said&lt;/li&gt;
-&lt;li&gt;Ron&lt;/li&gt;
-&lt;li&gt;Hermione&lt;/li&gt;
-&lt;li&gt;Back&lt;/li&gt;
-&lt;li&gt;Dumbledore&lt;/li&gt;
-&lt;li&gt;Could&lt;/li&gt;
-&lt;li&gt;One&lt;/li&gt;
-&lt;li&gt;Like&lt;/li&gt;
-&lt;li&gt;Looked&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;It&amp;rsquo;s a given that &amp;ldquo;Harry&amp;rdquo; would be the most frequently used word in this text. Out of the top 10 words, I&amp;rsquo;m surprised that four of them are characters. Given that there are many functional words outside of stopwords used in text (such as &amp;ldquo;said&amp;rdquo;), it&amp;rsquo;s surprising that Ron, Hermione, and Dumbledore are mentioned more heavily than many functional words in the English language. At they same time, all three of those characters are important.so if characters other than Harry were to make it to the top 10 words, it would make sense that it would be them.&lt;/p&gt;
-&lt;h3 id=&#34;which-characters-were-discussed-the-most-in-this-text&#34;&gt;Which characters were discussed the most in this text?&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Harry&lt;/li&gt;
-&lt;li&gt;Ron&lt;/li&gt;
-&lt;li&gt;Hermione&lt;/li&gt;
-&lt;li&gt;Dumbledore&lt;/li&gt;
-&lt;li&gt;Hagrid&lt;/li&gt;
-&lt;li&gt;Snape&lt;/li&gt;
-&lt;li&gt;Malfoy&lt;/li&gt;
-&lt;li&gt;Sirius&lt;/li&gt;
-&lt;li&gt;Voldemort&lt;/li&gt;
-&lt;li&gt;Fred (Sorry George!)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;In this list, it&amp;rsquo;s important to note that &amp;ldquo;Malfoy&amp;rdquo; could be a reference to the entire Malfoy family (Lucius, Narcissa, Draco), versus Harry Potter&amp;rsquo;s nemesis Draco Malfoy specifically. However, it&amp;rsquo;s safe to say that Draco Malfoy would be in the top 10 character mentions based on how frequently he interacts with Harry throughout the series.&lt;/p&gt;
-&lt;h3 id=&#34;which-spell-related-words-were-mentioned-most-in-this-text&#34;&gt;Which spell-related words were mentioned most in this text?&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Expecto&lt;/li&gt;
-&lt;li&gt;Patronum&lt;/li&gt;
-&lt;li&gt;Accio&lt;/li&gt;
-&lt;li&gt;Stupefy&lt;/li&gt;
-&lt;li&gt;Avada&lt;/li&gt;
-&lt;li&gt;Expelliarmus&lt;/li&gt;
-&lt;li&gt;Riddikulus&lt;/li&gt;
-&lt;li&gt;Kedavra&lt;/li&gt;
-&lt;li&gt;Lumos&lt;/li&gt;
-&lt;li&gt;Muffliato&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&amp;ldquo;Expecto Patronum&amp;rdquo; appears to be the most frequently used spell in the series, which is a spell used to fight off dementors. I&amp;rsquo;ll be honest though.This list surprised me in that Wingardium Leviosa wasn&amp;rsquo;t on it!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;leviosa.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Wingardium Leviosa is a spell for lifting items in the air, and is one of the most popular spell references from the films. However, it appears that it&amp;rsquo;s not mentioned as much in the books - It wasn&amp;rsquo;t anywhere near the top 10 spell-related words.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;leviosar.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;next-steps-in-keyword-analysis&#34;&gt;Next Steps in Keyword Analysis&lt;/h3&gt;
-&lt;p&gt;Next steps in conducting keyword analysis would be to follow trends of keywords throughout chapters, as well as within books. This could also be useful in sentiment analysis. This text analysis project will continue next week!&lt;/p&gt;
-&lt;p&gt;In the meantime, let&amp;rsquo;s talk about the word cloud you saw earlier.&lt;/p&gt;
-&lt;h2 id=&#34;creating-the-word-cloud&#34;&gt;Creating the Word Cloud&lt;/h2&gt;
-&lt;p&gt;Creating the word cloud itself was a simple process. Like last week, the learning curve of working with this package AND in Python posed some obstacles. First step was installing the package itself, which (it seems) many people on the internet have also had trouble with. I use Python with Anaconda to manage the installation of Python packages. This is the code that I put into the Anaconda Prompt to install the WordCloud package:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;conda install -c conda-forge wordcloud
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Once it was installed, there were a lot of questions that arose as I made my image:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;How do I get the text words out of a pandas dataframe?&lt;/li&gt;
-&lt;li&gt;How do I get the word cloud to actually generate?&lt;/li&gt;
-&lt;li&gt;How do you change the color of the background?&lt;/li&gt;
-&lt;li&gt;How do you change the font of the words in the word cloud?&lt;/li&gt;
-&lt;li&gt;How do you change the color of the font?&lt;/li&gt;
-&lt;li&gt;Since changing font color needs a color map, how can one be created?&lt;/li&gt;
-&lt;li&gt;How do I get my word cloud to take a particular shape?&lt;/li&gt;
-&lt;li&gt;Why isn&amp;rsquo;t my word cloud taking the shape it&amp;rsquo;s supposed to?&lt;/li&gt;
-&lt;li&gt;This word cloud looks lack luster. What if I want a background other than a solid color?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So.how were all of these questions answered?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hermione-hmmm.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I thought it might be helpful to break apart each segment of my Python code to explain the answers to these questions.&lt;/p&gt;
-&lt;h3 id=&#34;code-segment-one&#34;&gt;Code Segment One:&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Import packages/libraries
-from wordcloud import WordCloud, ImageColorGenerator
-from PIL import Image
- 
-# Delete &amp;quot;photo&amp;quot; object (to debug mask)
-del(photo)
- 
-# Bring in mask data
-photo = Image.open(&amp;quot;Thunderbolt - Copy.jpg&amp;quot;)
-mask = np.array(photo)
- 
-plt.imshow(photo)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The above code installs the packages that were used for this word cloud project, and then prepares a mask for the word cloud. Answering a question on that list above.&lt;/p&gt;
-&lt;h4 id=&#34;how-do-i-get-my-word-cloud-to-take-a-particular-shape&#34;&gt;&lt;em&gt;How do I get my word cloud to take a particular shape?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;With a mask. What&amp;rsquo;s a mask, you ask?&lt;/p&gt;
-&lt;p&gt;A mask is a strictly black and white image that is used to make a word cloud into a particular shape. For my word cloud, I had wanted to make it into the shape of a lightning bolt, since that&amp;rsquo;s the shape of Harry Potter&amp;rsquo;s scar. I found resources online explaining how to do it, but those processes weren&amp;rsquo;t working for me.&lt;/p&gt;
-&lt;h4 id=&#34;why-isnt-my-word-cloud-taking-the-shape-its-supposed-to&#34;&gt;&lt;em&gt;Why isn&amp;rsquo;t my word cloud taking the shape it&amp;rsquo;s supposed to?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;I ran into difficulty getting my word cloud into the shape of the lightning bolt because the picture I was initially using wasn&amp;rsquo;t perfectly black and white. Shading and grey scale will NOT do, ladies and gents. The parts of the picture you want words needs to be the blackest black, and the parts you don&amp;rsquo;t want words needs to be the whitest white in order for this mask to work with the WordCloud package.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://stackoverflow.com/questions/18777873/convert-rgb-to-black-or-white&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This Stack thread&lt;/a&gt; helped me change a picture to strictly black and white, and then I saved it to a .jpg file. Using this black-and-white image didn&amp;rsquo;t work as a mask unless the picture was brought into Python from a saved file. This might be due to formatting and how the picture is stored as a file versus in Python after alteration. If you&amp;rsquo;re trying to make a word cloud and are having trouble with the mask, this might help in debugging.&lt;/p&gt;
-&lt;h3 id=&#34;code-segment-two&#34;&gt;Code Segment Two:&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create Dictionary and list
-wordcount={}
-list = []
- 
-# Get Words Ready
-for x in df.WordCloudText:
-    list.extend(x)
-     
-# Clean text
-textcount=str(list).split()
-textcount=[&#39;&#39;.join(c for c in s if c not in string.punctuation) for s in textcount] #Remove punctuation
- 
-# Wordcount Loop
-# If the word is not in the stop words: 
-#    it&#39;s added to the dictionary with a count.
-# If the word already exists in the dictionary: 
-#    the count is made one higher.
- 
-for word in textcount:
-        if word not in wordcount:
-            wordcount[word] = 1
-        else:
-            wordcount[word] += 1
- 
-# Clean messy words out of dictionary - FOR HP ONLY
-del wordcount[&#39;�c&#39;]
-del wordcount[&#39;-&#39;]
-del wordcount[&#39;ter&#39;]
-     
-# Printing 250 Most Common words in &amp;quot;Harry Potter&amp;quot;
-Counts = collections.Counter(wordcount)
- 
-for word, count in Counts.most_common(250):
-    print(word, &amp;quot;: &amp;quot;, count)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This segment of code answers one question.&lt;/p&gt;
-&lt;h4 id=&#34;how-do-i-get-the-text-words-out-of-a-pandas-dataframe&#34;&gt;&lt;em&gt;How do I get the text words out of a pandas dataframe?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;In my pandas dataframe, the column &amp;ldquo;WordCloudText&amp;rdquo; featured a list object of words in every row. I created a loop to place each row&amp;rsquo;s list into one joint list called &amp;ldquo;list&amp;rdquo; (original name, I know). Then, the words were split up and punctuation was removed.&lt;/p&gt;
-&lt;p&gt;Once the text data was clean, a dictionary object was created in Python, in which each word went through a loop that would count the number of times the word appeared in total. Finally, before using this dictionary to create a word cloud, messy words were removed from the dictionary - i.e. ones that didn&amp;rsquo;t make sense to include in the word cloud.&lt;/p&gt;
-&lt;h3 id=&#34;code-segment-three&#34;&gt;Code Segment Three:&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create Color Maps
-# Converted HTML/HEX colors to RGB using: https://htmlcolorcodes.com/
-colorsList = [&#39;#503F3F&#39;, &#39;#801919&#39;] #Mauraders Map Colors
-ColorMap = matplotlib.colors.ListedColormap(colorsList)
- 
-# Create and generate a word cloud image:
-wordcloud = WordCloud(mask=mask, margin=10, font_path=&#39;LUMOS.ttf&#39;, min_font_size=12, max_words=500, 
-                      random_state=1, colormap=ColorMap, background_color=None, mode=&#39;RGBA&#39;).generate_from_frequencies(wordcount)
- 
-# Display the generated image:
-plt.figure(figsize=[20,20])
-plt.imshow(wordcloud, interpolation=&#39;bilinear&#39;)
-plt.axis(&amp;quot;off&amp;quot;)
-plt.show()
- 
-# Save image to file
-wordcloud.to_file(&amp;quot;HP_WordCloud.png&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is the code for the meat of the word cloud itself, and there&amp;rsquo;s a lot of questions to answer here!&lt;/p&gt;
-&lt;h4 id=&#34;how-do-i-get-the-word-cloud-to-actually-generate&#34;&gt;&lt;em&gt;How do I get the word cloud to actually generate?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;At the end of the WordCloud function, &amp;ldquo;generate_from_frequencies(wordcount)&amp;rdquo; created the word cloud based on the word frequencies in the dictionary created.&lt;/p&gt;
-&lt;h4 id=&#34;how-do-you-change-the-color-of-the-background&#34;&gt;&lt;em&gt;How do you change the color of the background?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;This one&amp;rsquo;s easy! The WordCloud() function has an argument called &amp;ldquo;background_color&amp;rdquo;. Before making my final creation, I used 
-&lt;a href=&#34;https://htmlcolorcodes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this website&lt;/a&gt; to get the hex color I wanted. For example, a black background would have the argument &amp;ldquo;background_color=&amp;rsquo;#000000&amp;rsquo;&amp;rdquo;&lt;/p&gt;
-&lt;h4 id=&#34;how-do-you-change-the-font-of-the-words-in-the-word-cloud&#34;&gt;&lt;em&gt;How do you change the font of the words in the word cloud?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;The WordCloud() function has an argument called &amp;ldquo;font_path&amp;rdquo;. This argument has to be set equal to the path to a .tff file for the font you&amp;rsquo;d like to use. I used the 
-&lt;a href=&#34;https://www.dafont.com/lumos.font&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lumos&lt;/a&gt; font for this project, and found it easiest to put the .tff file in my project&amp;rsquo;s directory.&lt;/p&gt;
-&lt;h4 id=&#34;how-do-you-change-the-color-of-the-font&#34;&gt;&lt;em&gt;How do you change the color of the font?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;The answer to this was surprisingly complex! It turns out that there&amp;rsquo;s not an easy way to change the color of a font using the WordCloud() function. In order to do it, an argument called &amp;ldquo;colormap&amp;rdquo; had to be used.with a color map of your creation.&lt;/p&gt;
-&lt;h4 id=&#34;since-changing-font-color-needs-a-color-map-how-can-one-be-created&#34;&gt;&lt;em&gt;Since changing font color needs a color map, how can one be created?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;Matplotlib has some color maps pre-made, which can be accessed 
-&lt;a href=&#34;https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Let&amp;rsquo;s be honest though.if you&amp;rsquo;re feeling creative and have an idea, don&amp;rsquo;t you want to have more control over the colors you&amp;rsquo;re using?&lt;/p&gt;
-&lt;p&gt;Like the background color, collecting hex colors for the font and putting them into a list was needed to create a color map. Then, the function matplotlib.colors.ListedColormap() would need to use your list to create the color map, and would need to be named something. For example, I called it &amp;ldquo;ColorMap&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Then, set the colormap argument in the WordCloud() function equal to the color map you created. In my code, I have &amp;ldquo;colormap=ColorMap&amp;rdquo;&lt;/p&gt;
-&lt;h4 id=&#34;this-word-cloud-looks-lack-luster-what-if-i-want-a-background-other-than-a-solid-color&#34;&gt;&lt;em&gt;This word cloud looks lack luster. What if I want a background other than a solid color?&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;The answer to this question opened an entire can of worms, and made my final creation cooler than I ever imagined. It required creating an image composed of different images. For the WordCloud function, the argument &amp;ldquo;mode=&#39;RGBA&amp;rsquo;&amp;rdquo; was placed so this could be achieved - The next section will talk about why this matters.&lt;/p&gt;
-&lt;h2 id=&#34;creating-the-final-image&#34;&gt;Creating the Final Image&lt;/h2&gt;
-&lt;p&gt;In order to make the final image you saw at the beginning of this blog, I made a composite image of RGBA picture files by using the Pillow package in Python. An RGBA picture file is a picture that has transparent parts to it. By making this word cloud an RGBA picture, I was able to paste it onto an image of parchment paper, and then add RGBA pictures of footsteps and Maurader&amp;rsquo;s Map logos to make the final image.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ll be honest.using Python to create this image wasn&amp;rsquo;t the most efficient, mainly because using a photo editor to drag and drop some of these RGBA pictures would have been much quicker. In Python, you have to specify the coordinates that you&amp;rsquo;d like to paste pictures, which can take some trial and error to get perfectly. However, if you&amp;rsquo;re like me and want to learn how to do it in Python, it&amp;rsquo;s definitely a fun and creative way to do it 😄&lt;/p&gt;
-&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
-&lt;p&gt;The word cloud package in Python is pretty versatile! Making a word cloud into an RGBA image is a complete game changer for experimenting with cool backgrounds for the word cloud. Also, using a mask to shape the word cloud makes the entire experience more visually interesting.&lt;/p&gt;
-&lt;p&gt;Looking forward to continuing this project next week! Coming up next will be further keyword and sentiment analysis. Thanks for reading!&lt;/p&gt;
-&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
-&lt;p&gt;I wouldn&amp;rsquo;t have been successful with my word cloud this week if it weren&amp;rsquo;t for the following sources:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This overview&lt;/a&gt; of the Word Cloud package&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://mubaris.com/posts/dataviz-wordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Mubaris NK&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.datacamp.com/community/tutorials/wordcloud-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This tutorial&lt;/a&gt; from the Data Camp community&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://matplotlib.org/api/colors_api.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guideline&lt;/a&gt; on colors in Matplotlib&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://python-graph-gallery.com/262-worcloud-with-specific-shape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This gallery&lt;/a&gt; of Python word clouds&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://stackoverflow.com/questions/42028462/wordcloud-with-a-specific-shape&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This thread&lt;/a&gt; on Stack&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://stackoverflow.com/questions/5324647/how-to-merge-a-transparent-png-image-with-another-image-using-pil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This thread&lt;/a&gt; on Stack&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://minimaxir.com/2016/05/wordclouds/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This blog&lt;/a&gt; by Max Woolf&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://pythontic.com/image-processing/pillow/rotate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on image processing&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://nerdparadise.com/programming/pythonpil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on image processing colors&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://pythontic.com/image-processing/pillow/crop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This guide&lt;/a&gt; on cropping pictures in Python&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://nsm09.casimages.com/img/2019/04/05//19040503454211071516188495.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This picture&lt;/a&gt; of the Maurader&amp;rsquo;s Map logo&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://cdn130.picsart.com/238867759123212.png?r1024x1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This picture&lt;/a&gt; of the Maurader&amp;rsquo;s Map logo&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Speaking Parseltongue to Python: Adventures in Harry Potter Text Analysis</title>
-      <link>/post/speaking-parseltongue-to-python/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/speaking-parseltongue-to-python/</guid>
-      <description>&lt;p&gt;The Harry Potter series is my favorite book series of all time, and is one of my favorite things to nerd out about! If you needed some proof:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;I&amp;rsquo;m a true Hufflepuff at heart, and have been sorted that way.&lt;/li&gt;
-&lt;li&gt;My wand is a 13 $\frac{3}{4}$&amp;rdquo; Silver Lime wand with unicorn hair core, slightly yielding.&lt;/li&gt;
-&lt;li&gt;My patronus is a white mare.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;nerd.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Yes, it&amp;rsquo;s true. So very true. I&amp;rsquo;m a nerd - and very proud of it 😄&lt;/p&gt;
-&lt;p&gt;As one of my first projects, I thought it would fun to perform text analysis on the Harry Potter series. Text mining is a popular form of analysis being done, and is also something I&amp;rsquo;ve never tried before. This project is my first using Python, so I&amp;rsquo;d also like to tell you about my experience using the language so far.&lt;/p&gt;
-&lt;p&gt;Also, if you&amp;rsquo;re interested in seeing my work, 
-&lt;a href=&#34;https://github.com/ErikaJacobs/Harry-Potter-Text-Mining&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;click here&lt;/a&gt; to view the GitHub repository for this project.&lt;/p&gt;
-&lt;h2 id=&#34;taming-the-python&#34;&gt;Taming the &amp;ldquo;Python&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;All of the data-related work in my career so far has used software outside of Python. With Python being one of the more popular and versatile programming languages to learn for data science, I&amp;rsquo;ve decided that my entire portfolio will mostly be focused on implementing analysis through Python. This seemed like a wise way to go so I can learn how to use it, as well as show all of you that I can use it. Everything you see going forward was done in Python via Jupyter without any prior experience!&lt;/p&gt;
-&lt;p&gt;For learning Python, I&amp;rsquo;d recommend the 
-&lt;a href=&#34;https://www.edx.org/course/python-for-data-science-2?source=aw&amp;amp;awc=6798_1586986927_f0f9233d7901679c25317a04d3fe3309&amp;amp;utm_source=aw&amp;amp;utm_medium=affiliate_partner&amp;amp;utm_content=text-link&amp;amp;utm_term=78888_Skimlinks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python for Data Science&lt;/a&gt; course through edX, which is provided by UC San Diego. What&amp;rsquo;s really nice about this course is they provide Jupyter notebooks of projects with sample code to learn from, which has been most helpful from an experiential standpoint. It&amp;rsquo;s also free! 
-&lt;a href=&#34;https://automatetheboringstuff.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automate The Boring Stuff With Python&lt;/a&gt; by Al Sweigart was a good general starting point to Python as a whole, and the 
-&lt;a href=&#34;https://jakevdp.github.io/PythonDataScienceHandbook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python for Data Science Handbook&lt;/a&gt; by Jake VanderPlas seems like a good read once I&amp;rsquo;m more familiar with Python as a whole.&lt;/p&gt;
-&lt;p&gt;Python has been a pretty intuitive language to learn. However, doing what you want to do in Python sometimes takes multiple tries. I&amp;rsquo;m not as efficient as Harry Potter speaking parseltongue to a snake in &amp;ldquo;Chamber of Secrets&amp;rdquo;, if you know what I mean.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;parseltongue.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Regardless, I&amp;rsquo;ve made some progress! Even though I was expecting to show you more this week, I&amp;rsquo;ve spoken parseltongue to Python the best way I know how.which is with a ton of help from Google to translate 😉&lt;/p&gt;
-&lt;h2 id=&#34;first-impressions-working-with-text&#34;&gt;First Impressions Working With Text&lt;/h2&gt;
-&lt;p&gt;One of the biggest ways I underestimated this project was the learning curve behind working with text, as well as with Python in general. Getting to a place where you can actually DO text mining and analysis can be rough stuff! Finding a source to use can be daunting, issues with text encoding can pop up left and right, and importing said text in a usable way can supply a ton of bumps in the road. Luckily, using Google to look up errors has been a godsend - there&amp;rsquo;s almost always someone on a Stack forum who&amp;rsquo;s experienced a similar issue.&lt;/p&gt;
-&lt;p&gt;I was hoping to have a complete analysis for you today, but I have spent most of my time this week learning how to work with text in Python. As a result, I&amp;rsquo;m splitting this project into a couple of blog entries. For today, I&amp;rsquo;ll be focusing on word counts and averages.&lt;/p&gt;
-&lt;h2 id=&#34;getting-the-data&#34;&gt;Getting The Data&lt;/h2&gt;
-&lt;p&gt;As I was looking through the internet for a reliable and legal source of Harry Potter text from the books, I was lucky enough to stumble upon an 
-&lt;a href=&#34;https://github.com/bradleyboehmke/harrypotter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Package&lt;/a&gt; that had the text for all seven books ready to use. Huge thanks to 
-&lt;a href=&#34;http://bradleyboehmke.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bradley Boehmke&lt;/a&gt; for creating this 😄&lt;/p&gt;
-&lt;p&gt;His website had directions for how to install his package, yet I personally ran into installation issues. If you&amp;rsquo;re inspired by my blog and want to try this package, here&amp;rsquo;s the code I ran in R Studio to install it:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;install.packages(c(&amp;quot;curl&amp;quot;, &amp;quot;httr&amp;quot;, &amp;quot;devtools&amp;quot;))
-devtools::install_github(&amp;quot;bradleyboehmke/harrypotter&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Once the package was installed and loaded, I was able to export the text files and import them to Python.&lt;/p&gt;
-&lt;h2 id=&#34;exploratory-data-analysis---word-count&#34;&gt;Exploratory Data Analysis - Word Count&lt;/h2&gt;
-&lt;p&gt;To start with exploring Harry Potter&amp;rsquo;s text data, I created some bar charts on word count data points to get familiar with the text. Here&amp;rsquo;s some of what I created!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hptotalwords-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;total-number-of-words-in-each-harry-potter-book&#34;&gt;Total Number of Words in Each Harry Potter Book:&lt;/h3&gt;
-&lt;p&gt;The bar chart above shows that the trend of total word count between each Harry Potter book got higher with each release until &amp;ldquo;Half Blood Prince&amp;rdquo;, in which the word count dropped. Despite this drop, all books released after &amp;ldquo;Prizoner of Azkaban&amp;rdquo; exceeded the average word count of a book in the Harry Potter series, which is approximately 153,853 words.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hpavgwords-5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;average-number-of-words-per-chapter-of-each-harry-potter-book&#34;&gt;Average Number of Words Per Chapter of Each Harry Potter Book:&lt;/h3&gt;
-&lt;p&gt;An average chapter of text from the Harry Potter series in total is approximately 5,385 words, in which 5 of the 7 books have an average chapter length below this average, and 6 of the 7 books within 300 words of this average. &amp;ldquo;Order of the Phoenix&amp;rdquo; has a larger word count per chapter compared to the other books in the series, and also has the most chapters of all seven books (with 38 chapters). It appears that the average chapter of text could be skewed due to &amp;ldquo;Order of the Phoenix&amp;rdquo; and its long/numerous chapters.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hpshortchaps-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;shortest-chapter-of-each-harry-potter-book&#34;&gt;Shortest Chapter of Each Harry Potter Book:&lt;/h3&gt;
-&lt;p&gt;&amp;ldquo;Deathly Hallows&amp;rdquo; features the shortest chapter of the entire book series, which was Chapter 37 (or the Epilogue) with 1,552 words. It makes sense that this would be the shortest chapter, considering the conflict of the book series had already been resolved in Chapter 36. The shortest chapter in &amp;ldquo;Order of the Phoenix&amp;rdquo; is still pretty long.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hplongchaps-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;longest-chapter-of-each-harry-potter-book&#34;&gt;Longest Chapter of Each Harry Potter Book:&lt;/h3&gt;
-&lt;p&gt;Surprise, surprise! &amp;ldquo;Order of the Phoenix&amp;rdquo; takes the prize for having the longest chapter in the entire book series with 8,928 words. Chapter 13, titled &amp;ldquo;Detention With Dolores,&amp;rdquo; gives readers a taste of Dolores Umbridge and her unorthodox ways of punishing students during detention - and apparently, every detail counts.&lt;/p&gt;
-&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
-&lt;p&gt;There is still MUCH more to come in this analysis. Coming up next will be counts of distinct words per book, word clouds, keyword analysis (characters and spells), and sentiment analysis. Stay tuned!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://www.erika-jacobs.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://www.erika-jacobs.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -1296,233 +269,49 @@ Three
     
     <item>
       <title>Common Core Intervention Analysis</title>
-      <link>/project/common-core-intervention-analysis/</link>
+      <link>https://www.erika-jacobs.com/project/common-core-intervention-analysis/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/project/common-core-intervention-analysis/</guid>
+      <guid>https://www.erika-jacobs.com/project/common-core-intervention-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anonymize</title>
-      <link>/project/anonymize/</link>
+      <link>https://www.erika-jacobs.com/project/anonymize/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/anonymize/</guid>
+      <guid>https://www.erika-jacobs.com/project/anonymize/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 
-&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 
-&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: 
-&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-&lt;ul&gt;
-&lt;li&gt;☕️ 
-&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 
-&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ 
-&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 
-&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-
-
-  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
-&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
-&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
-&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present 
-&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Personal Website Project</title>
-      <link>/project/personal-website/</link>
+      <link>https://www.erika-jacobs.com/project/personal-website/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>/project/personal-website/</guid>
+      <guid>https://www.erika-jacobs.com/project/personal-website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact Me</title>
-      <link>/contact/</link>
+      <link>https://www.erika-jacobs.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/contact/</guid>
+      <guid>https://www.erika-jacobs.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>/myposts/</link>
+      <link>https://www.erika-jacobs.com/myposts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/myposts/</guid>
+      <guid>https://www.erika-jacobs.com/myposts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project Portfolio</title>
-      <link>/myprojects/</link>
+      <link>https://www.erika-jacobs.com/myprojects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/myprojects/</guid>
+      <guid>https://www.erika-jacobs.com/myprojects/</guid>
       <description></description>
     </item>
     

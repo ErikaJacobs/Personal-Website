@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Erika Jacobs</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.erika-jacobs.com/project/</link>
+      <atom:link href="https://www.erika-jacobs.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.erika-jacobs.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://www.erika-jacobs.com/project/</link>
     </image>
     
     <item>
       <title>NASA Data Warehouse</title>
-      <link>/project/nasa-data-warehouse/</link>
+      <link>https://www.erika-jacobs.com/project/nasa-data-warehouse/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/nasa-data-warehouse/</guid>
+      <guid>https://www.erika-jacobs.com/project/nasa-data-warehouse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beatles Bops</title>
-      <link>/project/beatles-bops/</link>
+      <link>https://www.erika-jacobs.com/project/beatles-bops/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/beatles-bops/</guid>
+      <guid>https://www.erika-jacobs.com/project/beatles-bops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel Python Migration</title>
-      <link>/project/excel-python-migration/</link>
+      <link>https://www.erika-jacobs.com/project/excel-python-migration/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/excel-python-migration/</guid>
+      <guid>https://www.erika-jacobs.com/project/excel-python-migration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TV Series NoSQL Database</title>
-      <link>/project/tv-series-nosql-database/</link>
+      <link>https://www.erika-jacobs.com/project/tv-series-nosql-database/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/project/tv-series-nosql-database/</guid>
+      <guid>https://www.erika-jacobs.com/project/tv-series-nosql-database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISS Stream</title>
-      <link>/project/iss-stream/</link>
+      <link>https://www.erika-jacobs.com/project/iss-stream/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/iss-stream/</guid>
+      <guid>https://www.erika-jacobs.com/project/iss-stream/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 Data Project</title>
-      <link>/project/covid-19-project/</link>
+      <link>https://www.erika-jacobs.com/project/covid-19-project/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/covid-19-project/</guid>
+      <guid>https://www.erika-jacobs.com/project/covid-19-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Consumer Complaints</title>
-      <link>/project/consumer-complaints/</link>
+      <link>https://www.erika-jacobs.com/project/consumer-complaints/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/consumer-complaints/</guid>
+      <guid>https://www.erika-jacobs.com/project/consumer-complaints/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Animal Crossing Popularity Data</title>
-      <link>/project/animal-crossing-popularity-data/</link>
+      <link>https://www.erika-jacobs.com/project/animal-crossing-popularity-data/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/project/animal-crossing-popularity-data/</guid>
+      <guid>https://www.erika-jacobs.com/project/animal-crossing-popularity-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harry Potter NLP Project</title>
-      <link>/project/harry-potter-nlp-project/</link>
+      <link>https://www.erika-jacobs.com/project/harry-potter-nlp-project/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/project/harry-potter-nlp-project/</guid>
+      <guid>https://www.erika-jacobs.com/project/harry-potter-nlp-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Common Core Intervention Analysis</title>
-      <link>/project/common-core-intervention-analysis/</link>
+      <link>https://www.erika-jacobs.com/project/common-core-intervention-analysis/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/project/common-core-intervention-analysis/</guid>
+      <guid>https://www.erika-jacobs.com/project/common-core-intervention-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anonymize</title>
-      <link>/project/anonymize/</link>
+      <link>https://www.erika-jacobs.com/project/anonymize/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/anonymize/</guid>
+      <guid>https://www.erika-jacobs.com/project/anonymize/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal Website Project</title>
-      <link>/project/personal-website/</link>
+      <link>https://www.erika-jacobs.com/project/personal-website/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>/project/personal-website/</guid>
+      <guid>https://www.erika-jacobs.com/project/personal-website/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks | Erika Jacobs</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.erika-jacobs.com/talk/</link>
+      <atom:link href="https://www.erika-jacobs.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Oct 2022 12:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.erika-jacobs.com/images/icon_hu45628174575edffb7224a74c82940f04_5513_512x512_fill_lanczos_center_2.png</url>
       <title>Talks</title>
-      <link>/talk/</link>
+      <link>https://www.erika-jacobs.com/talk/</link>
     </image>
     
     <item>
       <title>Space, Time, and Money - Data Warehouse Optimization Practices</title>
-      <link>/talk/example/</link>
+      <link>https://www.erika-jacobs.com/talk/example/</link>
       <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://www.erika-jacobs.com/talk/example/</guid>
       <description></description>
     </item>
     
