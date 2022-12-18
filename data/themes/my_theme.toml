@@ -4,11 +4,11 @@ name = "1950s"
 # Is theme light or dark?
 light = false
 
-# Primary (The Buttons)
-primary = "#F038FF"
+# Primary (The Buttons, Project Titles)
+primary = "#ba2dd8"
 
 # Menu
-menu_primary = "#F038FF"
+menu_primary = "#ba2dd8"
 menu_text_active = "#E2EF70"
 menu_title = "#fff"
 menu_text = "#fff"
@@ -18,4 +18,7 @@ background = "#7034EF"
 home_section_odd = "#7034EF"
 home_section_even = "#7034EF"
 
+# Font
 font = "rose"
+
+# Colors Liked: #F038FF, #E2EF70, #3fc8e6 (light blue)
